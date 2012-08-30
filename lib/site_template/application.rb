@@ -25,6 +25,7 @@ module SiteTemplate
     helpers SiteTemplate::HtmlHelpers
     
     get "/" do
+      @current_menu = "home"
       haml :index
     end
     

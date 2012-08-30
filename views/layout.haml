@@ -1,12 +1,13 @@
 !!! 5
 %html{:lang => "en"}
   %head
-    %title Site Title
+    %title Derek Eder - Open Data Web Developer
     %meta{:charset => "utf-8"}
 
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
     %meta{:content => "", :name => "description"}
     %meta{:content => "", :name => "author"}
+    %link{:href => "/favicon.ico", :rel => "shortcut icon"}
             
     / Styles
     = include_stylesheet :bootstrap
@@ -19,17 +20,52 @@
       = include_javascript "http://html5shim.googlecode.com/svn/trunk/html5.js"
 
   %body
-    .container-fluid
-      .page-header
-        %h1
-          <a href='/'>Site Title</a> <small>This is a tagline</small>
-
-      = yield
+    .container
+      .row
+        .span3.bs-docs-sidebar
+          %h2 Derek Eder
+          <p>Open data web developer in Chicago, owner of <a href='http://en.wikipedia.org/wiki/Open_government'>open government</a> &amp; <a href='http://en.wikipedia.org/wiki/Open_data'>open data</a> web consulting company DataMade and co-founder of <a href='http://opencityapps.org/'>Open City</a>.</p>
+          <p>You can <a href="mailto:derek.eder+de@gmail.com">email</a> or <a href='http://twitter.com/derek_eder'>tweet</a> at me.</p>
+          
+          %ul.nav.nav-list.bs-docs-sidenav
+            %li{:class => current_menu_class("home")}
+              %a{:href => "/"} 
+                %i.icon-chevron-right
+                Home
+            %li{:class => current_menu_class("code")}
+              %a{:href => "/code"} 
+                %i.icon-chevron-right
+                Code
+            %li{:class => current_menu_class("websites")}
+              %a{:href => "/websites"} 
+                %i.icon-chevron-right
+                Websites
+            %li{:class => current_menu_class("maps")}
+              %a{:href => "/maps"} 
+                %i.icon-chevron-right
+                Maps
+            %li{:class => current_menu_class("about")}
+              %a{:href => "/about"} 
+                %i.icon-chevron-right
+                About
+                
+          %hr 
+          
+          %h4 Connect with Derek
+          .social
+            %a{:href => "https://github.com/derekeder"}
+              %img{:alt => "Derek Eder on Github", :src => "/images/social/github.png", :title => "Derek Eder on Github Github"}
+            %a{:href => "https://twitter.com/derek_eder"}
+              %img{:alt => "Derek Eder on Twitter", :src => "/images/social/twitter.png", :title => "Derek Eder on Github Twitter"}
+            %a{:href => "http://www.linkedin.com/in/derekeder"}
+              %img{:alt => "Derek Eder on LinkedIn", :src => "/images/social/linkedin.png", :title => "Derek Eder on Github LinkedIn"}
+        
+        .span9
+          = yield
       
     %footer.footer
       .span12
         %p
-          Website by 
           %a{:href => "http://derekeder.com", :title => "Derek Eder"}
             Derek Eder
           &copy; 2012

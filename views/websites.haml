@@ -5,8 +5,6 @@
         Websites
         %small
           Powered by open data
-          |
-          %a{:href => "/websites"} more &raquo;
       %p
         Most of these are works of passion. The more recent ones are contributions to the ever-growing
         %a{:href => "http://data.cityofchicago.org/"} open
@@ -20,203 +18,188 @@
         and
         %a{:href => "http://jquery.com/"} jQuery
 
+      .grid-item
+        %a{:href => "http://www.sharemyshare.org"}
+          %img.img-polaroid{:src => "/images/screenshots/share-my-share.jpg", :title => "Share my Share"}/
+          %h4
+            Share my Share
+        %p
+          Do you have a weekly veggie CSA and can't pick it up this weekend? Wouldn't it be nice if you could donate your box to charity? Well now you can. Share my Share allows residents of Logan Square to feed Chicago's hungry with their extra CSA boxes.
+          %br/
+          %strong Press:
+          %a{:href => "http://chicagoist.com/2012/07/25/new_website_allows_csa_buyers_to_do.php"} Chicagoist
 
+      .grid-item
+        %a{:href => "http://crimeinchicago.org"}
+          %img.img-polaroid{:src => "/images/screenshots/crime-in-chicago.jpg", :title => "Crime in Chicago"}/
+          %h4
+            Crime in Chicago
+        %p
+          Crime in Chicago is a data visualization by
+          %a{:href => "http://opencityapps.org"} Open City
+          that lets you explore crime trends in Chicago's 50 wards. It was built using
+          %a{:href => "https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2"} open data about Chicago crimes
+          released by the
+          = succeed "." do
+            %a{:href => "http://www.cityofchicago.org/police"} Chicago Police Department
+          %br/
+          %strong Press:
+          %a{:href => "http://gov20.govfresh.com/open-city-launches-new-civic-app-to-map-crime-in-chicago/"} GovFresh
+
+      .grid-item
+        %a{:href => "http://cpstiers.opencityapps.org"}
+          %img.img-polaroid{:src => "/images/screenshots/cps-tiers.jpg", :title => "Chicago Public School (CPS) Tiers"}
+          %h4
+            Chicago Public School (CPS) Tiers
+        %p
+          CPS places every part of the city into one of four socio-economic "tiers" and requires selective schools to reserve the same number of spots for the students from each tier. This tool helps you find which CPS tier you are in.
+          %br/
+          %strong Press:
+          %a{:href => "http://blogs.edweek.org/edweek/parentsandthepublic/"} EdWeek
+          |
+          %a{:href => "http://www.cltv.com/videogallery/68761359/News/3/9-politics-tonight-pt-1#pl-62809047"} CLTV "Politics Tonight"
+          |
+          %a{:href => "http://chicagotonight.wttw.com/2012/03/09/chicago-public-school-tiers"} WTTW "Chicago Tonight"
+          |
+          %a{:href => "http://chicagoist.com/2012/03/08/new_web_app_makes_it_easier_for_cps.php"} Chicagoist
+
+      .grid-item
+        %a{:href => "http://clearstreets.org"} 
+          %img.img-polaroid{:src => "/images/icons/snow.png", :title => "ClearStreets - Plow Tracker"}/
+          %h4
+            ClearStreets
+        %p
+          The City of Chicago launched
+          = succeed "," do
+            %a{:href => "http://www.cityofchicago.org/content/city/en/depts/mayor/iframe/plow_tracker.html"} Plow Tracker
+          an app that tracks the city's snow plows in real time. This app uses the same data. By knowing where the plows are, we've figured which streets have been plowed.
+          %br/
+          %strong Press:
+          %a{:href => "http://chicagotonight.wttw.com/2012/01/31/chicago-data-apps"} WTTW "Chicago Tonight"
+          |
+          %a{:href => "http://www.chicagotribune.com/news/ct-talk-snow-tracker-0121-20120121,0,4501133.story"} Chicago Tribune
+          |
+          %a{:href => "http://chicagoist.com/2012/01/20/clear_streets_a_better_use_of_snow.php#photo-1"} Chicagoist
+          |
+          %a{:href => "http://gridchicago.com/2012/new-plow-tracker-style-website-hits-the-web-in-time-for-todays-snow-storm/"} GridChicago
+
+      .grid-item
+        %a{:href => "http://chicagolobbyists.org"}
+          %img.img-polaroid{:src => "/images/screenshots/chicago-lobbyists.jpg", :title => "Chicago Lobbyists"}
+          %h4
+            Chicago Lobbyists
+        %p
+          An open data, open government, and open source project intended to improve the transparency of interactions between the City of Chicago and lobbyists and their clients.
+          %br/
+          %strong Press:
+          %a{:href => "http://gov20.govfresh.com/can-the-internet-help-disrupt-the-power-of-chicago-lobbyists-through-transparency/"} article on govfresh
+          |
+          %a{:href => "http://chicagoist.com/2011/12/07/new_web_project_simplifies_citys_op.php"} article on Chicagoist
+          |
+          %a{:href => "http://appsformetrochicago.com/apps/chicago-lobbyists"} Apps for Metro Chicago Contest
+          |
+          %a{:href => "http://www.cityofchicago.org/city/en/depts/mayor/press_room/press_releases/2011/august_2011/mayor_emanuel_announcesnewlobbyistdatathatprovidesclearconnectio.html"} City release on updated lobbyist data
+          |
+          %a{:href => "https://twitter.com/#!/chilobbyists"} @ChiLobbyists on Twitter
+
+      .grid-item
+        %a{:href => "http://chicagobuildings.org"}
+          %img.img-polaroid{:src => "/images/screenshots/chicago-buildings.jpg"}
+          %h4
+            Vacant and Abandoned Building Finder - Chicago
+        %p
+          Find vacant and abandoned buildings in Chicago. Data comes from reports made for open and vacant buildings to 311 since January 1, 2010.
+          %br/
+          %strong Press:
+          %a{:href => "http://gov20.govfresh.com/chicagobuildings-org-maps-vacant-and-abandoned-buildings-using-open-government-data/"} article on govfresh
+          |
+          %a{:href => "http://www.webitects.com/blog/post/mapping-chicagos-vacant-buildings"} Webitects blog
+          |
+          %a{:href => "http://appsformetrochicago.com/community_round_entries"} Apps for Metro Chicago Contest
+          (7th place)
+
+      .grid-item
+        %a{:href => "http://LookAtCook.com"}
+          %img.img-polaroid{:src => "/images/screenshots/look-at-cook.jpg", :title => "Look at Cook"}
+          %h4
+            Look at Cook
+        %p
+          Budget transparency visualization for Cook County, IL displaying all county departments broken down by fund and
+          control officer from 1993 to 2011. Done as a collaboration with 12th District Commissioner John Fritchey. Built with Fusion Tables and jQuery.
+          %br/
+          %strong Press:
+          %a{:href => "http://radar.oreilly.com/2011/09/look-at-cook-gov-data-visualization.html"} Article on O'Reilly Radar
+          |
+          %a{:href => "http://govfresh.com/2011/09/beautiful-budgets-look-at-cook/"} Article on govfresh
+          |
+          %a{:href => "http://www.webitects.com/blog/post/look-at-cook-a-budget-visualization-for-cook-county-il"} Webitects blog
+      
+
+      .grid-item
+        %a{:href => "http://chicagorecyclingdropoff.com"} 
+          %img.img-polaroid{:src => "/images/icons/recycle.png", :title => "Chicago Recycling Dropoff"}/
+          %h4
+            Chicago Recycling Dropoff
+        %p
+          My wife
+          %a{:href => "http://ayaoconnor.com"} Aya
+          and I created a map of all City of Chicago recycling drop off locations. We also set up a mobile site so you can find the nearest drop off point from your current location.
+
+.content-grid
   .row-fluid
-    .span5
-      %a{:href => "http://cpstiers.opencityapps.org"}
-        %img.img-polaroid{:src => "/images/screenshots/cps-tiers.jpg", :title => "Chicago Public School (CPS) Tiers"}
-        %h4
-          Chicago Public School (CPS) Tiers
+    .span12
+      %hr
+      %h2 
+        Maps
+        %small Mapping open data
       %p
-        CPS places every part of the city into one of four socio-economic "tiers" and requires selective schools to reserve the same number of spots for the students from each tier. This tool helps you find which CPS tier you are in.
-
-    .span1
-
-    .span5
-      %a{:href => "http://chicagobuildings.org"}
-        %img.img-polaroid{:src => "/images/screenshots/chicago-buildings.jpg"}
-        %h4
-          Vacant and Abandoned Building Finder - Chicago
-      %p
-        Find vacant and abandoned buildings in Chicago. Data comes from reports made for open and vacant buildings to 311 since January 1, 2010.
-
-  .row-fluid
-    
-    .span5
-      %a{:href => "http://chicagolobbyists.org"}
-        %img.img-polaroid{:src => "/images/screenshots/chicago-lobbyists.jpg", :title => "Chicago Lobbyists"}
-        %h4
-          Chicago Lobbyists
-      %p
-        An open data, open government, and open source project intended to improve the transparency of interactions between the City of Chicago and lobbyists and their clients.
-
-    .span1
-
-    .span5
-      %a{:href => "http://LookAtCook.com"}
-        %img.img-polaroid{:src => "/images/screenshots/look-at-cook.jpg", :title => "Look at Cook"}
-        %h4
-          Look at Cook
-      %p
-        Budget transparency visualization for Cook County, IL displaying all county departments broken down by fund and
-        control officer from 1993 to 2011. Done as a collaboration with 12th District Commissioner John Fritchey. Built with Fusion Tables and jQuery.
-
-
-
-
-
-
-%img.l{:src => "/images/icons/share-my-share.png", :title => "Share my Share"}/
-%h3
-  %a{:href => "http://www.sharemyshare.org"} Share my Share »
-%span.mute Launched July 15th, 2012
-%p
-  Do you have a weekly veggie CSA and can't pick it up this weekend? Wouldn't it be nice if you could donate your box to charity? Well now you can. Share my Share allows residents of Logan Square to feed Chicago's hungry with their extra CSA boxes.
-  %br/
-  %strong Press:
-  %a{:href => "http://chicagoist.com/2012/07/25/new_website_allows_csa_buyers_to_do.php"} Chicagoist
-%img.l{:src => "/images/icons/crime-in-chicago.png", :title => "Crime in Chicago"}/
-%h3
-  %a{:href => "http://crimeinchicago.org"} Crime in Chicago »
-%span.mute Launched Jun 26th, 2012
-%p
-  Crime in Chicago is a data visualization by
-  %a{:href => "http://opencityapps.org"} Open City
-  that lets you explore crime trends in Chicago's 50 wards. It was built using
-  %a{:href => "https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2"} open data about Chicago crimes
-  released by the
-  = succeed "." do
-    %a{:href => "http://www.cityofchicago.org/police"} Chicago Police Department
-  %br/
-  %strong Press:
-  %a{:href => "http://gov20.govfresh.com/open-city-launches-new-civic-app-to-map-crime-in-chicago/"} GovFresh
-%img.l{:src => "/images/icons/no-signs.png", :title => "\"No\" Signs in Japan"}/
-%h3
-  %a{:href => "http://nosignsinjapan.tumblr.com/"} "No" Signs in Japan »
-%span.mute Launched Jun 10th, 2012
-%p
-  %em Japan has a lot of rules. These are rules for some of them.
-  %br/
-  In May 2012, I took my first trip to Japan. While I was there, I saw quite a few funny and interesting signs. This tumblr is my attempt at documenting them.
-%img.l{:src => "/images/icons/school.png", :title => "Chicago Public School Tiers"}/
-%h3
-  %a{:href => "http://cpstiers.opencityapps.org"} Chicago Public School Tiers »
-%span.mute Launched Mar 8th, 2012
-%p
-  In Chicago, a student's chance of getting into the city's top selective schools depends on where he or she lives. Chicago Public Schools (CPS) places every part of the city into one of four socio-economic "tiers" and requires selective schools to reserve the same number of spots for the students from each tier. This tool helps you find which CPS tier you are in.
-  %br/
-  %strong Press:
-  %a{:href => "http://blogs.edweek.org/edweek/parentsandthepublic/"} EdWeek
-  |
-  %a{:href => "http://www.cltv.com/videogallery/68761359/News/3/9-politics-tonight-pt-1#pl-62809047"} CLTV "Politics Tonight"
-  |
-  %a{:href => "http://chicagotonight.wttw.com/2012/03/09/chicago-public-school-tiers"} WTTW "Chicago Tonight"
-  |
-  %a{:href => "http://chicagoist.com/2012/03/08/new_web_app_makes_it_easier_for_cps.php"} Chicagoist
-%img.l{:src => "/images/icons/snow.png", :title => "ClearStreets - Plow Tracker"}/
-%h3
-  %a{:href => "http://clearstreets.org"} ClearStreets - Plow Tracker »
-%span.mute Launched Jan 20th, 2012
-%p
-  The City of Chicago launched
-  = succeed "," do
-    %a{:href => "http://www.cityofchicago.org/content/city/en/depts/mayor/iframe/plow_tracker.html"} Plow Tracker
-  an app that tracks the city's snow plows in real time. This app uses the same data. By knowing where the plows are, we've figured which streets have been plowed.
-  %br/
-  %strong Press:
-  %a{:href => "http://chicagotonight.wttw.com/2012/01/31/chicago-data-apps"} WTTW "Chicago Tonight"
-  |
-  %a{:href => "http://www.chicagotribune.com/news/ct-talk-snow-tracker-0121-20120121,0,4501133.story"} Chicago Tribune
-  |
-  %a{:href => "http://chicagoist.com/2012/01/20/clear_streets_a_better_use_of_snow.php#photo-1"} Chicagoist
-  |
-  %a{:href => "http://gridchicago.com/2012/new-plow-tracker-style-website-hits-the-web-in-time-for-todays-snow-storm/"} GridChicago
-%img.l{:src => "/images/icons/chicagolobbyists.png", :title => "ChicagoLobbyists.org"}/
-%h3
-  %a{:href => "http://chicagolobbyists.org"} ChicagoLobbyists.org »
-%span.mute Updated Dec 2nd, 2011
-%p
-  An open data, open government, and open source project intended to improve the transparency of interactions between the City of Chicago and lobbyists and their clients.
-  %br/
-  %strong Press:
-  %a{:href => "http://gov20.govfresh.com/can-the-internet-help-disrupt-the-power-of-chicago-lobbyists-through-transparency/"} article on govfresh
-  |
-  %a{:href => "http://chicagoist.com/2011/12/07/new_web_project_simplifies_citys_op.php"} article on Chicagoist
-  |
-  %a{:href => "http://appsformetrochicago.com/apps/chicago-lobbyists"} Apps for Metro Chicago Contest
-  |
-  %a{:href => "http://www.cityofchicago.org/city/en/depts/mayor/press_room/press_releases/2011/august_2011/mayor_emanuel_announcesnewlobbyistdatathatprovidesclearconnectio.html"} City release on updated lobbyist data
-  |
-  %a{:href => "https://twitter.com/#!/chilobbyists"} @ChiLobbyists on Twitter
-%img.l{:src => "/images/icons/building-finder.png", :title => "Vacant and Abandoned Building Finder - Chicago"}/
-%h3
-  %a{:href => "http://chicagobuildings.org"} Vacant and Abandoned Building Finder - Chicago »
-%span.mute Launched Sept 30th, 2011
-%p
-  Find vacant and abandoned buildings in Chicago. Data comes from reports made for open and vacant buildings to 311 since January 1, 2010.
-  %br/
-  %strong Press:
-  %a{:href => "http://gov20.govfresh.com/chicagobuildings-org-maps-vacant-and-abandoned-buildings-using-open-government-data/"} article on govfresh
-  |
-  %a{:href => "http://www.webitects.com/blog/post/mapping-chicagos-vacant-buildings"} Webitects blog
-  |
-  %a{:href => "http://appsformetrochicago.com/community_round_entries"} Apps for Metro Chicago Contest
-  (7th place)
-%img.l{:src => "/images/icons/lookatcook.png", :title => "LookAtCook.com"}/
-%h3
-  %a{:href => "http://LookAtCook.com"} LookAtCook.com »
-%span.mute Launched Aug 17th, 2011
-%p
-  Budget transparency visualization for Cook County, IL displaying all county departments broken down by fund and
-  control officer from 1993 to 2011. Done as a collaboration with 12th District Commissioner John Fritchey. Built with Fusion Tables and jQuery.
-  %br/
-  %strong Press:
-  %a{:href => "http://radar.oreilly.com/2011/09/look-at-cook-gov-data-visualization.html"} Article on O'Reilly Radar
-  |
-  %a{:href => "http://govfresh.com/2011/09/beautiful-budgets-look-at-cook/"} Article on govfresh
-  |
-  %a{:href => "http://www.webitects.com/blog/post/look-at-cook-a-budget-visualization-for-cook-county-il"} Webitects blog
-%img.l{:src => "/images/icons/recycle.png", :title => "Chicago Recycling Dropoff"}/
-%h3
-  %a{:href => "http://chicagorecyclingdropoff.com"} Chicago Recycling Dropoff »
-%span.mute Launched June 12th, 2010
-%p
-  My wife
-  %a{:href => "http://ayaoconnor.com"} Aya
-  and I created a map of all City of Chicago recycling drop off locations. We also set up a mobile site so you can find the nearest drop off point from your current location.
-
-%img.l{:src => "/images/icons/clinic.png", :title => "Health Clinics in Chicago"}/
-%h3
-  %a{:href => "/maps/chicago-clinics/"} Health Clinics in Chicago »
-%span.mute Created Oct 26th, 2011
-%p Find Neighborhood, Mental Health and Women, Infants & Children (WIC) clinics in Chicago.
-%img.l{:src => "/images/icons/cyclingsport.png", :title => "Chicago Bike Crash Reports"}/
-%h3
-  %a{:href => "/maps/chicago-bike-crash-reports/"} Chicago Bike Crash Reports »
-%span.mute Last updated July 12th, 2011
-%p Searchable map of nearly 5,000 reported bicycle crashes in the City of Chicago from 2007-2009 as reported to the Illinois Department of Transportation. Recently added some more advanced filters.
-%img.l{:src => "/images/icons/doctor.png", :title => "Cook County Hospitals"}/
-%h3
-  %a{:href => "/maps/cook-county-hospitals/"} Cook County Hospitals »
-%span.mute Last updated June 24th, 2011
-%p All hospitals in Cook County compared to ward and neighborhood.
-%img.l{:src => "/images/icons/congress.png", :title => "2011 IL Senate Redistricting Plan"}/
-%h3
-  %a{:href => "/maps/2011-IL-senate-redistricting-plan/"} 2011 IL Senate Redistricting Plan »
-%span.mute Last updated May 19th, 2011
-%p
-  View the IL senate's redistricting plan released on May 19th, 2011 to see what district you will fall in
-  and compare it to the existing 2001 boundaries.
-%img.l{:src => "/images/icons/bank.png", :title => "Chicago TIF Projects"}/
-%h3
-  %a{:href => "/maps/chicago-tif/"} Chicago TIF Projects »
-%span.mute Last updated Feb 27th, 2011
-%p
-  I teamed up with a group of journalism students from Columbia College to present a searchable map of Tax Increment Financing (TIF) Projects in Chicago. Also includes a heat map of amounts allocated per ward.
-  %br/
-  %strong Press:
-  %a{:href => "http://www.nytimes.com/2011/02/27/us/27cnctif.html"} New York Times
-  |
-  %a{:href => "http://www.chicagonewscoop.org/corporate-giants-received-tif-money-records-show/comment-page-1/"} Chicago News Cooperative
-  |
-  %a{:href => "http://www.chicagotalks.org/2011/02/26/tif-subsidies-given-to-chicago-companies-nonprofits-bypass-city-neighborhoods-in-need-of-jobs/"} ChicagoTalks
+        These are all done using Google
+        = succeed "." do
+          %a{:href => "http://www.google.com/fusiontables/public/tour/index.html"} Fusion Tables
+        Let me know if you have a cool dataset you think I should make a map of. If you're feeling adventurous, you can make one of your own by starting with
+        = succeed "." do
+          %a{:href => "http://derekeder.com/searchable_map_template/"} this
+      .grid-item
+        %a{:href => "/maps/chicago-clinics/"} 
+          %img.img-polaroid{:src => "/images/icons/clinic.png", :title => "Health Clinics in Chicago"}/
+          %h4
+            Health Clinics in Chicago
+        %p Find Neighborhood, Mental Health and Women, Infants & Children (WIC) clinics in Chicago.
+        
+      .grid-item
+        %a{:href => "/maps/chicago-bike-crash-reports/"} 
+          %img.img-polaroid{:src => "/images/icons/cyclingsport.png", :title => "Chicago Bike Crash Reports"}/
+          %h4
+            Chicago Bike Crash Reports
+        %p Searchable map of nearly 5,000 reported bicycle crashes in the City of Chicago from 2007-2009 as reported to the Illinois Department of Transportation. Recently added some more advanced filters.
+        
+      .grid-item
+        %a{:href => "/maps/cook-county-hospitals/"} 
+          %img.img-polaroid{:src => "/images/icons/doctor.png", :title => "Cook County Hospitals"}/
+          %h4
+            Cook County Hospitals
+        %p All hospitals in Cook County compared to ward and neighborhood.
+        
+      .grid-item
+        %a{:href => "/maps/2011-IL-senate-redistricting-plan/"} 
+          %img.img-polaroid{:src => "/images/icons/congress.png", :title => "2011 IL Senate Redistricting Plan"}/
+          %h4
+            2011 IL Senate Redistricting Plan
+        %p
+          View the IL senate's redistricting plan released on May 19th, 2011 to see what district you will fall in
+          and compare it to the existing 2001 boundaries.
+        
+      .grid-item
+        %a{:href => "/maps/chicago-tif/"} 
+          %img.img-polaroid{:src => "/images/icons/bank.png", :title => "Chicago TIF Projects"}/
+          %h4
+            Chicago TIF Projects
+        %p
+          I teamed up with a group of journalism students from Columbia College to present a searchable map of Tax Increment Financing (TIF) Projects in Chicago. Also includes a heat map of amounts allocated per ward.
+          %br/
+          %strong Press:
+          %a{:href => "http://www.nytimes.com/2011/02/27/us/27cnctif.html"} New York Times
+          |
+          %a{:href => "http://www.chicagonewscoop.org/corporate-giants-received-tif-money-records-show/comment-page-1/"} Chicago News Cooperative
+          |
+          %a{:href => "http://www.chicagotalks.org/2011/02/26/tif-subsidies-given-to-chicago-companies-nonprofits-bypass-city-neighborhoods-in-need-of-jobs/"} ChicagoTalks

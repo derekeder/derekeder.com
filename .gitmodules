@@ -1,0 +1,6 @@
+[submodule "views/searchable_map_template_demo"]
+	path = views/searchable_map_template_demo
+	url = git@github.com:derekeder/FusionTable-Map-Template.git
+[submodule "public/searchable_map_template/demo"]
+	path = public/searchable_map_template/demo
+	url = git@github.com:derekeder/FusionTable-Map-Template.git

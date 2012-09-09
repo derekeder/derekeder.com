@@ -1,0 +1,159 @@
+.row-fluid
+  .span12
+    %h2
+      Searchable Map Template 
+      %small with Google Fusion Tables
+    %h4 Turn a spreadsheet in to a searchable map
+    %p You want to put your data on a searchable, filterable map. This is a free, open source tool to help you do it.
+    %hr
+.row-fluid
+  .span6
+    %h4 Features
+    %ul
+      %li clean, full screen layout
+      %li
+        %strong new
+        mobile and tablet friendly using responsive design
+      %li address search (with variable radius)
+      %li geolocation (find me!)
+      %li
+        %strong new
+        RESTful URLs for sharing searches
+      %li results count (using Google's Fusion Tables API)
+      %li ability to easily add additional search filters (checkboxes, sliders, etc)
+      %li all done with HTML, CSS and Javascript - no server side code required
+
+  .span6
+    %h4 Technologies used
+    %ul
+      %li
+        %a{:href => "http://www.google.com/fusiontables"} Google Fusion Tables
+        (
+        %a{:href => "https://github.com/derekeder/FusionTable-Map-Template#resources"}> useful resources
+        )
+      %li
+        %a{:href => "http://code.google.com/apis/maps/documentation/javascript/"} Google Maps API V3
+      %li
+        %a{:href => "http://jquery.com"} jQuery
+      %li
+        %a{:href => "http://www.asual.com/jquery/address"} jQuery Address
+      %li
+        %a{:href => "http://twitter.github.com/bootstrap"} Twitter Bootstrap
+    %p
+      %strong Note:
+      This template is now supports the
+      = succeed "." do
+        %a{:href => "https://developers.google.com/fusiontables/docs/v1/using"} Fusion Tables v1 API
+      For more info on this, see their
+      %a{:href => "https://developers.google.com/fusiontables/docs/v1/migration_guide"} migration guide
+
+.row-fluid
+  .span12
+    %hr
+
+.row-fluid
+  .span6
+    
+    .dl
+      %dt
+        %a{:href => "https://github.com/derekeder/FusionTable-Map-Template"}
+          %img.pull-left{:src => "/images/icons/git.png", :title => "Download"}/
+          Get the code on github
+        %small
+          (or
+          = succeed ")" do
+            %a{:href => "https://github.com/derekeder/FusionTable-Map-Template/zipball/master"} download as a zip
+      %dd
+        %p Get started on your own map!
+
+      %dt
+        %a{:href => "demo/index.html"}
+          %img.pull-left{:src => "/images/icons/search.png", :title => "Demo"}/
+          View the demo
+      %dd
+        %p Working example of the above demo
+
+      %dt
+        %a{:href => "https://github.com/derekeder/FusionTable-Map-Template/blob/master/README.rdoc#setup"}
+          %img.pull-left{:src => "/images/icons/text.png", :title => "Demo"}/
+          Read the instructions
+      %dd
+        %p
+          Just
+          %strong seven
+          steps!
+
+  .span6
+    %a{:href => "demo/index.html"}
+      %img.img-polaroid{:alt => "Searchable map template demo", :src => "/images/map-template-screenshot.png", :title => "Searchable map template screenshot"}
+
+.row-fluid
+  .span12
+    %hr
+    %p
+      Copyright © 2012 Derek Eder
+      %br/
+      %a{:href => "https://github.com/derekeder/FusionTable-Map-Template/wiki/License"} View license
+    %h3 Working examples
+    %p By Derek Eder (thats me!)
+    %ul
+      %li
+        %a{:href => "http://cpstiers.opencityapps.org/"} Chicago Public School Tiers
+      %li
+        %a{:href => "http://chicagobuildings.org/"} Vacant and Abandoned Building Finder
+      %li
+        %a{:href => "http://derekeder.com/maps/chicago-clinics/"} Health Clinics in Chicago
+      %li
+        %a{:href => "http://derekeder.com/maps/chicago-bike-crash-reports/"} Chicago Bike Crash Reports
+      %li
+        %a{:href => "http://derekeder.com/maps/2011-IL-senate-redistricting-plan/"} 2011 IL Senate Redistricting Plan
+      %li
+        %a{:href => "http://derekeder.com/maps/chicago-tif/"} Chicago TIF Projects
+    %p Quite a few other people have used this template for their own projects. I try to keep track of them here:
+    %ul
+      %li
+        %a{:href => "http://www.argusleader.com/newsroom/maps/ed-map/index.html"} Mapping the Sioux Falls School District
+        \- Cody Winchester
+      %li
+        %a{:href => "http://archivo.ayto-arganda.es/10/dnn/maps/index3.html"} Urban buildings cadastre in 1867 of the municipality Arganda del Rey, Madrid, Spain.
+        \- Julio Cerda Diaz
+      %li
+        %a{:href => "http://archivo.ayto-arganda.es/10/dnn/maps/index2.html"}
+          Parcel maps for the years 1878, 1904 and 1945 of the
+          municipality Arganda del Rey, Madrid, Spain
+        \- Julio Cerda Diaz
+      %li
+        %a{:href => "http://triblocal.com/winnetka-northfield/2012/04/17/special-report-tearing-down-the-north-shore/"}> Tearing down the North Shore
+        \:
+        = succeed "," do
+          %a{:href => "http://triblocal.com/glencoe/2012/04/17/map-glencoes-teardowns-2002-2011/", :target => "_blank"} Glencoe
+        = succeed "," do
+          %a{:href => "http://triblocal.com/winnetka-northfield/2012/04/17/map-winnetkas-teardowns-2002-2011/", :target => "_blank"} Winnetka
+        = succeed "," do
+          %a{:href => "http://triblocal.com/wilmette-kenilworth/2012/04/17/map-wilmettes-teardowns-2002-2011/", :target => "_blank"} Wilmette
+        = succeed "," do
+          %a{:href => "http://triblocal.com/wilmette-kenilworth/2012/04/17/map-kenilworths-teardowns-2002-2011/", :target => "_blank"} Kenilworth
+        and
+        %a{:href => "http://triblocal.com/lake-forest/2012/04/17/map-lake-forests-teardowns-2002-2011/", :target => "_blank"} Lake Forest
+        \- by Diana Novak and Matt Kiefer, TribLocal
+      %li
+        %a{:href => "http://cps.edu/Pages/LSC_Map.aspx"} Is Anyone Running for My Local School Council?
+        \- Chicago Public Schools
+      %li
+        %a{:href => "http://kalov.net/earlyvote/"} Early Voting Locations: Chicago and Cook County
+        \- Josh Kalov
+      %li
+        %a{:href => "http://www2.macleans.ca/crime-map/"} Canada's Most Dangerous Cities
+        \- Philippe Gohier, Macleans
+      %li
+        %a{:href => "http://extras.mysanantonio.com/interactives/foodstamps/index.html"} Food Stamps in Texas
+        \- Nolan Hicks, San Antonio Express-News
+      %li
+        %a{:href => "http://www.pastmapper.com/map/1853/"} San Francisco 1853 vs 2011
+        \- Pastmapper
+      %li
+        %a{:href => "http://kaasogmulvad.dk/unv/fusion/banker/"} Find et pengeinstitut (Find a bank)
+        \- Tommy Kaas
+      %li
+        %a{:href => "http://www.chicagonewscoop.org/chicago/wp-content/maps/hunger/"} The Geography of Hunger
+        \- by Juan-Pablo Velez, Chicago News Cooperative

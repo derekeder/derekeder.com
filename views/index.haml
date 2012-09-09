@@ -1,9 +1,18 @@
 .row-fluid
   .span12
-    %h3
-      Projects made with open data
+    %h2
+      Tools
+      %small
+        %a{:href => "/tools"} more &raquo;
     %p
-      I like to work with, analyze, and build apps and tools using open data. As a result, I have created several open source projects using Google Fusion Tables to help do that. You can find the source code for all of them (and more) on my github page.
+      I like to work with, analyze, and build tools using
+      = succeed "." do
+        %a{:href => "https://www.metrochicagodata.org/"} open data
+      As a result, I have created several open source projects using Google
+      %a{:href => "http://google.com/fusiontables/Home/"} Fusion Tables
+      to help do that. You can find the source code for all of them (and more) on
+      = succeed "." do
+        %a{:href => "https://github.com/derekeder"} my github page
 
 .row-fluid
   .span5
@@ -14,17 +23,42 @@
     %p
       You want to put your data on a  searchable, filterable map. This is a free, open source tool and template to help you do it. Powered by Google Fusion Tables.
 
-  .span1
-    &nbsp;
-  .span5
-    %a{:href => "http://chicagolobbyists.org"}
-      %img.img-polaroid{:src => "/images/screenshots/chicago-lobbyists.jpg"}
-      %h4
-        Chicago Lobbyists
-    %p
-      An open data, open government, and open source project intended to improve the transparency of interactions between the City of Chicago and lobbyists and their clients.
+  .span1 
 
+  .span5
+    %a{:href => "/fusion-tables-to-html-table/"}
+      %img.img-polaroid{:src => "/images/screenshots/fusion-tables-html.jpg"}
+      %h4
+        Google Fusion Tables to HTML Table
+    %p
+      Reads in a Google
+      %a{:href => "http://google.com/fusiontables/Home/"} Fusion Table
+      and outputs it in to a searchable and sortable HTML table using jQuery
+      = succeed "." do
+        %a{:href => "http://datatables.net/"} Datatables
+      Created as a companion to the above searchable map template and written in PHP.
+
+.row-fluid
+  .span12
     %hr
+    %h2
+      Websites
+      %small
+        %a{:href => "/websites"} more &raquo;
+    %p
+      Most of these are works of passion. The more recent ones are contributions to the ever-growing
+      %a{:href => "http://data.cityofchicago.org/"} open
+      %a{:href => "http://twitter.com/#!/search/opengov%20chicago"} government
+      %a{:href => "http://www.meetup.com/OpenGovChicago/"} movement
+      in Chicago.
+      I like to work with
+      = succeed "," do
+        %a{:href => "http://www.ruby-lang.org/en/"} Ruby
+      %a{:href => "http://www.google.com/fusiontables"} Fusion Tables
+      and
+      %a{:href => "http://jquery.com/"} jQuery
+
+
 .row-fluid
   .span5
     %a{:href => "http://cpstiers.opencityapps.org"}
@@ -35,7 +69,27 @@
       In Chicago, a student's chance of getting into the city's top selective schools depends on where he or she lives. Chicago Public Schools (CPS) places every part of the city into one of four socio-economic "tiers" and requires selective schools to reserve the same number of spots for the students from each tier. This tool helps you find which CPS tier you are in.
 
   .span1
-    &nbsp;
+
+  .span5
+    %a{:href => "http://chicagobuildings.org"}
+      %img.img-polaroid{:src => "/images/screenshots/chicago-buildings.jpg"}
+      %h4
+        Vacant and Abandoned Building Finder - Chicago
+    %p
+      Find vacant and abandoned buildings in Chicago. Data comes from reports made for open and vacant buildings to 311 since January 1, 2010.
+
+.row-fluid
+  
+  .span5
+    %a{:href => "http://chicagolobbyists.org"}
+      %img.img-polaroid{:src => "/images/screenshots/chicago-lobbyists.jpg"}
+      %h4
+        Chicago Lobbyists
+    %p
+      An open data, open government, and open source project intended to improve the transparency of interactions between the City of Chicago and lobbyists and their clients.
+
+  .span1
+
   .span5
     %a{:href => "http://LookAtCook.com"}
       %img.img-polaroid{:src => "/images/screenshots/look-at-cook.jpg"}

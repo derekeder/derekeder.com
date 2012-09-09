@@ -29,7 +29,7 @@ module SiteTemplate
       haml :index
     end
     
-    get "/:page" do
+    get "/:page/?" do
       @current_menu = params[:page]
       haml params[:page].to_sym
     end

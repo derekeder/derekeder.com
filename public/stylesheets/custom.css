@@ -13,9 +13,16 @@ body {
   padding-left: 50px;
 }
 
+.content-primary img {
+  margin-top: 30px;
+}
+
 .content-secondary {
   padding-bottom: 30px;
+}
 
+.pull-left {
+  margin-right: 10px;
 }
 
 .headshot {

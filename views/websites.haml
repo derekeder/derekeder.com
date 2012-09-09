@@ -1,17 +1,71 @@
+.content-grid
+  .row-fluid
+    .span12
+      %h2
+        Websites
+        %small
+          Powered by open data
+          |
+          %a{:href => "/websites"} more &raquo;
+      %p
+        Most of these are works of passion. The more recent ones are contributions to the ever-growing
+        %a{:href => "http://data.cityofchicago.org/"} open
+        %a{:href => "http://twitter.com/#!/search/opengov%20chicago"} government
+        %a{:href => "http://www.meetup.com/OpenGovChicago/"} movement
+        in Chicago.
+        I like to work with
+        = succeed "," do
+          %a{:href => "http://www.ruby-lang.org/en/"} Ruby
+        %a{:href => "http://www.google.com/fusiontables"} Fusion Tables
+        and
+        %a{:href => "http://jquery.com/"} jQuery
 
-%h2 Websites
-%p
-  Most of these are works of passion. The more recent ones are contributions to the ever-growing
-  %a{:href => "http://data.cityofchicago.org/"} open
-  %a{:href => "http://twitter.com/#!/search/opengov%20chicago"} government
-  %a{:href => "http://www.meetup.com/OpenGovChicago/"} movement
-  in Chicago.
-  I like to work with
-  = succeed "," do
-    %a{:href => "http://www.ruby-lang.org/en/"} Ruby
-  %a{:href => "http://www.google.com/fusiontables"} Fusion Tables
-  and
-  %a{:href => "http://jquery.com/"} jQuery
+
+  .row-fluid
+    .span5
+      %a{:href => "http://cpstiers.opencityapps.org"}
+        %img.img-polaroid{:src => "/images/screenshots/cps-tiers.jpg", :title => "Chicago Public School (CPS) Tiers"}
+        %h4
+          Chicago Public School (CPS) Tiers
+      %p
+        CPS places every part of the city into one of four socio-economic "tiers" and requires selective schools to reserve the same number of spots for the students from each tier. This tool helps you find which CPS tier you are in.
+
+    .span1
+
+    .span5
+      %a{:href => "http://chicagobuildings.org"}
+        %img.img-polaroid{:src => "/images/screenshots/chicago-buildings.jpg"}
+        %h4
+          Vacant and Abandoned Building Finder - Chicago
+      %p
+        Find vacant and abandoned buildings in Chicago. Data comes from reports made for open and vacant buildings to 311 since January 1, 2010.
+
+  .row-fluid
+    
+    .span5
+      %a{:href => "http://chicagolobbyists.org"}
+        %img.img-polaroid{:src => "/images/screenshots/chicago-lobbyists.jpg", :title => "Chicago Lobbyists"}
+        %h4
+          Chicago Lobbyists
+      %p
+        An open data, open government, and open source project intended to improve the transparency of interactions between the City of Chicago and lobbyists and their clients.
+
+    .span1
+
+    .span5
+      %a{:href => "http://LookAtCook.com"}
+        %img.img-polaroid{:src => "/images/screenshots/look-at-cook.jpg", :title => "Look at Cook"}
+        %h4
+          Look at Cook
+      %p
+        Budget transparency visualization for Cook County, IL displaying all county departments broken down by fund and
+        control officer from 1993 to 2011. Done as a collaboration with 12th District Commissioner John Fritchey. Built with Fusion Tables and jQuery.
+
+
+
+
+
+
 %img.l{:src => "/images/icons/share-my-share.png", :title => "Share my Share"}/
 %h3
   %a{:href => "http://www.sharemyshare.org"} Share my Share »

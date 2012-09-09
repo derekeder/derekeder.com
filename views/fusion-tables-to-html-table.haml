@@ -1,0 +1,67 @@
+- @current_menu = "tools"
+.row-fluid
+  .span12
+    %h2 Google Fusion Tables to HTML Table
+    %h4 Present your data from Fusion Tables in a searchable, sortable table
+    %p
+      This tool reads in a
+      %a{:href => "http://google.com/fusiontables/Home/"} Fusion Table
+      and outputs it in to a searchable and sortable HTML table using jQuery
+      = succeed "." do
+        %a{:href => "http://datatables.net/"} Datatables
+      Created as a companion to the
+      = succeed "." do
+        %a{:href => "/searchable_map_template/"} searchable map template
+    %hr
+
+.row-fluid
+  .span6
+    %dl
+      %dt
+        %a{:href => "https://github.com/derekeder/Fusion-Tables-to-HTML-Table"}
+          %img.pull-left{:src => "/images/icons/git.png", :title => "Download"}/
+          Get the code on github
+        %small
+          (or
+          = succeed ")" do
+            %a{:href => "https://github.com/derekeder/Fusion-Tables-to-HTML-Table/zipball/master"} download as a zip
+      %dd
+        %p Make your raw Fusion Table data look pretty
+
+      %dt
+        %a{:href => "demo/index.php"}
+          %img.pull-left{:src => "/images/icons/table.png", :title => "Demo"}/
+          View the demo
+      %dd
+        %p Working example with Chicago Health Clinics data
+    
+      %dt
+        %a{:href => "https://github.com/derekeder/Fusion-Tables-to-HTML-Table/blob/master/README"}
+          %img.pull-left{:src => "/images/icons/text.png", :title => "Demo"}/
+          Read the instructions
+      %dd
+        %p Involves doing some fun data mapping!
+
+    %p
+      Copyright © 2011 Derek Eder
+      %br
+      %a{:href => "https:/github.com/derekeder/Fusion-Tables-to-HTML-Table/wiki/License"} View license
+
+  .span6
+    %a{:href => "demo/index.php"}
+      %img.img-polaroid{:alt => "Demo screenshot", :src => "/images/fusion-table-html-screenshot.png", :title => "Demo screenshot"}
+
+.row-fluid
+  .span12
+    %hr
+    %h3 Working examples
+    %p A few people have used this for their own projects. I try to keep track of them here:
+    %ul
+      %li
+        %a{:href => "http://archivo.ayto-arganda.es/10/tablas/ordenanzas.html"} City Council bylaws for Arganda, Spain
+        \- Ayuntamiento de Arganda del Rey
+      %li
+        %a{:href => "http://seattletimes.nwsource.com/flatpages/specialreports/methadone/overdosedeathslinkedtomethadone.html"} Overdose deaths linked exclusively to methadone
+        \- Justin Mayo, Seattle Times (
+        %a{:href => "http://seattletimes.nwsource.com/html/localnews/2017067266_methadone22m.html"}> full article
+        )

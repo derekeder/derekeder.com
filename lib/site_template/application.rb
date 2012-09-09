@@ -23,15 +23,45 @@ module SiteTemplate
     use Rack::Session::Cookie
 
     helpers SiteTemplate::HtmlHelpers
-    
+
     get "/" do
       @current_menu = "home"
       haml :index
     end
+
+    # redirects
+    get "/budget*" do
+      redirect "http://lookatcook.com"
+    end
+
+    get "/clearstreets*" do
+      redirect "http://clearstreets.org"
+    end
+
+    get "/cps-tiers*" do
+      redirect "http://cpstiers.opencityapps.org"
+    end
+
+    get "/maps/chicago-abandoned-buildings/*" do
+      redirect "http://chicagobuildings.org"
+    end
+
+    get "/tif-map*" do
+      redirect "/maps/chicago-tif/"
+    end
     
+    # catchall for static pages
     get "/:page/?" do
-      @current_menu = params[:page]
-      haml params[:page].to_sym
+      begin 
+        @current_menu = params[:page]
+        haml params[:page].to_sym
+      rescue Errno::ENOENT
+        haml :not_found
+      end
+    end
+    
+    error do
+      'Sorry there was a nasty error - ' + env['sinatra.error'].name
     end
   end
 end

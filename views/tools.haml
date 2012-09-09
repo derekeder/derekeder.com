@@ -1,60 +1,78 @@
-%h2 Tools
-%p
-  I like to work with, analyze, and build tools using
-  = succeed "." do
-    %a{:href => "https://www.metrochicagodata.org/"} open data
-  As a result, I have created several open source projects using Google
-  %a{:href => "http://google.com/fusiontables/Home/"} Fusion Tables
-  to help do that. You can find the source code for all of them (and more) on
-  = succeed "." do
-    %a{:href => "https://github.com/derekeder"} my github page
-%img.l{:src => "/images/icons/search.png", :title => "Searchable Map Template"}
-%h3
-  %a{:href => "/searchable_map_template/"} Searchable Map Template with Google Fusion Tables »
-%span.mute Last updated Aug 15th, 2012
-%p
-  You want to put your data on a  searchable, filterable map. This is a free, open source tool and template to help you do it. Powered by Google
-  = succeed "." do
-    %a{:href => "http://google.com/fusiontables/Home/"} Fusion Tables
-  = succeed "." do
-    %a{:href => "https://github.com/derekeder/FusionTable-Map-Template"} Get it on github
-%img.l{:src => "/images/icons/site-template.png", :title => "Sinatra Site Template"}
-%h3
-  %a{:href => "https://github.com/derekeder/site-template"} Sinatra Site Template »
-%span.mute Last updated Aug 19th, 2012
-%p
-  A basic site template that I use to kick off a lot of my projects. Uses
-  = succeed "," do
-    %a{:href => "http://www.ruby-lang.org"} Ruby
-  = succeed "," do
-    %a{:href => "http://www.sinatrarb.com"} Sinatra
-  %a{:href => "http://haml.info"} Haml
-  and
-  %a{:href => "http://twitter.github.com/bootstrap"} Twitter Bootstrap
-  with tie-ins to
-  %a{:href => "http://www.heroku.com"} Heroku
-  for hosting and
-  = succeed "." do
-    %a{:href => "http://www.google.com/analytics"} Google Analytics
-  %a{:href => "https://github.com/derekeder/site-template"} Get it on Github.
-%img.l{:src => "/images/icons/table.png", :title => "Fusion Tables to HTML Table"}/
-%h3
-  %a{:href => "/fusion-tables-to-html-table/"} Google Fusion Tables to HTML Table »
-%span.mute Last updated Oct 30th, 2011
-%p
-  Reads in a Google
-  %a{:href => "http://google.com/fusiontables/Home/"} Fusion Table
-  and outputs it in to a searchable and sortable HTML table using jQuery
-  = succeed "." do
-    %a{:href => "http://datatables.net/"} Datatables
-  Created as a companion to the above searchable map template and written in PHP.
-  = succeed "." do
-    %a{:href => "https://github.com/derekeder/Fusion-Tables-to-HTML-Table"} Get it on Github
-%img.l{:src => "/images/icons/database.png", :title => "Socrata to Fusion Tables"}/
-%h3
-  %a{:href => "https://github.com/derekeder/Socrata-to-FusionTables"} Socrata to Google Fusion Tables »
-%span.mute hosted on github
-%p
-  PHP script to scrape a Socrata dataset and import it in to a Google Fusion Table. Example data uses Chicago's 311 requests for vacant and abandoned buildings and is used to update
-  = succeed "." do
-    %a{:href => "/maps/chicago-abandoned-buildings/"} this map
+.content-grid
+  .row-fluid
+    .span12
+      %h2
+        Tools
+        %small
+          Free and open source
+      %p
+        I like to work with, analyze, and build tools using
+        = succeed "." do
+          %a{:href => "https://www.metrochicagodata.org/"} open data
+        As a result, I have created several open source projects using Google
+        %a{:href => "http://google.com/fusiontables/Home/"} Fusion Tables
+        to help do that. You can find the source code for all of them (and more) on
+        = succeed "." do
+          %a{:href => "https://github.com/derekeder"} my github page
+
+  .row-fluid
+    .span5
+      %a{:href => "/searchable_map_template/"}
+        %img.img-polaroid{:src => "/images/screenshots/searchable-template.jpg", :title => "Searchable Map Template with Google Fusion Tables"}
+        %h4
+          Searchable Map Template with Google Fusion Tables
+      %p
+        You want to put your data on a  searchable, filterable map. This is a free, open source tool and template to help you do it. Powered by Google
+        = succeed "." do
+          %a{:href => "http://google.com/fusiontables/Home/"} Fusion Tables
+        = succeed "." do
+          %a{:href => "https://github.com/derekeder/FusionTable-Map-Template"} Get it on github
+
+    .span1 
+
+    .span5
+      %a{:href => "https://github.com/derekeder/site-template"}
+        %img.img-polaroid{:src => "/images/screenshots/site-template.jpg", :title => "Sinatra Site Template"}
+        %h4
+          Sinatra Site Template
+      %p
+        A basic site template that I use to kick off a lot of my projects. Uses
+        = succeed "," do
+          %a{:href => "http://www.ruby-lang.org"} Ruby
+        = succeed "," do
+          %a{:href => "http://www.sinatrarb.com"} Sinatra
+        %a{:href => "http://haml.info"} Haml
+        and
+        %a{:href => "http://twitter.github.com/bootstrap"} Twitter Bootstrap
+        with tie-ins to
+        %a{:href => "http://www.heroku.com"} Heroku
+        for hosting and
+        = succeed "." do
+          %a{:href => "http://www.google.com/analytics"} Google Analytics
+        %a{:href => "https://github.com/derekeder/site-template"} Get it on Github.
+
+  .row-fluid
+    .span5
+      %a{:href => "/fusion-tables-to-html-table/"}
+        %img.img-polaroid{:src => "/images/screenshots/fusion-tables-html.jpg", :title => "Google Fusion Tables to HTML Table"}
+        %h4
+          Google Fusion Tables to HTML Table
+      %p
+        Reads in a Google
+        %a{:href => "http://google.com/fusiontables/Home/"} Fusion Table
+        and outputs it in to a searchable and sortable HTML table using jQuery
+        = succeed "." do
+          %a{:href => "http://datatables.net/"} Datatables
+        Created as a companion to the above searchable map template and written in PHP.
+
+    .span1
+
+    .span5
+      %a{:href => "https://github.com/derekeder/Socrata-to-FusionTables"}
+        %img.img-polaroid{:src => "/images/screenshots/socrata-fusion-tables.jpg", :title => "Socrata to Fusion Tables"}
+        %h4
+          Socrata to Google Fusion Tables
+      %p
+        PHP script to scrape a Socrata dataset and import it in to a Google Fusion Table. Example data uses Chicago's 311 requests for vacant and abandoned buildings and is used to update
+        = succeed "." do
+          %a{:href => "/maps/chicago-abandoned-buildings/"} this map

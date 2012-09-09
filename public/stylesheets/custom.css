@@ -1,13 +1,27 @@
 body {
   padding-top: 30px;
+  background-color: #efefef;
 }
 
 #mapCanvas img {
   max-width: none;
 }
 
-a { color: #4B58A6; }
-.well { background-color: #e8ebfb; }
+.content-primary {
+  background-color: #ffffff;
+  margin-top: -30px;
+  padding-left: 50px;
+}
+
+.content-secondary {
+  padding-bottom: 30px;
+
+}
+
+.headshot {
+  margin-right: 10px;
+
+}
 
 .nav-list > .active > a,
 .nav-list > .active > a:hover {

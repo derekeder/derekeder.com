@@ -10,7 +10,7 @@
     %link{:href => "/favicon.ico", :rel => "shortcut icon"}
             
     / Styles
-    = include_stylesheet :bootstrap
+    = include_stylesheet "bootstrap.spacelab.min"
     = include_stylesheet "bootstrap-responsive"
     = include_stylesheet :custom
     = content :stylesheets
@@ -22,48 +22,51 @@
   %body
     .container
       .row
-        .span4
+        .span3.content-secondary
           %h2 Derek Eder
-          <p>Open data web developer in Chicago, owner of <a href='http://en.wikipedia.org/wiki/Open_government'>open government</a> &amp; <a href='http://en.wikipedia.org/wiki/Open_data'>open data</a> web consulting company DataMade and co-founder of <a href='http://opencityapps.org/'>Open City</a>.</p>
+          %img.pull-left.img-polaroid.headshot{:src => "/images/derek.jpg", :alt=> "Derek Eder", :title => "Derek Eder"}
+          <p>Open data web developer in Chicago, owner of DataMade, an <a href='http://en.wikipedia.org/wiki/Open_government'>open government</a> and <a href='http://en.wikipedia.org/wiki/Open_data'>open data</a> web consulting company and co-founder of <a href='http://opencityapps.org/'>Open City</a>.</p>
           <p>You can <a href="mailto:derek.eder+de@gmail.com">email</a> or <a href='http://twitter.com/derek_eder'>tweet</a> at me.</p>
-          
-          %ul.nav.nav-list
-            %li{:class => current_menu_class("home")}
-              %a{:href => "/"} 
-                Home
-            %li{:class => current_menu_class("code")}
-              %a{:href => "/code"} 
-                Code
-            %li{:class => current_menu_class("websites")}
-              %a{:href => "/websites"} 
-                Websites
-            %li{:class => current_menu_class("maps")}
-              %a{:href => "/maps"} 
-                Maps
-            %li{:class => current_menu_class("about")}
-              %a{:href => "/about"} 
-                About
-                
-          %hr 
-          
-          %h4 Connect with Derek
-          .social
+
+          %p
             %a{:href => "https://github.com/derekeder"}
               %img{:alt => "Derek Eder on Github", :src => "/images/social/github.png", :title => "Derek Eder on Github Github"}
             %a{:href => "https://twitter.com/derek_eder"}
               %img{:alt => "Derek Eder on Twitter", :src => "/images/social/twitter.png", :title => "Derek Eder on Github Twitter"}
             %a{:href => "http://www.linkedin.com/in/derekeder"}
               %img{:alt => "Derek Eder on LinkedIn", :src => "/images/social/linkedin.png", :title => "Derek Eder on Github LinkedIn"}
+
+          .clearfix
         
-        .span7
-          = yield
+        .span9
+          .well.content-primary
+            %ul.nav.nav-pills
+              %li{:class => current_menu_class("home")}
+                %a{:href => "/"} 
+                  Home
+              %li{:class => current_menu_class("tools")}
+                %a{:href => "/tools"} 
+                  Tools
+              %li{:class => current_menu_class("websites")}
+                %a{:href => "/websites"} 
+                  Websites
+              %li{:class => current_menu_class("press")}
+                %a{:href => "/press"} 
+                  Press
+              %li{:class => current_menu_class("about")}
+                %a{:href => "/about"} 
+                  About
+            %hr
+            = yield
       
     %footer.footer
       .span12
-        %p
-          %a{:href => "http://derekeder.com", :title => "Derek Eder"}
-            Derek Eder
-          &copy; 2012
+        %p.pull-right
+          %a{:href => "https://twitter.com/derek_eder"} @derek_eder
+          |
+          %a{:href => "mailto:derek.eder+de@gmail.com"} Email me
+          |
+          &copy; Derek Eder
     
     = include_javascript :jquery
     = include_javascript :bootstrap

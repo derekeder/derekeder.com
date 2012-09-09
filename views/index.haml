@@ -1,73 +1,46 @@
-%h2
-  = link_to "Code", "/code"
-%p
-  I like to work with, analyze, and build tools using
-  = succeed "." do
-    %a{:href => "https://www.metrochicagodata.org/"} open data
-  As a result, I have created several open source projects using Google
-  %a{:href => "http://google.com/fusiontables/Home/"} Fusion Tables
-  to help do that. You can find the source code for all of them (and more) on
-  = succeed "." do
-    %a{:href => "https://github.com/derekeder"} my github page
+.row-fluid
+  .span12
+    %h3
+      Projects made with open data
+    %p
+      I like to work with, analyze, and build apps and tools using open data. As a result, I have created several open source projects using Google Fusion Tables to help do that. You can find the source code for all of them (and more) on my github page.
 
-%h3
-  %img.pull-left{:src => "/images/icons/search.png", :title => "Searchable Map Template"}
-  %a{:href => "/searchable_map_template/"} Searchable Map Template with Google Fusion Tables »
-%span.mute Last updated Aug 15th, 2012
-%p
-  You want to put your data on a  searchable, filterable map. This is a free, open source tool and template to help you do it. Powered by Google
-  = succeed "." do
-    %a{:href => "http://google.com/fusiontables/Home/"} Fusion Tables
-  = succeed "." do
-    %a{:href => "https://github.com/derekeder/FusionTable-Map-Template"} Get it on github
+.row-fluid
+  .span5
+    %a{:href => "/searchable_map_template/"}
+      %img.img-polaroid{:src => "/images/screenshots/searchable-template.jpg"}
+      %h4
+        Searchable Map Template with Google Fusion Tables
+    %p
+      You want to put your data on a  searchable, filterable map. This is a free, open source tool and template to help you do it. Powered by Google Fusion Tables.
 
-%hr
+  .span1
+    &nbsp;
+  .span5
+    %a{:href => "http://chicagolobbyists.org"}
+      %img.img-polaroid{:src => "/images/screenshots/chicago-lobbyists.jpg"}
+      %h4
+        Chicago Lobbyists
+    %p
+      An open data, open government, and open source project intended to improve the transparency of interactions between the City of Chicago and lobbyists and their clients.
 
-%h2
-  = link_to "Websites", "/websites"
-%p
-  Most of these are works of passion. The more recent ones are contributions to the ever-growing
-  %a{:href => "http://data.cityofchicago.org/"} open
-  %a{:href => "http://twitter.com/#!/search/opengov%20chicago"} government
-  %a{:href => "http://www.meetup.com/OpenGovChicago/"} movement
-  in Chicago.
-  I like to work with
-  = succeed "," do
-    %a{:href => "http://www.ruby-lang.org/en/"} Ruby
-  %a{:href => "http://www.google.com/fusiontables"} Fusion Tables
-  and
-  %a{:href => "http://jquery.com/"} jQuery
+    %hr
+.row-fluid
+  .span5
+    %a{:href => "http://cpstiers.opencityapps.org"}
+      %img.img-polaroid{:src => "/images/screenshots/cps-tiers.jpg"}
+      %h4
+        Chicago Public School Tiers
+    %p
+      In Chicago, a student's chance of getting into the city's top selective schools depends on where he or she lives. Chicago Public Schools (CPS) places every part of the city into one of four socio-economic "tiers" and requires selective schools to reserve the same number of spots for the students from each tier. This tool helps you find which CPS tier you are in.
 
-%h3
-  %img.pull-left{:src => "/images/icons/crime-in-chicago.png", :title => "Crime in Chicago"}
-  %a{:href => "http://crimeinchicago.org"} Crime in Chicago »
-%span.mute Launched Jun 26th, 2012
-%p
-  Crime in Chicago is a data visualization by
-  %a{:href => "http://opencityapps.org"} Open City
-  that lets you explore crime trends in Chicago's 50 wards. It was built using
-  %a{:href => "https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2"} open data about Chicago crimes
-  released by the
-  = succeed "." do
-    %a{:href => "http://www.cityofchicago.org/police"} Chicago Police Department
-  %br/
-  %strong Press:
-  %a{:href => "http://gov20.govfresh.com/open-city-launches-new-civic-app-to-map-crime-in-chicago/"} GovFresh
-
-%hr
-
-%h2
-  = link_to "Maps", "/maps"
-%p
-  These are all done using Google
-  = succeed "." do
-    %a{:href => "http://www.google.com/fusiontables/public/tour/index.html"} Fusion Tables
-  Let me know if you have a cool dataset you think I should make a map of. If you're feeling adventurous, you can make one of your own by starting with
-  = succeed "." do
-    %a{:href => "http://derekeder.com/searchable_map_template/"} this
-
-%h3
-  %img.pull-left{:src => "/images/icons/cyclingsport.png", :title => "Chicago Bike Crash Reports"}
-  %a{:href => "/maps/chicago-bike-crash-reports/"} Chicago Bike Crash Reports »
-%span.mute Last updated July 12th, 2011
-%p Searchable map of nearly 5,000 reported bicycle crashes in the City of Chicago from 2007-2009 as reported to the Illinois Department of Transportation. Recently added some more advanced filters.
+  .span1
+    &nbsp;
+  .span5
+    %a{:href => "http://LookAtCook.com"}
+      %img.img-polaroid{:src => "/images/screenshots/look-at-cook.jpg"}
+      %h4
+        Look at Cook
+    %p
+      Budget transparency visualization for Cook County, IL displaying all county departments broken down by fund and
+      control officer from 1993 to 2011. Done as a collaboration with 12th District Commissioner John Fritchey. Built with Fusion Tables and jQuery.

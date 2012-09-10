@@ -1,6 +1,6 @@
 .content-grid
-  .row-fluid
-    .span12
+  .row
+    .span8
       %h2
         Tools
         %small
@@ -17,7 +17,7 @@
         = succeed "." do
           %a{:href => "https://github.com/derekeder"} my github page
 
-    .grid-item
+    .span4
       %a{:href => "/searchable_map_template/"}
         %img.img-polaroid{:src => "/images/screenshots/searchable-template.jpg", :title => "Searchable Map Template with Google Fusion Tables"}
         %h4
@@ -25,7 +25,7 @@
       %p
         You want to put your data on a  searchable, filterable map. This is a free, open source tool and template to help you do it. Powered by Google Fusion Tables.
 
-    .grid-item
+    .span4
       %a{:href => "/fusion-tables-to-html-table/"}
         %img.img-polaroid{:src => "/images/screenshots/fusion-tables-html.jpg", :title => "Google Fusion Tables to HTML Table"}
         %h4
@@ -38,8 +38,9 @@
           %a{:href => "http://datatables.net/"} Datatables
         Created as a companion to the above searchable map template and written in PHP.
 
-  .row-fluid
-    .span12
+  .row
+    .span8
+      %hr
       %h2 
         Maps
         %small 
@@ -54,7 +55,7 @@
         = succeed "." do
           %a{:href => "http://derekeder.com/searchable_map_template/"} this
 
-    .grid-item
+    .span4
       %a{:href => "http://cpstiers.opencityapps.org"}
         %img.img-polaroid{:src => "/images/screenshots/cps-tiers.jpg", :title => "Chicago Public School (CPS) Tiers"}
         %h4
@@ -62,7 +63,7 @@
       %p
         CPS places every part of the city into one of four socio-economic "tiers" and requires selective schools to reserve the same number of spots for the students from each tier. This tool helps you find which CPS tier you are in.
 
-    .grid-item
+    .span4
       %a{:href => "http://chicagobuildings.org"}
         %img.img-polaroid{:src => "/images/screenshots/chicago-buildings.jpg"}
         %h4
@@ -70,8 +71,8 @@
       %p
         Find vacant and abandoned buildings in Chicago. Data comes from reports made for open and vacant buildings to 311 since January 1, 2010.
 
-  .row-fluid
-    .span12
+  .row
+    .span8
       %hr
       %h2
         Websites
@@ -92,7 +93,7 @@
         and
         %a{:href => "http://jquery.com/"} jQuery
 
-    .grid-item
+    .span4
       %a{:href => "http://LookAtCook.com"}
         %img.img-polaroid{:src => "/images/screenshots/look-at-cook.jpg", :title => "Look at Cook"}
         %h4
@@ -101,7 +102,7 @@
         Budget transparency visualization for Cook County, IL displaying all county departments broken down by fund and
         control officer from 1993 to 2011. Done as a collaboration with 12th District Commissioner John Fritchey. Built with Fusion Tables and jQuery.
 
-    .grid-item
+    .span4
       %a{:href => "http://chicagolobbyists.org"}
         %img.img-polaroid{:src => "/images/screenshots/chicago-lobbyists.jpg", :title => "Chicago Lobbyists"}
         %h4

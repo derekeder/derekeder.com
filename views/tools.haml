@@ -1,6 +1,6 @@
 .content-grid
-  .row-fluid
-    .span12
+  .row
+    .span8
       %h2
         Tools
         %small
@@ -15,7 +15,7 @@
         = succeed "." do
           %a{:href => "https://github.com/derekeder"} my github page
 
-    .grid-item
+    .span4
       %a{:href => "/searchable_map_template/"}
         %img.img-polaroid{:src => "/images/screenshots/searchable-template.jpg", :title => "Searchable Map Template with Google Fusion Tables"}
         %h4
@@ -28,7 +28,7 @@
         %strong Press:
         %a{:href => "http://googlemapsmania.blogspot.com/2012/05/open-source-fusion-tables-map-template.html"} Google Maps Mania
 
-    .grid-item
+    .span4
       %a{:href => "https://github.com/derekeder/site-template"}
         %img.img-polaroid{:src => "/images/screenshots/site-template.jpg", :title => "Sinatra Site Template"}
         %h4
@@ -49,7 +49,9 @@
           %a{:href => "http://www.google.com/analytics"} Google Analytics
         %a{:href => "https://github.com/derekeder/site-template"} Get it on Github.
 
-    .grid-item
+    .clearfix
+    
+    .span4
       %a{:href => "/fusion-tables-to-html-table/"}
         %img.img-polaroid{:src => "/images/screenshots/fusion-tables-html.jpg", :title => "Google Fusion Tables to HTML Table"}
         %h4
@@ -62,7 +64,7 @@
           %a{:href => "http://datatables.net/"} Datatables
         Created as a companion to the above searchable map template and written in PHP.
 
-    .grid-item
+    .span4
       %a{:href => "https://github.com/derekeder/Socrata-to-FusionTables"}
         %img.img-polaroid{:src => "/images/screenshots/socrata-fusion-tables.jpg", :title => "Socrata to Fusion Tables"}
         %h4

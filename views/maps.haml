@@ -1,6 +1,6 @@
 .content-grid
-  .row-fluid
-    .span12
+  .row
+    .span8
       %h2 
         Maps
         %small Mapping open data
@@ -12,108 +12,116 @@
         = succeed "." do
           %a{:href => "http://derekeder.com/searchable_map_template/"} this
       
-      .grid-item
-        %a{:href => "http://cpstiers.opencityapps.org"}
-          %img.img-polaroid{:src => "/images/screenshots/cps-tiers.jpg", :title => "Chicago Public School (CPS) Tiers"}
-          %h4
-            Chicago Public School (CPS) Tiers
-        %p
-          CPS places every part of the city into one of four socio-economic "tiers" and requires selective schools to reserve the same number of spots for the students from each tier. This tool helps you find which CPS tier you are in.
-          %br/
-          %strong Press:
-          %a{:href => "http://blogs.edweek.org/edweek/parentsandthepublic/"} EdWeek
-          |
-          %a{:href => "http://www.cltv.com/videogallery/68761359/News/3/9-politics-tonight-pt-1#pl-62809047"} CLTV "Politics Tonight"
-          |
-          %a{:href => "http://chicagotonight.wttw.com/2012/03/09/chicago-public-school-tiers"} WTTW "Chicago Tonight"
-          |
-          %a{:href => "http://chicagoist.com/2012/03/08/new_web_app_makes_it_easier_for_cps.php"} Chicagoist
+    .span4
+      %a{:href => "http://cpstiers.opencityapps.org"}
+        %img.img-polaroid{:src => "/images/screenshots/cps-tiers.jpg", :title => "Chicago Public School (CPS) Tiers"}
+        %h4
+          Chicago Public School (CPS) Tiers
+      %p
+        CPS places every part of the city into one of four socio-economic "tiers" and requires selective schools to reserve the same number of spots for the students from each tier. This tool helps you find which CPS tier you are in.
+        %br/
+        %strong Press:
+        %a{:href => "http://blogs.edweek.org/edweek/parentsandthepublic/"} EdWeek
+        |
+        %a{:href => "http://www.cltv.com/videogallery/68761359/News/3/9-politics-tonight-pt-1#pl-62809047"} CLTV "Politics Tonight"
+        |
+        %a{:href => "http://chicagotonight.wttw.com/2012/03/09/chicago-public-school-tiers"} WTTW "Chicago Tonight"
+        |
+        %a{:href => "http://chicagoist.com/2012/03/08/new_web_app_makes_it_easier_for_cps.php"} Chicagoist
 
-      .grid-item
-        %a{:href => "http://clearstreets.org"} 
-          %img.img-polaroid{:src => "/images/screenshots/clearstreets.jpg", :title => "ClearStreets - Plow Tracker"}/
-          %h4
-            ClearStreets
-        %p
-          The City of Chicago launched
-          = succeed "," do
-            %a{:href => "http://www.cityofchicago.org/content/city/en/depts/mayor/iframe/plow_tracker.html"} Plow Tracker
-          an app that tracks the city's snow plows in real time. This app uses the same data. By knowing where the plows are, we've figured which streets have been plowed.
-          %br/
-          %strong Press:
-          %a{:href => "http://chicagotonight.wttw.com/2012/01/31/chicago-data-apps"} WTTW "Chicago Tonight"
-          |
-          %a{:href => "http://www.chicagotribune.com/news/ct-talk-snow-tracker-0121-20120121,0,4501133.story"} Chicago Tribune
-          |
-          %a{:href => "http://chicagoist.com/2012/01/20/clear_streets_a_better_use_of_snow.php#photo-1"} Chicagoist
-          |
-          %a{:href => "http://gridchicago.com/2012/new-plow-tracker-style-website-hits-the-web-in-time-for-todays-snow-storm/"} GridChicago
+    .span4
+      %a{:href => "http://clearstreets.org"} 
+        %img.img-polaroid{:src => "/images/screenshots/clearstreets.jpg", :title => "ClearStreets - Plow Tracker"}/
+        %h4
+          ClearStreets
+      %p
+        The City of Chicago launched
+        = succeed "," do
+          %a{:href => "http://www.cityofchicago.org/content/city/en/depts/mayor/iframe/plow_tracker.html"} Plow Tracker
+        an app that tracks the city's snow plows in real time. This app uses the same data. By knowing where the plows are, we've figured which streets have been plowed.
+        %br/
+        %strong Press:
+        %a{:href => "http://chicagotonight.wttw.com/2012/01/31/chicago-data-apps"} WTTW "Chicago Tonight"
+        |
+        %a{:href => "http://www.chicagotribune.com/news/ct-talk-snow-tracker-0121-20120121,0,4501133.story"} Chicago Tribune
+        |
+        %a{:href => "http://chicagoist.com/2012/01/20/clear_streets_a_better_use_of_snow.php#photo-1"} Chicagoist
+        |
+        %a{:href => "http://gridchicago.com/2012/new-plow-tracker-style-website-hits-the-web-in-time-for-todays-snow-storm/"} GridChicago
 
-      .grid-item
-        %a{:href => "http://chicagobuildings.org"}
-          %img.img-polaroid{:src => "/images/screenshots/chicago-buildings.jpg"}
-          %h4
-            Vacant and Abandoned Building Finder - Chicago
-        %p
-          Find vacant and abandoned buildings in Chicago. Data comes from reports made for open and vacant buildings to 311 since January 1, 2010.
-          %br/
-          %strong Press:
-          %a{:href => "http://gov20.govfresh.com/chicagobuildings-org-maps-vacant-and-abandoned-buildings-using-open-government-data/"} Govfresh
-          |
-          %a{:href => "http://www.webitects.com/blog/post/mapping-chicagos-vacant-buildings"} Webitects blog
+    .clearfix
 
-      .grid-item
-        %a{:href => "/maps/chicago-tif/"} 
-          %img.img-polaroid{:src => "/images/screenshots/chicago-tif.jpg", :title => "Chicago TIF Projects"}/
-          %h4
-            Chicago TIF Projects
-        %p
-          I teamed up with a group of journalism students from Columbia College to present a searchable map of Tax Increment Financing (TIF) Projects in Chicago. Also includes a heat map of amounts allocated per ward.
-          %br/
-          %strong Press:
-          %a{:href => "http://www.nytimes.com/2011/02/27/us/27cnctif.html"} New York Times
-          |
-          %a{:href => "http://www.chicagonewscoop.org/corporate-giants-received-tif-money-records-show/comment-page-1/"} Chicago News Cooperative
-          |
-          %a{:href => "http://www.chicagotalks.org/2011/02/26/tif-subsidies-given-to-chicago-companies-nonprofits-bypass-city-neighborhoods-in-need-of-jobs/"} ChicagoTalks
+    .span4
+      %a{:href => "http://chicagobuildings.org"}
+        %img.img-polaroid{:src => "/images/screenshots/chicago-buildings.jpg"}
+        %h4
+          Vacant and Abandoned Building Finder - Chicago
+      %p
+        Find vacant and abandoned buildings in Chicago. Data comes from reports made for open and vacant buildings to 311 since January 1, 2010.
+        %br/
+        %strong Press:
+        %a{:href => "http://gov20.govfresh.com/chicagobuildings-org-maps-vacant-and-abandoned-buildings-using-open-government-data/"} Govfresh
+        |
+        %a{:href => "http://www.webitects.com/blog/post/mapping-chicagos-vacant-buildings"} Webitects blog
 
-      .grid-item
-        %a{:href => "http://chicagorecyclingdropoff.com"} 
-          %img.img-polaroid{:src => "/images/screenshots/chicago-recycling.jpg", :title => "Chicago Recycling Dropoff"}
-          %h4
-            Chicago Recycling Dropoff
-        %p
-          My wife
-          %a{:href => "http://ayaoconnor.com"} Aya
-          and I created a map of all City of Chicago recycling drop off locations. We also set up a mobile site so you can find the nearest drop off point from your current location.
+    .span4
+      %a{:href => "/maps/chicago-tif/"} 
+        %img.img-polaroid{:src => "/images/screenshots/chicago-tif.jpg", :title => "Chicago TIF Projects"}/
+        %h4
+          Chicago TIF Projects
+      %p
+        I teamed up with a group of journalism students from Columbia College to present a searchable map of Tax Increment Financing (TIF) Projects in Chicago. Also includes a heat map of amounts allocated per ward.
+        %br/
+        %strong Press:
+        %a{:href => "http://www.nytimes.com/2011/02/27/us/27cnctif.html"} New York Times
+        |
+        %a{:href => "http://www.chicagonewscoop.org/corporate-giants-received-tif-money-records-show/comment-page-1/"} Chicago News Cooperative
+        |
+        %a{:href => "http://www.chicagotalks.org/2011/02/26/tif-subsidies-given-to-chicago-companies-nonprofits-bypass-city-neighborhoods-in-need-of-jobs/"} ChicagoTalks
+
+    .clearfix
+    
+    .span4
+      %a{:href => "http://chicagorecyclingdropoff.com"} 
+        %img.img-polaroid{:src => "/images/screenshots/chicago-recycling.jpg", :title => "Chicago Recycling Dropoff"}
+        %h4
+          Chicago Recycling Dropoff
+      %p
+        My wife
+        %a{:href => "http://ayaoconnor.com"} Aya
+        and I created a map of all City of Chicago recycling drop off locations. We also set up a mobile site so you can find the nearest drop off point from your current location.
 
 
-      .grid-item
-        %a{:href => "/maps/chicago-clinics/"} 
-          %img.img-polaroid{:src => "/images/screenshots/health-clinics.jpg", :title => "Health Clinics in Chicago"}/
-          %h4
-            Health Clinics in Chicago
-        %p Find Neighborhood, Mental Health and Women, Infants & Children (WIC) clinics in Chicago.
-        
-      .grid-item
-        %a{:href => "/maps/chicago-bike-crash-reports/"} 
-          %img.img-polaroid{:src => "/images/screenshots/bike-crashes.jpg", :title => "Chicago Bike Crash Reports"}/
-          %h4
-            Chicago Bike Crash Reports
-        %p Searchable map of nearly 5,000 reported bicycle crashes in the City of Chicago from 2007-2009 as reported to the Illinois Department of Transportation. Recently added some more advanced filters.
-        
-      .grid-item
-        %a{:href => "/maps/cook-county-hospitals/"} 
-          %img.img-polaroid{:src => "/images/screenshots/cook-hospitals.jpg", :title => "Cook County Hospitals"}/
-          %h4
-            Cook County Hospitals
-        %p All hospitals in Cook County compared to ward and neighborhood.
-        
-      .grid-item
-        %a{:href => "/maps/2011-IL-senate-redistricting-plan/"} 
-          %img.img-polaroid{:src => "/images/screenshots/il-districts.jpg", :title => "2011 IL Senate Redistricting Plan"}/
-          %h4
-            2011 IL Senate Redistricting Plan
-        %p
-          View the IL senate's redistricting plan released on May 19th, 2011 to see what district you will fall in
-          and compare it to the existing 2001 boundaries.
+    .span4
+      %a{:href => "/maps/chicago-clinics/"} 
+        %img.img-polaroid{:src => "/images/screenshots/health-clinics.jpg", :title => "Health Clinics in Chicago"}/
+        %h4
+          Health Clinics in Chicago
+      %p Find Neighborhood, Mental Health and Women, Infants & Children (WIC) clinics in Chicago.
+     
+    .clearfix
+     
+    .span4
+      %a{:href => "/maps/chicago-bike-crash-reports/"} 
+        %img.img-polaroid{:src => "/images/screenshots/bike-crashes.jpg", :title => "Chicago Bike Crash Reports"}/
+        %h4
+          Chicago Bike Crash Reports
+      %p Searchable map of nearly 5,000 reported bicycle crashes in the City of Chicago from 2007-2009 as reported to the Illinois Department of Transportation. Recently added some more advanced filters.
+      
+    .span4
+      %a{:href => "/maps/cook-county-hospitals/"} 
+        %img.img-polaroid{:src => "/images/screenshots/cook-hospitals.jpg", :title => "Cook County Hospitals"}/
+        %h4
+          Cook County Hospitals
+      %p All hospitals in Cook County compared to ward and neighborhood.
+      
+    .clearfix
+    
+    .span4
+      %a{:href => "/maps/2011-IL-senate-redistricting-plan/"} 
+        %img.img-polaroid{:src => "/images/screenshots/il-districts.jpg", :title => "2011 IL Senate Redistricting Plan"}/
+        %h4
+          2011 IL Senate Redistricting Plan
+      %p
+        View the IL senate's redistricting plan released on May 19th, 2011 to see what district you will fall in
+        and compare it to the existing 2001 boundaries.

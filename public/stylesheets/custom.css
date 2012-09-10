@@ -1,6 +1,6 @@
 body {
   padding-top: 30px;
-  background-color: #efefef;
+  background-color: #f6f6f6;
 }
 
 #mapCanvas img {
@@ -29,6 +29,13 @@ body {
 .nav-list > .active > a:hover {
    background-color: #4B58A6; 
 }
+
+a, a:hover {
+  color: #4B58A6; 
+}
+
+.nav-pills>.active>a,.nav-pills>.active>a:hover{background-color:#4B58A6;}
+
 
 .nav {
   font-size: 16px;

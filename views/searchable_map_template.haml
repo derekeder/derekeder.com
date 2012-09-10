@@ -57,27 +57,26 @@
     
     %dl
       %dt
-        %a{:href => "https://github.com/derekeder/FusionTable-Map-Template"}
-          %img.pull-left{:src => "/images/icons/git.png", :title => "Download"}/
-          Get the code on github
-        %small
-          (or
-          = succeed ")" do
-            %a{:href => "https://github.com/derekeder/FusionTable-Map-Template/zipball/master"} download as a zip
+        %a.btn.btn-primary{:href => "https://github.com/derekeder/FusionTable-Map-Template"}
+          Get it on Github
+          %i.icon-download-alt.icon-white
+        %a.btn{:href => "https://github.com/derekeder/FusionTable-Map-Template/zipball/master"} 
+          Zip
+          %i.icon-download-alt
       %dd
         %p Get started on your own map!
 
       %dt
-        %a{:href => "demo/index.html"}
-          %img.pull-left{:src => "/images/icons/search.png", :title => "Demo"}/
+        %a.btn.btn-success{:href => "demo/index.html"}
           View the demo
+          %i.icon-map-marker.icon-white
       %dd
         %p Working example of the above demo
 
       %dt
-        %a{:href => "https://github.com/derekeder/FusionTable-Map-Template/blob/master/README.rdoc#setup"}
-          %img.pull-left{:src => "/images/icons/text.png", :title => "Demo"}/
+        %a.btn.btn-info{:href => "https://github.com/derekeder/FusionTable-Map-Template/blob/master/README.rdoc#setup"}
           Read the instructions
+          %i.icon-info-sign
       %dd
         %p
           Just
@@ -86,7 +85,8 @@
 
   .span6
     %a{:href => "demo/index.html"}
-      %img.img-polaroid{:alt => "Searchable map template demo", :src => "/images/map-template-screenshot.png", :title => "Searchable map template screenshot"}
+      %img.img-polaroid{:alt => "Searchable map template demo", :src => "/images/screenshots/searchable-template.jpg", :title => "Searchable map template screenshot"}
+      %h4 View the demo
 
 .row-fluid
   .span12
@@ -112,6 +112,9 @@
         %a{:href => "http://derekeder.com/maps/chicago-tif/"} Chicago TIF Projects
     %p Quite a few other people have used this template for their own projects. I try to keep track of them here:
     %ul
+      %li
+        %a{:href => "http://kalov.net/strike/"} Chicago Child Care Options in Case of a Strike
+        \- Josh Kalov
       %li
         %a{:href => "http://www.argusleader.com/newsroom/maps/ed-map/index.html"} Mapping the Sioux Falls School District
         \- Cody Winchester

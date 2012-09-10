@@ -23,10 +23,41 @@
     .container
       .row
         .span3.content-secondary
-          %h2 Derek Eder
+          %h2 
+            Derek Eder
+
+          %h4 Open Data Web Developer
           %img.pull-left.img-polaroid.headshot{:src => "/images/derek.jpg", :alt=> "Derek Eder", :title => "Derek Eder"}
-          <p>Open data web developer in Chicago, owner of DataMade, an <a href='http://en.wikipedia.org/wiki/Open_government'>open government</a> and <a href='http://en.wikipedia.org/wiki/Open_data'>open data</a> web consulting company and co-founder of <a href='http://opencityapps.org/'>Open City</a>.</p>
-          <p>You can <a href="mailto:derek.eder+de@gmail.com">email</a> or <a href='http://twitter.com/derek_eder'>tweet</a> at me.</p>
+          %p
+            I'm a web developer in Chicago. I like working with open data and creating open source apps and tools with it.
+          %hr 
+          %dl
+            %dt 
+              Owner of DataMade
+            %dd
+              an
+              %a{:href => "http://en.wikipedia.org/wiki/Open_government"} open government
+              and
+              %a{:href => "http://en.wikipedia.org/wiki/Open_data"} open data
+              web consulting company
+
+            %dt
+              Co-founder of
+              %a{:href => "http://opencityapps.org/"} Open City
+            %dd
+              a group of volunteers that create web apps with open data
+
+            %dt
+              Organizer for
+              %a{:href => "http://www.meetup.com/OpenGovChicago/"} OpenGov Chicago
+            %dd
+              a monthly meetup group founded in 2009
+          %p
+            You can
+            %a{:href => "mailto:derek.eder+de@gmail.com"} email
+            or
+            %a{:href => "http://twitter.com/derek_eder"} tweet
+            at me.
 
           %p
             %a{:href => "https://github.com/derekeder"}
@@ -47,15 +78,15 @@
               %li{:class => current_menu_class("tools")}
                 %a{:href => "/tools"} 
                   Tools
+              %li{:class => current_menu_class("maps")}
+                %a{:href => "/maps"} 
+                  Maps
               %li{:class => current_menu_class("websites")}
                 %a{:href => "/websites"} 
                   Websites
               %li{:class => current_menu_class("press")}
                 %a{:href => "/press"} 
                   Press
-              %li{:class => current_menu_class("about")}
-                %a{:href => "/about"} 
-                  About
             %hr
             = yield
       

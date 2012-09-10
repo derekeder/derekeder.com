@@ -17,8 +17,7 @@
         = succeed "." do
           %a{:href => "https://github.com/derekeder"} my github page
 
-  .row-fluid
-    .span5
+    .grid-item
       %a{:href => "/searchable_map_template/"}
         %img.img-polaroid{:src => "/images/screenshots/searchable-template.jpg", :title => "Searchable Map Template with Google Fusion Tables"}
         %h4
@@ -26,9 +25,7 @@
       %p
         You want to put your data on a  searchable, filterable map. This is a free, open source tool and template to help you do it. Powered by Google Fusion Tables.
 
-    .span1 
-
-    .span5
+    .grid-item
       %a{:href => "/fusion-tables-to-html-table/"}
         %img.img-polaroid{:src => "/images/screenshots/fusion-tables-html.jpg", :title => "Google Fusion Tables to HTML Table"}
         %h4
@@ -40,6 +37,38 @@
         = succeed "." do
           %a{:href => "http://datatables.net/"} Datatables
         Created as a companion to the above searchable map template and written in PHP.
+
+  .row-fluid
+    .span12
+      %h2 
+        Maps
+        %small 
+          Mapping open data
+          |
+          %a{:href => "/maps"} more &raquo;
+      %p
+        These are all done using Google
+        = succeed "." do
+          %a{:href => "http://www.google.com/fusiontables/public/tour/index.html"} Fusion Tables
+        Let me know if you have a cool dataset you think I should make a map of. If you're feeling adventurous, you can make one of your own by starting with
+        = succeed "." do
+          %a{:href => "http://derekeder.com/searchable_map_template/"} this
+
+    .grid-item
+      %a{:href => "http://cpstiers.opencityapps.org"}
+        %img.img-polaroid{:src => "/images/screenshots/cps-tiers.jpg", :title => "Chicago Public School (CPS) Tiers"}
+        %h4
+          Chicago Public School (CPS) Tiers
+      %p
+        CPS places every part of the city into one of four socio-economic "tiers" and requires selective schools to reserve the same number of spots for the students from each tier. This tool helps you find which CPS tier you are in.
+
+    .grid-item
+      %a{:href => "http://chicagobuildings.org"}
+        %img.img-polaroid{:src => "/images/screenshots/chicago-buildings.jpg"}
+        %h4
+          Vacant and Abandoned Building Finder - Chicago
+      %p
+        Find vacant and abandoned buildings in Chicago. Data comes from reports made for open and vacant buildings to 311 since January 1, 2010.
 
   .row-fluid
     .span12
@@ -63,39 +92,7 @@
         and
         %a{:href => "http://jquery.com/"} jQuery
 
-
-  .row-fluid
-    .span5
-      %a{:href => "http://cpstiers.opencityapps.org"}
-        %img.img-polaroid{:src => "/images/screenshots/cps-tiers.jpg", :title => "Chicago Public School (CPS) Tiers"}
-        %h4
-          Chicago Public School (CPS) Tiers
-      %p
-        CPS places every part of the city into one of four socio-economic "tiers" and requires selective schools to reserve the same number of spots for the students from each tier. This tool helps you find which CPS tier you are in.
-
-    .span1
-
-    .span5
-      %a{:href => "http://chicagobuildings.org"}
-        %img.img-polaroid{:src => "/images/screenshots/chicago-buildings.jpg"}
-        %h4
-          Vacant and Abandoned Building Finder - Chicago
-      %p
-        Find vacant and abandoned buildings in Chicago. Data comes from reports made for open and vacant buildings to 311 since January 1, 2010.
-
-  .row-fluid
-    
-    .span5
-      %a{:href => "http://chicagolobbyists.org"}
-        %img.img-polaroid{:src => "/images/screenshots/chicago-lobbyists.jpg", :title => "Chicago Lobbyists"}
-        %h4
-          Chicago Lobbyists
-      %p
-        An open data, open government, and open source project intended to improve the transparency of interactions between the City of Chicago and lobbyists and their clients.
-
-    .span1
-
-    .span5
+    .grid-item
       %a{:href => "http://LookAtCook.com"}
         %img.img-polaroid{:src => "/images/screenshots/look-at-cook.jpg", :title => "Look at Cook"}
         %h4
@@ -103,3 +100,11 @@
       %p
         Budget transparency visualization for Cook County, IL displaying all county departments broken down by fund and
         control officer from 1993 to 2011. Done as a collaboration with 12th District Commissioner John Fritchey. Built with Fusion Tables and jQuery.
+
+    .grid-item
+      %a{:href => "http://chicagolobbyists.org"}
+        %img.img-polaroid{:src => "/images/screenshots/chicago-lobbyists.jpg", :title => "Chicago Lobbyists"}
+        %h4
+          Chicago Lobbyists
+      %p
+        An open data, open government, and open source project intended to improve the transparency of interactions between the City of Chicago and lobbyists and their clients.

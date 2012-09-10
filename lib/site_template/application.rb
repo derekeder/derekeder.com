@@ -49,6 +49,10 @@ module SiteTemplate
     get "/tif-map*" do
       redirect "/maps/chicago-tif/"
     end
+
+    get "/maps/:map/" do
+      redirect "/maps/#{params[:map]}/index.html"
+    end
     
     # catchall for static pages
     get "/:page/?" do

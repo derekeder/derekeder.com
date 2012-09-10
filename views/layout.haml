@@ -33,7 +33,8 @@
           %hr 
           %dl
             %dt 
-              Owner of DataMade
+              Owner of 
+              %a{:href => "/consulting"} DataMade
             %dd
               an
               %a{:href => "http://en.wikipedia.org/wiki/Open_government"} open government
@@ -53,8 +54,7 @@
             %dd
               a monthly meetup group founded in 2009
           %p
-            You can
-            %a{:href => "mailto:derek.eder+de@gmail.com"} email
+            %a{:href => "mailto:derek.eder+de@gmail.com"} Email
             or
             %a{:href => "http://twitter.com/derek_eder"} tweet
             at me.
@@ -84,9 +84,12 @@
               %li{:class => current_menu_class("websites")}
                 %a{:href => "/websites"} 
                   Websites
-              %li{:class => current_menu_class("press")}
-                %a{:href => "/press"} 
-                  Press
+              %li{:class => current_menu_class("talks")}
+                %a{:href => "/talks"} 
+                  Talks
+              %li{:class => current_menu_class("consulting")}
+                %a{:href => "/consulting"} 
+                  Consulting
             %hr
             = yield
       

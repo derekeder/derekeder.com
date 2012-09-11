@@ -10,7 +10,12 @@ body {
 .content-primary {
   background-color: #ffffff;
   margin-top: -30px;
-  padding-left: 50px;
+}
+
+@media (min-width:500px){ 
+  .content-primary {
+    padding-left: 50px;
+  }
 }
 
 .home h2 {

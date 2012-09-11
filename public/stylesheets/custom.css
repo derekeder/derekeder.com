@@ -30,6 +30,15 @@ body {
   padding-bottom: 30px;
 }
 
+.content-secondary h2 a {
+  color: #2D2D2D;
+}
+
+.content-secondary h2 a:hover {
+  color: #2D2D2D;
+  text-decoration: none;
+}
+
 .pull-left {
   margin-right: 10px;
 }

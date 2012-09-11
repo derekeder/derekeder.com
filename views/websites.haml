@@ -16,7 +16,8 @@
           %a{:href => "http://www.ruby-lang.org/en/"} Ruby
         %a{:href => "http://www.google.com/fusiontables"} Fusion Tables
         and
-        %a{:href => "http://jquery.com/"} jQuery
+        = succeed "." do
+          %a{:href => "http://jquery.com/"} jQuery
 
     .span4
       %a{:href => "http://www.sharemyshare.org"}
@@ -24,10 +25,11 @@
         %h4
           Share my Share
       %p
-        Do you have a weekly veggie CSA and can't pick it up this weekend? Wouldn't it be nice if you could donate your box to charity? Well now you can. Share my Share allows residents of Logan Square to feed Chicago's hungry with their extra CSA boxes.
-        %br/
+        Do you have a weekly veggie CSA and can't pick it up sometimes? Wouldn't it be nice if you could donate your box to charity? Well now you can. Share my Share allows residents of Logan Square to feed Chicago's hungry with their extra CSA boxes.
+        %br
         %strong Press:
-        %a{:href => "http://chicagoist.com/2012/07/25/new_website_allows_csa_buyers_to_do.php"} Chicagoist
+        %em
+          %a{:href => "http://chicagoist.com/2012/07/25/new_website_allows_csa_buyers_to_do.php"} Chicagoist
 
     .span4
       %a{:href => "http://crimeinchicago.org"}
@@ -35,6 +37,15 @@
         %h4
           Crime in Chicago
       %p
+        Explore crime trends in Chicago's 50 wards using this data visualization by 
+        = succeed "." do
+          %a{:href => "http://opencityapps.org"} Open City
+        Built using 
+        %a{:href => "https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2"} open data about Chicago crimes 
+        released by the
+        = succeed "." do
+          %a{:href => "http://www.cityofchicago.org/police"} Chicago Police Department
+
         Crime in Chicago is a data visualization by
         %a{:href => "http://opencityapps.org"} Open City
         that lets you explore crime trends in Chicago's 50 wards. It was built using
@@ -44,7 +55,8 @@
           %a{:href => "http://www.cityofchicago.org/police"} Chicago Police Department
         %br/
         %strong Press:
-        %a{:href => "http://gov20.govfresh.com/open-city-launches-new-civic-app-to-map-crime-in-chicago/"} GovFresh
+        %em
+          %a{:href => "http://gov20.govfresh.com/open-city-launches-new-civic-app-to-map-crime-in-chicago/"} GovFresh
 
     .clearfix
 
@@ -57,13 +69,13 @@
         An open data, open government, and open source project intended to improve the transparency of interactions between the City of Chicago and lobbyists and their clients.
         %br/
         %strong Press:
-        %a{:href => "http://gov20.govfresh.com/can-the-internet-help-disrupt-the-power-of-chicago-lobbyists-through-transparency/"} Govfresh
+        %em
+          %a{:href => "http://gov20.govfresh.com/can-the-internet-help-disrupt-the-power-of-chicago-lobbyists-through-transparency/"} Govfresh
         |
-        %a{:href => "http://chicagoist.com/2011/12/07/new_web_project_simplifies_citys_op.php"} Chicagoist
+        %em
+          %a{:href => "http://chicagoist.com/2011/12/07/new_web_project_simplifies_citys_op.php"} Chicagoist
         |
         %a{:href => "http://www.cityofchicago.org/city/en/depts/mayor/press_room/press_releases/2011/august_2011/mayor_emanuel_announcesnewlobbyistdatathatprovidesclearconnectio.html"} City press release
-        |
-        %a{:href => "https://twitter.com/#!/chilobbyists"} @ChiLobbyists on Twitter
 
     .span4
       %a{:href => "http://LookAtCook.com"}
@@ -75,8 +87,11 @@
         control officer from 1993 to 2011. Done as a collaboration with 12th District Commissioner John Fritchey. Built with Fusion Tables and jQuery.
         %br/
         %strong Press:
-        %a{:href => "http://radar.oreilly.com/2011/09/look-at-cook-gov-data-visualization.html"} O'Reilly Radar
+        %em
+          %a{:href => "http://radar.oreilly.com/2011/09/look-at-cook-gov-data-visualization.html"} O'Reilly Radar
         |
-        %a{:href => "http://govfresh.com/2011/09/beautiful-budgets-look-at-cook/"} Govfresh
+        %em
+          %a{:href => "http://govfresh.com/2011/09/beautiful-budgets-look-at-cook/"} Govfresh
         |
-        %a{:href => "http://www.webitects.com/blog/post/look-at-cook-a-budget-visualization-for-cook-county-il"} Webitects blog
+        %em
+          %a{:href => "http://www.webitects.com/blog/post/look-at-cook-a-budget-visualization-for-cook-county-il"} Webitects blog

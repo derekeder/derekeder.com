@@ -38,6 +38,10 @@ a, a:hover {
   color: #4B58A6; 
 }
 
+.social a:hover {
+  text-decoration: none;
+}
+
 .nav-pills>.active>a,.nav-pills>.active>a:hover{background-color:#4B58A6;}
 
 

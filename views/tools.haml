@@ -30,6 +30,18 @@
           %a{:href => "http://googlemapsmania.blogspot.com/2012/05/open-source-fusion-tables-map-template.html"} Google Maps Mania
 
     .span4
+      %a{:href => "https://github.com/open-city/dedupe"}
+        %img.img-polaroid{:src => "/images/screenshots/dedupe.jpg", :title => "Dedupe"}
+        %h4
+          Dedupe
+      %p
+        An open source python library for accurate and scaleable deduplication and entity-resolution. Other solutions break easily, don’t scale, and require significant developer time. Our solution is robust, can handle a large volume of data, and can be trained by anyone.
+        = succeed "." do
+          %a{:href => "http://pyvideo.org/video/973/big-data-de-duping"} See our presentation at ChiPy
+
+    .clearfix
+
+    .span4
       %a{:href => "https://github.com/derekeder/site-template"}
         %img.img-polaroid{:src => "/images/screenshots/site-template.jpg", :title => "Sinatra Site Template"}
         %h4
@@ -48,9 +60,8 @@
         for hosting and
         = succeed "." do
           %a{:href => "http://www.google.com/analytics"} Google Analytics
-        %a{:href => "https://github.com/derekeder/site-template"} Get it on Github.
-
-    .clearfix
+        = succeed "." do
+          %a{:href => "https://github.com/derekeder/site-template"} Get it on Github
     
     .span4
       %a{:href => "/fusion-tables-to-html-table/"}
@@ -64,6 +75,8 @@
         = succeed "." do
           %a{:href => "http://datatables.net/"} Datatables
         Created as a companion to the searchable map template and written in PHP.
+
+    .clearfix
 
     .span4
       %a{:href => "https://github.com/derekeder/Socrata-to-FusionTables"}

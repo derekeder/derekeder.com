@@ -50,6 +50,10 @@ module SiteTemplate
       redirect "/maps/chicago-tif/"
     end
 
+    get "/maps/chicago-clinics/table/" do
+      redirect "http://old.derekeder.com/maps/chicago-clinics/table/"
+    end
+
     get "/maps/:map/" do
       redirect "/maps/#{params[:map]}/index.html"
     end

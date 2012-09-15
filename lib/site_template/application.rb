@@ -26,6 +26,7 @@ module SiteTemplate
 
     get "/" do
       @current_menu = "home"
+      @title = 'Derek Eder - Open Data Web Developer'
       haml :index
     end
 
@@ -62,6 +63,7 @@ module SiteTemplate
     get "/:page/?" do
       begin 
         @current_menu = params[:page]
+        @title = params[:page].capitalize.gsub(/[_-]/, " ")
         haml params[:page].to_sym
       rescue Errno::ENOENT
         haml :not_found

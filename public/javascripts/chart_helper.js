@@ -26,8 +26,7 @@ ChartHelper.create = function(element, type, seriesData, startDate, pointInterva
       },
       yAxis: {
           title: null,
-          min: 0,
-          max: 100
+          min: 0
       },
       plotOptions: {
         series: {
@@ -52,7 +51,6 @@ ChartHelper.create = function(element, type, seriesData, startDate, pointInterva
         }
       },
       tooltip: {
-          crosshairs: true,
           borderColor: "#ccc",
           formatter: function() {
             var s = "<strong>" + ChartHelper.toolTipDateFormat(pointInterval, this.x) + "</strong>";

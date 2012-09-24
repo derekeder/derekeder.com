@@ -1,3 +1,11 @@
+- content_for :stylesheets do
+  :css
+    .chart {
+      min-width: 200px; 
+      height: 500px; 
+      margin: 0 auto;
+    }
+
 - content_for :javascripts do
   = include_javascript :highcharts
   = include_javascript :chart_helper
@@ -80,7 +88,7 @@
   .span12.well
     %h3 Chicago Commute Modes in 2011
     %p Breakdown of Chicago's workforce commutes in 2011 by mode. Driving (alone, carpool or taxi) make up 60% of all commutes, with public transit making up 27.6%.
-    #pie_Commutes{:style => "height: 400px;"}
+    #pie_Commutes.chart
 
 .row-fluid
   .span12.well
@@ -90,4 +98,4 @@
     %p
       %strong Tip:
       Click on the commute modes in the legend below to hide or show that column
-    #chart_Commutes{:style => "height: 500px;"}
+    #chart_Commutes.chart

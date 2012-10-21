@@ -11,109 +11,209 @@
         or
         %a{:href => "http://twitter.com/derek_eder"} tweet
         at me.
-      
-    .span4
-      %a{:href => "http://www.youtube.com/watch?v=tuB3pDFYhRU#t=10m5s"}
-        %img.img-polaroid{:src => "/images/talks/d3-presentation.jpg", :title => "D3 Presentation at Chicago August Data Potluck"}
-        %h4
-          D3 Presentation at Data Potluck
-      %strong
-        August 28, 2012 
-        | 
-        Christopher Whitaker
-      %p
-        A 20-minute talk on
-        = succeed "," do
-          %a{:href => "http://d3js.org"} d3
-        a JavaScript library for manipulating documents based on data.
-        %a{:href => "https://docs.google.com/document/d/1yaShWUQjQxrYL57PGQ9NuN81-dG-XEV97z8YqhhbgEs/edit"} Presentation notes 
 
-    .span4
-      %a{:href => "http://pyvideo.org/video/973/big-data-de-duping"}
-        %img.img-polaroid{:src => "/images/talks/dedupe-chipy.jpg", :title => "Big Data De-Duping"}
-        %h4
-          Big Data Deduping
-      %strong
-        June 14, 2012 
-        | 
-        ChiPy
-      %p
-        Joint presentation at 
-        %a{:href => "http://chipy.org"} ChiPy 
-        with 
-        %a{:href => "http://www.bunkum.us"} Forest Gregg 
-        on our
-        %a{:href => "https://github.com/open-city/dedupe"} Dedupe
-        project, an open source Python library for deduplicating tabular data, quickly, accurately, and on a large scale.
-        %a{:href => 'https://docs.google.com/presentation/d/1i2q8BP9OvH8G_okrJtdw9u8XVc7EAEkdk_nIRCLxxU8/edit#slide=id.g11c3aeda_0_0'} Presentation slides
+      .row-fluid
+        .span7
+          %a{:href => "http://datacamp2012.org/?p=543"}
+            %h4
+              Data Camp: Fusion Tables with Derek Eder
+          %strong
+            October 19, 2012 
+            | 
+            Data Camp 2012
+          %p
+            Data Camp is a day-and-a-half crash course in online and open source data tools for beginners. I led off the first day by giving an overview of Google's Fusion Tables, it's features, and some of the projects I've built using it. Sorry - no video for this one!
+        .span4
+          %a{:href => "http://datacamp2012.org/?p=543"}
+            %img.img-polaroid{:src => "/images/talks/data-camp-2012.png", :title => "Fusion Tables with Derek Eder"}
 
-    .clearfix
+      .row-fluid
+        .span7
+          %a{:href => "http://www.youtube.com/watch?v=tuB3pDFYhRU#t=10m5s"}
+            %h4
+              Introduction to D3: Data Driven Documents
+          %strong
+            August 28, 2012 
+            | 
+            Data Potluck &amp; Opengov Hack Night
+          %p
+            A 20-minute talk on
+            = succeed "," do
+              %a{:href => "http://d3js.org"} d3
+            a JavaScript library for easily manipulating elemnts on a webpage with a variety of data formats. Given at the 
+            %a{:href => 'http://meetup.datapotluck.org/'} Data Potluck
+            \/ 
+            %a{:href => 'http://opencityapps.org/#events'} Opengov Hack Night 
+            at 
+            = succeed '.' do
+              %a{:href => 'http://www.1871.com/'} 1871
+            The video quality for this one isn't great, but you can follow along with my 
+            = succeed '.' do
+              %a{:href => "https://docs.google.com/document/d/1yaShWUQjQxrYL57PGQ9NuN81-dG-XEV97z8YqhhbgEs/edit"} presentation notes 
+        .span4
+          %a{:href => "http://www.youtube.com/watch?v=tuB3pDFYhRU#t=10m5s"}
+            %img.img-polaroid{:src => "/images/talks/d3-presentation.jpg", :title => "Introduction to D3: Data Driven Documents"}
 
-    .span4
-      %a{:href => "http://blog.cookcountygov.com/opencc/live-streaming-event-changing-the-code-government-data-and-digital-entrepreneurship/"}
-        %img.img-polaroid{:src => "/images/talks/changing-the-code.jpg", :title => "Changing The Code: Government Data And Digital Entrepreneurship"}
-        %h4
-          Changing The Code: Government Data and Digital Entrepreneurship
-      %strong
-        April 25, 2012 
-        | 
-        Cook County
-      %p
-        A 60-minute webinar on how government data can offer new opportunities to digital entrepreneurs and startups.
+      .row-fluid
+        .span7
+          %a{:href => "http://pyvideo.org/video/973/big-data-de-duping"}
+            %h4
+              Big Data Deduping
+          %strong
+            June 14, 2012 
+            | 
+            ChiPy
+          %p
+            Joint presentation at the
+            %a{:href => "http://chipy.org"} ChiPy meetup
+            with 
+            %a{:href => "http://www.bunkum.us"} Forest Gregg 
+            on
+            = succeed ',' do
+              %a{:href => "https://github.com/open-city/dedupe"} Dedupe
+            an open source Python library we have developed for deduplicating tabular data, quickly, accurately, and on a large scale.
+            Follow along with our 
+            = succeed '.' do
+              %a{:href => 'https://docs.google.com/presentation/d/1i2q8BP9OvH8G_okrJtdw9u8XVc7EAEkdk_nIRCLxxU8/edit#slide=id.g11c3aeda_0_0'} presentation slides
+        .span4
+          %a{:href => "http://pyvideo.org/video/973/big-data-de-duping"}
+            %img.img-polaroid{:src => "/images/talks/dedupe-chipy.jpg", :title => "Big Data De-Duping"}
 
-    .span4
-      %a{:href => "http://chicagotonight.wttw.com/2012/01/31/chicago-data-apps"}
-        %img.img-polaroid{:src => "/images/talks/chicago-tonight.jpg", :title => "Chicago Data Apps Panel Discussion"}
-        %h4
-          Chicago Data Apps Panel Discussion
-      %strong
-        January 31, 2012 
-        | 
-        %em Chicago Tonight
-      %p
-        A panel discussion on open data and apps built with them. Hosted by Phil Ponce, featuring Chicago CTO John Tolva, Chad W. Pry and me.
+      .row-fluid
+        .span7
+          %a{:href => "http://www.newberry.org/05172012-chicago-map-society-derek-eder-mapping-open-data"}
+            %h4
+              Chicago Map Society: Mapping Open Data
+          %strong
+            May 17, 2012 
+            | 
+            Chicago Map Society
+          %p
+            At this monthly meetup, I gave an overview of some of the open source mapping projects I've worked on with 
+            %a{:href => 'http://opencityapps.org'} Open City 
+            and independently. Sorry, no video for this one, but my 
+            %a{:href => 'https://docs.google.com/document/d/18T29pNhOrSxAnboBPoym_T-PoXvqUbkdLHXbfGl3kCw/edit'} presentation notes 
+            are available.
+        .span4
+          %a{:href => "http://www.newberry.org/05172012-chicago-map-society-derek-eder-mapping-open-data"}
+            %img.img-polaroid{:src => "/images/talks/map-society-newberry.gif", :title => "The Newberry Library"}
 
-    .clearfix
+      .row-fluid
+        .span7
+          %a{:href => "http://blog.cookcountygov.com/opencc/live-streaming-event-changing-the-code-government-data-and-digital-entrepreneurship/"}
+            %h4
+              Changing The Code: Government Data and Digital Entrepreneurship
+          %strong
+            April 25, 2012 
+            | 
+            Cook County
+          %p
+            A 60-minute webinar on how government data can offer new opportunities to digital entrepreneurs and startups. Also featuring former Cook County CIO 
+            = succeed ',' do
+              %a{:href => 'http://www.linkedin.com/in/gregwass'} Greg Wass
+            Cook County Director of Capital Planning 
+            = succeed ',' do
+              %a{:href => 'http://www.linkedin.com/pub/john-cooke/3/127/7aa'} John Cooke
+            %a{:href => 'http://www.linkedin.com/in/snewell4'} Stephen Newell 
+            from IBM, Executive Director of the
+            %a{:href => 'http://www.smartchicagocollaborative.org'} Smart Chicago Collaborative
+            Daniel X. O'Neil, and 
+            %a{:href => 'http://spothero.com/'} SpotHero 
+            co-founder Jeremy Smith.
+              
+        .span4
+          %a{:href => "http://blog.cookcountygov.com/opencc/live-streaming-event-changing-the-code-government-data-and-digital-entrepreneurship/"}
+            %img.img-polaroid{:src => "/images/talks/changing-the-code.jpg", :title => "Changing The Code: Government Data And Digital Entrepreneurship"}
 
-    .span4
-      %a{:href => "http://vimeo.com/20541738"}
-        %img.img-polaroid{:src => "/images/talks/refresh-chicago.jpg", :title => "Creating Searchable Maps with Google Fusion Tables"}
-        %h4
-          Creating Searchable Maps with Google Fusion Tables
-      %strong
-        March 1, 2011
-        | 
-        %em Refresh Chicago
-      %p
-        An introduction to Google
-        %a{:href => "http://www.google.com/fusiontables"} Fusion Tables
-        at the 
-        %a{:href => "http://www.meetup.com/Refresh-Chicago/"} Refresh Chicago 
-        Meetup.
-        %a{:href => 'http://prezi.com/hxdh-e0hewei/creating-searchable-maps-with-google-fusion-tables/?res_nr=1&sis=1085742322'} Presentation slides
+      .row-fluid
+        .span7
+          %a{:href => "http://chicagotonight.wttw.com/2012/01/31/chicago-data-apps"}
+            %h4
+              Chicago Data Apps Panel Discussion
+          %strong
+            January 31, 2012 
+            | 
+            %em Chicago Tonight
+          %p
+            A panel discussion on open data and apps built with them. Several of our 
+            Open City 
+            projects were discussed, namely 
+            = succeed ',' do
+              %a{:href => 'http://chicagolobbyists.org/'} Chicago Lobbyists
+            %a{:href => 'http://lookatcook.com/'} Look at Cook
+            and 
+            = succeed '.' do
+              %a{:href => 'http://clearstreets.org/'} ClearStreets
+            Hosted by Chicago Tonight's Phil Ponce, featuring Chicago CTO 
+            = succeed ',' do
+              %a{:href => 'http://www.ascentstage.com/'} John Tolva
+            %a{:href => 'http://about.me/pry'} Chad W. Pry
+            and me.
+        .span4
+          %a{:href => "http://chicagotonight.wttw.com/2012/01/31/chicago-data-apps"}
+            %img.img-polaroid{:src => "/images/talks/chicago-tonight.jpg", :title => "Chicago Data Apps Panel Discussion"}
 
-  .row
-    .span8
-      %h3 Upcoming
+      .row-fluid
+        .span7
+          %a{:href => "http://vimeo.com/20541738"}
+            %h4
+              Creating Searchable Maps with Google Fusion Tables
+          %strong
+            March 1, 2011
+            | 
+            Refresh Chicago
+          %p
+            An introduction to Google
+            %a{:href => "http://www.google.com/fusiontables"} Fusion Tables
+            at the 
+            %a{:href => "http://www.meetup.com/Refresh-Chicago/"} Refresh Chicago 
+            Meetup.
+            %a{:href => 'http://prezi.com/hxdh-e0hewei/creating-searchable-maps-with-google-fusion-tables/?res_nr=1&sis=1085742322'} Presentation slides
+        .span4
+          %a{:href => "http://vimeo.com/20541738"}
+            %img.img-polaroid{:src => "/images/talks/refresh-chicago.jpg", :title => "Creating Searchable Maps with Google Fusion Tables"}
 
-      %ul
-        %li
-          %a{:href => 'http://collegemedia12.com/schedule/friday/'} Searchable Maps with Google Fusion Tables
-          %br
-          National College Media Convention
-          %br
-          Nov 2nd, 2012
+      .row
+        .span8
+          %hr
+          %h2 Upcoming
 
-        %li
-          %a{:href => 'http://spj.org/journcamp.asp'} Data 101: Mapping Visualizations and Using Google Fusion Tables: Skills for All Journalists 
-          %br
-          JournCamp 
-          %br
-          Nov 9th, 2012
+      .row-fluid
+        .span7
+          %a{:href => 'http://collegemedia12.com/schedule/friday/'}
+            %h4
+              Searchable Maps with Google Fusion Tables
+          %strong
+            Nov 2nd, 2012
+            | 
+            National College Media Convention
+        .span4
+          %a{:href => "http://collegemedia12.com/schedule/friday/"}
+            %img.img-polaroid{:src => "/images/talks/college-media-convention-1.jpg", :title => "National College Media Convention"}
+          
 
-        %li
-          %a{:href => 'http://www.planning.org/conference/'} Panel presentation on civic hacking
-          %br
-          American Planning Association Conference
-          %br
-          April 13-17th, 2013
+      .row-fluid
+        .span7
+          %a{:href => 'http://spj.org/journcamp.asp'}
+            %h4
+              Data 101: Mapping Visualizations and Using Google Fusion Tables: Skills for All Journalists
+          %strong
+            Nov 9th, 2012
+            | 
+            JournCamp
+        .span4
+          %a{:href => "http://spj.org/journcamp.asp"}
+            %img.img-polaroid{:src => "/images/talks/journcamp.png", :title => "JournCamp"}
+
+      .row-fluid
+        .span7
+          %a{:href => 'http://www.planning.org/conference/'}
+            %h4
+              Panel presentation on civic hacking
+          %strong
+            April 13-17th, 2013
+            | 
+            American Planning Association Conference
+        .span4
+          %a{:href => "http://www.planning.org/conference/"}
+            %img.img-polaroid{:src => "/images/talks/apa.jpg", :title => "American Planning Association"}

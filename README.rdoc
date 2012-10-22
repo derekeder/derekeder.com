@@ -2,7 +2,7 @@
 
 Simple site template using Ruby, Sinatra and Haml with tie-ins to Heroku and Google Analytics.
 
-Based on [Derek Eder's site template](https://github.com/derekeder/site-template)
+Based on Derek Eder's site template https://github.com/derekeder/site-template
 
 == Installation
 

@@ -15,14 +15,14 @@ Based on Derek Eder's site template https://github.com/derekeder/site-template
 
 == Dependencies
 
-* {Ruby 1.9.3}[http://www.ruby-lang.org/en/downloads]
-* {Sinatra}[http://www.sinatrarb.com]
-* {Haml}[http://haml.info]
-* {Heroku}[http://www.heroku.com]
-* {Twitter Bootstrap}[http://twitter.github.com/bootstrap]
-* {Google Analytics}[http://www.google.com/analytics]
+  {Ruby 1.9.3}[http://www.ruby-lang.org/en/downloads]
+  {Sinatra}[http://www.sinatrarb.com]
+  {Haml}[http://haml.info]
+  {Heroku}[http://www.heroku.com]
+  {Twitter Bootstrap}[http://twitter.github.com/bootstrap]
+  {Google Analytics}[http://www.google.com/analytics]
 
 == Errors / Bugs
 
 If something is not behaving intuitively, it is a bug, and should be reported.
-Report it here: https://github.com/derekeder/site-template/issues
+Report it here: https://github.com/derekeder/derekeder.com/issues

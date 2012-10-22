@@ -15,7 +15,7 @@ Based on {Derek Eder's site template}[https://github.com/derekeder/site-template
 
 == Dependencies
 
-*{Ruby 1.9.3}[http://www.ruby-lang.org/en/downloads]
+* {Ruby 1.9.3}[http://www.ruby-lang.org/en/downloads]
 * {Sinatra}[http://www.sinatrarb.com]
 * {Haml}[http://haml.info]
 * {Heroku}[http://www.heroku.com]

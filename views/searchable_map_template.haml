@@ -91,10 +91,76 @@
 .row-fluid
   .span12
     %hr
+    %h3#heroku
+      %span.label.label-success New!
+      Searchable Map Template - Heroku Ready
+
+    %p 
+      For those of you feeling a bit more adventurous, I have created an advanced template using Ruby, Haml, Sinatra and Heroku. Here's what it gets you out of the box:
+
+      %ul
+        %li 
+          Free hosting on 
+          %a{:href => 'http://heroku.com'} Heroku
+        %li 
+          Access to the 
+          %a{:href => 'https://github.com/tokumine/fusion_tables'} fusion_tables gem 
+          for accessing Fusion Tables in more advanced ways
+        %li 
+          Ability to drive detail pages or creating/updating/inserting in to Fusion Tables
+
+.row-fluid
+  .span6
+    %dl
+      %dt
+        %a.btn.btn-primary{:href => "https://github.com/derekeder/FusionTable-Map-Template-Heroku"}
+          Get it on Github
+          %i.icon-download-alt.icon-white
+        %a.btn{:href => "https://github.com/derekeder/FusionTable-Map-Template-Heroku/zipball/master"} 
+          Zip
+          %i.icon-download-alt
+      %dd
+        %p Get started on your own map!
+
+      %dt
+        %a.btn.btn-success{:href => "http://searchable-map-template.herokuapp.com/"}
+          View the demo
+          %i.icon-map-marker.icon-white
+      %dd
+        %p Working example of the above demo
+
+      %dt
+        %a.btn.btn-info{:href => "https://github.com/derekeder/FusionTable-Map-Template-Heroku#searchable-map-template---heroku-ready"}
+          Read the instructions
+          %i.icon-info-sign
+      %dd
+        %p
+          Requires  
+          %a{:href => 'http://www.ruby-lang.org/en/downloads/'} Ruby 
+          and 
+          %a{:href => 'http://gembundler.com/'} Bundler
+    %p
+      Copyright © 2012 Derek Eder
+      %br/
+      %a{:href => "https://github.com/derekeder/FusionTable-Map-Template-Heroku/wiki/License"} View license
+
+  .span6
+    %a{:href => "http://searchable-map-template.herokuapp.com/"}
+      %img.img-polaroid{:alt => "Searchable map template - Heroku ready demo", :src => "/images/screenshots/searchable-template-heroku.jpg", :title => "Searchable map template - Heroku ready screenshot"}
+      %h4 View the demo
+
+
+
+.row-fluid
+  .span12
+    %hr
     %h3 Working examples
 
     %p Quite a few other people have used this template for their own projects. I try to keep track of them here:
     %ul
+      %li
+        %a{:href => "http://earlyvote.kalov.net/"} Chicago and Cook County Early Voting Locations
+        \- Josh Kalov
       %li
         %a{:href => "http://cps.edu/ChildrenFirst/Pages/ChildrenFirstLocator.aspx"} Children First Site Locator
         \- Ted Canji,

@@ -3,7 +3,11 @@ layout: post
 title: Hello World! Setting up a Jekyll blog in Sinatra
 ---
 
+{% excerpt %}
 
+This is a test.
+
+{% endexcerpt %}
 
 {% highlight ruby tabsize=2 %}
  
@@ -20,7 +24,7 @@ def jekyll_blog(path, &missing_file_block)
 
   file_path = File.join(File.dirname(__FILE__), 'jekyll_blog/_site',  path.gsub('/blog',''))
   file_path = File.join(file_path, 'index.html') unless file_path =~ /\.[a-z]+$/i  
-  
+
   if File.exist?(file_path)
     file = File.open(file_path, "rb")
     contents = file.read

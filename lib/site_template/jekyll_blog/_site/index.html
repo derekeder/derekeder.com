@@ -8,50 +8,12 @@
       <a href="/blog/2012/10/29/hello-world-setting-up-a-jekyll-blog-in-sinatra">Hello World! Setting up a Jekyll blog in Sinatra</a>
       <!-- <small><a href="/blog/2012/10/29/hello-world-setting-up-a-jekyll-blog-in-sinatra#disqus_thread">comments</a></small> -->
     </h3>
-    <p>29 Oct 2012</p>
+    <p class='lead muted'>29 Oct 2012</p>
     
     
+        <p>This is a test.</p>
 
-<div class="highlight"><pre><code class="ruby"> 
-<span class="n">get</span> <span class="s2">&quot;/blog/?*&quot;</span> <span class="k">do</span>
-  <span class="n">jekyll_blog</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">path</span><span class="p">)</span> <span class="p">{</span><span class="mi">404</span><span class="p">}</span>
-<span class="k">end</span>
-</code></pre>
-</div>
-
-
-
-
-<div class="highlight"><pre><code class="ruby"> 
-<span class="k">def</span> <span class="nf">jekyll_blog</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">missing_file_block</span><span class="p">)</span>
-  <span class="vi">@current_menu</span> <span class="o">=</span> <span class="s2">&quot;blog&quot;</span>
-  <span class="vi">@title</span> <span class="o">=</span> <span class="s2">&quot;Blog - Derek Eder&quot;</span>
-
-  <span class="n">file_path</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="no">File</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="bp">__FILE__</span><span class="p">),</span> <span class="s1">&#39;jekyll_blog/_site&#39;</span><span class="p">,</span>  <span class="n">path</span><span class="o">.</span><span class="n">gsub</span><span class="p">(</span><span class="s1">&#39;/blog&#39;</span><span class="p">,</span><span class="s1">&#39;&#39;</span><span class="p">))</span>
-  <span class="n">file_path</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s1">&#39;index.html&#39;</span><span class="p">)</span> <span class="k">unless</span> <span class="n">file_path</span> <span class="o">=~</span> <span class="sr">/\.[a-z]+$/i</span>  
-  <span class="nb">puts</span> <span class="n">file_path</span>
-  <span class="k">if</span> <span class="no">File</span><span class="o">.</span><span class="n">exist?</span><span class="p">(</span><span class="n">file_path</span><span class="p">)</span>
-    <span class="n">file</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s2">&quot;rb&quot;</span><span class="p">)</span>
-    <span class="n">contents</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span>
-    <span class="n">file</span><span class="o">.</span><span class="n">close</span>
-
-    <span class="k">if</span> <span class="n">file_path</span><span class="o">.</span><span class="n">include?</span> <span class="s1">&#39;.xml&#39;</span>
-      <span class="n">erb</span> <span class="n">contents</span><span class="p">,</span> <span class="ss">:content_type</span> <span class="o">=&gt;</span> <span class="s1">&#39;text/xml&#39;</span>
-    <span class="k">else</span>
-      <span class="n">erb</span> <span class="n">contents</span><span class="p">,</span> <span class="ss">:layout_engine</span> <span class="o">=&gt;</span> <span class="ss">:haml</span>
-    <span class="k">end</span>
-  <span class="k">else</span>
-    <span class="n">haml</span> <span class="ss">:not_found</span>
-  <span class="k">end</span>
-<span class="k">end</span>
-</code></pre>
-</div>
-
-
-<p>This is a test post writen in markdown. To learn more about markdown check out the <a href="http://daringfireball.net/projects/markdown/">documentation</a> on <a href="http://daringfireball.net/">Daring Fireball</a>.</p>
-
-<p><a href='http://www.google.com'><img class='img-polaroid' src='/images/derek.jpg' title='This is just a test title.' alt='Something descriptive'></a></p>
-
+    
 
     <!-- AddThis Button BEGIN -->
     <div class="addthis_toolbox addthis_default_style " 

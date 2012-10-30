@@ -69,13 +69,12 @@ module SiteTemplate
 
       file_path = File.join(File.dirname(__FILE__), 'jekyll_blog/_site',  path.gsub('/blog',''))
       file_path = File.join(file_path, 'index.html') unless file_path =~ /\.[a-z]+$/i  
-      puts file_path
       if File.exist?(file_path)
         file = File.open(file_path, "rb")
         contents = file.read
         file.close
 
-        if file_path.include? '.xml'
+        if (file_path.include?('.xml') || file_path.include?('.css'))
           erb contents, :content_type => 'text/xml'
         else
           erb contents, :layout_engine => :haml

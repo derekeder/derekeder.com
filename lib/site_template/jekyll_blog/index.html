@@ -13,6 +13,7 @@ title: Blog
       <a href="/blog{{ post.url }}">{{ post.title }}</a>
       <!-- <small><a href="/blog{{ post.url }}#disqus_thread">comments</a></small> -->
     </h3>
+    <p>{{ post.date | date_to_string }}</p>
     
     {{ post.content }}
 
@@ -28,26 +29,28 @@ title: Blog
     <hr />
 {% endfor %}
 
-<p><a href='/blog/atom.xml'><img src='/images/icons/rss.png' alt='Subscribe to RSS' /> Subscribe</a></p>
-
 <!-- Pagination links -->
 <!-- <div class="pagination">
+  <ul>
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
-      <a href="/blog/" class="previous">Previous</a>
+      <li><a href="/blog/" class="previous">Previous</a></li>
     {% else %}
-      <a href="/blog/page{{paginator.previous_page}}" class="previous">Previous</a>
+      <li><a href="/blog/page{{paginator.previous_page}}" class="previous">Previous</a></li>
     {% endif %}
   {% else %}
-    <span class="previous">Previous</span>
+    <li class='disabled'><a href="/blog/" class="previous">Previous</a></li>
   {% endif %}
-  <span class="page_number ">Page: {{paginator.page}} of {{paginator.total_pages}}</span>
+  <li class="disabled"><a href=''>Page: {{paginator.page}} of {{paginator.total_pages}}</a></li>
   {% if paginator.next_page %}
-    <a href="/blog/page{{paginator.next_page}}" class="next ">Next</a>
+    <li><a href="/blog/page{{paginator.next_page}}">Next</a></li>
   {% else %}
-    <span class="next ">Next</span>
+    <li class='disabled'><a href="/blog/page{{paginator.next_page}}">Next</a></li>
   {% endif %}
+  </ul>
 </div> -->
+
+<p><a href='/blog/atom.xml'><img src='/images/icons/rss.png' alt='Subscribe to RSS' /> Subscribe</a></p>
 
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */

@@ -4,3 +4,4 @@ permalink: /:year/:month/:day/:title
 rdiscount extensions: [smart]
 baseurl: /blog
 paginate: 5
+pygments: true

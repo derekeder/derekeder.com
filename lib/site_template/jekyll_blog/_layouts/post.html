@@ -2,8 +2,10 @@
 layout: nil
 ---
 
-<h2>{{ page.title }}</h2>
-<p class='lead muted'>{{ page.date | date_to_string }}</p>
+<h2>
+  {{ page.title }}
+  <small>{{ page.date | date_to_string }}</small>
+</h2>
 {{ content }}
 
 <hr />

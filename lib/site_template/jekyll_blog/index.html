@@ -5,31 +5,24 @@ title: Blog
 
 <h2>
   Blog
-  <small>Stories and tutorials on open - [ gov | data | source ]</small>
+  <small>Stories and tutorials from the open-[gov | data | source] world</small>
 </h2>
 
 {% for post in paginator.posts %}
     <h3>
+      <small>{{ post.date | date_to_string }}<br /></small>
       <a href="/blog{{ post.url }}">{{ post.title }}</a>
       <!-- <small><a href="/blog{{ post.url }}#disqus_thread">comments</a></small> -->
+      
     </h3>
-    <p class='lead muted'>{{ post.date | date_to_string }}</p>
     
     {% if post.excerpt %}
         {{ post.excerpt | markdownify }}
+        <a href="/blog{{ post.url }}">Read more &raquo;</a>
     {% else %}
         {{ post.content }}
     {% endif %}
 
-    <!-- AddThis Button BEGIN -->
-    <div class="addthis_toolbox addthis_default_style " 
-      addthis:url="http://blog.chicagolobbyists.org{{ post.url }}"
-        addthis:title="{{ post.title }}">
-    <a class="addthis_button_tweet"></a>
-    <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-    </div>
-    <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=xa-508f02450809cc4d"></script>
-    <!-- AddThis Button END -->
     <hr />
 {% endfor %}
 

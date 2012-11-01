@@ -89,6 +89,7 @@ module SiteTemplate
       begin 
         @current_menu = params[:page]
         @title = params[:page].capitalize.gsub(/[_-]/, " ") + " - Derek Eder"
+        @page_path = params[:page]
         haml params[:page].to_sym
       rescue Errno::ENOENT
         haml :not_found

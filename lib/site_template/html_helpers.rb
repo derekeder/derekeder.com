@@ -72,5 +72,10 @@ module SiteTemplate
     def current_menu_class(menu_name)
       return "active" if current_menu == menu_name
     end
+
+    def view_page_source(page)
+      return "https://github.com/derekeder/derekeder.com/blob/master/views/#{page}.haml"
+    end
+
   end
 end

@@ -102,6 +102,9 @@
       
     %footer.footer
       .span12
+        / %p.pull-left
+        /   - unless @page_path.nil?
+        /     = link_to "See this page on Github", view_page_source(@page_path)
         %p.pull-right
           %a{:href => "https://twitter.com/derek_eder"} @derek_eder
           |

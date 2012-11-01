@@ -4,7 +4,7 @@
   <title>derekeder.com/blog</title>
   <link href="http://derekeder.com/blog/"/>
   <link type="application/atom+xml" rel="self" href="http://derekeder.com/blog/atom.xml"/>
-  <updated>2012-11-01T17:04:00-05:00</updated>
+  <updated>2012-11-01T17:33:07-05:00</updated>
   <id>http://derekeder.com/blog/</id>
   <author>
     <name>Derek Eder's Blog</name>
@@ -24,6 +24,10 @@
     <content type="html">&lt;p&gt;&lt;a href='http://jekyllrb.com'&gt;&lt;img class='img-polaroid' src='http://derekeder.com/images/blog/jekyll.jpg' title='Jekyll' alt='Jekyll'&gt;&lt;/a&gt; + &lt;a href='http://sinatrarb.com'&gt;&lt;img class='img-polaroid' src='http://derekeder.com/images/blog/sinatra.jpg' title='Sinatra' alt='Sinatra'&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I'm going meta on my first blog post: how to set up a &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; blog inside a &lt;a href=&quot;http://www.sinatrarb.com/&quot;&gt;Sinatra&lt;/a&gt; app. A &lt;a href=&quot;http://recursive-design.com/blog/2010/10/12/static-blogging-the-jekyll-way/&quot;&gt;few&lt;/a&gt; &lt;a href=&quot;http://mikeferrier.com/2011/04/29/blogging-with-jekyll-haml-sass-and-jammit/&quot;&gt;people&lt;/a&gt; have &lt;a href=&quot;http://danielmcgraw.com/2011/04/14/The-Ultimate-Guide-To-Getting-Started-With-Jekyll-Part-1/&quot;&gt;written&lt;/a&gt; on this &lt;a href=&quot;http://www.engineyard.com/blog/2012/introducing-bloggy-a-simple-way-to-add-a-jekyll-blog-to-any-rails-application/&quot;&gt;topic&lt;/a&gt;, but I had some specific requirements that no one addressed. So my goal here is to write the post I wish existed when I started out. Here it goes.&lt;/p&gt;
+
+&lt;h3&gt;The goal&lt;/h3&gt;
+
+&lt;p&gt;I have an existing Sinatra site and I want to add a blog section to it.&lt;/p&gt;
 
 &lt;p&gt;My existing site is written in Ruby with the &lt;a href=&quot;http://www.sinatrarb.com/&quot;&gt;Sinatra&lt;/a&gt; web framework. I don't want Jekyll to take over my whole application, rather just a certain part of it (the &lt;a href=&quot;/blog&quot;&gt;/blog&lt;/a&gt; section). Thankfully, this is possible AND I can reuse my layout.haml (header, footer, styles, etc) for the blog pages. Here's how:&lt;/p&gt;
 

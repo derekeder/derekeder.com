@@ -19,6 +19,9 @@ I'm going meta on my first blog post: how to set up a [Jekyll](http://jekyllrb.c
 
 {% endexcerpt %}
 
+### The goal
+I have an existing Sinatra site and I want to add a blog section to it.
+
 My existing site is written in Ruby with the [Sinatra](http://www.sinatrarb.com/) web framework. I don't want Jekyll to take over my whole application, rather just a certain part of it (the [/blog](/blog) section). Thankfully, this is possible AND I can reuse my layout.haml (header, footer, styles, etc) for the blog pages. Here's how:
 
 ### Installing Jekyll

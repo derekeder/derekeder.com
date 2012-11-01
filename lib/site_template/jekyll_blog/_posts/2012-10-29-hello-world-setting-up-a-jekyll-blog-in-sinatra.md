@@ -112,7 +112,7 @@ Jekyll supports [Markdown](http://daringfireball.net/projects/markdown/), which 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'your-site-name'; // required: replace example with your forum shortname
+    var disqus_shortname = 'YOUR SITE'; // required: replace example with your forum shortname
   var disqus_identifier = '{{ page.id }}';
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -130,11 +130,11 @@ Social media! Everyone loves it. An easy way to offer sharing links for your pos
 
 {% highlight html %}
 <!-- AddThis Button BEGIN -->
-<div class="addthis_toolbox addthis_default_style ">
+<div class="addthis_toolbox addthis_default_style " addthis:title="{{ page.title }}" addthis:url="http://[YOUR SITE]/blog{{ page.url }}">
 <a class="addthis_button_tweet"></a>
 <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
 </div>
-<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=xa-508f02450809cc4d"></script>
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=[YOUR ID]"></script>
 <!-- AddThis Button END -->
 {% endhighlight %}
 

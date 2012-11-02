@@ -20,9 +20,7 @@ I'm going meta on my first blog post: how to set up a [Jekyll](http://jekyllrb.c
 {% endexcerpt %}
 
 ### The goal
-I have an existing Sinatra site and I want to add a blog section to it.
-
-My existing site is written in Ruby with the [Sinatra](http://www.sinatrarb.com/) web framework. I don't want Jekyll to take over my whole application, rather just a certain part of it (the [/blog](/blog) section). Thankfully, this is possible AND I can reuse my layout.haml (header, footer, styles, etc) for the blog pages. Here's how:
+I have an existing Sinatra site and I want to add a blog section to it. I don't want Jekyll to take over my whole application, rather just a certain part of it (the [/blog](/blog) section). Thankfully, this is possible AND I can reuse my layout.haml (header, footer, styles, etc) for the blog pages. Here's how:
 
 ### Installing Jekyll
 
@@ -48,7 +46,21 @@ cd jekyll_blog
 rm -rf .git
 {% endhighlight %}
 
-You should also check out \_config.yml. It has all of your [Jekyll configuration](https://github.com/mojombo/jekyll/wiki/Configuration), which is worth understanding to get the most out of it. Once you get it configured, go ahead and run Jekyll for the first time to generate your static pages in to \_site for the first time.
+You should also check out \_config.yml. It has all of your [Jekyll configuration](https://github.com/mojombo/jekyll/wiki/Configuration), which is worth understanding to get the most out of it. Here's mine:
+
+{% highlight yaml %}
+auto: true
+server: false
+markdown: rdiscount
+permalink: /:title
+baseurl: /blog
+rdiscount extensions: [smart]
+paginate: 5
+future: false
+pygments: true
+{% endhighlight %}
+
+Once you get it configured, go ahead and run Jekyll for the first time to generate your static pages in to \_site for the first time.
 
 {% highlight bash %}
 Jekyll

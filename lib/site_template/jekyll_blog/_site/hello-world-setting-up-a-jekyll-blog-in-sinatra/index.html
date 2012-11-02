@@ -8,9 +8,7 @@
 
 <h3>The goal</h3>
 
-<p>I have an existing Sinatra site and I want to add a blog section to it.</p>
-
-<p>My existing site is written in Ruby with the <a href="http://www.sinatrarb.com/">Sinatra</a> web framework. I don't want Jekyll to take over my whole application, rather just a certain part of it (the <a href="/blog">/blog</a> section). Thankfully, this is possible AND I can reuse my layout.haml (header, footer, styles, etc) for the blog pages. Here's how:</p>
+<p>I have an existing Sinatra site and I want to add a blog section to it. I don't want Jekyll to take over my whole application, rather just a certain part of it (the <a href="/blog">/blog</a> section). Thankfully, this is possible AND I can reuse my layout.haml (header, footer, styles, etc) for the blog pages. Here's how:</p>
 
 <h3>Installing Jekyll</h3>
 
@@ -39,7 +37,22 @@ rm -rf .git
 </div>
 
 
-<p>You should also check out _config.yml. It has all of your <a href="https://github.com/mojombo/jekyll/wiki/Configuration">Jekyll configuration</a>, which is worth understanding to get the most out of it. Once you get it configured, go ahead and run Jekyll for the first time to generate your static pages in to _site for the first time.</p>
+<p>You should also check out _config.yml. It has all of your <a href="https://github.com/mojombo/jekyll/wiki/Configuration">Jekyll configuration</a>, which is worth understanding to get the most out of it. Here's mine:</p>
+
+<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">auto</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">true</span>
+<span class="l-Scalar-Plain">server</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">false</span>
+<span class="l-Scalar-Plain">markdown</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">rdiscount</span>
+<span class="l-Scalar-Plain">permalink</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/:title</span>
+<span class="l-Scalar-Plain">baseurl</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/blog</span>
+<span class="l-Scalar-Plain">rdiscount extensions</span><span class="p-Indicator">:</span> <span class="p-Indicator">[</span><span class="nv">smart</span><span class="p-Indicator">]</span>
+<span class="l-Scalar-Plain">paginate</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">5</span>
+<span class="l-Scalar-Plain">future</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">false</span>
+<span class="l-Scalar-Plain">pygments</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">true</span>
+</code></pre>
+</div>
+
+
+<p>Once you get it configured, go ahead and run Jekyll for the first time to generate your static pages in to _site for the first time.</p>
 
 <div class="highlight"><pre><code class="bash">Jekyll
 </code></pre>

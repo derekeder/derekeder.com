@@ -4,13 +4,88 @@
   <title>derekeder.com/blog</title>
   <link href="http://derekeder.com/blog/"/>
   <link type="application/atom+xml" rel="self" href="http://derekeder.com/blog/atom.xml"/>
-  <updated>2012-11-01T23:11:12-05:00</updated>
+  <updated>2012-11-14T10:11:54-06:00</updated>
   <id>http://derekeder.com/blog/</id>
   <author>
     <name>Derek Eder's Blog</name>
     <email>derek.eder@gmail.com</email>
   </author>
 
+  
+  <entry>
+    <id>http://derekeder.com/blog/how-chicago-public-schools-succeeded-with-open-source-software</id>
+    <link type="text/html" rel="alternate" href="http://derekeder.com/blog/how-chicago-public-schools-succeeded-with-open-source-software"/>
+    <title>How Chicago Public Schools Succeeded with Open Source Software</title>
+    <updated>2012-11-14T00:00:00-06:00</updated>
+    <author>
+      <name>Derek Eder</name>
+      <uri>http://derekeder.com/blog/</uri>
+    </author>
+    <content type="html">&lt;p&gt;&lt;a href='http://cps.edu/map'&gt;&lt;img class='img-polaroid' src='http://derekeder.com/images/blog/cps-locator/cps-locator.jpg' title='Jekyll' alt='Jekyll'&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This article was also published on Nov 12th on the Huffington Post under the title &lt;a href=&quot;http://www.huffingtonpost.com/derek-eder/chicago-public-schools-locator-map_b_2119284.html&quot;&gt;Hacking Chicago&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;On August 17, 2012, Chicago Public Schools (CPS) launched a new version of their &lt;a href=&quot;http://cps.edu/map&quot;&gt;School Locator&lt;/a&gt; - an online map that helps parents find public schools for their kids. Unlike the map that came before it, this one is intuitive, easy to use, and took half the time to build.&lt;/p&gt;
+
+&lt;p&gt;How was CPS able to accomplish this?&lt;/p&gt;
+
+&lt;p&gt;By doing it in-house and using open source software.&lt;/p&gt;
+
+&lt;h3&gt;The backstory&lt;/h3&gt;
+
+&lt;p&gt;Governments usually build web apps like this one by hiring private contractors through a process called &lt;a href=&quot;http://en.wikipedia.org/wiki/Procurement&quot;&gt;procurement&lt;/a&gt;. They publish a ‘“request for proposals” describing the project, and companies bid for the contract. Procurement is long and bureaucratic, often leading to inflated bids by a small group of companies that know how to navigate the process.&lt;/p&gt;
+
+&lt;p&gt;In 2003, CPS paid a contractor $15,000 to design the original School Locator app. It took them four months to build:&lt;/p&gt;
+
+&lt;p&gt;&lt;img class='img-polaroid' src='http://derekeder.com/images/blog/cps-locator/cps-locator-old.jpg' title='The Previous CPS School Locator' alt='The Previous CPS School Locator'&gt;&lt;/p&gt;
+
+&lt;p&gt;The Previous CPS School Locator&lt;/p&gt;
+
+&lt;p&gt;Over the years, the internet marched on, but the map stood still. Despite getting thousands of daily hits, it was hard to use and not up to the standards parents had come to expect from other websites.&lt;/p&gt;
+
+&lt;p&gt;To top it off, there was nobody left at CPS who knew how the map worked, or how to update it.&lt;/p&gt;
+
+&lt;p&gt;A redesign of the map was sorely needed. CPS was left with a choice: hire another contractor through procurement, or try to it in-house.&lt;/p&gt;
+
+&lt;h3&gt;Enter Open City&lt;/h3&gt;
+
+&lt;p&gt;In March of 2012, civic hackers at &lt;a href=&quot;http://opencityapps.org/&quot;&gt;Open City&lt;/a&gt; (myself included) launched &lt;a href=&quot;http://cpstiers.opencityapps.org&quot;&gt;Chicago Public School Tiers&lt;/a&gt;, an app to help parents enroll their kids in Chicago’s selective schools.&lt;/p&gt;
+
+&lt;p&gt;In Chicago, selective schools only admit a certain number of students from each of the city’s four socioeconomic “tiers.” What tier you live in really affects which schools you should apply to. But before we built the app, finding your tier was a huge ordeal.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://cpstiers.opencityapps.org'&gt;&lt;img class='img-polaroid' src='http://derekeder.com/images/blog/cps-locator/cps-tiers.jpg' title='Chicago Public School Tiers Website by Open City' alt='Chicago Public School Tiers Website by Open City'&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Chicago Public School Tiers Website by Open City&lt;/p&gt;
+
+&lt;p&gt;We built the app using free Google tools: &lt;a href=&quot;https://developers.google.com/maps/documentation/javascript/&quot;&gt;Google Maps&lt;/a&gt; to gave us an interactive map of Chicago, and &lt;a href=&quot;http://www.google.com/fusiontables/Home/&quot;&gt;Fusion Tables&lt;/a&gt; stored the locations of the city’s CPS tiers.&lt;/p&gt;
+
+&lt;p&gt;Moreover, CPS Tiers is open source software, which means anybody can reuse &lt;a href=&quot;https://github.com/open-city/cps-tiers&quot;&gt;the code that powers the app&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The map’s ease of use and value to parents attracted CPS’s attention. If a group of civic hackers could put together a useful tool for parents in their spare time, could they do the same?&lt;/p&gt;
+
+&lt;h3&gt;“Here goes nuthin’!”&lt;/h3&gt;
+
+&lt;p&gt;Alex Soble, CPS Director of Social Media, wanted to find out. He asked CPS web developers Jay Van Patten and Ted Canji to look into the &lt;a href=&quot;http://derekeder.com/searchable_map_template/&quot;&gt;free map template&lt;/a&gt; that powers CPS Tiers, and they used it build a functional prototype of the School Locator map in under three days.&lt;/p&gt;
+
+&lt;p&gt;By avoiding procurement, Jay and Ted had time to get feedback on the app from CPS staff, parents and Chicago technologists, leading to a better product.&lt;/p&gt;
+
+&lt;p&gt;On August 17th - just eight weeks after starting the project - CPS launched its new School Locator map, to &lt;a href=&quot;http://storify.com/alexsoble/reactions-to-cps-s-new-school-locator-tool&quot;&gt;rave reviews&lt;/a&gt; from CPS parents and students.&lt;/p&gt;
+
+&lt;h3&gt;Takeaways&lt;/h3&gt;
+
+&lt;p&gt;What can we learn from this tale?&lt;/p&gt;
+
+&lt;p&gt;Parents and students won. They now have an intuitive tool to help them navigate Chicago’s schools. This is a tiny victory in a much larger struggle: making &lt;a href=&quot;http://digital.cabinetoffice.gov.uk/&quot;&gt;digital public services&lt;/a&gt; radically more user-friendly is probably the key tech challenge for government in the digital age.&lt;/p&gt;
+
+&lt;p&gt;CPS saved lots of money on this project. Going through procurement would have taken at least twice as much time and money, and probably resulted in a worse app.&lt;/p&gt;
+
+&lt;p&gt;CPS’s web team learned new skills. Going forward, they can make countless interactive maps.&lt;/p&gt;
+
+&lt;p&gt;In September, Chicago’s schools closed during a teacher’s strike. The web team was able to quickly build a &lt;a href=&quot;http://cps.edu/ChildrenFirst/Pages/ChildrenFirstLocator.aspx&quot;&gt;map of alternative places&lt;/a&gt; for parents to take their kids.&lt;/p&gt;
+
+&lt;p&gt;Government tech folks, take note: open source software is the easiest way to empower your employees.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <id>http://derekeder.com/blog/hello-world-setting-up-a-jekyll-blog-in-sinatra</id>

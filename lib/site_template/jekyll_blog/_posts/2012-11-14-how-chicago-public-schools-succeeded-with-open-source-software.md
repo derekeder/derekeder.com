@@ -62,7 +62,7 @@ The map’s ease of use and value to parents attracted CPS’s attention. If a g
 
 ### “Here goes nuthin’!”
 
-Alex Soble, CPS Director of Social Media, wanted to find out. He asked CPS web developers Jay Van Patten and Ted Canji to look into the [free map template](http://derekeder.com/searchable_map_template/) that powers CPS Tiers, and they used it build a functional prototype of the School Locator map in under three days.
+Alex Soble, CPS Director of Social Media, wanted to find out. He asked CPS web developers Jay Van Patten and Ted Canji to look into the [free map template](http://derekeder.com/searchable_map_template/) that powers CPS Tiers, and they used it to build a functional prototype of the School Locator map in under three days.
 
 By avoiding procurement, Jay and Ted had time to get feedback on the app from CPS staff, parents and Chicago technologists, leading to a better product.
 

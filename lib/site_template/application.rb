@@ -31,6 +31,10 @@ module SiteTemplate
     end
 
     # redirects
+    get "/consulting/?" do
+      redirect "/datamade"
+    end
+
     get "/budget*" do
       redirect "http://lookatcook.com"
     end

@@ -9,9 +9,7 @@ title: Preparing for the Google Fusion Tables SQL API Deprecation
   title: Google Fusion Tables
   alt: Google Fusion Tables
   link: https://developers.google.com/fusiontables/
-{% endimage %}
-
-{% image blog/google-logo.jpeg %}
+{% endimage %} {% image blog/google-logo.jpeg %}
   title: Google
   alt: Google
   link: http://google.com

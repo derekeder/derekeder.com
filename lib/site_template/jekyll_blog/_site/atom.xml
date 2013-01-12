@@ -4,7 +4,7 @@
   <title>derekeder.com/blog</title>
   <link href="http://derekeder.com/blog/"/>
   <link type="application/atom+xml" rel="self" href="http://derekeder.com/blog/atom.xml"/>
-  <updated>2013-01-12T13:36:07-06:00</updated>
+  <updated>2013-01-12T14:37:02-06:00</updated>
   <id>http://derekeder.com/blog/</id>
   <author>
     <name>Derek Eder's Blog</name>
@@ -21,13 +21,13 @@
       <name>Derek Eder</name>
       <uri>http://derekeder.com/blog/</uri>
     </author>
-    <content type="html">&lt;p&gt;&lt;a href='http://google.com'&gt;&lt;img class='img-polaroid' src='http://derekeder.com/images/blog/google-logo.jpeg' title='Google' alt='Google'&gt;&lt;/a&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;a href='https://developers.google.com/fusiontables/'&gt;&lt;img class='img-polaroid' src='http://derekeder.com/images/blog/fusion-tables-logo-beta.gif' title='Google Fusion Tables' alt='Google Fusion Tables'&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;On January 14th, 2013, Google will &lt;a href=&quot;https://developers.google.com/fusiontables/docs/developers_guide&quot;&gt;deprecate the SQL API&lt;/a&gt; for their &lt;a href=&quot;https://developers.google.com/fusiontables/&quot;&gt;Fusion Tables platform&lt;/a&gt;. This post is here to help developers prepare for it (or more likely, fix things after they broke).&lt;/p&gt;
 
 &lt;p&gt;While Google is killing one way to access Fusion Tables, there are still &lt;em&gt;two&lt;/em&gt; other ways to access the API.&lt;/p&gt;
 
-&lt;h3&gt;Option 1: Upgrading to the Fusion Tables v1 API&lt;/h3&gt;
+&lt;h3&gt;#1 The Right Way: Upgrade to the Fusion Tables v1 API&lt;/h3&gt;
 
 &lt;p&gt;According to their &lt;a href=&quot;https://developers.google.com/fusiontables/docs/v1/migration_guide&quot;&gt;Migration Guide&lt;/a&gt; (very useful!), their recommended path is to upgrade your apps to the &lt;a href=&quot;https://developers.google.com/fusiontables/docs/v1/getting_started&quot;&gt;Fusion Tables v1 API&lt;/a&gt;.&lt;/p&gt;
 
@@ -41,7 +41,7 @@
 &lt;/ul&gt;
 
 
-&lt;h3&gt;Option 2: Downgrading to the Google Charts API&lt;/h3&gt;
+&lt;h3&gt;#2 The Easy Way: Downgrade to the Google Charts API&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href='https://developers.google.com/chart/interactive/docs/fusiontables'&gt;&lt;img class='img-polaroid' src='http://derekeder.com/images/blog/google-chart-tools.gif' title='Google Chart Tools' alt='Google Chart Tools'&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -63,7 +63,8 @@
 
 &lt;p&gt;This was especially useful for my &lt;a href=&quot;https://github.com/derekeder/Fusion-Tables-to-HTML-Table&quot;&gt;Fusion Tables to HTML Table&lt;/a&gt; library. It uses a PHP library written by kbris...@google.com that hasn't been updated to use the new v1 API. A simple &lt;a href=&quot;https://github.com/derekeder/Fusion-Tables-to-HTML-Table/commit/99f2738892d3b09751df85f494f7a339ec476cda&quot;&gt;find and replace using the lines above&lt;/a&gt; solved the problem!&lt;/p&gt;
 
-&lt;p&gt;One final note on this solution. Google &lt;a href=&quot;https://groups.google.com/forum/?fromgroups=#!searchin/fusion-tables-users-group/Status$20of$20API$20deprecation$20and$20Google$20Chart$20Tools/fusion-tables-users-group/sHFf9tAzqSg/d8bJvR-1HycJ&quot;&gt;stated they have no plans to deprecate the Charts API&lt;/a&gt;, but I have a feeling they'll get around to it eventually.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;label label-warning&quot;&gt;Warning&lt;/span&gt;
+One final note on this solution. Google &lt;a href=&quot;https://groups.google.com/forum/?fromgroups=#!searchin/fusion-tables-users-group/Status$20of$20API$20deprecation$20and$20Google$20Chart$20Tools/fusion-tables-users-group/sHFf9tAzqSg/d8bJvR-1HycJ&quot;&gt;stated they have no plans to deprecate the Charts API&lt;/a&gt;, but I have a feeling they'll get around to it eventually.&lt;/p&gt;
 
 &lt;p&gt;Taking this shortcut now probably means you'll just have to do it the hard(er) way eventually. Think of it as putting off the work for a later date. The silver lining to this is Google usually gives a 6 month heads up before they turn their products off.&lt;/p&gt;
 </content>

@@ -1,6 +1,7 @@
 body {
   padding-top: 30px;
   background-color: #f6f6f6;
+  font-size: 15px;
 }
 
 #mapCanvas img {

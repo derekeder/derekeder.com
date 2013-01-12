@@ -5,10 +5,10 @@ title: Preparing for the Google Fusion Tables SQL API Deprecation
 
 {% excerpt %}
 
-{% image blog/google-logo.jpeg %}
-  title: Google
-  alt: Google
-  link: http://google.com
+{% image blog/fusion-tables-logo-beta.gif %}
+  title: Google Fusion Tables
+  alt: Google Fusion Tables
+  link: https://developers.google.com/fusiontables/
 {% endimage %}
 
 On January 14th, 2013, Google will [deprecate the SQL API](https://developers.google.com/fusiontables/docs/developers_guide) for their [Fusion Tables platform](https://developers.google.com/fusiontables/). This post is here to help developers prepare for it (or more likely, fix things after they broke). 
@@ -17,7 +17,7 @@ While Google is killing one way to access Fusion Tables, there are still _two_ o
 
 {% endexcerpt %}
 
-### Option 1: Upgrading to the Fusion Tables v1 API
+### #1 The Right Way: Upgrade to the Fusion Tables v1 API
 
 According to their [Migration Guide](https://developers.google.com/fusiontables/docs/v1/migration_guide) (very useful!), their recommended path is to upgrade your apps to the [Fusion Tables v1 API](https://developers.google.com/fusiontables/docs/v1/getting_started). 
 
@@ -28,7 +28,7 @@ Other than changing the endpoint you are querying, there are a few hurdles to up
 * First, you need to get an [API key](https://code.google.com/apis/console/). 
 * Second, the format of the returned data is [slightly different](https://developers.google.com/fusiontables/docs/v1/using#queryData), so you will need to change how you process it. [This diff](https://github.com/derekeder/FusionTable-Map-Template-Heroku/commit/7e86b0bfba411584e0a305560d07444648835a0c) gives a good example of that change.
 
-### Option 2: Downgrading to the Google Charts API
+### #2 The Easy Way: Downgrade to the Google Charts API
 
 {% image blog/google-chart-tools.gif %}
   title: Google Chart Tools
@@ -52,6 +52,7 @@ fusiontables.googleusercontent.com/fusiontables/api/query
 
 This was especially useful for my [Fusion Tables to HTML Table](https://github.com/derekeder/Fusion-Tables-to-HTML-Table) library. It uses a PHP library written by kbris...@google.com that hasn't been updated to use the new v1 API. A simple [find and replace using the lines above](https://github.com/derekeder/Fusion-Tables-to-HTML-Table/commit/99f2738892d3b09751df85f494f7a339ec476cda) solved the problem!
 
+<span class="label label-warning">Warning</span>
 One final note on this solution. Google [stated they have no plans to deprecate the Charts API](https://groups.google.com/forum/?fromgroups=#!searchin/fusion-tables-users-group/Status$20of$20API$20deprecation$20and$20Google$20Chart$20Tools/fusion-tables-users-group/sHFf9tAzqSg/d8bJvR-1HycJ), but I have a feeling they'll get around to it eventually. 
 
 Taking this shortcut now probably means you'll just have to do it the hard(er) way eventually. Think of it as putting off the work for a later date. The silver lining to this is Google usually gives a 6 month heads up before they turn their products off.

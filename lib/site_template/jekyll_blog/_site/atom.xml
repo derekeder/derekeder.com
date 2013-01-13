@@ -4,7 +4,7 @@
   <title>derekeder.com/blog</title>
   <link href="http://derekeder.com/blog/"/>
   <link type="application/atom+xml" rel="self" href="http://derekeder.com/blog/atom.xml"/>
-  <updated>2013-01-13T02:01:57-06:00</updated>
+  <updated>2013-01-13T11:20:44-06:00</updated>
   <id>http://derekeder.com/blog/</id>
   <author>
     <name>Derek Eder's Blog</name>
@@ -23,13 +23,13 @@
     </author>
     <content type="html">&lt;p&gt;&lt;a href='https://developers.google.com/fusiontables/'&gt;&lt;img class='img-polaroid' src='http://derekeder.com/images/blog/fusion-tables-logo-beta.gif' title='Google Fusion Tables' alt='Google Fusion Tables'&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;On January 14th, 2013, Google will &lt;a href=&quot;https://developers.google.com/fusiontables/docs/developers_guide&quot;&gt;deprecate the SQL API&lt;/a&gt; for their &lt;a href=&quot;https://developers.google.com/fusiontables/&quot;&gt;Fusion Tables platform&lt;/a&gt;. This post is here to help developers prepare for it (or more likely, fix things after they broke).&lt;/p&gt;
+&lt;p&gt;On January 14, 2013, Google will &lt;a href=&quot;https://developers.google.com/fusiontables/docs/developers_guide&quot;&gt;deprecate the SQL API&lt;/a&gt; for their &lt;a href=&quot;https://developers.google.com/fusiontables/&quot;&gt;Fusion Tables platform&lt;/a&gt;. This post is here to help developers prepare for it (or more likely, fix things after they break).&lt;/p&gt;
 
 &lt;h3&gt;How to upgrade to the Fusion Tables v1 API&lt;/h3&gt;
 
-&lt;p&gt;According to their &lt;a href=&quot;https://developers.google.com/fusiontables/docs/v1/migration_guide&quot;&gt;Migration Guide&lt;/a&gt; (very useful!), their recommended path is to upgrade your apps to the &lt;a href=&quot;https://developers.google.com/fusiontables/docs/v1/getting_started&quot;&gt;Fusion Tables v1 API&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;According to &lt;a href=&quot;https://developers.google.com/fusiontables/docs/v1/migration_guide&quot;&gt;Google's Migration Guide&lt;/a&gt; (very useful!), their recommended path is to upgrade your apps to the &lt;a href=&quot;https://developers.google.com/fusiontables/docs/v1/getting_started&quot;&gt;Fusion Tables v1 API&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I've already upgraded my &lt;a href=&quot;http://derekeder.com/searchable_map_template/&quot;&gt;Searchable Map Template&lt;/a&gt;, &lt;a href=&quot;https://github.com/open-city/look-at-cook&quot;&gt;Look at Cook&lt;/a&gt;, and &lt;a href=&quot;http://code.google.com/p/gmaps-utility-gis/issues/detail?id=12&quot;&gt;submitted a patch&lt;/a&gt; to the &lt;a href=&quot;http://code.google.com/p/gmaps-utility-gis/source/browse/trunk/fusiontips/src/fusiontips.js&quot;&gt;fusiontips&lt;/a&gt; library if you are interested in seeing examples of how it's done.&lt;/p&gt;
+&lt;p&gt;I've already upgraded the &lt;a href=&quot;http://derekeder.com/searchable_map_template/&quot;&gt;Searchable Map Template&lt;/a&gt;, &lt;a href=&quot;https://github.com/open-city/look-at-cook&quot;&gt;Look at Cook&lt;/a&gt;, and &lt;a href=&quot;http://code.google.com/p/gmaps-utility-gis/issues/detail?id=12&quot;&gt;submitted a patch&lt;/a&gt; to the &lt;a href=&quot;http://code.google.com/p/gmaps-utility-gis/source/browse/trunk/fusiontips/src/fusiontips.js&quot;&gt;fusiontips&lt;/a&gt; library if you are interested in seeing examples of how it's done.&lt;/p&gt;
 
 &lt;p&gt;Other than changing the endpoint you are querying, there are a few hurdles to upgrading to the v1 API:&lt;/p&gt;
 
@@ -39,29 +39,41 @@
 &lt;/ul&gt;
 
 
+&lt;h3&gt;Oops, there are no shortcuts&lt;/h3&gt;
+
+&lt;p&gt;Earlier, I thought I had a pretty good shortcut around upgrading. I thought that I could just swap out 'google.com/fusiontables/api/query' for 'fusiontables.googleusercontent.com/fusiontables/api/query' and everything would still work.&lt;/p&gt;
+
+&lt;p&gt;Well, after doing some digging and finding &lt;a href=&quot;https://groups.google.com/forum/?fromgroups=#!topic/fusion-tables-users-group/JlxS6ckszf4&quot;&gt;this post&lt;/a&gt;, I was pretty sure that wouldn't work.&lt;/p&gt;
+
+&lt;p&gt;So, yah, there are some libraries to update now.&lt;/p&gt;
+
 &lt;h3&gt;fusion_tables gem, I'm here to save you!&lt;/h3&gt;
 
-&lt;p&gt;The &lt;a href=&quot;https://github.com/tokumine/fusion_tables&quot;&gt;fusion_tables&lt;/a&gt; Ruby gem by &lt;a href=&quot;https://twitter.com/tokumin&quot;&gt;Simon Tokumine&lt;/a&gt; is one of the more awesome things that has been built on top of Fusion Tables. It acts as a lightweight wrapper to create, update, and delete your Fusion Tables. Plus it formats everything as hashes and arrays for easy data manipulation. It's pretty much the go-to Ruby library for interfacing with Fusion Tables.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://github.com/tokumine/fusion_tables&quot;&gt;fusion_tables&lt;/a&gt; Ruby gem by &lt;a href=&quot;https://twitter.com/tokumin&quot;&gt;Simon Tokumine&lt;/a&gt; is one of the more awesome things that has been built on top of Fusion Tables. It acts as a lightweight wrapper to create, update and delete your Fusion Tables. Plus, it formats everything as hashes and arrays for easy data manipulation. It's pretty much the go-to Ruby library for interfacing with Fusion Tables.&lt;/p&gt;
 
-&lt;p&gt;Unfortunately, it still uses the old SQL API, so unless it is updated, all applications using it will break on Monday Jan 14th, 2013. I just submitted a &lt;a href=&quot;https://github.com/tokumine/fusion_tables/pull/21&quot;&gt;pull request&lt;/a&gt; with a patch to have it work with the v1 API. Hopefully it will get merged in soon, but in case it doesn't and you're scrambling, you can point to my repo directly.&lt;/p&gt;
+&lt;p&gt;Unfortunately, it still uses the old SQL API, so unless it is updated, all applications using it will break after Monday January 14, 2013.&lt;/p&gt;
 
-&lt;p&gt;Update your Gemfile&lt;/p&gt;
+&lt;p&gt;Good news! I submitted a &lt;a href=&quot;https://github.com/tokumine/fusion_tables/pull/21&quot;&gt;pull request&lt;/a&gt; with a patch to have it work with the v1 API. Hopefully it will get merged in soon, but in case it doesn't and you're scrambling, you can point to my repo directly.&lt;/p&gt;
+
+&lt;p&gt;Update your Gemfile:&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;gem &lt;span class=&quot;s1&quot;&gt;&amp;#39;fusion_tables&amp;#39;&lt;/span&gt;, :git  &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&amp;gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;git://github.com/derekeder/fusion_tables.git&amp;#39;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
 
-&lt;p&gt;and run&lt;/p&gt;
+&lt;p&gt;and run:&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;bundle update
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
 
-&lt;p&gt;From there, you can deploy to your server and you should be good to go. Note that pointing to a Github repo is not a permenant solution. You should plan on changing it back to the regular gem once it's updated.&lt;/p&gt;
+&lt;p&gt;From there, you can deploy to your server, and you should be good to go.&lt;/p&gt;
 
-&lt;p&gt;I'll continue to update this post as things develop. There's a &lt;a href=&quot;http://code.google.com/p/fusion-tables-client-php/&quot;&gt;PHP client library&lt;/a&gt; that may need saving as well ...&lt;/p&gt;
+&lt;p&gt;Note that pointing to a Github repo is not a permenant solution. You should plan on changing it back to the regular gem once it's updated.&lt;/p&gt;
+
+&lt;p&gt;I'll continue to update this post as things develop. There's a &lt;a href=&quot;http://code.google.com/p/fusion-tables-client-php/&quot;&gt;PHP client library&lt;/a&gt; that may need saving as well.&lt;/p&gt;
 </content>
   </entry>
   

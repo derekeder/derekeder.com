@@ -4,7 +4,7 @@
   <title>derekeder.com/blog</title>
   <link href="http://derekeder.com/blog/"/>
   <link type="application/atom+xml" rel="self" href="http://derekeder.com/blog/atom.xml"/>
-  <updated>2013-01-13T11:20:44-06:00</updated>
+  <updated>2013-01-13T12:25:52-06:00</updated>
   <id>http://derekeder.com/blog/</id>
   <author>
     <name>Derek Eder's Blog</name>
@@ -29,7 +29,7 @@
 
 &lt;p&gt;According to &lt;a href=&quot;https://developers.google.com/fusiontables/docs/v1/migration_guide&quot;&gt;Google's Migration Guide&lt;/a&gt; (very useful!), their recommended path is to upgrade your apps to the &lt;a href=&quot;https://developers.google.com/fusiontables/docs/v1/getting_started&quot;&gt;Fusion Tables v1 API&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I've already upgraded the &lt;a href=&quot;http://derekeder.com/searchable_map_template/&quot;&gt;Searchable Map Template&lt;/a&gt;, &lt;a href=&quot;https://github.com/open-city/look-at-cook&quot;&gt;Look at Cook&lt;/a&gt;, and &lt;a href=&quot;http://code.google.com/p/gmaps-utility-gis/issues/detail?id=12&quot;&gt;submitted a patch&lt;/a&gt; to the &lt;a href=&quot;http://code.google.com/p/gmaps-utility-gis/source/browse/trunk/fusiontips/src/fusiontips.js&quot;&gt;fusiontips&lt;/a&gt; library if you are interested in seeing examples of how it's done.&lt;/p&gt;
+&lt;p&gt;I've already upgraded the &lt;a href=&quot;http://derekeder.com/searchable_map_template/&quot;&gt;Searchable Map Template&lt;/a&gt;, &lt;a href=&quot;https://github.com/open-city/look-at-cook&quot;&gt;Look at Cook&lt;/a&gt;, and forked the &lt;a href=&quot;https://github.com/derekeder/fusiontips&quot;&gt;fusiontips library&lt;/a&gt; (as well as &lt;a href=&quot;http://code.google.com/p/gmaps-utility-gis/issues/detail?id=12&quot;&gt;submitted a patch&lt;/a&gt; to the original) if you are interested in seeing examples of how it's done.&lt;/p&gt;
 
 &lt;p&gt;Other than changing the endpoint you are querying, there are a few hurdles to upgrading to the v1 API:&lt;/p&gt;
 

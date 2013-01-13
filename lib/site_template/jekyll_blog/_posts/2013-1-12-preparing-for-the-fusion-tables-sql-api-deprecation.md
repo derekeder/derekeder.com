@@ -19,7 +19,7 @@ On January 14, 2013, Google will [deprecate the SQL API](https://developers.goog
 
 According to [Google's Migration Guide](https://developers.google.com/fusiontables/docs/v1/migration_guide) (very useful!), their recommended path is to upgrade your apps to the [Fusion Tables v1 API](https://developers.google.com/fusiontables/docs/v1/getting_started). 
 
-I've already upgraded the [Searchable Map Template](http://derekeder.com/searchable_map_template/), [Look at Cook](https://github.com/open-city/look-at-cook), and [submitted a patch](http://code.google.com/p/gmaps-utility-gis/issues/detail?id=12) to the [fusiontips](http://code.google.com/p/gmaps-utility-gis/source/browse/trunk/fusiontips/src/fusiontips.js) library if you are interested in seeing examples of how it's done.
+I've already upgraded the [Searchable Map Template](http://derekeder.com/searchable_map_template/), [Look at Cook](https://github.com/open-city/look-at-cook), and forked the [fusiontips library](https://github.com/derekeder/fusiontips) (as well as [submitted a patch](http://code.google.com/p/gmaps-utility-gis/issues/detail?id=12) to the original) if you are interested in seeing examples of how it's done. 
 
 Other than changing the endpoint you are querying, there are a few hurdles to upgrading to the v1 API:
 

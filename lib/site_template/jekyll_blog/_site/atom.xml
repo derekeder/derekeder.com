@@ -4,7 +4,7 @@
   <title>derekeder.com/blog</title>
   <link href="http://derekeder.com/blog/"/>
   <link type="application/atom+xml" rel="self" href="http://derekeder.com/blog/atom.xml"/>
-  <updated>2013-01-12T14:37:02-06:00</updated>
+  <updated>2013-01-13T02:01:57-06:00</updated>
   <id>http://derekeder.com/blog/</id>
   <author>
     <name>Derek Eder's Blog</name>
@@ -25,13 +25,11 @@
 
 &lt;p&gt;On January 14th, 2013, Google will &lt;a href=&quot;https://developers.google.com/fusiontables/docs/developers_guide&quot;&gt;deprecate the SQL API&lt;/a&gt; for their &lt;a href=&quot;https://developers.google.com/fusiontables/&quot;&gt;Fusion Tables platform&lt;/a&gt;. This post is here to help developers prepare for it (or more likely, fix things after they broke).&lt;/p&gt;
 
-&lt;p&gt;While Google is killing one way to access Fusion Tables, there are still &lt;em&gt;two&lt;/em&gt; other ways to access the API.&lt;/p&gt;
-
-&lt;h3&gt;#1 The Right Way: Upgrade to the Fusion Tables v1 API&lt;/h3&gt;
+&lt;h3&gt;How to upgrade to the Fusion Tables v1 API&lt;/h3&gt;
 
 &lt;p&gt;According to their &lt;a href=&quot;https://developers.google.com/fusiontables/docs/v1/migration_guide&quot;&gt;Migration Guide&lt;/a&gt; (very useful!), their recommended path is to upgrade your apps to the &lt;a href=&quot;https://developers.google.com/fusiontables/docs/v1/getting_started&quot;&gt;Fusion Tables v1 API&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I would recommend upgrading to the v1 API as well. I've already upgraded my &lt;a href=&quot;http://derekeder.com/searchable_map_template/&quot;&gt;Searchable Map Template&lt;/a&gt;, &lt;a href=&quot;https://github.com/open-city/look-at-cook&quot;&gt;Look at Cook&lt;/a&gt;, and &lt;a href=&quot;http://code.google.com/p/gmaps-utility-gis/issues/detail?id=12&quot;&gt;submitted a patch&lt;/a&gt; to the &lt;a href=&quot;http://code.google.com/p/gmaps-utility-gis/source/browse/trunk/fusiontips/src/fusiontips.js&quot;&gt;fusiontips&lt;/a&gt; library if you are interested in seeing examples of how it's done.&lt;/p&gt;
+&lt;p&gt;I've already upgraded my &lt;a href=&quot;http://derekeder.com/searchable_map_template/&quot;&gt;Searchable Map Template&lt;/a&gt;, &lt;a href=&quot;https://github.com/open-city/look-at-cook&quot;&gt;Look at Cook&lt;/a&gt;, and &lt;a href=&quot;http://code.google.com/p/gmaps-utility-gis/issues/detail?id=12&quot;&gt;submitted a patch&lt;/a&gt; to the &lt;a href=&quot;http://code.google.com/p/gmaps-utility-gis/source/browse/trunk/fusiontips/src/fusiontips.js&quot;&gt;fusiontips&lt;/a&gt; library if you are interested in seeing examples of how it's done.&lt;/p&gt;
 
 &lt;p&gt;Other than changing the endpoint you are querying, there are a few hurdles to upgrading to the v1 API:&lt;/p&gt;
 
@@ -41,32 +39,29 @@
 &lt;/ul&gt;
 
 
-&lt;h3&gt;#2 The Easy Way: Downgrade to the Google Charts API&lt;/h3&gt;
+&lt;h3&gt;fusion_tables gem, I'm here to save you!&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href='https://developers.google.com/chart/interactive/docs/fusiontables'&gt;&lt;img class='img-polaroid' src='http://derekeder.com/images/blog/google-chart-tools.gif' title='Google Chart Tools' alt='Google Chart Tools'&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://github.com/tokumine/fusion_tables&quot;&gt;fusion_tables&lt;/a&gt; Ruby gem by &lt;a href=&quot;https://twitter.com/tokumin&quot;&gt;Simon Tokumine&lt;/a&gt; is one of the more awesome things that has been built on top of Fusion Tables. It acts as a lightweight wrapper to create, update, and delete your Fusion Tables. Plus it formats everything as hashes and arrays for easy data manipulation. It's pretty much the go-to Ruby library for interfacing with Fusion Tables.&lt;/p&gt;
 
-&lt;p&gt;If all that stuff I just described doesn't sound like your bag, there's an easier way! Google is shutting down the old SQL API, but &lt;a href=&quot;https://groups.google.com/forum/?fromgroups=#!searchin/fusion-tables-users-group/Status$20of$20API$20deprecation$20and$20Google$20Chart$20Tools/fusion-tables-users-group/sHFf9tAzqSg/d8bJvR-1HycJ&quot;&gt;they say they're keeping&lt;/a&gt; the &lt;a href=&quot;https://developers.google.com/chart/interactive/docs/fusiontables&quot;&gt;Fusion Tables Charts API&lt;/a&gt;, which &lt;em&gt;operates the exact same way as the old SQL API&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Unfortunately, it still uses the old SQL API, so unless it is updated, all applications using it will break on Monday Jan 14th, 2013. I just submitted a &lt;a href=&quot;https://github.com/tokumine/fusion_tables/pull/21&quot;&gt;pull request&lt;/a&gt; with a patch to have it work with the v1 API. Hopefully it will get merged in soon, but in case it doesn't and you're scrambling, you can point to my repo directly.&lt;/p&gt;
 
-&lt;p&gt;Just replace all instances of:&lt;/p&gt;
+&lt;p&gt;Update your Gemfile&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;google.com/fusiontables/api/query
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;gem &lt;span class=&quot;s1&quot;&gt;&amp;#39;fusion_tables&amp;#39;&lt;/span&gt;, :git  &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&amp;gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;git://github.com/derekeder/fusion_tables.git&amp;#39;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
 
-&lt;p&gt;with&lt;/p&gt;
+&lt;p&gt;and run&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;fusiontables.googleusercontent.com/fusiontables/api/query
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;bundle update
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
 
-&lt;p&gt;This was especially useful for my &lt;a href=&quot;https://github.com/derekeder/Fusion-Tables-to-HTML-Table&quot;&gt;Fusion Tables to HTML Table&lt;/a&gt; library. It uses a PHP library written by kbris...@google.com that hasn't been updated to use the new v1 API. A simple &lt;a href=&quot;https://github.com/derekeder/Fusion-Tables-to-HTML-Table/commit/99f2738892d3b09751df85f494f7a339ec476cda&quot;&gt;find and replace using the lines above&lt;/a&gt; solved the problem!&lt;/p&gt;
+&lt;p&gt;From there, you can deploy to your server and you should be good to go. Note that pointing to a Github repo is not a permenant solution. You should plan on changing it back to the regular gem once it's updated.&lt;/p&gt;
 
-&lt;p&gt;&lt;span class=&quot;label label-warning&quot;&gt;Warning&lt;/span&gt;
-One final note on this solution. Google &lt;a href=&quot;https://groups.google.com/forum/?fromgroups=#!searchin/fusion-tables-users-group/Status$20of$20API$20deprecation$20and$20Google$20Chart$20Tools/fusion-tables-users-group/sHFf9tAzqSg/d8bJvR-1HycJ&quot;&gt;stated they have no plans to deprecate the Charts API&lt;/a&gt;, but I have a feeling they'll get around to it eventually.&lt;/p&gt;
-
-&lt;p&gt;Taking this shortcut now probably means you'll just have to do it the hard(er) way eventually. Think of it as putting off the work for a later date. The silver lining to this is Google usually gives a 6 month heads up before they turn their products off.&lt;/p&gt;
+&lt;p&gt;I'll continue to update this post as things develop. There's a &lt;a href=&quot;http://code.google.com/p/fusion-tables-client-php/&quot;&gt;PHP client library&lt;/a&gt; that may need saving as well ...&lt;/p&gt;
 </content>
   </entry>
   

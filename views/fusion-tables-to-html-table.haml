@@ -13,14 +13,22 @@
       = succeed "." do
         %a{:href => "/searchable_map_template/"} searchable map template
 
+    %h4 Updated to Fusion Tables v1 API
+
     %p
-      %strong Note:
       On Jan 14th, 2013
       = succeed "." do
         %a{:href => "https://developers.google.com/fusiontables/docs/developers_guide"} Google deprecated the SQL API
-      This script has been updated to use the
+      This script has been updated to use the 
       = succeed "." do
-        %a{:href => "https://developers.google.com/chart/interactive/docs/fusiontables"} Google Chart Tools API
+        %a{:href => "https://developers.google.com/fusiontables/docs/v1/getting_started"} Fusion Tables v1 API.
+
+    %p
+      An 
+      %a{:href => 'https://code.google.com/apis/console/'} API key 
+      is now required and the results are returned as an 2 dimensional array. All the mess with handling blank values is no longer an issue. See 
+      %a{:href => 'https://github.com/derekeder/Fusion-Tables-to-HTML-Table/blob/master/index.php'} index.php 
+      for an example of handling the updated format.
 
     %hr
 

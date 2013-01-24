@@ -25,6 +25,7 @@ module SiteTemplate
     helpers SiteTemplate::HtmlHelpers
 
     get "/" do
+      cache_control :public, max_age: 3600  # 1 hour
       @current_menu = "home"
       @title = 'Derek Eder - Open Data Web Developer'
       haml :index
@@ -63,6 +64,7 @@ module SiteTemplate
       redirect "/maps/#{params[:map]}/index.html"
     end
 
+    #blog
     get "/blog/?*" do
       jekyll_blog(request.path) {404}
     end
@@ -90,6 +92,7 @@ module SiteTemplate
     
     # catchall for static pages
     get "/:page/?" do
+      cache_control :public, max_age: 3600  # 1 hour
       begin 
         @current_menu = params[:page]
         @title = params[:page].capitalize.gsub(/[_-]/, " ") + " - Derek Eder"

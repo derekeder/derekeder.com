@@ -7,6 +7,7 @@ GEM
     backports (2.6.5)
     classifier (1.3.3)
       fast-stemmer (>= 1.0.0)
+    dalli (2.6.0)
     directory_watcher (1.4.1)
     eventmachine (1.0.0)
     excon (0.16.7)
@@ -39,6 +40,8 @@ GEM
     posix-spawn (0.3.6)
     r18n-core (1.1.2)
     rack (1.4.1)
+    rack-cache (1.2)
+      rack (>= 0.4)
     rack-protection (1.2.0)
       rack
     rack-test (0.6.2)
@@ -76,9 +79,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  dalli
   haml
   heroku
   jekyll
+  rack-cache
   rdiscount
   sinatra
   sinatra-initializers

@@ -43,7 +43,11 @@ module SiteTemplate
 
     # redirects
     get "/consulting/?" do
-      redirect "/datamade"
+      redirect "http://datamade.us"
+    end
+
+    get "/datamade/?" do
+      redirect "http://datamade.us"
     end
 
     get "/budget*" do

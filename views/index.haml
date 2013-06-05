@@ -88,6 +88,45 @@
     .span8
       %hr
       %h2
+        Talks
+        %small
+          Public appearances and presentations
+          |
+          %a{:href => "/talks"} more &raquo;
+
+    .span4
+      %a{:href => "http://www.pechakucha.org/channels/table-xi/presentations/open-gov-in-chicago-changing-government-from-the-outside-in"}
+        %img.img-polaroid{:src => "/images/talks/opengov-pecha-kucha.jpg", :title => "Open Gov in Chicago: Changing Government from the Outside In"}
+        %h4
+          Open Gov in Chicago: Changing Government from the Outside In
+      %p
+        What's the OpenGov thing all about anyway? In my first ever Pecha Kucha-style talk, I make an attempt to summarize 7 years of Open Government history in 6 minutes and 20 seconds.
+
+    .span4
+      %a{:href => "http://chicagotonight.wttw.com/2012/01/31/chicago-data-apps"}
+        %img.img-polaroid{:src => "/images/talks/chicago-tonight.jpg", :title => "Chicago Data Apps Panel Discussion"}
+        %h4
+          Chicago Data Apps Panel Discussion
+      %p
+        A panel discussion on open data and apps built with them. Several of our
+        Open City
+        projects were discussed, namely
+        = succeed ',' do
+          %a{:href => 'http://chicagolobbyists.org/'} Chicago Lobbyists
+        %a{:href => 'http://lookatcook.com/'} Look at Cook
+        and
+        = succeed '.' do
+          %a{:href => 'http://clearstreets.org/'} ClearStreets
+        Hosted by Chicago Tonight's Phil Ponce, featuring Chicago CTO
+        = succeed ',' do
+          %a{:href => 'http://www.ascentstage.com/'} John Tolva
+        %a{:href => 'http://about.me/pry'} Chad W. Pry
+        and me.
+
+  .row
+    .span8
+      %hr
+      %h2
         Other projects
         %small
           Fun with new tools!

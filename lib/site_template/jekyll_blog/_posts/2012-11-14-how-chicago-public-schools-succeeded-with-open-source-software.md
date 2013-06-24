@@ -11,7 +11,7 @@ title: How Chicago Public Schools Succeeded with Open Source Software
   link: http://cps.edu/map
 {% endimage %}
 
-_This article was also published on Nov 12th on the Huffington Post under the title [Hacking Chicago](http://www.huffingtonpost.com/derek-eder/chicago-public-schools-locator-map_b_2119284.html)._
+_This article was also published on Nov 12, 2012 on the Huffington Post under the title [Hacking Chicago](http://www.huffingtonpost.com/derek-eder/chicago-public-schools-locator-map_b_2119284.html)._
 
 On August 17, 2012, Chicago Public Schools (CPS) launched a new version of their [School Locator](http://cps.edu/map) - an online map that helps parents find public schools for their kids. Unlike the map that came before it, this one is intuitive, easy to use, and took half the time to build. 
 

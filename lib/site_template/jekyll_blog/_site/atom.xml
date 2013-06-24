@@ -4,13 +4,56 @@
   <title>derekeder.com/blog</title>
   <link href="http://derekeder.com/blog/"/>
   <link type="application/atom+xml" rel="self" href="http://derekeder.com/blog/atom.xml"/>
-  <updated>2013-01-13T12:25:52-06:00</updated>
+  <updated>2013-06-24T17:04:09-05:00</updated>
   <id>http://derekeder.com/blog/</id>
   <author>
     <name>Derek Eder's Blog</name>
     <email>derek.eder@gmail.com</email>
   </author>
 
+  
+  <entry>
+    <id>http://derekeder.com/blog/keeping-tabs-on-your-local-city-council-with-councilmatic</id>
+    <link type="text/html" rel="alternate" href="http://derekeder.com/blog/keeping-tabs-on-your-local-city-council-with-councilmatic"/>
+    <title>Keeping Tabs on Your Local City Council with Councilmatic</title>
+    <updated>2013-06-24T00:00:00-05:00</updated>
+    <author>
+      <name>Derek Eder</name>
+      <uri>http://derekeder.com/blog/</uri>
+    </author>
+    <content type="html">&lt;p&gt;&lt;a href='http://chicagocouncilmatic.org'&gt;&lt;img class='img-polaroid' src='http://derekeder.com/images/blog/councilmatic/chicago-councilmatic-1.png' title='Chicago Councilmatic' alt='Chicago Councilmatic'&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This article was also published on June 21, 2013 on the &lt;a href=&quot;http://sunlightfoundation.com/blog/2013/06/21/opengov-voices-keeping-tabs-on-your-local-city-council-with-councilmatic/&quot;&gt;Sunlight Foundation blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;City councils shape nearly every aspect of city life, from what kind of canopy you can have on a storefront, to how much we pay in taxes, to the number of cops on the street.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, it is hard for citizens to keep tabs on what their city council is doing. A few years ago, if you wanted to be informed about a city council’s actions, you had to go to the clerk’s office and page through the hundreds or thousands of bills that were added or updated every month.&lt;/p&gt;
+
+&lt;p&gt;In recent years, many city clerks have taken a big step forward by&lt;a href=&quot;http://legistar.council.nyc.gov/Legislation.aspx&quot;&gt; publishing&lt;/a&gt;&lt;a href=&quot;http://chicago.legistar.com/Legislation.aspx&quot;&gt; this&lt;/a&gt;&lt;a href=&quot;http://phila.legistar.com/&quot;&gt; legislation&lt;/a&gt; online. However, the current generation of municipal legislative information systems are mainly built to help councilmembers and clerks’ offices manage legislation. They were not built to help the public to understand what their city council is doing.&lt;/p&gt;
+
+&lt;p&gt;Well, like so many of our problems, now there’s an app for that: Councilmatic.&lt;/p&gt;
+
+&lt;p&gt;Originally built by&lt;a href=&quot;http://codeforamerica.org/&quot;&gt; Code for America&lt;/a&gt; for Philadelphia in 2011,&lt;a href=&quot;http://www.councilmatic.org/&quot;&gt; Councilmatic&lt;/a&gt; lets anyone browse, search and subscribe to any piece of legislation published by a city.&lt;/p&gt;
+
+&lt;p&gt;Not wanting to reinvent the wheel, as often happens with civic software, we decided to customize this existing&lt;a href=&quot;https://github.com/codeforamerica/councilmatic&quot;&gt; open source&lt;/a&gt; platform and set up&lt;a href=&quot;http://chicagocouncilmatic.org/&quot;&gt; Chicago Councilmatic&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://chicagocouncilmatic.org/legislation/1425826'&gt;&lt;img class='img-polaroid' src='http://derekeder.com/images/blog/councilmatic/chicago-councilmatic-2.png' title='Chicago Metered Parking System Concession Agreement' alt='Chicago Metered Parking System Concession Agreement'&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Every city council is different, however, so when we set up Councilmatic for Chicago, it wasn’t just a turnkey operation. Chicago is unique in that it introduces and passes one to two thousand ordinances every month (an unusually large volume). Most of these are&lt;a href=&quot;http://chicagocouncilmatic.org/search/?q=&amp;amp;amp;topics=Routine&quot;&gt; routine&lt;/a&gt; ordinances like&lt;a href=&quot;http://chicagocouncilmatic.org/search/?q=&amp;amp;amp;topics=Sign+permits&quot;&gt; sign permits&lt;/a&gt;,&lt;a href=&quot;http://chicagocouncilmatic.org/search/?q=&amp;amp;amp;topics=Damage+to+vehicle+claim&quot;&gt; damaged vehicle claims&lt;/a&gt;,&lt;a href=&quot;http://chicagocouncilmatic.org/search/?q=&amp;amp;amp;topics=Sidewalk+cafe&quot;&gt; sidewalk cafe approvals&lt;/a&gt; and&lt;a href=&quot;http://chicagocouncilmatic.org/search/?q=&amp;amp;amp;topics=Honorific&quot;&gt; honorifics&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To help citizens sort through all of this, we customized Chicago Councilmatic to classify and tag all legislation. If something is not a routine piece of legislation (like&lt;a href=&quot;http://chicagocouncilmatic.org/legislation/1425826&quot;&gt; the recent parking meter renegotiation&lt;/a&gt;), it is tagged as&lt;a href=&quot;http://chicagocouncilmatic.org/search/?q=&amp;amp;amp;topics=Non-Routine&quot;&gt; non-routine&lt;/a&gt; to make it easier to discover.&lt;/p&gt;
+
+&lt;p&gt;We also wanted to show which legislation an alderman (or the&lt;a href=&quot;http://chicagocouncilmatic.org/member/105&quot;&gt; Mayor&lt;/a&gt;) sponsored and send email updates to subscribers whenever an alderman sponsors something new. There’s also a&lt;a href=&quot;http://chicagocouncilmatic.org/members/&quot;&gt; leaderboard&lt;/a&gt; based on volume of sponsored legislation shows which aldermen are the most active.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://chicagocouncilmatic.org/members'&gt;&lt;img class='img-polaroid' src='http://derekeder.com/images/blog/councilmatic/chicago-councilmatic-3.png' title='Chicago Aldermen' alt='Chicago Aldermen'&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The launch of Chicago Councilmatic on the&lt;a href=&quot;http://hackforchange.org/&quot;&gt; National Day of Civic Hacking&lt;/a&gt; has already&lt;a href=&quot;http://gapersblock.com/mechanics/2013/06/04/keep-tabs-on-city-council-and-your-alderman-with-councilmatic/&quot;&gt; made&lt;/a&gt;&lt;a href=&quot;http://www.marinacityonline.com/news/council0611.htm&quot;&gt; a&lt;/a&gt;&lt;a href=&quot;https://twitter.com/Fioretti2ndWard/status/340940707269328897&quot;&gt; splash&lt;/a&gt; in Chicago, but we’re not stopping there. The Councilmatic platform is now operating in two major U.S. cities — we want it to be deployed in as many as possible.&lt;/p&gt;
+
+&lt;p&gt;That’s why this summer, we’re partnering with Code for America’s&lt;a href=&quot;http://brigade.codeforamerica.org/civic-coding&quot;&gt; Great American Civic Hack&lt;/a&gt; to make Councilmatic even easier to deploy and assist any group who wants to stand up a Councilmatic instance.&lt;/p&gt;
+
+&lt;p&gt;Do you want to help bring more transparency and openness to your local city council? &lt;a href=&quot;mailto:councilmatic-info@opencityapps.org&quot;&gt;Get in touch&lt;/a&gt; and we’ll make it happen, together.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <id>http://derekeder.com/blog/preparing-for-the-fusion-tables-sql-api-deprecation</id>
@@ -88,7 +131,7 @@
     </author>
     <content type="html">&lt;p&gt;&lt;a href='http://cps.edu/map'&gt;&lt;img class='img-polaroid' src='http://derekeder.com/images/blog/cps-locator/cps-locator.jpg' title='Jekyll' alt='Jekyll'&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;This article was also published on Nov 12th on the Huffington Post under the title &lt;a href=&quot;http://www.huffingtonpost.com/derek-eder/chicago-public-schools-locator-map_b_2119284.html&quot;&gt;Hacking Chicago&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This article was also published on Nov 12, 2012 on the Huffington Post under the title &lt;a href=&quot;http://www.huffingtonpost.com/derek-eder/chicago-public-schools-locator-map_b_2119284.html&quot;&gt;Hacking Chicago&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;On August 17, 2012, Chicago Public Schools (CPS) launched a new version of their &lt;a href=&quot;http://cps.edu/map&quot;&gt;School Locator&lt;/a&gt; - an online map that helps parents find public schools for their kids. Unlike the map that came before it, this one is intuitive, easy to use, and took half the time to build.&lt;/p&gt;
 

@@ -8,4 +8,6 @@ require "site_template"
 
 Sinatra::Base.set(:root) { base }
 
+set :cache, Dalli::Client.new
+
 run SiteTemplate::Application

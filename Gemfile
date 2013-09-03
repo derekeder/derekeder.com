@@ -8,8 +8,9 @@ gem "sinatra-r18n"
 gem "haml"
 
 # cache
-gem "dalli"
 gem "memcachier"
+gem "dalli"
+gem "rack-cache"
 
 group :development do
   gem "rdiscount"

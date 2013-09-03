@@ -8,6 +8,10 @@ require "site_template"
 
 Sinatra::Base.set(:root) { base }
 
-set :cache, Dalli::Client.new
+# Initialize Memcachier on Rack::Cache
+use Rack::Cache,
+  verbose: true,
+  metastore:   Dalli::Client.new,
+  entitystore: Dalli::Client.new
 
 run SiteTemplate::Application

@@ -1,1 +1,3 @@
+Sitemap: http://derekeder.com/sitemap.xml
 User-agent: *
+Disallow:

@@ -76,6 +76,32 @@ module SiteTemplate
       redirect "/maps/#{params[:map]}/index.html"
     end
 
+    get '/sitemap.xml' do
+      map = XmlSitemap::Map.new('derekeder.com') do |m|
+        
+        # custom pages
+        m.add '/searchable_map_template', :updated => Date.today, :period => :monthly, :priority => 1
+        m.add '/fusion-tables-to-html-table', :updated => Date.today, :period => :monthly, :priority => 0.5
+        m.add '/chicago_commute_modes', :updated => Date.today, :period => :monthly, :priority => 0.5
+        
+        # main nav
+        m.add '/tools', :updated => Date.today, :period => :monthly, :priority => 0.7
+        m.add '/maps', :updated => Date.today, :period => :monthly, :priority => 0.7
+        m.add '/websites', :updated => Date.today, :period => :monthly, :priority => 0.7
+        m.add '/blog', :updated => Date.today, :period => :monthly, :priority => 0.7
+        m.add '/talks', :updated => Date.today, :period => :weekly, :priority => 0.7
+
+        # blog
+        m.add '/blog/hello-world-setting-up-a-jekyll-blog-in-sinatra', :updated => Date.today, :period => :monthly, :priority => 0.5
+        m.add '/blog/how-chicago-public-schools-succeeded-with-open-source-software', :updated => Date.today, :period => :monthly, :priority => 0.5
+        m.add '/blog/preparing-for-the-fusion-tables-sql-api-deprecation', :updated => Date.today, :period => :monthly, :priority => 0.5
+        m.add '/blog/keeping-tabs-on-your-local-city-council-with-councilmatic', :updated => Date.today, :period => :monthly, :priority => 0.5
+      end
+     
+      headers['Content-Type'] = 'text/xml'
+      map.render
+    end
+
     #blog
     get "/blog/?*" do
       jekyll_blog(request.path) {404}

@@ -31,7 +31,7 @@
           .hidden-phone
             %img.pull-left.img-polaroid.headshot{:src => "/images/derek.jpg", :alt=> "Derek Eder", :title => "Derek Eder"}
             %p
-              I work with open data and create open source apps and tools in Chicago.
+              I work with open data and create open source apps and tools in Chicago. <a href='/about'>Read more &raquo;</a>
             %hr
             .clearfix
 
@@ -91,6 +91,9 @@
               %li{:class => current_menu_class("talks")}
                 %a{:href => "/talks"} 
                   Talks
+              %li{:class => current_menu_class("about")}
+                %a{:href => "/about"} 
+                  About
             %hr
             = yield
       

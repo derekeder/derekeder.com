@@ -82,15 +82,15 @@
               %li{:class => current_menu_class("maps")}
                 %a{:href => "/maps"} 
                   Maps
-              %li{:class => current_menu_class("websites")}
-                %a{:href => "/websites"} 
-                  Websites
-              %li{:class => current_menu_class("blog")}
-                %a{:href => "/blog"} 
-                  Blog
               %li{:class => current_menu_class("talks")}
                 %a{:href => "/talks"} 
                   Talks
+              %li{:class => current_menu_class("websites")}
+                %a{:href => "/websites"} 
+                  Projects
+              %li{:class => current_menu_class("blog")}
+                %a{:href => "/blog"} 
+                  Blog
               %li{:class => current_menu_class("about")}
                 %a{:href => "/about"} 
                   About
@@ -99,9 +99,6 @@
       
     %footer.footer
       .span12
-        / %p.pull-left
-        /   - unless @page_path.nil?
-        /     = link_to "See this page on Github", view_page_source(@page_path)
         %p.pull-right
           %a{:href => "https://twitter.com/derekeder"} @derekeder
           |

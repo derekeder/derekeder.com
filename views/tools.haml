@@ -30,40 +30,6 @@
           %a{:href => "http://googlemapsmania.blogspot.com/2012/05/open-source-fusion-tables-map-template.html"} Google Maps Mania
 
     .span4
-      %a{:href => "https://github.com/open-city/dedupe"}
-        %img.img-polaroid{:src => "/images/screenshots/dedupe.jpg", :title => "Dedupe"}
-        %h4
-          Dedupe
-      %p
-        An open source python library for accurate and scaleable deduplication and entity-resolution. Other solutions break easily, don’t scale, and require significant developer time. Our solution is robust, can handle a large volume of data, and can be trained by anyone.
-        = succeed "." do
-          %a{:href => "http://pyvideo.org/video/973/big-data-de-duping"} See our presentation at ChiPy
-
-    .clearfix
-
-    .span4
-      %a{:href => "https://github.com/derekeder/site-template"}
-        %img.img-polaroid{:src => "/images/screenshots/site-template.jpg", :title => "Sinatra Site Template"}
-        %h4
-          Sinatra Site Template
-      %p
-        Kick off your project with a basic site template which uses
-        = succeed "," do
-          %a{:href => "http://www.ruby-lang.org"} Ruby
-        = succeed "," do
-          %a{:href => "http://www.sinatrarb.com"} Sinatra
-        %a{:href => "http://haml.info"} Haml
-        and
-        %a{:href => "http://twitter.github.com/bootstrap"} Twitter Bootstrap
-        with tie-ins to
-        %a{:href => "http://www.heroku.com"} Heroku
-        for hosting and
-        = succeed "." do
-          %a{:href => "http://www.google.com/analytics"} Google Analytics
-        = succeed "." do
-          %a{:href => "https://github.com/derekeder/site-template"} Get it on Github
-    
-    .span4
       %a{:href => "/fusion-tables-to-html-table/"}
         %img.img-polaroid{:src => "/images/screenshots/fusion-tables-html.jpg", :title => "Google Fusion Tables to HTML Table"}
         %h4
@@ -75,15 +41,3 @@
         = succeed "." do
           %a{:href => "http://datatables.net/"} Datatables
         Created as a companion to the searchable map template and written in PHP.
-
-    .clearfix
-
-    .span4
-      %a{:href => "https://github.com/derekeder/Socrata-to-FusionTables"}
-        %img.img-polaroid{:src => "/images/screenshots/socrata-fusion-tables.jpg", :title => "Socrata to Fusion Tables"}
-        %h4
-          Socrata to Google Fusion Tables
-      %p
-        Scrape a Socrata dataset and import it into a Google Fusion Table using this PHP script. Example data uses Chicago's 311 requests for vacant and abandoned buildings and is used to update
-        = succeed "." do
-          %a{:href => "/maps/chicago-abandoned-buildings/"} this map

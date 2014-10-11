@@ -1,4 +1,12 @@
 .content-grid.home
+
+  .row
+    .span8
+      %p
+        %strong Hi, I'm Derek Eder.
+        I've been building websites in Chicago since 2005. During the day, I run <a href='http://datamade.us'>DataMade</a>, a civic technology company. We work on projects that make open data, make open source software, and make people more powerful. 
+      %p
+        Outside of that, I make civic apps with <a href='http://opencityapps.org'>Open City</a> and run the <a href='http://opengovhacknight.org'>Open Gov Hack Night</a>, Chicago's weekly event to build, share, and learn about civic tech. <a href='/about'>Read my full bio &raquo;</a>
   .row
     .span8
       %h2
@@ -62,37 +70,19 @@
     .span8
       %hr
       %h2
-        Websites
-        %small
-          Powered by open data
-          |
-          %a{:href => "/websites"} more &raquo;
-
-    .span4
-      %a{:href => "http://chicagocouncilmatic.org"}
-        %img.img-polaroid{:src => "/images/screenshots/councilmatic.jpg", :title => "Chicago Councilmatic"}/
-        %h4
-          Chicago Councilmatic
-      %p
-        Are you curious about what legislation the <a href='http://www.cityofchicago.org/city/en/about/council.html'>Chicago City Council</a> has been passing? Search, browse, subscribe and comment on everything the City Council has done since Jan 1st 2010.
-
-    .span4
-      %a{:href => "http://chicagolobbyists.org"}
-        %img.img-polaroid{:src => "/images/screenshots/chicago-lobbyists.jpg", :title => "Chicago Lobbyists"}
-        %h4
-          Chicago Lobbyists
-      %p
-        An open data, open government, and open source project intended to improve the transparency of interactions between the City of Chicago and lobbyists and their clients.
-
-  .row
-    .span8
-      %hr
-      %h2
         Talks
         %small
           Public appearances and presentations
           |
           %a{:href => "/talks"} more &raquo;
+
+    .span4
+      %a{:href => "http://www.youtube.com/watch?v=ZR5JMxp-ejw"}
+        %img.img-polaroid{:src => "/images/talks/large-lots.jpg", :title => "When Technology and Policy Work Together: Large Lots in Chicago"}
+        %h4
+          When Technology and Policy Work Together: Large Lots in Chicago 
+      %p
+        Demond Drummer and Derek Eder share the story of how community organizers, technologists, and the City of Chicago collaborated to roll out a new program to give local residents ownership of vacant land in their neighborhood and incentivize neighborhood-level investment.
 
     .span4
       %a{:href => "http://www.pechakucha.org/channels/table-xi/presentations/open-gov-in-chicago-changing-government-from-the-outside-in"}
@@ -101,40 +91,3 @@
           Open Gov in Chicago: Changing Government from the Outside In
       %p
         What's the OpenGov thing all about anyway? In my first ever Pecha Kucha-style talk, I make an attempt to summarize 7 years of Open Government history in 6 minutes and 20 seconds.
-
-    .span4
-      %a{:href => "http://chicagotonight.wttw.com/2012/01/31/chicago-data-apps"}
-        %img.img-polaroid{:src => "/images/talks/chicago-tonight.jpg", :title => "Chicago Data Apps Panel Discussion"}
-        %h4
-          Chicago Data Apps Panel Discussion
-      %p
-        A panel discussion on open data and apps built with them. Several of our
-        Open City
-        projects were discussed, namely
-        = succeed ',' do
-          %a{:href => 'http://chicagolobbyists.org/'} Chicago Lobbyists
-        %a{:href => 'http://lookatcook.com/'} Look at Cook
-        and
-        = succeed '.' do
-          %a{:href => 'http://clearstreets.org/'} ClearStreets
-        Hosted by Chicago Tonight's Phil Ponce, featuring Chicago CTO
-        = succeed ',' do
-          %a{:href => 'http://www.ascentstage.com/'} John Tolva
-        %a{:href => 'http://about.me/pry'} Chad W. Pry
-        and me.
-
-  .row
-    .span8
-      %hr
-      %h2
-        Other projects
-        %small
-          Fun with new tools!
-
-    .span4
-      %a{:href => "/chicago_commute_modes/"}
-        %img.img-polaroid{:src => "/images/screenshots/chicago-commute-modes.jpg", :title => "How are people getting to work in Chicago?"}
-        %h4
-          How are people getting to work in Chicago?
-      %p
-        The Census Bureau collects data on how Chicagoans get to work via the American Community Survey. I created some charts to show commuting patterns for Chicago, from the S0801 table: Commuting characteristics by sex.

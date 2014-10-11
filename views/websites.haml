@@ -2,22 +2,15 @@
   .row
     .span8
       %h2
-        Websites
+        Projects
         %small
           Powered by open data
       %p
         Most of these are works of passion. The more recent ones are contributions to the ever-growing
         %a{:href => "http://data.cityofchicago.org/"} open
         %a{:href => "http://twitter.com/#!/search/opengov%20chicago"} government
-        %a{:href => "http://www.meetup.com/OpenGovChicago/"} movement
+        %a{:href => "http://opengovhacknight.org"} movement
         in Chicago.
-        I like to work with
-        = succeed "," do
-          %a{:href => "http://www.ruby-lang.org/en/"} Ruby
-        %a{:href => "http://www.google.com/fusiontables"} Fusion Tables
-        and
-        = succeed "." do
-          %a{:href => "http://jquery.com/"} jQuery
 
     .span4
       %a{:href => "http://chicagocouncilmatic.org"}
@@ -46,16 +39,12 @@
         How’s Business provides a view of Chicago’s local economy. It uses open data to show how several economic indicators have been trending since 2005.
 
     .span4
-      %a{:href => "http://www.sharemyshare.org"}
-        %img.img-polaroid{:src => "/images/screenshots/share-my-share.jpg", :title => "Share my Share"}/
+      %a{:href => "/chicago_commute_modes/"}
+        %img.img-polaroid{:src => "/images/screenshots/chicago-commute-modes.jpg", :title => "How are people getting to work in Chicago?"}
         %h4
-          Share my Share
+          How are people getting to work in Chicago?
       %p
-        Do you have a weekly veggie CSA and can't pick it up sometimes? Wouldn't it be nice if you could donate your box to charity? Well now you can. Share my Share allows residents of Logan Square to feed Chicago's hungry with their extra CSA boxes.
-        %br
-        %strong Press:
-        %em
-          %a{:href => "http://chicagoist.com/2012/07/25/new_website_allows_csa_buyers_to_do.php"} Chicagoist
+        The Census Bureau collects data on how Chicagoans get to work via the American Community Survey. I created some charts to show commuting patterns for Chicago, from the S0801 table: Commuting characteristics by sex.
 
     .clearfix
 
@@ -102,6 +91,17 @@
           %a{:href => "http://projects.metafilter.com/3380/Chicago-Lobbyists"} MetaFilter
 
     .clearfix
+
+    .span4
+      %img.img-polaroid{:src => "/images/screenshots/share-my-share.jpg", :title => "Share my Share"}/
+      %h4
+        Share my Share
+      %p
+        Do you have a weekly veggie CSA and can't pick it up sometimes? Wouldn't it be nice if you could donate your box to charity? Well now you can. Share my Share allows residents of Logan Square to feed Chicago's hungry with their extra CSA boxes.
+        %br
+        %strong Press:
+        %em
+          %a{:href => "http://chicagoist.com/2012/07/25/new_website_allows_csa_buyers_to_do.php"} Chicagoist
     
     .span4
       %a{:href => "http://LookAtCook.com"}

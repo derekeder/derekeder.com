@@ -25,7 +25,7 @@ http://opencityapps.org
 Volunteer group that creates web apps with open data to improve transparency, efficiency and decision-making for governments and our democracy.
 * Lead a team of developers and designers to build [open source apps](http://opencityapps.org/#projects) with open data from Chicago and Cook County
 * Analyze open data to tell stories and create visualizations to explain complex systems to the average citizen
-* Organize a weekly [Open Gov Hack Night](http://opengovhacknight.org/) to facilitate and stimulate new projects built with open data
+* Organize a weekly [Chi Hack Night](http://chihacknight.org/) to facilitate and stimulate new projects built with open data
 
 ### Webitects - Senior Web Developer
 May 2006–Present<br />
@@ -39,7 +39,7 @@ http://webitects.com
 * Implement internal tech policies like distributed version control, Amazon EC2 and PayPal integration
 
 ## Other relevant experience
-__Event Organizer for Open Gov Hack Night__
+__Founder and Lead Organizer for Chi Hack Night__
 Weekly event where 30-50 developers, designers, researchers, policy wonks and citizens get together to work on and talk about open data and civic innovation. http://opengovhacknight.org/
 
 __Dedupe Python Library__

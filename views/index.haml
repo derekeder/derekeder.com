@@ -7,64 +7,6 @@
         I'm an entrepreneur, developer and one of the leaders of the civic technology community in Chicago. During the day, I run <a href='http://datamade.us'>DataMade</a>, a civic technology company. We build open source technology using data to empower journalists, researchers, governments and advocacy organizations. 
       %p
         Outside of that, I make civic apps with <a href='http://opencityapps.org'>Open City</a> and run the <a href='http://chihacknight.org'>Chi Hack Night</a>, Chicago's weekly event to build, share, and learn about civic tech. <a href='/about'>Read my full bio &raquo;</a>
-  .row
-    .span8
-      %h2
-        Tools
-        %small
-          Free and open source 
-          |
-          %a{:href => "/tools"} more &raquo;
-
-    .span4
-      %a{:href => "/searchable_map_template/"}
-        %img.img-polaroid{:src => "/images/screenshots/searchable-template.jpg", :title => "Searchable Map Template with Google Fusion Tables"}
-        %h4
-          Searchable Map Template with Google Fusion Tables
-      %p
-        Put your data on a searchable, filterable map. This is a free, open source tool and template powered by Google Fusion Tables.
-
-    .span4
-      %a{:href => "/fusion-tables-to-html-table/"}
-        %img.img-polaroid{:src => "/images/screenshots/fusion-tables-html.jpg", :title => "Google Fusion Tables to HTML Table"}
-        %h4
-          Google Fusion Tables to HTML Table
-      %p
-        Input a Google 
-        %a{:href => "http://google.com/fusiontables/Home/"} Fusion Table 
-        and output into a searchable and sortable HTML table using jQuery 
-        = succeed "." do
-          %a{:href => "http://datatables.net/"} Datatables
-        Created as a companion to the searchable map template and written in PHP.
-
-  .row
-    .span8
-      %hr
-      %h2 
-        Maps
-        %small 
-          Mapping open data
-          |
-          %a{:href => "/maps"} more &raquo;
-
-    .span4
-      %a{:href => "http://secondcityzoning.org"}
-        %img.img-polaroid{:src => "/images/screenshots/second-city-zoning.jpg"}
-        %h4
-          2nd City Zoning
-      %p
-        To make Chicago’s zoning code digestible by humans, we took inspiration from one of our favorite games: 
-        = succeed '.' do
-          %a{:href => 'http://en.wikipedia.org/wiki/SimCity_2000'} Sim City 2000
-        Find out how your building is zoned, learn where to locate your business and explore zoning patterns throughout the city. 
-
-    .span4
-      %a{:href => "http://cpstiers.opencityapps.org"}
-        %img.img-polaroid{:src => "/images/screenshots/cps-tiers.jpg", :title => "Chicago Public School (CPS) Tiers"}
-        %h4
-          Chicago Public School (CPS) Tiers
-      %p
-        CPS places every part of the city into one of four socio-economic "tiers" and requires selective schools to reserve the same number of spots for the students from each tier. Find which CPS tier you are in with this tool.
 
   .row
     .span8
@@ -91,3 +33,32 @@
           Open Gov in Chicago: Changing Government from the Outside In
       %p
         What's the OpenGov thing all about anyway? In my first ever Pecha Kucha-style talk, I make an attempt to summarize 7 years of Open Government history in 6 minutes and 20 seconds.
+
+  .row
+    .span8
+      %hr
+      %h2 
+        Maps
+        %small 
+          Mapping open data
+          |
+          %a{:href => "/maps"} more &raquo;
+
+    .span4
+      %a{:href => "/searchable_map_template/"}
+        %img.img-polaroid{:src => "/images/screenshots/searchable-template.jpg", :title => "Searchable Map Template with Google Fusion Tables"}
+        %h4
+          Searchable Map Template with Google Fusion Tables
+      %p
+        Put your data on a searchable, filterable map. This is a free, open source tool and template powered by Google Fusion Tables.
+
+    .span4
+      %a{:href => "http://secondcityzoning.org"}
+        %img.img-polaroid{:src => "/images/screenshots/second-city-zoning.jpg"}
+        %h4
+          2nd City Zoning
+      %p
+        To make Chicago’s zoning code digestible by humans, we took inspiration from one of our favorite games: 
+        = succeed '.' do
+          %a{:href => 'http://en.wikipedia.org/wiki/SimCity_2000'} Sim City 2000
+        Find out how your building is zoned, learn where to locate your business and explore zoning patterns throughout the city. 

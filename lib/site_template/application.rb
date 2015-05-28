@@ -76,6 +76,10 @@ module SiteTemplate
       redirect "/maps/#{params[:map]}/index.html"
     end
 
+    get "/tools" do
+      redirect "/maps"
+    end
+
     get '/sitemap.xml' do
       map = XmlSitemap::Map.new('derekeder.com') do |m|
         

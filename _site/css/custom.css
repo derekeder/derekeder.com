@@ -1,0 +1,64 @@
+body {
+  padding-top: 30px;
+  background-color: #f6f6f6;
+  font-size: 15px;
+}
+
+#mapCanvas img {
+  max-width: none;
+}
+
+.content-primary {
+  background-color: #ffffff;
+  margin-top: -30px;
+}
+
+@media (min-width:500px){ 
+  .content-primary {
+    padding-left: 50px;
+  }
+}
+
+.home h2 {
+  margin-bottom: 0px;
+}
+
+.content-grid img {
+  margin-top: 30px;
+}
+
+.content-secondary {
+  padding-bottom: 30px;
+}
+
+.content-secondary h2 a {
+  color: #2D2D2D;
+}
+
+.content-secondary h2 a:hover {
+  color: #2D2D2D;
+  text-decoration: none;
+}
+
+.pull-left {
+  margin-right: 10px;
+}
+
+.nav-list > .active > a,
+.nav-list > .active > a:hover {
+   background-color: #4B58A6; 
+}
+
+a, a:hover {
+  color: #4B58A6; 
+}
+
+.social a:hover {
+  text-decoration: none;
+}
+
+.nav-pills>.active>a,.nav-pills>.active>a:hover{background-color:#4B58A6;}
+
+.nav {
+  font-size: 16px;
+}

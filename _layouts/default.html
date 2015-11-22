@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <meta content='Partner at DataMade, Co-found of Open City, and leader of the Chi Hack Night. I make stuff with open data.' name='description'>
+    <meta content='Derek Eder' name='author'>
+
+    <title>
+      {% if page.title %}
+        {{page.title}} - {{site.name}}
+      {% else %}
+        {{site.name}} - Open Data Web Developer
+      {% endif %}
+    </title>
+    <meta charset='utf-8' />
+    <meta content='width=device-width, initial-scale=1.0' name='viewport' />
+    {% if page.description %}
+      <meta content="{{ page.description }}" name='description' />
+    {% else %}
+      <meta content="{{ site.description }}" name='description' />
+    {% endif %}
+    <meta content='{{ site.name }}' name='author' />
+
+    <!-- Facebook metadata -->
+    <meta content="{{ site.title }}" property="og:site_name">
+    {% if page.title %}
+      <meta content="{{ page.title }}" property="og:title">
+    {% else %}
+      <meta content="{{ site.title }}" property="og:title">
+    {% endif %}
+    {% if page.title %}
+      <meta content="article" property="og:type">
+    {% else %}
+      <meta content="website" property="og:type">
+    {% endif %}
+    {% if page.description %}
+      <meta content="{{ page.description }}" property="og:description">
+    {% else %}
+      <meta content="{{ site.description }}" property="og:description">
+    {% endif %}
+    {% if page.url %}
+      <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+    {% endif %}
+    {% if page.date %}
+      <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+      <meta content="{{ site.url }}/about-us/" property="article:author">
+    {% endif %}
+    {% if page.image %}
+      <meta content="{{ site.url }}/{{ page.image }}" property="og:image">
+    {% else %}
+      <meta content="{{ site.url }}/images/datamade_logomark_full.png" property="og:image">
+    {% endif %}
+    {% if page.categories %}
+      {% for category in page.categories limit:1 %}
+      <meta content="{{ category }}" property="article:section">
+      {% endfor %}
+    {% endif %}
+    {% if page.tags %}
+      {% for tag in page.tags %}
+      <meta content="{{ tag }}" property="article:tag">
+      {% endfor %}
+    {% endif %}
+
+    <!-- Twitter metadata -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@DataMadeCo">
+    <meta name="twitter:creator" content="@DataMadeCo">
+    {% if page.title %}
+      <meta name="twitter:title" content="{{ page.title }}">
+    {% else %}
+      <meta name="twitter:title" content="{{ site.title }}">
+    {% endif %}
+    {% if page.url %}
+      <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+    {% endif %}
+    {% if page.description %}
+      <meta name="twitter:description" content="{{ page.description }}">
+    {% else %}
+      <meta name="twitter:description" content="{{ site.description }}">
+    {% endif %}
+    {% if page.image %}
+      <meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.image }}">
+    {% else %}
+      <meta name="twitter:image:src" content="{{ site.url }}/images/datamade_logomark_full.png">
+    {% endif %}
+
+    <link href='/favicon.ico' rel='shortcut icon'>
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/bootstrap.spacelab.min.css"/>
+    <link rel="stylesheet" href="/css/bootstrap-responsive.css"/>
+    <link rel="stylesheet" href="/css/custom.css"/>
+    <link rel="stylesheet" href="/css/code_highlighting.css"/>
+    
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class='container'>
+      <div class='row'>
+        <div class='span3 content-secondary'>
+          <h2>
+            <a href='/'>Derek Eder</a>
+          </h2>
+          <h4>Open Data Web Developer</h4>
+          <div class='hidden-phone'>
+            <img alt='Derek Eder' class='pull-left img-polaroid headshot' src='/images/derek.jpg' title='Derek Eder'>
+            <p>
+              I work with open data and create open source apps and tools in Chicago. <a href='/about'>Read more &raquo;</a>
+            </p>
+            <hr>
+            <div class='clearfix'></div>
+            <p>
+              <strong>
+                Founder and Partner at
+                <a href='http://datamade.us'>DataMade</a>
+              </strong>
+              <br>
+              An open data web development and consulting company in Chicago
+            </p>
+            <p>
+              <strong>
+                Lead Organizer of
+                <a href='http://chihacknight.org'>Chi Hack Night</a>
+              </strong>
+              <br>
+              Weekly event for building civic technology with open data
+            </p>
+            <p>
+              <strong>
+                Co-founder of
+                <a href='http://opencityapps.org/'>Open City</a>
+              </strong>
+              <br>
+              Group of volunteers that create civic web apps with open data
+            </p>
+            <p>
+              <a href='mailto:derek.eder+de@gmail.com'>Email</a>
+              or
+              <a href='http://twitter.com/derekeder'>tweet</a>
+              at me.
+            </p>
+            <p class='social'>
+              <a href='https://github.com/derekeder'>
+                <img alt='Derek Eder on Github' src='/images/social/github.png' title='Derek Eder on Github'>
+              </a>
+              <a href='https://twitter.com/derekeder'>
+                <img alt='Derek Eder on Twitter' src='/images/social/twitter.png' title='Derek Eder on Twitter'>
+              </a>
+              <a href='http://www.linkedin.com/in/derekeder'>
+                <img alt='Derek Eder on LinkedIn' src='/images/social/linkedin.png' title='Derek Eder on LinkedIn'>
+              </a>
+            </p>
+          </div>
+          <div class='clearfix'></div>
+        </div>
+        <div class='span9'>
+          <div class='well content-primary'>
+            <ul class='nav nav-pills'>
+              {% for link in site.navigation %}
+                {% assign current = nil %}
+                {% if page.url == link.url or (page.categories != nil and page.categories.first == link.category) %}
+                  {% assign current = 'active' %}
+                {% endif %}
+
+                <li class="{{ current }}">
+                  <a href="{{ link.url }}">{{ link.text }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+            
+            <hr />
+            <div class='content-grid home'>
+              
+              {{content}}
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class='footer'>
+      <div class='span12'>
+        <p class='pull-right'>
+          <a href='https://twitter.com/derekeder'>@derekeder</a>
+          |
+          <a href='mailto:derek.eder+de@gmail.com'>Email me</a>
+          |
+          &copy; Derek Eder
+        </p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="/javascripts/jquery.js"></script>
+    <script type="text/javascript" src="/javascripts/bootstrap.js"></script>
+    
+    <script type="text/javascript" src="/javascripts/analytics_lib.js"></script>
+  </body>
+</html>

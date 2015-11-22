@@ -1,0 +1,6 @@
+[submodule "public/searchable_map_template/demo"]
+    path = public/searchable_map_template/demo
+    url = git://github.com/derekeder/FusionTable-Map-Template.git
+[submodule "public/maps/chicago-clinics"]
+	path = maps/chicago-clinics
+    url = git://github.com/derekeder/ChicagoClinicsMap.git

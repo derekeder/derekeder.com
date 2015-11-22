@@ -4,7 +4,13 @@ title: Preparing for the Google Fusion Tables SQL API Deprecation
 categories: 
   - blog
 date: 2013-01-12
+description: On January 14, 2013, Google will deprecate the SQL API for their Fusion Tables platform. This post is here to help developers prepare for it (or more likely, fix things after they break).
+image: /images/blog/fusion-tables-logo-beta.gif
 ---
+
+<p><a href='https://developers.google.com/fusiontables/'><img class='img-polaroid' src='/images/blog/fusion-tables-logo-beta.gif' title='Google Fusion Tables' alt='Google Fusion Tables'></a></p>
+            
+<p>On January 14, 2013, Google will <a href="https://developers.google.com/fusiontables/docs/developers_guide">deprecate the SQL API</a> for their <a href="https://developers.google.com/fusiontables/">Fusion Tables platform</a>. This post is here to help developers prepare for it (or more likely, fix things after they break).</p>
 
 ### How to upgrade to the Fusion Tables v1 API
 

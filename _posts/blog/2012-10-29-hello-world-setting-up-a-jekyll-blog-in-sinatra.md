@@ -3,8 +3,14 @@ layout: post
 title: Hello World! Setting up a Jekyll blog inside Sinatra
 categories: 
   - blog
-date: 2012-11-29
+date: 2012-10-29
+description: "I'm going meta on my first blog post: how to set up a Jekyll blog inside a Sinatra app. A few people have written on this topic, but I had some specific requirements that no one addressed. So my goal here is to write the post I wish existed when I started out. Here it goes."
+image: /images/blog/jekyll.jpg
 ---
+
+<p><a href='http://jekyllrb.com'><img class='img-polaroid' src='/images/blog/jekyll.jpg' title='Jekyll' alt='Jekyll'></a> + <a href='http://sinatrarb.com'><img class='img-polaroid' src='/images/blog/sinatra.jpg' title='Sinatra' alt='Sinatra'></a></p>
+            
+<p>I'm going meta on my first blog post: how to set up a <a href="http://jekyllrb.com/">Jekyll</a> blog inside a <a href="http://www.sinatrarb.com/">Sinatra</a> app. A <a href="http://recursive-design.com/blog/2010/10/12/static-blogging-the-jekyll-way/">few</a> <a href="http://mikeferrier.com/2011/04/29/blogging-with-jekyll-haml-sass-and-jammit/">people</a> have <a href="http://danielmcgraw.com/2011/04/14/The-Ultimate-Guide-To-Getting-Started-With-Jekyll-Part-1/">written</a> on this <a href="http://www.engineyard.com/blog/2012/introducing-bloggy-a-simple-way-to-add-a-jekyll-blog-to-any-rails-application/">topic</a>, but I had some specific requirements that no one addressed. So my goal here is to write the post I wish existed when I started out. Here it goes.</p>
 
 ### The goal
 I have an existing Sinatra site and I want to add a blog section to it. I don't want Jekyll to take over my whole application, rather just a certain part of it (the [/blog](/blog) section). Thankfully, this is possible AND I can reuse my layout.haml (header, footer, styles, etc) for the blog pages. Here's how:

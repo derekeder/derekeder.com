@@ -14,7 +14,7 @@
     <meta charset='utf-8' />
     <meta content='width=device-width, initial-scale=1.0' name='viewport' />
     
-      <meta content="Partner at DataMade, Co-found of Open City, and leader of the Chi Hack Night. I make stuff with open data." name='description' />
+      <meta content="On August 17, 2012, Chicago Public Schools (CPS) launched a new version of their School Locator - an online map that helps parents find public schools for their kids. Unlike the map that came before it, this one is intuitive, easy to use, and took half the time to build. How was CPS able to accomplish this? By doing it in-house and using open source software." name='description' />
     
     <meta content='Derek Eder' name='author' />
 
@@ -27,7 +27,7 @@
       <meta content="article" property="og:type">
     
     
-      <meta content="Partner at DataMade, Co-found of Open City, and leader of the Chi Hack Night. I make stuff with open data." property="og:description">
+      <meta content="On August 17, 2012, Chicago Public Schools (CPS) launched a new version of their School Locator - an online map that helps parents find public schools for their kids. Unlike the map that came before it, this one is intuitive, easy to use, and took half the time to build. How was CPS able to accomplish this? By doing it in-house and using open source software." property="og:description">
     
     
       <meta content="http://derekeder.com/blog/how-chicago-public-schools-succeeded-with-open-source-software" property="og:url">
@@ -37,7 +37,7 @@
       <meta content="http://derekeder.com/about-us/" property="article:author">
     
     
-      <meta content="http://derekeder.com/images/datamade_logomark_full.png" property="og:image">
+      <meta content="http://derekeder.com//images/blog/cps-locator/cps-locator.jpg" property="og:image">
     
     
       
@@ -59,10 +59,10 @@
       <meta name="twitter:url" content="http://derekeder.com/blog/how-chicago-public-schools-succeeded-with-open-source-software">
     
     
-      <meta name="twitter:description" content="Partner at DataMade, Co-found of Open City, and leader of the Chi Hack Night. I make stuff with open data.">
+      <meta name="twitter:description" content="On August 17, 2012, Chicago Public Schools (CPS) launched a new version of their School Locator - an online map that helps parents find public schools for their kids. Unlike the map that came before it, this one is intuitive, easy to use, and took half the time to build. How was CPS able to accomplish this? By doing it in-house and using open source software.">
     
     
-      <meta name="twitter:image:src" content="http://derekeder.com/images/datamade_logomark_full.png">
+      <meta name="twitter:image:src" content="http://derekeder.com/images//images/blog/cps-locator/cps-locator.jpg">
     
 
     <link href='/favicon.ico' rel='shortcut icon'>
@@ -76,6 +76,9 @@
     <!--[if lt IE 9]>
       <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
   </head>
   <body>
     <div class='container'>
@@ -187,16 +190,30 @@
             <hr />
             <div class='content-grid home'>
               
-              <h2>
+              <p><a href='/blog'>&laquo; back to blog</a></p>
+
+<h2>
   <small>14 Nov 2012<br /></small>
   How Chicago Public Schools Succeeded with Open Source Software
 </h2>
 <div class='blog'>
-  <h3 id="the-backstory">The backstory</h3>
+  <p><a href="http://cps.edu/map"><img class="img-polaroid" src="/images/blog/cps-locator/cps-locator.jpg" title="Jekyll" alt="Jekyll" /></a></p>
+
+<p><em>This article was also published on Nov 12, 2012 on the Huffington Post under the title <a href="http://www.huffingtonpost.com/derek-eder/chicago-public-schools-locator-map_b_2119284.html">Hacking Chicago</a>.</em></p>
+
+<p>On August 17, 2012, Chicago Public Schools (CPS) launched a new version of their <a href="http://cps.edu/map">School Locator</a> - an online map that helps parents find public schools for their kids. Unlike the map that came before it, this one is intuitive, easy to use, and took half the time to build.</p>
+
+<p>How was CPS able to accomplish this?</p>
+
+<p>By doing it in-house and using open source software.</p>
+
+<h3 id="the-backstory">The backstory</h3>
 
 <p>Governments usually build web apps like this one by hiring private contractors through a process called <a href="http://en.wikipedia.org/wiki/Procurement">procurement</a>. They publish a ‘“request for proposals” describing the project, and companies bid for the contract. Procurement is long and bureaucratic, often leading to inflated bids by a small group of companies that know how to navigate the process.</p>
 
 <p>In 2003, CPS paid a contractor $15,000 to design the original School Locator app. It took them four months to build:</p>
+
+<p><img class="img-polaroid" src="/images/blog/cps-locator/cps-locator-old.jpg" title="The Previous CPS School Locator" alt="The Previous CPS School Locator" /></p>
 
 <p>The Previous CPS School Locator</p>
 
@@ -211,6 +228,8 @@
 <p>In March of 2012, civic hackers at <a href="http://opencityapps.org/">Open City</a> (myself included) launched <a href="http://cpstiers.opencityapps.org">Chicago Public School Tiers</a>, an app to help parents enroll their kids in Chicago’s selective schools. </p>
 
 <p>In Chicago, selective schools only admit a certain number of students from each of the city’s four socioeconomic “tiers.” What tier you live in really affects which schools you should apply to. But before we built the app, finding your tier was a huge ordeal.</p>
+
+<p><a href="http://cpstiers.opencityapps.org"><img class="img-polaroid" src="/images/blog/cps-locator/cps-tiers.jpg" title="Chicago Public School Tiers Website by Open City" alt="Chicago Public School Tiers Website by Open City" /></a></p>
 
 <p>Chicago Public School Tiers Website by Open City</p>
 
@@ -287,9 +306,6 @@
         </p>
       </div>
     </footer>
-    <script type="text/javascript" src="/javascripts/jquery.js"></script>
-    <script type="text/javascript" src="/javascripts/bootstrap.js"></script>
-    
-    <script type="text/javascript" src="/javascripts/analytics_lib.js"></script>
+    <script type="text/javascript" src="/js/analytics_lib.js"></script>
   </body>
 </html>

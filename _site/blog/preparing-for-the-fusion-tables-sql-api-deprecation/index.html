@@ -14,7 +14,7 @@
     <meta charset='utf-8' />
     <meta content='width=device-width, initial-scale=1.0' name='viewport' />
     
-      <meta content="Partner at DataMade, Co-found of Open City, and leader of the Chi Hack Night. I make stuff with open data." name='description' />
+      <meta content="On January 14, 2013, Google will deprecate the SQL API for their Fusion Tables platform. This post is here to help developers prepare for it (or more likely, fix things after they break)." name='description' />
     
     <meta content='Derek Eder' name='author' />
 
@@ -27,7 +27,7 @@
       <meta content="article" property="og:type">
     
     
-      <meta content="Partner at DataMade, Co-found of Open City, and leader of the Chi Hack Night. I make stuff with open data." property="og:description">
+      <meta content="On January 14, 2013, Google will deprecate the SQL API for their Fusion Tables platform. This post is here to help developers prepare for it (or more likely, fix things after they break)." property="og:description">
     
     
       <meta content="http://derekeder.com/blog/preparing-for-the-fusion-tables-sql-api-deprecation" property="og:url">
@@ -37,7 +37,7 @@
       <meta content="http://derekeder.com/about-us/" property="article:author">
     
     
-      <meta content="http://derekeder.com/images/datamade_logomark_full.png" property="og:image">
+      <meta content="http://derekeder.com//images/blog/fusion-tables-logo-beta.gif" property="og:image">
     
     
       
@@ -59,10 +59,10 @@
       <meta name="twitter:url" content="http://derekeder.com/blog/preparing-for-the-fusion-tables-sql-api-deprecation">
     
     
-      <meta name="twitter:description" content="Partner at DataMade, Co-found of Open City, and leader of the Chi Hack Night. I make stuff with open data.">
+      <meta name="twitter:description" content="On January 14, 2013, Google will deprecate the SQL API for their Fusion Tables platform. This post is here to help developers prepare for it (or more likely, fix things after they break).">
     
     
-      <meta name="twitter:image:src" content="http://derekeder.com/images/datamade_logomark_full.png">
+      <meta name="twitter:image:src" content="http://derekeder.com/images//images/blog/fusion-tables-logo-beta.gif">
     
 
     <link href='/favicon.ico' rel='shortcut icon'>
@@ -76,6 +76,9 @@
     <!--[if lt IE 9]>
       <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
   </head>
   <body>
     <div class='container'>
@@ -187,12 +190,18 @@
             <hr />
             <div class='content-grid home'>
               
-              <h2>
+              <p><a href='/blog'>&laquo; back to blog</a></p>
+
+<h2>
   <small>12 Jan 2013<br /></small>
   Preparing for the Google Fusion Tables SQL API Deprecation
 </h2>
 <div class='blog'>
-  <h3 id="how-to-upgrade-to-the-fusion-tables-v1-api">How to upgrade to the Fusion Tables v1 API</h3>
+  <p><a href="https://developers.google.com/fusiontables/"><img class="img-polaroid" src="/images/blog/fusion-tables-logo-beta.gif" title="Google Fusion Tables" alt="Google Fusion Tables" /></a></p>
+
+<p>On January 14, 2013, Google will <a href="https://developers.google.com/fusiontables/docs/developers_guide">deprecate the SQL API</a> for their <a href="https://developers.google.com/fusiontables/">Fusion Tables platform</a>. This post is here to help developers prepare for it (or more likely, fix things after they break).</p>
+
+<h3 id="how-to-upgrade-to-the-fusion-tables-v1-api">How to upgrade to the Fusion Tables v1 API</h3>
 
 <p>According to <a href="https://developers.google.com/fusiontables/docs/v1/migration_guide">Google’s Migration Guide</a> (very useful!), their recommended path is to upgrade your apps to the <a href="https://developers.google.com/fusiontables/docs/v1/getting_started">Fusion Tables v1 API</a>. </p>
 
@@ -280,9 +289,6 @@
         </p>
       </div>
     </footer>
-    <script type="text/javascript" src="/javascripts/jquery.js"></script>
-    <script type="text/javascript" src="/javascripts/bootstrap.js"></script>
-    
-    <script type="text/javascript" src="/javascripts/analytics_lib.js"></script>
+    <script type="text/javascript" src="/js/analytics_lib.js"></script>
   </body>
 </html>

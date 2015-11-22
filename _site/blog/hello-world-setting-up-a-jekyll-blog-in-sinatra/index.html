@@ -14,7 +14,7 @@
     <meta charset='utf-8' />
     <meta content='width=device-width, initial-scale=1.0' name='viewport' />
     
-      <meta content="Partner at DataMade, Co-found of Open City, and leader of the Chi Hack Night. I make stuff with open data." name='description' />
+      <meta content="I'm going meta on my first blog post: how to set up a Jekyll blog inside a Sinatra app. A few people have written on this topic, but I had some specific requirements that no one addressed. So my goal here is to write the post I wish existed when I started out. Here it goes." name='description' />
     
     <meta content='Derek Eder' name='author' />
 
@@ -27,17 +27,17 @@
       <meta content="article" property="og:type">
     
     
-      <meta content="Partner at DataMade, Co-found of Open City, and leader of the Chi Hack Night. I make stuff with open data." property="og:description">
+      <meta content="I'm going meta on my first blog post: how to set up a Jekyll blog inside a Sinatra app. A few people have written on this topic, but I had some specific requirements that no one addressed. So my goal here is to write the post I wish existed when I started out. Here it goes." property="og:description">
     
     
       <meta content="http://derekeder.com/blog/hello-world-setting-up-a-jekyll-blog-in-sinatra" property="og:url">
     
     
-      <meta content="2012-11-29T00:00:00-06:00" property="article:published_time">
+      <meta content="2012-10-29T00:00:00-05:00" property="article:published_time">
       <meta content="http://derekeder.com/about-us/" property="article:author">
     
     
-      <meta content="http://derekeder.com/images/datamade_logomark_full.png" property="og:image">
+      <meta content="http://derekeder.com//images/blog/jekyll.jpg" property="og:image">
     
     
       
@@ -59,10 +59,10 @@
       <meta name="twitter:url" content="http://derekeder.com/blog/hello-world-setting-up-a-jekyll-blog-in-sinatra">
     
     
-      <meta name="twitter:description" content="Partner at DataMade, Co-found of Open City, and leader of the Chi Hack Night. I make stuff with open data.">
+      <meta name="twitter:description" content="I'm going meta on my first blog post: how to set up a Jekyll blog inside a Sinatra app. A few people have written on this topic, but I had some specific requirements that no one addressed. So my goal here is to write the post I wish existed when I started out. Here it goes.">
     
     
-      <meta name="twitter:image:src" content="http://derekeder.com/images/datamade_logomark_full.png">
+      <meta name="twitter:image:src" content="http://derekeder.com/images//images/blog/jekyll.jpg">
     
 
     <link href='/favicon.ico' rel='shortcut icon'>
@@ -76,6 +76,9 @@
     <!--[if lt IE 9]>
       <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
   </head>
   <body>
     <div class='container'>
@@ -187,12 +190,18 @@
             <hr />
             <div class='content-grid home'>
               
-              <h2>
-  <small>29 Nov 2012<br /></small>
+              <p><a href='/blog'>&laquo; back to blog</a></p>
+
+<h2>
+  <small>29 Oct 2012<br /></small>
   Hello World! Setting up a Jekyll blog inside Sinatra
 </h2>
 <div class='blog'>
-  <h3 id="the-goal">The goal</h3>
+  <p><a href="http://jekyllrb.com"><img class="img-polaroid" src="/images/blog/jekyll.jpg" title="Jekyll" alt="Jekyll" /></a> + <a href="http://sinatrarb.com"><img class="img-polaroid" src="/images/blog/sinatra.jpg" title="Sinatra" alt="Sinatra" /></a></p>
+
+<p>I'm going meta on my first blog post: how to set up a <a href="http://jekyllrb.com/">Jekyll</a> blog inside a <a href="http://www.sinatrarb.com/">Sinatra</a> app. A <a href="http://recursive-design.com/blog/2010/10/12/static-blogging-the-jekyll-way/">few</a> <a href="http://mikeferrier.com/2011/04/29/blogging-with-jekyll-haml-sass-and-jammit/">people</a> have <a href="http://danielmcgraw.com/2011/04/14/The-Ultimate-Guide-To-Getting-Started-With-Jekyll-Part-1/">written</a> on this <a href="http://www.engineyard.com/blog/2012/introducing-bloggy-a-simple-way-to-add-a-jekyll-blog-to-any-rails-application/">topic</a>, but I had some specific requirements that no one addressed. So my goal here is to write the post I wish existed when I started out. Here it goes.</p>
+
+<h3 id="the-goal">The goal</h3>
 <p>I have an existing Sinatra site and I want to add a blog section to it. I don’t want Jekyll to take over my whole application, rather just a certain part of it (the <a href="/blog">/blog</a> section). Thankfully, this is possible AND I can reuse my layout.haml (header, footer, styles, etc) for the blog pages. Here’s how:</p>
 
 <h3 id="installing-jekyll">Installing Jekyll</h3>
@@ -376,9 +385,6 @@ pygmentize -S default -f html &gt; code_highlighting.css</code></pre></div>
         </p>
       </div>
     </footer>
-    <script type="text/javascript" src="/javascripts/jquery.js"></script>
-    <script type="text/javascript" src="/javascripts/bootstrap.js"></script>
-    
-    <script type="text/javascript" src="/javascripts/analytics_lib.js"></script>
+    <script type="text/javascript" src="/js/analytics_lib.js"></script>
   </body>
 </html>

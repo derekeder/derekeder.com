@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://derekeder.com/</loc>
-    <lastmod>2015-11-21T15:16:27-06:00</lastmod>
+    <lastmod>2015-11-22T13:58:20-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -34,9 +34,9 @@
     </url>
   
     <url>
-      <loc>http://derekeder.com/blog/hello-world-setting-up-a-jekyll-blog-in-sinatra/</loc>
+      <loc>http://derekeder.com/blog/how-chicago-public-schools-succeeded-with-open-source-software/</loc>
       
-        <lastmod>2012-11-29T00:00:00-06:00</lastmod>
+        <lastmod>2012-11-14T00:00:00-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -47,9 +47,9 @@
     </url>
   
     <url>
-      <loc>http://derekeder.com/blog/how-chicago-public-schools-succeeded-with-open-source-software/</loc>
+      <loc>http://derekeder.com/blog/hello-world-setting-up-a-jekyll-blog-in-sinatra/</loc>
       
-        <lastmod>2012-11-14T00:00:00-06:00</lastmod>
+        <lastmod>2012-10-29T00:00:00-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -63,7 +63,7 @@
   <url>
     <loc>http://derekeder.com/about/index.html</loc>
     
-      <lastmod>2015-11-21T15:16:27-06:00</lastmod>
+      <lastmod>2015-11-22T13:58:20-06:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -76,7 +76,20 @@
   <url>
     <loc>http://derekeder.com/blog/index.html</loc>
     
-      <lastmod>2015-11-21T15:16:27-06:00</lastmod>
+      <lastmod>2015-11-22T13:58:20-06:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.7</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://derekeder.com/chicago_commute_modes/index.html</loc>
+    
+      <lastmod>2015-11-22T13:58:20-06:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -89,7 +102,7 @@
   <url>
     <loc>http://derekeder.com/index.html</loc>
     
-      <lastmod>2015-11-21T15:16:27-06:00</lastmod>
+      <lastmod>2015-11-22T13:58:20-06:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -102,7 +115,7 @@
   <url>
     <loc>http://derekeder.com/searchable_map_template/index.html</loc>
     
-      <lastmod>2015-11-21T15:16:27-06:00</lastmod>
+      <lastmod>2015-11-22T13:58:20-06:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -115,7 +128,7 @@
   <url>
     <loc>http://derekeder.com/talks/index.html</loc>
     
-      <lastmod>2015-11-21T15:16:27-06:00</lastmod>
+      <lastmod>2015-11-22T13:58:20-06:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -128,7 +141,7 @@
   <url>
     <loc>http://derekeder.com/maps/index.html</loc>
     
-      <lastmod>2015-11-21T15:16:27-06:00</lastmod>
+      <lastmod>2015-11-22T13:58:20-06:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -141,7 +154,7 @@
   <url>
     <loc>http://derekeder.com/projects/index.html</loc>
     
-      <lastmod>2015-11-21T15:16:27-06:00</lastmod>
+      <lastmod>2015-11-22T13:58:20-06:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -154,7 +167,7 @@
   <url>
     <loc>http://derekeder.com/robots.txt</loc>
     
-      <lastmod>2015-11-21T15:16:27-06:00</lastmod>
+      <lastmod>2015-11-22T13:58:20-06:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -167,7 +180,7 @@
   <url>
     <loc>http://derekeder.com/sitemap.xml</loc>
     
-      <lastmod>2015-11-21T15:16:27-06:00</lastmod>
+      <lastmod>2015-11-22T13:58:20-06:00</lastmod>
     
     
       <changefreq>monthly</changefreq>

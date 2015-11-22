@@ -1,29 +1,27 @@
 # Personal website for Derek Eder 
 
-Simple site template using Ruby, Sinatra and Haml with tie-ins to Heroku and Google Analytics.
+Website for [derekeder.com](http://derekeder.com/).
 
-Based on [Derek Eder's site template](https://github.com/derekeder/site-template)
+I work with open data and create open source apps and tools in Chicago to improve the public good.
 
-## Installation
+## Running locally
 
+This website is built using Jekyll. You will need to [install it first](http://jekyllrb.com/docs/installation/).
+
+```console
+git clone https://github.com/derekeder/derekeder.com.git
+cd derekeder.com
+jekyll serve -w
 ```
-  git clone git@github.com:derekeder/site-template.git
-  cd site_template
-  gem install bundler
-  bundle
-  unicorn
 
-```
-  navigate to http://localhost:8080/
+Then open your web browser and navigate to http://localhost:5000
 
 ## Dependencies
 
-* [Ruby 1.9.3](http://www.ruby-lang.org/en/downloads)
-* [Sinatra](http://www.sinatrarb.com)
-* [Haml](http://haml.info)
-* [Heroku](http://www.heroku.com)
-* [Twitter Bootstrap](http://twitter.github.com/bootstrap)
-* [Google Analytics](http://www.google.com/analytics)
+* [Jekyll](http://jekyllrb.com/) - Static site generator built in Ruby
+* [Bootstrap 3](http://getbootstrap.com) - HTML and CSS layouts
+* [DataTables](http://datatables.net) - for searching and sorting tables
+* [jQuery Address](http://github.com/asual/jquery-address) - for deep linking URLs on the projects page
 
 ## Errors / Bugs
 

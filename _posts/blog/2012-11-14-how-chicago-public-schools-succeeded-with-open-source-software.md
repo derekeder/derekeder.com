@@ -8,7 +8,7 @@ description: "On August 17, 2012, Chicago Public Schools (CPS) launched a new ve
 image: /images/blog/cps-locator/cps-locator.jpg
 ---
 
-<p><a href='http://cps.edu/map'><img class='img-polaroid' src='/images/blog/cps-locator/cps-locator.jpg' title='Jekyll' alt='Jekyll'></a></p>
+<p><a href='http://cps.edu/map'><img class='img-thumbnail' src='/images/blog/cps-locator/cps-locator.jpg' title='Jekyll' alt='Jekyll'></a></p>
             
 <p><em>This article was also published on Nov 12, 2012 on the Huffington Post under the title <a href="http://www.huffingtonpost.com/derek-eder/chicago-public-schools-locator-map_b_2119284.html">Hacking Chicago</a>.</em></p>
 
@@ -24,7 +24,7 @@ Governments usually build web apps like this one by hiring private contractors t
 
 In 2003, CPS paid a contractor $15,000 to design the original School Locator app. It took them four months to build:
 
-<p><img class='img-polaroid' src='/images/blog/cps-locator/cps-locator-old.jpg' title='The Previous CPS School Locator' alt='The Previous CPS School Locator'></p>
+<p><img class='img-thumbnail' src='/images/blog/cps-locator/cps-locator-old.jpg' title='The Previous CPS School Locator' alt='The Previous CPS School Locator'></p>
 
 The Previous CPS School Locator
 
@@ -40,7 +40,7 @@ In March of 2012, civic hackers at [Open City](http://opencityapps.org/) (myself
 
 In Chicago, selective schools only admit a certain number of students from each of the city’s four socioeconomic “tiers.” What tier you live in really affects which schools you should apply to. But before we built the app, finding your tier was a huge ordeal.
 
-<p><a href='http://cpstiers.opencityapps.org'><img class='img-polaroid' src='/images/blog/cps-locator/cps-tiers.jpg' title='Chicago Public School Tiers Website by Open City' alt='Chicago Public School Tiers Website by Open City'></a></p>
+<p><a href='http://cpstiers.opencityapps.org'><img class='img-thumbnail' src='/images/blog/cps-locator/cps-tiers.jpg' title='Chicago Public School Tiers Website by Open City' alt='Chicago Public School Tiers Website by Open City'></a></p>
 
 Chicago Public School Tiers Website by Open City
 

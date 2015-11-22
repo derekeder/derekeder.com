@@ -10,7 +10,7 @@
       {% if page.title %}
         {{page.title}} - {{site.name}}
       {% else %}
-        {{site.name}} - Open Data Web Developer
+        {{site.name}} - Civic Tech Builder
       {% endif %}
     </title>
     <meta charset='utf-8' />
@@ -49,7 +49,7 @@
     {% if page.image %}
       <meta content="{{ site.url }}/{{ page.image }}" property="og:image">
     {% else %}
-      <meta content="{{ site.url }}/images/datamade_logomark_full.png" property="og:image">
+      <meta content="{{ site.url }}/images/derek.jpg" property="og:image">
     {% endif %}
     {% if page.categories %}
       {% for category in page.categories limit:1 %}
@@ -64,8 +64,8 @@
 
     <!-- Twitter metadata -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@DataMadeCo">
-    <meta name="twitter:creator" content="@DataMadeCo">
+    <meta name="twitter:site" content="@derekeder">
+    <meta name="twitter:creator" content="@derekeder">
     {% if page.title %}
       <meta name="twitter:title" content="{{ page.title }}">
     {% else %}
@@ -82,7 +82,7 @@
     {% if page.image %}
       <meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.image }}">
     {% else %}
-      <meta name="twitter:image:src" content="{{ site.url }}/images/datamade_logomark_full.png">
+      <meta name="twitter:image:src" content="{{ site.url }}/images/derek.jpg">
     {% endif %}
 
     <link href='/favicon.ico' rel='shortcut icon'>
@@ -91,12 +91,14 @@
     <link rel="stylesheet" href="/css/bootstrap-responsive.css"/>
     <link rel="stylesheet" href="/css/custom.css"/>
     <link rel="stylesheet" href="/css/code_highlighting.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
     
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    
+
     <script type="text/javascript" src="/js/jquery.js"></script>
     <script type="text/javascript" src="/js/bootstrap.js"></script>
   </head>
@@ -107,11 +109,11 @@
           <h2>
             <a href='/'>Derek Eder</a>
           </h2>
-          <h4>Open Data Web Developer</h4>
+          <h4>Civic Tech Builder</h4>
           <div class='hidden-phone'>
             <img alt='Derek Eder' class='pull-left img-polaroid headshot' src='/images/derek.jpg' title='Derek Eder'>
             <p>
-              I work with open data and create open source apps and tools in Chicago. <a href='/about'>Read more &raquo;</a>
+              I work with open data and create open source apps and tools in Chicago to improve the public good. <a href='/about'>Read more &raquo;</a>
             </p>
             <hr>
             <div class='clearfix'></div>
@@ -121,7 +123,7 @@
                 <a href='http://datamade.us'>DataMade</a>
               </strong>
               <br>
-              An open data web development and consulting company in Chicago
+              A civic technology and consulting company in Chicago
             </p>
             <p>
               <strong>
@@ -129,7 +131,7 @@
                 <a href='http://chihacknight.org'>Chi Hack Night</a>
               </strong>
               <br>
-              Weekly event for building civic technology with open data
+              Chicago's weekly event to build, share &amp; learn about civic tech
             </p>
             <p>
               <strong>
@@ -137,7 +139,7 @@
                 <a href='http://opencityapps.org/'>Open City</a>
               </strong>
               <br>
-              Group of volunteers that create civic web apps with open data
+              Group that create apps with open data to improve transparency and understanding of our government
             </p>
             <p>
               <a href='mailto:derek.eder+de@gmail.com'>Email</a>

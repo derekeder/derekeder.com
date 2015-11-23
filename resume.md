@@ -1,5 +1,5 @@
 # Derek Eder
-Open Data Web Developer interested in open government, open data, mapping, usability and social impact.
+Civic Tech Builder interested in open government, open data, mapping, usability and social impact.
 
 2543 N Spaulding Ave #2, Chicago, IL 60647<br />
 503.577.0677<br />

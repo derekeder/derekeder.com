@@ -10,7 +10,7 @@ http://derekeder.com<br />
 ### DataMade - Owner and Developer
 July 2012–Present<br />
 Chicago, IL<br />
-http://datamade.us
+https://datamade.us
 
 Civic consultancy that deploys civic apps, build custom visualizations, and train people to work with open data.
 * Lead a team of three that specialize in doing open source agile development 
@@ -30,7 +30,7 @@ Volunteer group that creates web apps with open data to improve transparency, ef
 ### Webitects - Senior Web Developer
 May 2006–Present<br />
 Chicago IL<br />
-http://webitects.com
+https://webitects.com
 
 .NET shop specializing in research and design for custom websites.
 * Build, manage and maintain more than 30 major .NET, PHP and Rails projects
@@ -40,10 +40,10 @@ http://webitects.com
 
 ## Other relevant experience
 __Founder and Lead Organizer for Chi Hack Night__
-Weekly event where 30-50 developers, designers, researchers, policy wonks and citizens get together to work on and talk about open data and civic innovation. http://opengovhacknight.org/
+Weekly event where 100-150 developers, designers, researchers, policy wonks and citizens get together to work on and talk about open data and civic innovation. https://chihacknight.org
 
 __Dedupe Python Library__
-An open source, extensible python library that quickly de-duplicates large sets of data from any source using machine learning, smart comparitors and complex blocking. http://datamade.us/civic-apps/dedupe/
+An open source, extensible python library that quickly de-duplicates large sets of data from any source using machine learning, smart comparitors and complex blocking. https://dedupe.io/
 
 __Fusion Tables Searchable Map Template__
 Open source template build on top of Google Fusion Tables to create custom searchable maps. Used by news publications, civic hackers and developers around the world. Featured by Google on Fusion Tables Tools page. http://derekeder.com/searchable_map_template/

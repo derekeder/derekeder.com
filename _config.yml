@@ -2,10 +2,10 @@ port:  5000
 markdown: kramdown
 name: Derek Eder
 title: Derek Eder
-url: http://derekeder.com
+url: https://derekeder.com
 encoding: utf-8
 timezone: America/Chicago
-description: "Partner at DataMade, Co-found of Open City, and leader of the Chi Hack Night. I build civic tech."
+description: "I'm an entrepreneur, developer and one of the leaders of the civic technology community in Chicago."
 permalink: /:categories/:title
 navigation:
 - text: <i class='fa fa-fw fa-home'></i>

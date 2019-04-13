@@ -20,5 +20,5 @@ navigation:
   url: /blog/index.html
 - text: About
   url: /about/index.html
-gems:
+plugins:
   - jekyll-redirect-from

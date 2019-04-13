@@ -156,12 +156,7 @@
           <div class='well content-primary'>
             <ul class='nav nav-pills'>
               {% for link in site.navigation %}
-                {% assign current = nil %}
-                {% if page.url == link.url or (page.categories != nil and page.categories.first == link.category) %}
-                  {% assign current = 'active' %}
-                {% endif %}
-
-                <li class="{{ current }}">
+                <li>
                   <a href="{{ link.url }}">{{ link.text }}</a>
                 </li>
               {% endfor %}

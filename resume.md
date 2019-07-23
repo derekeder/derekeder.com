@@ -4,7 +4,7 @@ Civic Tech Builder interested in open government, open data, mapping, usability 
 2543 N Spaulding Ave #2, Chicago, IL 60647<br />
 503.577.0677<br />
 derek@derekeder.com <br />
-http://derekeder.com<br />
+https://derekeder.com<br />
 
 ## Experience
 ### DataMade - Owner and Developer

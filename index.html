@@ -76,39 +76,37 @@ layout: default
     <div class='col-sm-12'>
       <hr>
       <h2>
-        Maps
+        Projects
         <small>
-          Mapping open data
+          Civic tech projects I've built or collaborated on
           |
-          <a href='/maps'>more &raquo;</a>
+          <a href='/projects'>more &raquo;</a>
         </small>
       </h2>
     </div>
   </div>
   <br />
-  <div class='row'>
-    <div class='col-sm-6'>
-      <a href='https://github.com/datamade/searchable-map-template-turf/' target="_blank">
-        <img class='img-thumbnail' src='/images/screenshots/searchable-map-turf.jpg' title='Searchable Map Template - Turf'>
-        <h4>
-          Searchable Map Template - Turf
-        </h4>
-      </a>
-      <p>
-        Put your data on a searchable, filterable map. This is a free, open source tool and template powered by Leaflet and Turf.js.
-      </p>
-    </div>
-    <div class='col-sm-6'>
-      <a href='https://secondcityzoning.org'>
-        <img class='img-thumbnail' src='/images/screenshots/second-city-zoning.jpg'>
-        <h4>
-          2nd City Zoning
-        </h4>
-      </a>
-      <p>
-        To make Chicago’s zoning code digestible by humans, we took inspiration from one of our favorite games:
-        <a href='https://en.wikipedia.org/wiki/SimCity_2000'>Sim City 2000</a>.
-        Find out how your building is zoned, learn where to locate your business and explore zoning patterns throughout the city.
-      </p>
-    </div>
+
+  <div class='content-grid'>
+    {% for post in site.categories['project'] %}
+      {% if post.featured %}
+      <div class='row'>
+        <div class='col-sm-5'>
+          <a href='{{post.url}}'>
+            <img alt="{{post.title}}" class="img-thumbnail" src="{{post.image}}" />
+          </a>
+        </div>
+        <div class='col-sm-7'>
+          <h4>
+            <a href="{{post.url}}">{{post.title}}</a>
+            <small>
+              <br /><a href="{{post.link}}" target="_blank">{{post.link}}</a>
+            </small>
+          </h4>
+          <p>{{post.description | markdownify}}</p>
+        </div>
+      </div>
+      <hr />
+      {% endif %}
+    {% endfor %}
   </div>

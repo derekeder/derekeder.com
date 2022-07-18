@@ -12,8 +12,6 @@ navigation:
   url: /index.html
 - text: Talks
   url: /talks/index.html
-- text: Maps
-  url: /maps/index.html
 - text: Projects
   url: /projects/index.html
 - text: Blog

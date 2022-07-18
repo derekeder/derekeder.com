@@ -3,10 +3,10 @@ layout: post
 categories: 
 - project
 title: "ClearStreets"
-date: 2014-01-01
+date: 2012-01-01
 image: /images/projects/clearstreets.jpg
 description: "The City of Chicago launched Plow Tracker, an app that tracks the city's snow plows in real time. This app uses the same data. By knowing where the plows are, we've figured which streets have been plowed."
-link: http://clearstreets.org/
+link: http://clearstreets.org
 press: 
 - 
   publication: "Chicago Tonight"

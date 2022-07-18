@@ -3,10 +3,10 @@ layout: post
 categories: 
 - project
 title: "2nd City Zoning"
-date: 2013-01-23
+date: 2016-06-21
 image: /images/projects/second-city-zoning.jpg
 description: "To make Chicago’s zoning code digestible by humans, we took inspiration from one of our favorite games: Sim City 2000. Find out how your building is zoned, learn where to locate your business and explore zoning patterns throughout the city. "
-link: https://secondcityzoning.org/
+link: https://secondcityzoning.org
 press: 
 - 
   publication: "Chicago Tonight"

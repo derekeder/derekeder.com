@@ -19,57 +19,111 @@ description: I've give talks on my experiences starting a civic tech company, Da
 
 <hr />
 
-<p><strong>Filter by</strong></p>
 <div class='row'>
   <div class='col-sm-6'>
+    <p><strong>Filter by medium</strong></p>
     <p>
-      Medium:
-      <a href="/talks/index.html?medium=video"><span class="label label-success"><i class="fa fa-play"></i> Video</span></a>
-      <a href="/talks/index.html?medium=audio"><span class="label label-warning"><i class="fa fa-headphones"></i> Audio</span></a>
-      <a href="/talks/index.html?medium=writeup"><span class="label label-info"><i class="fa fa-file-text-o"></i> Writeup</span></a>
+      <button class="button btn btn-sm btn-default medium-button" value="">All</button>
+      <button class="button btn btn-sm btn-success medium-button" value=".video">Video</button>
+      <button class="button btn btn-sm btn-warning medium-button" value=".audio">Audio</button>
+      <button class="button btn btn-sm btn-info medium-button" value=".writeup">Writeup</button>
     </p>
   </div>
-  <div class="col-sm-6">
+  <div class='col-sm-6'>
+    <p><strong>Filter by format</strong></p>
     <p>
-      Format:
-      <span class="label label-default">Presentation</span>
-      <span class="label label-default">Interview</span>
-      <span class="label label-default">Panel</span>
+      <button class="button btn btn-sm btn-default format-button" value="">All</button>
+      <button class="button btn btn-sm btn-default format-button" value=".presentation">Presentation</button>
+      <button class="button btn btn-sm btn-default format-button" value=".interview">Interview</button>
+      <button class="button btn btn-sm btn-default format-button" value=".panel">Panel</button>
     </p>
   </div>
 </div>
 
 <hr />
 
-<div class='content-grid'>
-  {% for post in site.categories['talk'] %}
-    <div class='row'>
-      <div class='col-sm-7'>
-        <h4>
-          <a href="{{post.link}}">{{post.title}}</a>
-          <small>
-            <br />{{ post.date | date: "%B %-d, %Y" }}
-            <br />{{ post.location }}
-          </small>
-        </h4>
-        <p>{{post.description | markdownify}}</p>
-        <p>
-          {% if post.medium == "video" %}
-            <span class="label label-success"><i class="fa fa-play"></i> Video</span>
-          {% elsif post.medium == "audio" %}
-            <span class="label label-warning"><i class="fa fa-headphones"></i> Audio</span>
-          {% elsif post.medium == "writeup" %}
-            <span class="label label-info"><i class="fa fa-file-text-o"></i> Writeup</span>
-          {% endif %}
-          <span class="label label-default">{{ post.tags }}</span>
-        </p>
+<div class="grid">
+  <div class="grid-sizer col-1"></div>
+  <div class='content-grid'>
+    {% for post in site.categories['talk'] %}
+      <div class="grid-item {{ post.medium }} {{ post.tags }}">
+        <div class='row'>
+          <div class='col-sm-7'>
+            <h4>
+              <a href="{{post.link}}">{{post.title}}</a>
+              <small>
+                <br />{{ post.date | date: "%B %-d, %Y" }}
+                <br />{{ post.location }}
+              </small>
+            </h4>
+            <p>{{post.description | markdownify}}</p>
+            <p>
+              {% if post.medium == "video" %}
+                <span class="label label-success"><i class="fa fa-play"></i> Video</span>
+              {% elsif post.medium == "audio" %}
+                <span class="label label-warning"><i class="fa fa-headphones"></i> Audio</span>
+              {% elsif post.medium == "writeup" %}
+                <span class="label label-info"><i class="fa fa-file-text-o"></i> Writeup</span>
+              {% endif %}
+              <span class="label label-default">{{ post.tags }}</span>
+            </p>
+          </div>
+          <div class='col-sm-5'>
+            <a href='{{post.link}}'>
+              <img alt="{{post.title}}" class="img-thumbnail" src="{{post.image}}" />
+            </a>
+          </div>
+        </div>
+        <hr />
       </div>
-      <div class='col-sm-5'>
-        <a href='{{post.link}}'>
-          <img alt="{{post.title}}" class="img-thumbnail" src="{{post.image}}" />
-        </a>
-      </div>
-    </div>
-    <hr />
-  {% endfor %}
+    {% endfor %}
+  </div>
 </div>
+
+<script type="text/javascript" src="/js/isotope.pkgd.min.js"></script>
+
+{% raw %}
+
+<script type="text/javascript">
+	$(() => {
+		// Sizing grid and cards with Bootstrap and Isotope
+		$('.grid').isotope({
+			itemSelector: '.grid-item',
+			percentPosition: true,
+			masonry: {
+				columnWidth: '.grid-sizer'
+			}
+		});
+		// Isotope Filters
+		const $grid = $('.grid').isotope({
+			itemSelector: '.grid-item'
+		})
+		const filters = {}
+
+		$('.medium-button').click((e) => {
+			filters['medium'] = e.target.value
+
+			const filterValue = concatValues(filters)
+
+			$grid.isotope({filter: filterValue})
+		})
+
+    $('.format-button').click((e) => {
+			filters['format'] = e.target.value
+
+			const filterValue = concatValues(filters)
+
+			$grid.isotope({filter: filterValue})
+		})
+
+    function concatValues(obj) {
+			let value = ''
+			for(let prop in obj) {
+				value += obj[prop]
+			}
+			return value
+		};
+	});
+</script>
+
+{% endraw %}

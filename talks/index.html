@@ -19,6 +19,28 @@ description: I've give talks on my experiences starting a civic tech company, Da
 
 <hr />
 
+<p><strong>Filter by</strong></p>
+<div class='row'>
+  <div class='col-sm-6'>
+    <p>
+      Medium:
+      <a href="/talks/index.html?medium=video"><span class="label label-success"><i class="fa fa-play"></i> Video</span></a>
+      <a href="/talks/index.html?medium=audio"><span class="label label-warning"><i class="fa fa-headphones"></i> Audio</span></a>
+      <a href="/talks/index.html?medium=writeup"><span class="label label-info"><i class="fa fa-file-text-o"></i> Writeup</span></a>
+    </p>
+  </div>
+  <div class="col-sm-6">
+    <p>
+      Format:
+      <span class="label label-default">Presentation</span>
+      <span class="label label-default">Interview</span>
+      <span class="label label-default">Panel</span>
+    </p>
+  </div>
+</div>
+
+<hr />
+
 <div class='content-grid'>
   {% for post in site.categories['talk'] %}
     <div class='row'>
@@ -26,13 +48,19 @@ description: I've give talks on my experiences starting a civic tech company, Da
         <h4>
           <a href="{{post.link}}">{{post.title}}</a>
           <small>
-            <br />{{ post.date | date: "%B %-d, %Y"   }}
+            <br />{{ post.date | date: "%B %-d, %Y" }}
             <br />{{ post.location }}
           </small>
         </h4>
         <p>{{post.description | markdownify}}</p>
         <p>
-          <span class="label label-default">{{ post.medium }}</span>
+          {% if post.medium == "video" %}
+            <span class="label label-success"><i class="fa fa-play"></i> Video</span>
+          {% elsif post.medium == "audio" %}
+            <span class="label label-warning"><i class="fa fa-headphones"></i> Audio</span>
+          {% elsif post.medium == "writeup" %}
+            <span class="label label-info"><i class="fa fa-file-text-o"></i> Writeup</span>
+          {% endif %}
           <span class="label label-default">{{ post.tags }}</span>
         </p>
       </div>

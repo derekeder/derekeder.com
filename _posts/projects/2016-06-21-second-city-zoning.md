@@ -11,6 +11,6 @@ press:
 - 
   publication: "Chicago Tonight"
   link: http://chicagotonight.wttw.com/2013/01/23/second-city-2000
-featured: false
+featured: true
 published: true
 ---

@@ -10,6 +10,6 @@ description: "It is said that Chicago has one of the strongest and most vibrant 
 link: https://chihacknight.org/events/2018/08/21/derek-eder.html
 tags: presentation
 medium: video
-featured: true
+featured: false
 published: true
 ---

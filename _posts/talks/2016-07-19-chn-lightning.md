@@ -10,6 +10,6 @@ description: "On July 19th, 2016, Chi Hack Night hosted our second round of ligh
 link: https://www.youtube.com/watch?v=g1SN1edTaZE
 tags: presentation
 medium: video
-featured: true
+featured: false
 published: true
 ---

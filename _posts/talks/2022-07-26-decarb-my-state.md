@@ -12,6 +12,6 @@ description: "<p><a href='https://decarbmystate.com'>DecarbMyState.com</a> bring
 link: https://chihacknight.org/events/2022/07/26/decarb-my-state.html
 tags: presentation
 medium: video
-featured: true
+featured: false
 published: true
 ---

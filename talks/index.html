@@ -79,6 +79,7 @@ description: I've give talks on my experiences starting a civic tech company, Da
     {% endfor %}
   </div>
 </div>
+<div id="empty-message" style="display: none;"><p>No results</p></div>
 
 <script type="text/javascript" src="/js/isotope.pkgd.min.js"></script>
 
@@ -115,6 +116,13 @@ description: I've give talks on my experiences starting a civic tech company, Da
 
 			$grid.isotope({filter: filterValue})
 		})
+
+    $grid.on( 'arrangeComplete', function( event, filteredItems ) {   
+      if( filteredItems.length > 0 ) 
+        $('#empty-message').hide();
+      else
+      $('#empty-message').fadeIn();
+    });
 
     function concatValues(obj) {
 			let value = ''

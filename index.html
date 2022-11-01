@@ -11,7 +11,40 @@ layout: default
       <p>
         I am Co-Founder and Board President of <a href='https://chihacknight.org'>Chi Hack Night</a>, Chicago's weekly event to build, share, and learn about civic tech. <a href='/about'>Read my full bio &raquo;</a>
       </p>
-      <hr>
+      <hr />
+    </div>
+  </div>
+  <div class='row'>
+    <div class='col-sm-12'>
+      <h2>
+        Blog
+        <small>
+          <a href='/blog'>more &raquo;</a>
+        </small>
+      </h2>
+    </div>
+  </div>
+
+  {% for post in site.categories['blog'] limit: 1 %}
+    <div class='row'>
+      <div class='col-sm-4'>
+        <a href='{{ post.url }}'><img src='{{ post.image }}' alt='{{ post.title }}' class='img-responsive img-thumbnail' /></a>
+      </div>
+      <div class='col-sm-8'>
+        <h4>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </h4>
+        <p>
+          <small>Published on {{ post.date |  date: "%b %-d, %Y" }}<br /></small>
+          {{ post.description }}
+        </p>
+      </div>
+    </div>
+  {% endfor %}
+  
+  <div class='row'>
+    <div class='col-sm-12'>
+      <hr />
       <h2>
         Talks
         <small>
@@ -20,9 +53,9 @@ layout: default
           <a href='/talks'>more &raquo;</a>
         </small>
       </h2>
+      <br />
     </div>
   </div>
-  <br />
 
   <div class='row'>
     {% for post in site.categories['talk'] %}

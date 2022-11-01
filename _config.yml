@@ -5,7 +5,7 @@ title: Derek Eder
 url: https://derekeder.com
 encoding: utf-8
 timezone: America/Chicago
-description: "I'm an entrepreneur, developer and one of the leaders of the civic technology community in Chicago."
+description: "Partner at DataMade, Co-found of Open City, and leader of the Chi Hack Night. I make stuff with open data."
 permalink: /:categories/:title
 navigation:
 - text: <i class='fa fa-fw fa-home'></i>

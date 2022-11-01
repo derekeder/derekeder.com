@@ -5,11 +5,9 @@ layout: default
 <p><a href='/blog'>&laquo; back to blog</a></p>
 
 <h2>
-  <small>{{ page.date | date_to_string }}<br /></small>
   {{ page.title }}
 </h2>
+<p class='muted'>Published on {{ page.date |  date: "%b %-d, %Y" }}</p>
 <div class='blog'>
   {{ content }}
 </div>
-
-<p><a href='/'>&laquo; back to blog</a></p>

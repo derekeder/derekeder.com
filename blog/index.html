@@ -1,16 +1,15 @@
 ---
 layout: default
-title: "Blog: Stories and tutorials from the Chicago opengov world"
-description: "Note: This is an archive. I do most of my writing on the DataMade blog and on Chi Hack Night blog."
+title: "Blog"
+description: "Note: I only post here occasionally. I do most of my writing on the DataMade blog and on Chi Hack Night blog."
 ---
 
 <h2>
   Blog
-  <small>Stories and tutorials from the Chicago opengov world</small>
 </h2>
 
 <div class='alert alert-info'>
-<p><strong>Note:</strong> This is an archive. I do most of my writing on the <a href='http://datamade.us/blog/'>DataMade blog</a> and on <a href='http://chihacknight.org/blog'>Chi Hack Night blog</a>.</p></div>
+<p><strong>Note:</strong> I only post here occasionally. I do most of my writing on the <a href='http://datamade.us/blog/'>DataMade blog</a> and on <a href='http://chihacknight.org/blog'>Chi Hack Night blog</a>.</p></div>
 
 {% for post in site.categories['blog'] %}
   <hr />
@@ -23,7 +22,7 @@ description: "Note: This is an archive. I do most of my writing on the DataMade 
         <a href="{{ post.url }}">{{ post.title }}</a>
       </h4>
       <p>
-        <small>Posted {{ post.date | date_to_string }}<br /></small>
+        <small>Published on {{ post.date |  date: "%b %-d, %Y" }}<br /></small>
         {{ post.description }}
       </p>
       <a href="{{ post.url }}">Read more &raquo;</a>

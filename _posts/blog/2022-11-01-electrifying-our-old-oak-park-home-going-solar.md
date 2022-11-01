@@ -4,8 +4,8 @@ title: "Electrifying Our Old Oak Park Home: Going Solar"
 categories: 
   - blog
 date: 2022-11-01
-description: "City councils shape nearly every aspect of city life, from what kind of canopy you can have on a storefront, to how much we pay in taxes, to the number of cops on the street. There's now an app for viewing all this legislative information: Councilmatic."
-image: /images/blog/councilmatic/chicago-councilmatic-1.png
+description: "We are in the process of electrifying our Oak Park home and completely eliminating all our household emissions. This post is an attempt to document our process as we go, with the hopes that it will inspire our neighbors to do the same and learn from our efforts."
+image: /images/blog/going-solar/project-sunroof-share.jpg
 ---
 
 As [bad news about climate change](https://www.bbc.com/news/science-environment-58130705) continues to frequent the headlines, it can feel hopeless. What could we, a single household, possibly do to make a meaningful contribution to such a huge, global problem? Should we recycle more? Stop eating meat? Stop using plastic bags?
@@ -36,10 +36,16 @@ Note: Before we dive in, it's worth noting that, so far, this project cost us ab
 
 **Table of contents**
 
-
-[TOC]
-
-
+<ul>
+  <li><a href="#where-to-begin">Where to begin?</a></li>
+  <li><a href="#starting-with-solar">Starting with solar</a></li>
+  <li><a href="#getting-a-new-roof">Getting a new roof</a></li>
+  <li><a href="#installing-the-solar-panels">Installing the solar panels</a></li>
+  <li><a href="#monitoring-the-system">Monitoring the system</a></li>
+  <li><a href="#bottom-line-costs-and-payback-period">Bottom line costs and payback period</a></li>
+  <li><a href="#for-the-policy-folks">For the policy folks</a></li>
+  <li><a href="#resources">Resources</a></li>
+</ul>
 
 ## Where to begin?  {#where-to-begin}
 
@@ -154,7 +160,6 @@ Including the new roof, and counting our credits and grants, our total cost for 
    </td>
    <td><p style="text-align: right">
 $1,975</p>
-
    </td>
   </tr>
   <tr>
@@ -164,7 +169,6 @@ $1,975</p>
    </td>
    <td><p style="text-align: right">
 $25,970</p>
-
    </td>
   </tr>
   <tr>
@@ -174,7 +178,6 @@ $25,970</p>
    </td>
    <td><p style="text-align: right">
 $4,150</p>
-
    </td>
   </tr>
   <tr>
@@ -184,7 +187,6 @@ $4,150</p>
    </td>
    <td class="success"><p style="text-align: right">
 -$7,831</p>
-
    </td>
   </tr>
   <tr>
@@ -194,7 +196,6 @@ $4,150</p>
    </td>
    <td class="success"><p style="text-align: right">
 -$8,251</p>
-
    </td>
   </tr>
   <tr>
@@ -204,7 +205,6 @@ $4,150</p>
    </td>
    <td class="success"><p style="text-align: right">
 -$10,000</p>
-
    </td>
   </tr>
   <tr class="active">
@@ -214,7 +214,6 @@ $4,150</p>
    </td>
    <td><p style="text-align: right">
 <strong>$12,463</strong></p>
-
    </td>
   </tr>
 </table>

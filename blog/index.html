@@ -15,7 +15,7 @@ description: "Note: I only post here occasionally. I do most of my writing on th
   <hr />
   <div class='row'>
     <div class='col-sm-4'>
-      <a href='{{ post.url }}'><img src='{{ post.image }}' alt='{{ post.title }}' title='{{ post.title }}' class='img-responsive img-thumbnail' /></a>
+      <a href='{{ post.url }}'><img src='{{ post.image }}' alt='{{ post.title }}' class='img-responsive img-thumbnail' /></a>
     </div>
     <div class='col-sm-8'>
       <h4>
@@ -25,7 +25,6 @@ description: "Note: I only post here occasionally. I do most of my writing on th
         <small>Published on {{ post.date |  date: "%b %-d, %Y" }}<br /></small>
         {{ post.description }}
       </p>
-      <a href="{{ post.url }}">Read more &raquo;</a>
     </div>
   </div>
 {% endfor %}

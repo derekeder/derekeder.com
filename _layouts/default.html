@@ -46,7 +46,7 @@
       <meta content="{{ site.url }}/about-us/" property="article:author">
     {% endif %}
     {% if page.image %}
-      <meta content="{{ site.url }}/{{ page.image }}" property="og:image">
+      <meta content="{{ site.url }}{{ page.image }}" property="og:image">
     {% else %}
       <meta content="{{ site.url }}/images/derek.jpg" property="og:image">
     {% endif %}
@@ -62,7 +62,7 @@
     {% endif %}
 
     <!-- Twitter metadata -->
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@derekeder">
     <meta name="twitter:creator" content="@derekeder">
     {% if page.title %}
@@ -79,9 +79,9 @@
       <meta name="twitter:description" content="{{ site.description }}">
     {% endif %}
     {% if page.image %}
-      <meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.image }}">
+      <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
     {% else %}
-      <meta name="twitter:image:src" content="{{ site.url }}/images/derek.jpg">
+      <meta name="twitter:image" content="{{ site.url }}/images/derek.jpg">
     {% endif %}
 
     <link href='/favicon.ico' rel='shortcut icon'>

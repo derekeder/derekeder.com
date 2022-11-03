@@ -43,6 +43,7 @@ Note: Before we dive in, it's worth noting that, so far, this project cost us ab
   <li><a href="#installing-the-solar-panels">Installing the solar panels</a></li>
   <li><a href="#monitoring-the-system">Monitoring the system</a></li>
   <li><a href="#bottom-line-costs-and-payback-period">Bottom line costs and payback period</a></li>
+  <li><a href="#lessons-learned">Lessons learned</a></li>
   <li><a href="#for-the-policy-folks">For the policy folks</a></li>
   <li><a href="#resources">Resources</a></li>
 </ul>
@@ -223,6 +224,19 @@ Additionally, researchers from the [Berkeley National Laboratory](https://emp.lb
 
 That’s all for now — thanks for reading! Stay tuned for my next post on our home electrification journey as we move on to electrifying our appliances.
 
+## Lessons learned {#lessons-learned}
+
+If you’re looking to install your own rooftop solar panels, I have a few lessons I learned that you’ll probably benefit from:
+
+* **We could have installed up to 17 kilowatts of solar panels**: While our 8.76 kilowatt system is enough to cover all of our current electricity needs, our roof and garage had space for up to 17 kilowatts of panels. As we continue to electrify our home, our electricity needs will increase, and thanks to Net metering, we would have been paid the difference in the meantime. One reason we sized our system smaller was due to a restriction by ComEd capping our project size to 110% of our current usage. However, in [March 2022, this restriction was lifted](https://illinoisabp.com/2022/03/15/comed-removes-110-cap-from-net-metering-requirements/). If we were to do it over, I would have gone with an even bigger system. If you want to get a feel for the size that’s possible for your home, look up your home on [Project Sunroof](https://sunroof.withgoogle.com/) and set the electric bill to max ($500).
+
+* **We could have saved more money with the Inflation Reduction Act**: The IRA, which will go into effect in 2023, provides a [30% tax credit for rooftop solar](https://www.rewiringamerica.org/app/ira-calculator/information/rooftop-solar-installation). This is higher than the 26% credit we got. If you do your project in 2023 or later, you’ll get this bigger credit. 
+
+* **Upgrading our electrical panel at the same time was a really good idea**: Because we did it as part of your solar project, we got the same 26% tax credit for upgrading our electrical panel from 100 amps to 200 amps. This was necessary, as we will be plugging more things (EV charger, induction stove, heat pump) into our panel. With the IRA, [this credit is now 30%](https://www.rewiringamerica.org/app/ira-calculator/information/electrical-panel). 
+
+* **There was not much benefit for us to install batteries**: It's often recommended to [install batteries along with solar panels](https://www.rewiringamerica.org/app/ira-calculator/information/battery-storage-installation). The main benefit of this is resilience against outages. Considering we don’t often experience power outages at my house, this didn’t seem worth it. Your situation may be different, though. 
+
+* **There’s a chance you’ll need roof work done**: As I outlined above, we had to get a new roof before installing panels. When talking to Ailey Solar, they said at least 10% of their clients need roof work even if they weren't going solar, and another 10-30% have a roof that is okay today, but may not last the full minimum of 25 years (or more) of the lifetime of the solar system. In that case, you have a decision to make about being proactive with your roof - or to risk a costly panel removal and replacement.
 
 ## For the policy folks {#for-the-policy-folks}
 

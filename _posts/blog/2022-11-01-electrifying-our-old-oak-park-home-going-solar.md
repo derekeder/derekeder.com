@@ -242,11 +242,11 @@ If you’re looking to install your own rooftop solar panels, I have a few lesso
 
 A few notes for the policy folks who are reading: 
 
-**Help residents understand and access the IRA benefits:** the incentives provided by the Inflation Reduction Act is a real game changer for home electrification. Local governments should promote and explain these incentives and align their own climate action plans to enhance it. The Rewiring America IRA calculator is a great tool to share: [https://www.rewiringamerica.org/app/ira-calculator](https://www.rewiringamerica.org/app/ira-calculator)  
+* **Help residents understand and access the IRA benefits:** the incentives provided by the Inflation Reduction Act is a real game changer for home electrification. Local governments should promote and explain these incentives and align their own climate action plans to enhance it. The Rewiring America IRA calculator is a great tool to share: [https://www.rewiringamerica.org/app/ira-calculator](https://www.rewiringamerica.org/app/ira-calculator)  
 
-**Increase the access to and scale of the Village Energy Efficiency Grant program:** The [$10,000 grant from the Village](https://www.oak-park.us/village-services/housing-programs) really made the economics of installing panels work. Because of the roof work we had to do, without it, our payback period would be closer to 20 years. This program’s $250k funding has already been exhausted, helping fund only 24 projects in the Village. This project needs to be greatly expanded if we’re going to make a dent in our 21,000 households.
+* **Increase the access to and scale of the Village Energy Efficiency Grant program:** The [$10,000 grant from the Village](https://www.oak-park.us/village-services/housing-programs) really made the economics of installing panels work. Because of the roof work we had to do, without it, our payback period would be closer to 20 years. This program’s $250k funding has already been exhausted, helping fund only 24 projects in the Village. This project needs to be greatly expanded if we’re going to make a dent in our 21,000 households.
 
-**Promote the Illinois Solar for All Program**: In researching this blog post, I came across the [Illinois Solar For All Program](https://www.illinoissfa.com/). If you make less than 80% of the area median income ($83,000/year for a family of four in Cook County) you are likely eligible for this program, a $50 million fund to pay for solar installations.
+* **Promote the Illinois Solar for All Program**: In researching this blog post, I came across the [Illinois Solar For All Program](https://www.illinoissfa.com/). If you make less than 80% of the area median income ($83,000/year for a family of four in Cook County) you are likely eligible for this program, a $50 million fund to pay for solar installations.
 
 ## Resources {#resources}
 

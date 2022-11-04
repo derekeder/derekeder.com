@@ -238,6 +238,8 @@ If you’re looking to install your own rooftop solar panels, I have a few lesso
 
 * **There’s a chance you’ll need roof work done**: As I outlined above, we had to get a new roof before installing panels. When talking to Ailey Solar, they said at least 10% of their clients need roof work even if they weren't going solar, and another 10-30% have a roof that is okay today, but may not last the full minimum of 25 years (or more) of the lifetime of the solar system. In that case, you have a decision to make about being proactive with your roof - or to risk a costly panel removal and replacement.
 
+* **We should have air sealed our attic space**: Adding an inch of insulation to our roof was a good idea, but we missed an opportunity while it was open to insulate even more. We’ve since learned that our home is pretty drafty and one thing we’ll need to do before switching to a heat pump heater is to air seal our attic. [Tom Bassett-Dilley wrote a good blog post](https://tbdarchitects.com/2022/09/getting-into-the-more-difficult-weeds-on-decarbonization/) (featuring our house!) about why this is necessary.
+
 ## For the policy folks {#for-the-policy-folks}
 
 A few notes for the policy folks who are reading: 

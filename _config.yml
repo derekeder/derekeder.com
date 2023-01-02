@@ -16,6 +16,8 @@ navigation:
   url: /projects/index.html
 - text: Blog
   url: /blog/index.html
+- text: Twitter archive
+  url: /twitter/index.html
 - text: About
   url: /about/index.html
 plugins:

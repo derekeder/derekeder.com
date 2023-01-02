@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>@derekeder Twitter archive</title>
+  <link rel="stylesheet" href="/css/bootstrap.spacelab.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9 content-secondary">
+        <p><br /><a href='/'>< back to derekeder.com</a></p>
+        <h1>@derekeder's Twitter archive</h1>
+        <p>I was active on Twitter from Sep 2008 until Oct 2022. This is a page where you (and I) can search my archived tweets from that time.</p>
+        <div class="tweet">
+          <p id="loading">Loading search...</p>
+          <div id="search" hidden>
+            <input id="search-input" placeholder="Search by keyword ..." class="form-control" type="search" />
+            <br /><div id="sorting">Sort by: <button class="sort-button btn btn-default" onclick="sortResults('most-relevant')">most relevant</button> <button class="sort-button btn btn-default" onclick="sortResults('oldest-first')">oldest first</button> <button class="sort-button btn btn-default" onclick="sortResults('newest-first')">newest first</button> <button class="sort-button btn btn-default" onclick="sortResults('most-popular')">most popular</button></div><br />
+            <div id="output"></div>
+          </div>
+        </div>
+        <p><br />This page was made with <a href="https://tinysubversions.com/twitter-archive/make-your-own/">dariusk's Twitter archiving tool</a></p>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="searchDocuments.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/nextapps-de/flexsearch@0.7.31/dist/flexsearch.bundle.js"></script>
+<script src="app.js"></script>
+</html>

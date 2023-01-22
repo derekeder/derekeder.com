@@ -8,6 +8,10 @@ description: "We are in the process of electrifying our Oak Park home and comple
 image: /images/blog/going-solar/project-sunroof-share.jpg
 ---
 
+<strong>Update:</strong> I gave a talk at Climate Reality Chicago based on this blog post on Jan 19, 2023. It includes work we have done since electrifying and insulating our home. <a href='https://www.youtube.com/watch?v=dhM0hSmeQrI#t=3m3s'>Watch it here.</a>
+
+<hr />
+
 As [bad news about climate change](https://www.bbc.com/news/science-environment-58130705) continues to frequent the headlines, it can feel hopeless. What could we, a single household, possibly do to make a meaningful contribution to such a huge, global problem? Should we recycle more? Stop eating meat? Stop using plastic bags?
 
 We’re often [told these kinds of actions help](https://www.nytimes.com/interactive/2015/12/03/upshot/what-you-can-do-about-climate-change.html). But if we step back and look at the bigger picture, it becomes clear that these kinds of efficiency and lifestyle changes won’t be enough. Climate scientists and the UN have told us we need to get to net zero emissions by 2050. Is there anything more we could possibly be doing to ensure a more sustainable future for our kids?

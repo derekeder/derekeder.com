@@ -149,3 +149,37 @@ body {
     color: #33ff00;
   }
 }
+#tabs {
+  margin: -16px 0 0;
+}
+.tab:first-child {
+  margin-left: -16px;
+  border-top-left-radius: 16px;
+}
+.hr {
+  margin: 0 -16px 16px -16px;
+}
+.tab {
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  padding: 4px 10px;
+  border-right: 2px solid black;
+  box-sizing: border-box;
+}
+.tab.active {
+  text-decoration: underline;
+}
+#browse-sort > button {
+  font-size: 1.0em;
+}
+#page-num {
+  font-size: 1.0em;
+  width: 80px;
+}
+#browse-sort {
+  line-height: 1.7em;
+}
+#paging {
+  margin: 8px 0;
+}

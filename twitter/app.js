@@ -32,6 +32,9 @@ function processData(data) {
 }
 
 processData(searchDocuments);
+let browseDocuments = searchDocuments.sort(function(a,b){
+  return new Date(b.created_at) - new Date(a.created_at);
+});
 
 function sortResults(criterion) {
   if (criterion === 'newest-first') {
@@ -58,21 +61,32 @@ function sortResults(criterion) {
     });
     renderResults();
   }
+  if (criterion === 'newest-first-browse') {
+    browseDocuments = browseDocuments.sort(function(a,b){
+      return new Date(b.created_at) - new Date(a.created_at);
+    });
+    renderBrowse();
+  }
+  if (criterion === 'oldest-first-browse') {
+    browseDocuments = browseDocuments.sort(function(a,b){
+      return new Date(a.created_at) - new Date(b.created_at);
+    });
+    renderBrowse();
+  }
+  if (criterion === 'most-popular-browse') {
+    browseDocuments = browseDocuments.sort(function(a,b){
+      return (+b.favorite_count + +b.retweet_count) - (+a.favorite_count + +a.retweet_count);
+    });
+    renderBrowse();
+  }
 }
 
 function renderResults() {
-  const output = results.map(item => `
-  <div class="panel panel-default">
-    <div class="panel-body">
-      <div class="search_text">${item.full_text}</div>
-      <div class="search_time">
-        <div class="search_link text-muted">
-          <br />posted on <a href="derekeder/status/${item.id_str}">${new Date(item.created_at).toLocaleString()}</a>
-        </div>
-      </div>
-    </div>
-  </div>`.replace(/\.\.\/\.\.\/tweets_media\//g,'derekeder/tweets_media/').replace(/<img /g,'<img class="img-responsive" '));
+  const output = results.map(item => `<p class="search_item"><div class="search_link"><a href="derekeder/status/${item.id_str}">link</a></div> <div class="search_text">${item.full_text}</div><div class="search_time">${new Date(item.created_at).toLocaleString()}</div><hr class="search_divider" /></p>`.replace(/\.\.\/\.\.\/tweets_media\//g,'derekeder/tweets_media/'));
   document.getElementById('output').innerHTML = output.join('');
+  if (results.length > 0) {
+    document.getElementById('output').innerHTML += '<a href="#tabs">top &uarr;</a>';
+  }
 }
 
 function onSearchChange(e) {
@@ -86,3 +100,47 @@ function onSearchChange(e) {
   renderResults();
 }
 searchInput.addEventListener('input', onSearchChange);
+
+function searchTab() {
+  const clickedTab = document.getElementById('search-tab');
+  clickedTab.classList.add('active');
+  const otherTab = document.getElementById('browse-tab');
+  otherTab.classList.remove('active');
+  document.getElementById('browse').hidden = true;
+  document.getElementById('search').hidden = false;
+}
+
+function browseTab() {
+  const clickedTab = document.getElementById('browse-tab');
+  clickedTab.classList.add('active');
+  const otherTab = document.getElementById('search-tab');
+  otherTab.classList.remove('active');
+  const searchContent = document.getElementById('search');
+  document.getElementById('search').hidden = true;
+  document.getElementById('browse').hidden = false;
+}
+
+const pageSize = 50;
+const pageMax = Math.floor(browseDocuments.length/pageSize) + 1;
+let page = 1;
+let browseIndex = (page - 1) * pageSize;
+
+function onPageNumChange(e) {
+  page = e.target.value;
+  browseIndex = (page - 1) * pageSize;
+  renderBrowse();
+}
+
+document.getElementById('page-total').innerText = pageMax;
+document.getElementById('page-num').addEventListener('input', onPageNumChange);
+document.getElementById('page-num').value = +page;
+document.getElementById('page-num').max = pageMax;
+document.getElementById('page-num').min = 1;
+
+function renderBrowse() {
+  const output = browseDocuments.slice(browseIndex, browseIndex + pageSize).map(item => `<p class="search_item"><div class="search_link"><a href="derekeder/status/${item.id_str}">link</a></div> <div class="search_text">${item.full_text}</div><div class="search_time">${new Date(item.created_at).toLocaleString()}</div><hr class="search_divider" /></p>`.replace(/\.\.\/\.\.\/tweets_media\//g,'derekeder/tweets_media/'));
+  document.getElementById('browse-output').innerHTML = output.join('');
+  document.getElementById('browse-output').innerHTML += '<a href="#tabs">top &uarr;</a>';
+}
+
+renderBrowse();

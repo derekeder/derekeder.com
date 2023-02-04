@@ -81,12 +81,23 @@ function sortResults(criterion) {
   }
 }
 
+function renderTweet(item) {
+  return `
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <div class="search_text">${item.full_text}</div>
+      <div class="search_time">
+        <div class="search_link text-muted">
+          <br />posted on <a href="derekeder/status/${item.id_str}">${new Date(item.created_at).toLocaleString()}</a>
+        </div>
+      </div>
+    </div>
+  </div>`.replace(/\.\.\/\.\.\/tweets_media\//g,'derekeder/tweets_media/').replace(/<img /g,'<img class="img-responsive" ')
+}
+
 function renderResults() {
-  const output = results.map(item => `<p class="search_item"><div class="search_link"><a href="derekeder/status/${item.id_str}">link</a></div> <div class="search_text">${item.full_text}</div><div class="search_time">${new Date(item.created_at).toLocaleString()}</div><hr class="search_divider" /></p>`.replace(/\.\.\/\.\.\/tweets_media\//g,'derekeder/tweets_media/'));
+  const output = results.map(item => renderTweet(item));
   document.getElementById('output').innerHTML = output.join('');
-  if (results.length > 0) {
-    document.getElementById('output').innerHTML += '<a href="#tabs">top &uarr;</a>';
-  }
 }
 
 function onSearchChange(e) {
@@ -138,7 +149,7 @@ document.getElementById('page-num').max = pageMax;
 document.getElementById('page-num').min = 1;
 
 function renderBrowse() {
-  const output = browseDocuments.slice(browseIndex, browseIndex + pageSize).map(item => `<p class="search_item"><div class="search_link"><a href="derekeder/status/${item.id_str}">link</a></div> <div class="search_text">${item.full_text}</div><div class="search_time">${new Date(item.created_at).toLocaleString()}</div><hr class="search_divider" /></p>`.replace(/\.\.\/\.\.\/tweets_media\//g,'derekeder/tweets_media/'));
+  const output = browseDocuments.slice(browseIndex, browseIndex + pageSize).map(item => renderTweet(item));
   document.getElementById('browse-output').innerHTML = output.join('');
   document.getElementById('browse-output').innerHTML += '<a href="#tabs">top &uarr;</a>';
 }

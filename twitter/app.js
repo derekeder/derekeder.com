@@ -85,11 +85,21 @@ function renderTweet(item) {
   return `
   <div class="panel panel-default">
     <div class="panel-body">
-      <div class="search_text">${item.full_text}</div>
-      <div class="search_time">
-        <div class="search_link text-muted">
-          <br />posted on <a href="derekeder/status/${item.id_str}">${new Date(item.created_at).toLocaleString()}</a>
-        </div>
+      <div class='col-sm-1'>
+        <img alt='Derek Eder' src='/images/derek.jpg' title='Derek Eder'>
+      </div>
+      <div class='col-sm-11'>
+        <p>
+          <strong>Derek Eder</strong>
+          <a href="derekeder/status/${item.id_str}">${new Date(item.created_at).toLocaleString()}</a>
+        </p>
+        <div class="search_text">${item.full_text}</div>
+        <p>
+          <br />
+          <i class="fa fa-heart"></i> ${item.favorite_count}&nbsp;&nbsp;&nbsp;
+          <i class="fa fa-retweet"></i> ${item.retweet_count}
+        </p>
+        
       </div>
     </div>
   </div>`.replace(/\.\.\/\.\.\/tweets_media\//g,'derekeder/tweets_media/').replace(/<img /g,'<img class="img-responsive" ')

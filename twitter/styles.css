@@ -1,0 +1,82 @@
+@import url("../css/bootstrap.spacelab.min.css");
+
+body {
+  background-color: #f6f6f6;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #666666;
+}
+
+.wrapper {
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+  word-wrap: break-word;
+}
+.flex-wrap {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.tweet {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #ffffff;
+  border-color: #dddddd;
+  border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  max-width: 600px;
+}
+.tweet img {
+max-height: 100%;
+vertical-align: bottom;
+width: 100%;
+object-fit: cover;
+}
+.tweet video {
+max-height: 100%;
+vertical-align: bottom;
+width: 100%;
+}
+.tweet ul {
+display: flex;
+flex-wrap: wrap;
+list-style-type: none;
+gap: 8px;
+padding-left: 0px;
+margin-bottom: 0px;
+}
+.tweet li {
+width: 20vh;
+flex-grow: 1;
+}
+.tweet .display_name {
+margin-bottom: 0;
+margin-top: 0;
+}
+.tweet .user_name {
+margin-top: 4px;
+}
+.tweet .favorite_count {
+display: inline-block;
+margin-bottom: 0;
+}
+.tweet .retweet_count {
+display: inline-block;
+margin-left: 16px;
+margin-bottom: 0;
+}
+.tweet .created_at {
+margin-bottom: 0;
+}
+.tweet .permalink {
+margin-left: 16px;
+}

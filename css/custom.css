@@ -75,3 +75,27 @@ a, a:hover {
   font-size: 16px;
   margin-bottom: 18px;
 }
+
+.tweet img {
+  max-height: 100%;
+  vertical-align: bottom;
+  width: 100%;
+  object-fit: cover;
+}
+.tweet video {
+  max-height: 100%;
+  vertical-align: bottom;
+  width: 100%;
+}
+.tweet ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 8px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+.tweet li {
+  width: 20vh;
+  flex-grow: 1;
+}

@@ -50,7 +50,7 @@ Ready? Let’s dive in.
 
 What’s a heat pump, you ask? A [heat pump](https://en.wikipedia.org/wiki/Heat_pump) is a device which uses electricity to transfer heat from a cool space to a warm space, cooling the cool space and warming the warm space. It is very similar to an air conditioner, except that it also runs in reverse.
 
-In winter, a heat pump can move heat from the cool outdoors to warm a house; in summer, the pump reverses the flow from the house to the warmer outdoors. They transfer —rather than generate — heat, and are up to four times more energy-efficient than other ways of heating or cooling a home.
+In winter, a heat pump can move heat from the cool outdoors to warm a house; in summer, the pump reverses the flow from the house to the warmer outdoors. They transfer —rather than generate — heat, and are up to four times more energy efficient than other ways of heating or cooling a home.
 
 <p><img class='img-responsive' src='/images/blog/heat-pumps/heat-pump-diagram.jpg' alt='Heat pumps move cool and warm air around depending on the season'></p>
 <p class="text-center"><em>Heat pumps move cool and warm air around depending on the season</em></p>
@@ -122,12 +122,12 @@ Property Insight Services also gave us a tip on a way to get more heating and co
 <p><img class='img-responsive' src='/images/blog/heat-pumps/aeroseal.jpg' alt='The Aeroseal process (not our house)'></p>
 <p class="text-center"><em>The Aeroseal process (not our house)</em></p>
 
-Like the blower door test, a sensor is hooked up to the fan before, during and after the process to measure the leakage reduction.. We hired [Clean Air Pro](https://cleanairpro.org/) to do our Aerosealing. The process took about 8 hours. Here’s what our report looked like:
+Like the blower door test, a sensor is hooked up to the fan before, during and after the process to measure the leakage reduction. We hired [Clean Air Pro](https://cleanairpro.org/) to do our Aerosealing. The process took about 8 hours. Here’s what our report looked like:
 
 <p><img class='img-responsive' src='/images/blog/heat-pumps/aeroseal-results.jpg' alt='The results of our Aeroseal process'></p>
 <p class="text-center"><em>The results of our Aeroseal process</em></p>
 
-Before the process, our ducts had an equivalent of a 98-sq. inch hole in them — about 37% of the system capacity. After the Aeroseal process, this was reduced to an equivalent of an 8.4 sq. inch hole — a 91% reduction in air duct leakage. 
+Before the process, our ducts had an equivalent of a 98-sq. inch hole in them — about 37% of the system capacity. After the Aeroseal process, this was reduced to an equivalent of an 8.4-sq. inch hole, or 3% system capacity — a 91% reduction in air duct leakage. 
 
 This process didn’t make our house less leaky, but it did make our ducts much more efficient at moving warm and cold air to its intended areas around the house .
 
@@ -137,8 +137,8 @@ With our somewhat less leaky house and much improved ducts, we were ready to mov
 
 Our 125,000 BTU gas furnace was 80% efficient, so our house needed about 100,000 BTU of heat. After our improvements, Energy Matters determined that our home needed about 79,000 BTU of heat. Definitely doable with two heat pumps, supported by some standard electric resistive heating.
 
-<p><img class='img-responsive' src='/images/blog/heat-pumps/energy-matters-chart.png' alt='BTUs of heating provided by heat pumps and electric resistance. Chart provided by Energy Matters. The electric resistance component can turn turn on partially at 20 degrees F and fully at 0 degrees F.'></p>
-<p class="text-center"><em>BTUs of heating provided by heat pumps and electric resistance. Chart provided by Energy Matters. The electric resistance component can turn turn on partially at 20 degrees F and fully at 0 degrees F.</em></p>
+<p><img class='img-responsive' src='/images/blog/heat-pumps/energy-matters-chart.png' alt='BTUs of heating provided by heat pumps and electric resistance. Chart provided by Energy Matters. The electric resistance component can turn on partially at 20 degrees F and fully at 0 degrees F.'></p>
+<p class="text-center"><em>BTUs of heating provided by heat pumps and electric resistance. Chart provided by Energy Matters. The electric resistance component can turn on partially at 20 degrees F and fully at 0 degrees F.</em></p>
 
 We swapped out our gas furnace with a 3.0-ton Mitsubishi Single Zone Hyper­-Heating heat pump system supported with an electric resistive heater for temperatures below 20 degrees Fahrenheit. This gave us about 70,000 BTU, which is enough to heat our first and second floors.
 
@@ -300,7 +300,7 @@ One thing to note is our gas furnace was at the end of its life and we were due 
 
 Until then, for us, the investment has been worth it. We have improved the comfort of our home and we are no longer contributing nearly as much climate pollution from burning methane gas. We have taken a significant step to reduce our contribution to climate change and helped give our children and future generations a better chance at a bright future, which to us, is priceless. 
 
-Stay tuned for the next post in this series - electrifying everything else: our hot water heater, stove, clothes dryer and car!
+Stay tuned for the next post in this series — electrifying everything else: our hot water heater, stove, clothes dryer and car!
 
 
 ## Lessons learned {#lessons-learned}
@@ -309,13 +309,11 @@ Throughout this process, we learned some important lessons that will hopefully b
 
 This skepticism is understandable. HVAC professionals are likely to stick with what they know has worked before, and heat pump technology has only recently gotten efficient and large enough to work on large drafty homes (like ours) in low temperature climates. Many of the models, like the Mitsubishi heat pumps that we installed, [are relatively new](https://www.mitsubishicomfort.com/blog/history-variable-capacity-heat-pumps). So if you are met with similar skepticism, stay persistent and find an installer who is familiar with the latest technology.
 
+* **HVAC installers have a wide range of conflicting opinions**: This was the biggest hurdle for us to overcome. Over the course of 6 months, we reached out to and got quotes from many HVAC installers. Most said they just don’t install heat pumps. Some said they do, but can’t recommend going 100% electric. One even proposed we install 5 mini-splits for $70k, one for each floor and bedroom, and completely ignore our existing ducts — a ridiculously wasteful and expensive proposal. Eventually we got quotes from Energy Matters and On the Mark HVAC and they had similar 100% electric and reasonable proposals. Until this point, though, I was very discouraged by what I was being told from industry professionals. My advice to you: stay persistent and use the knowledge from this blog post to empower your decision making.
 
+* **Insulation really does matter:** We could have skipped insulating, but it would have meant installing at least one more heat pump and spending more energy to heat our home year over year. For $2,300 of insulation, we reduced our home’s energy needs by 20%, which will pay for itself many, many times over. If you want to save money, don’t skip this step!
 
-* **HVAC installers have a wide range of conflicting opinions**: This was the biggest hurdle for us to do this project. Over the course of 6 months, we reached out to and got quotes from many HVAC installers. Most said they just don’t install heat pumps. Some said they do, but can’t recommend going 100% electric. One even proposed we install 5 mini-splits for $70k, one for each floor and bedroom, and completely ignore our existing ducts - a ridiculously wasteful and expensive proposal. Eventually we got quotes from Energy Matters and On the Mark HVAC and they had similar 100% electric and reasonable proposals. Until this point, though, I was very discouraged by what I was being told from industry professionals. My advice to you: stay persistent and use the knowledge from this blog post to empower your decision making. \
-
-* **Insulation really does matter:** We could have skipped insulating, but it would have meant installing at least one more heat pump and spending more energy to heat our home year over year. For $2,300 of insulation, we reduced our home’s energy needs by 20%, which will pay for itself many, many times over. If you want to save money, don’t skip this step! \
-
-* **Going solar first helped incentivize us to electrify**: If you read my previous blog post, you’ll see that we installed solar panels on our roof first. For us, this helped incentivize these other improvements because our electricity costs are low / free. Going solar first may make sense if you can afford it. Otherwise, you may want to do it later or not at all. \
+* **Going solar first helped incentivize us to electrify**: If you read my previous blog post, you’ll see that we installed solar panels on our roof first. For us, this helped incentivize these other improvements because our electricity costs are low / free. Going solar first may make sense if you can afford it. Otherwise, you may want to do it later or not at all.
 
 * **You can save money by spreading these improvements over several years**: The Inflation Reduction Act allows for a 30% rebate, up to $2,000, each year for making improvements to your home appliances. To maximize savings, it may make the most sense to spread these improvements over several years.
 

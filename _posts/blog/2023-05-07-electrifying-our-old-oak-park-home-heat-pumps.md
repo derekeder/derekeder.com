@@ -4,7 +4,7 @@ title: "Electrifying Our Old Oak Park Home: Heat Pumps"
 categories: 
   - blog
 date: 2023-05-06
-description: ""
+description: "We’ve made the switch from gas heating to heat pumps in our 100 year old home, and you can too. We’ll explain how we took a big step in fighting climate change while also lowering our utility bills and increasing the comfort of our home in the process."
 image: /images/blog/heat-pumps/heat-pump-combo.jpg
 ---
 
@@ -35,7 +35,7 @@ Ready? Let’s dive in.
 **Table of contents**
 
 <ul>
-  <li><a href="#first-what’s-a-heat-pump">First, what’s a heat pump?</a></li>
+  <li><a href="#whats-a-heat-pump">What’s a heat pump?</a></li>
   <li><a href="#sizing-the-problem">Sizing the problem</a></li>
   <li><a href="#just-how-leaky-is-our-house-doing-a-blower-door-test">Just how leaky is our house? Doing a blower door test</a></li>
   <li><a href="#aerosealing-our-ducts">Aerosealing our ducts</a></li>
@@ -46,7 +46,7 @@ Ready? Let’s dive in.
   <li><a href="#resources">Resources</a></li>
 </ul>
 
-## First, what’s a heat pump? {#first-what’s-a-heat-pump}
+## What’s a heat pump? {#whats-a-heat-pump}
 
 What’s a heat pump, you ask? A [heat pump](https://en.wikipedia.org/wiki/Heat_pump) is a device which uses electricity to transfer heat from a cool space to a warm space, cooling the cool space and warming the warm space. It is very similar to an air conditioner, except that it also runs in reverse.
 
@@ -62,9 +62,9 @@ Sounds cool, right? Let’s walk through the steps we took to install heat pumps
 
 ## Sizing the problem {#sizing-the-problem}
 
-Say hello to our massive 125,000 BTU/hr (BTUs are British thermal units — cheerio!), 80% efficient, methane-powered, oversized furnace: \
+Say hello to our massive 125,000 BTU/hr (BTUs are British thermal units — cheerio!), 80% efficient, methane-powered, oversized furnace:
 
-<p><img class='img-responsive' src='/images/blog/heat-pumps/heat-pump-diagram.jpg' alt='Heat pumps move cool and warm air around depending on the season'></p>
+<p class='text-center'><img style="width:70%;" src='/images/blog/heat-pumps/gas-furnace.jpg'></p>
 
 This gas furnace, installed in 2007, is near the end of its 15-year life. I’ve learned that furnaces like these are pretty common, especially in older homes like ours. Our house doesn’t have great insulation, so to compensate for it, HVAC (heating, ventilation, air conditioning) contractors install more BTUs than you need to get through our cold Chicago winters, just to be safe. 
 
@@ -131,7 +131,6 @@ Before the process, our ducts had an equivalent of a 98-sq. inch hole in them �
 
 This process didn’t make our house less leaky, but it did make our ducts much more efficient at moving warm and cold air to its intended areas around the house .
 
-
 ## Heat pump installation {#heat-pump-installation}
 
 With our somewhat less leaky house and much improved ducts, we were ready to move on to installing heat pumps. It took us a while to find an HVAC installer that worked with heat pumps. Matt Nickels from [Energy Matters](http://energymatters.solutions/) (an Oak Park company) was able to run some numbers and come up with a system that was all-electric and met the required permit specifications from the Village. 
@@ -147,7 +146,7 @@ It is worth noting that while the electric resistive heater component gives us a
 
 In Chicago, about 85% of our heating days will be above 20 degrees F, so we will not need to use this expensive electric resistance very much. 
 
-<p><img class='img-responsive' src='/images/blog/heat-pumps/heat-pump.jpg' alt='3.0-­ton Mitsubishi Single­ Zone Hyper­-Heating heat pump system'></p>
+<p class='text-center'><img style="width:70%;" src='/images/blog/heat-pumps/heat-pump.jpg' alt='3.0-­ton Mitsubishi Single­ Zone Hyper­-Heating heat pump system'></p>
 <p class="text-center"><em>3.0-­ton Mitsubishi Single­ Zone Hyper­-Heating heat pump system</em></p>
 
 We still needed to account for the remaining 9,000 BTU. To get us there, we decided to turn our basement into a second zone and add a 1.5­-ton Mitsubishi Single­ Zone Hyper­ Heating Heat Pump system, which provides up to 19,000 BTUs. More than enough for our needs.
@@ -157,7 +156,7 @@ We still needed to account for the remaining 9,000 BTU. To get us there, we deci
 
 Both of these heat pumps were installed over the course of three days. They each came with their own  new condenser, replacing the one we had for our previous AC. As a bonus, these condensers are much quieter than our old AC condenser.
 
-<p><img class='img-responsive' src='/images/blog/heat-pumps/condensers.jpg' alt='Our new outside heat pump condensers'></p>
+<p class='text-center'><img style='width:70%;' src='/images/blog/heat-pumps/condensers.jpg' alt='Our new outside heat pump condensers'></p>
 <p class="text-center"><em>Our new outside heat pump condensers</em></p>
 
 ## An unexpected bonus: Improved comfort and air quality {#an-unexpected-bonus-improved-comfort-and-air-quality}
@@ -168,7 +167,7 @@ Our old gas furnace is what they call a single stage. That means it's either 100
 
 Heat pumps are different. Instead, they are designed to be constantly on and adjusting both temperature and fan speed as needed. This results in the air being continually cycled, which makes the climate in our home noticeably more comfortable and consistent between rooms and floors. Before, we would notice a big temperature change when going up the stairs from the first floor to the second floor. The second floor, where our bedrooms are, were colder in the winter and hotter in the summer. With the added insulation and heat pump system, I’m happy to say that we do not feel that change at all now!
 
-<p><img class='img-responsive' src='/images/blog/heat-pumps/2stage1.jpg' alt='Difference in temperature swings between a single stage heater vs two stage'></p>
+<p class='text-center'><img src='/images/blog/heat-pumps/2stage1.jpg' alt='Difference in temperature swings between a single stage heater vs two stage'></p>
 <p class="text-center"><em>Difference in temperature swings between a single stage heater vs two stage</em></p>
 
 An additional bonus is our air quality. The air exchange filter on our new system is 4 inches wide, instead of the 1-inch filter we had on our old one. This system is much better at filtering out dust and pollen than our old one, and we really noticed a difference.
@@ -178,28 +177,20 @@ An additional bonus is our air quality. The air exchange filter on our new syste
 
 All told, with the insulation, Aeroseal and installing the new heat pumps, this project cost us $25,940 after rebates. You can see the full breakdown here:
 
-**Heating and insulation**
-
-
-<table>
+<table class="table table-bordered table-condensed">
   <tr>
-   <td><strong>Item</strong>
-   </td>
-   <td><strong>From</strong>
-   </td>
-   <td><p style="text-align: right">
-<strong>Cost</strong></p>
-
+   <td><strong>Item</strong></td>
+   <td><strong>From</strong></td>
+   <td>
+    <p style="text-align: right">
+    <strong>Cost</strong></p>
    </td>
   </tr>
   <tr>
-   <td>Blower door test
-   </td>
-   <td>Insight Property Services
-   </td>
+   <td>Blower door test</td>
+   <td>Insight Property Services</td>
    <td><p style="text-align: right">
 $450</p>
-
    </td>
   </tr>
   <tr>
@@ -227,7 +218,7 @@ $2,525</p>
    </td>
    <td>Nicor Gas Rebate
    </td>
-   <td><p style="text-align: right">
+   <td class="success"><p style="text-align: right">
 -$225</p>
 
    </td>
@@ -247,7 +238,7 @@ $16,250</p>
    </td>
    <td>ComEd Rebate
    </td>
-   <td><p style="text-align: right">
+   <td class="success"><p style="text-align: right">
 -$1,400</p>
 
    </td>
@@ -263,13 +254,11 @@ $7,000</p>
    </td>
   </tr>
   <tr>
-   <td>ComEd direct rebate for ductless heat pump > 16.1­SEER2 and 9.0
-<p>
-HSPF2
+   <td>ComEd direct rebate for ductless heat pump > 16.1­SEER2 and 9.0 HSPF2
    </td>
    <td>ComEd Rebate
    </td>
-   <td><p style="text-align: right">
+   <td class="success"><p style="text-align: right">
 -$1,350</p>
 
    </td>
@@ -289,12 +278,12 @@ $1,440</p>
    </td>
    <td>Tax Credit (Federal)
    </td>
-   <td><p style="text-align: right">
+   <td class="success"><p style="text-align: right">
 -$2,000</p>
 
    </td>
   </tr>
-  <tr>
+  <tr class="active">
    <td><strong>Heating and Insulation Total</strong>
    </td>
    <td>

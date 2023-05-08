@@ -66,7 +66,7 @@ Say hello to our massive 125,000 BTU/hr (BTUs are British thermal units — chee
 
 <p class='text-center'><img style="width:70%;" src='/images/blog/heat-pumps/gas-furnace.jpg'></p>
 
-This gas furnace, installed in 2007, is near the end of its 15-year life. I’ve learned that furnaces like these are pretty common, especially in older homes like ours. Our house doesn’t have great insulation, so to compensate for it, HVAC (heating, ventilation, air conditioning) contractors install more BTUs than you need to get through our cold Chicago winters, just to be safe. 
+This gas furnace, installed in 2007 in our 2,800 sq. ft. house, is near the end of its 15-year life. I’ve learned that furnaces like these are pretty common, especially in older homes like ours. Our house doesn’t have great insulation, so to compensate for it, HVAC (heating, ventilation, air conditioning) contractors install more BTUs than you need to get through our cold Chicago winters, just to be safe. 
 
 The problem, from a climate perspective, is that this thing is responsible for about 50% of our household emissions. From a comfort perspective, it’s not great either. It pushes really hot air to our rooms and things get very dry in the winter. Switching to a heat pump will eliminate these gas emissions, save us money, and (as we learned later) greatly improve the comfort of our home year-round. 
 
@@ -133,7 +133,7 @@ This process didn’t make our house less leaky, but it did make our ducts much 
 
 ## Heat pump installation {#heat-pump-installation}
 
-With our somewhat less leaky house and much improved ducts, we were ready to move on to installing heat pumps. It took us a while to find an HVAC installer that worked with heat pumps. Matt Nickels from [Energy Matters](http://energymatters.solutions/) (an Oak Park company) was able to run some numbers and come up with a system that was all-electric and met the required permit specifications from the Village. 
+With our somewhat less leaky house and much improved ducts, we were ready to move on to installing heat pumps. It took us a while to find an HVAC installer that worked with heat pumps. Matt Nickels from [Energy Matters](http://energymatters.solutions/) (an Oak Park company) ran a [Manual J load calculation](https://www.indeed.com/career-advice/career-development/manual-j-calculation) and came up with a system that was all-electric and met the required permit specifications from the Village. 
 
 Our 125,000 BTU gas furnace was 80% efficient, so our house needed about 100,000 BTU of heat. After our improvements, Energy Matters determined that our home needed about 79,000 BTU of heat. Definitely doable with two heat pumps, supported by some standard electric resistive heating.
 
@@ -329,3 +329,4 @@ This skepticism is understandable. HVAC professionals are likely to stick with w
 * Electrify Everything Home Guide: [https://www.rewiringamerica.org/electrify-home-guide](https://www.rewiringamerica.org/electrify-home-guide) 
 * Identify what heat pumps and other equipment are eligible for Federal tax credits: [https://www.energystar.gov/about/federal_tax_credits/non_business_energy_property_tax_credits](https://www.energystar.gov/about/federal_tax_credits/non_business_energy_property_tax_credits) 
 * The Electrify Everything Course by Nate the House Whisperer: [https://www.youtube.com/playlist?list=PLLTtM5Ga_CUtT-SB20vtU2y2EwtrwC6B6](https://www.youtube.com/playlist?list=PLLTtM5Ga_CUtT-SB20vtU2y2EwtrwC6B6) 
+* Cool Calc Manual J - calculate your heating and cooling requirements for your home: [https://www.coolcalc.com/](https://www.coolcalc.com/)

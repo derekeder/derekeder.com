@@ -295,8 +295,11 @@ $1,440</p>
   </tr>
 </table>
 
+As you can see, we were able to get a $2,000 federal tax credit. For low-income households (under 80% of Area Median Income), the [Inflation Reduction Act (IRA) provides up-front electrification rebates](https://www.rewiringamerica.org/app/ira-calculator/information/heat-pump-air-conditioner-heater) covering all heat pump costs up to $8,000. For moderate-income households (between 80% and 150% of Area Median Income), the electrification rebates cover 50% of heat pump costs up to $8,000.
 
-One thing to note is our gas furnace was at the end of its life and we were due for a new one anyway. If we had replaced it with another gas furnace, it would have cost us between $10,000–$12,000. Additionally, our gas bill has been greatly reduced (we plan to shut it off completely once we electrify the rest of our appliances) and thanks to improved efficiency and our [solar panels](https://derekeder.com/blog/electrifying-our-old-oak-park-home-going-solar), the cost of running our system is also greatly reduced. We’ll need at least a year to determine what the annual cost savings is, and I plan to update this blog post when that happens.
+Another thing to note is our gas furnace was at the end of its life and we were due for a new one anyway. If we had replaced it with another gas furnace, it would have cost us between $10,000–$12,000. 
+
+Additionally, our gas bill has been greatly reduced (we plan to shut it off completely once we electrify the rest of our appliances) and thanks to improved efficiency and our [solar panels](https://derekeder.com/blog/electrifying-our-old-oak-park-home-going-solar), the cost of running our system is also greatly reduced. We’ll need at least a year to determine what the annual cost savings is, and I plan to update this blog post when that happens.
 
 Until then, for us, the investment has been worth it. We have improved the comfort of our home and we are no longer contributing nearly as much climate pollution from burning methane gas. We have taken a significant step to reduce our contribution to climate change and helped give our children and future generations a better chance at a bright future, which to us, is priceless. 
 

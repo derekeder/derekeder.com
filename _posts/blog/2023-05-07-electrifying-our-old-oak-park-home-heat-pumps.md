@@ -97,7 +97,7 @@ Our home airflow clocked in at 3,295 CFM50: LEAKY. Well, at least now we have a 
 
 ## Adding insulation {#adding-insulation}
 
-As part of the blower door test, Property Insight Services walked around with an infrared camera and identified places where cold air was getting in. Here’s a few places throughout our home with noticeable leaks. The darker purple indicates places where more cold air was getting in.
+As part of the blower door test, Insight Property Services walked around with an infrared camera and identified places where cold air was getting in. Here’s a few places throughout our home with noticeable leaks. The darker purple indicates places where more cold air was getting in.
 
 <p><img class='img-responsive' src='/images/blog/heat-pumps/ir-heat-loss.jpg' alt='Pictures of places in our home with air leakage'></p>
 <p class="text-center"><em>Using an infrared camera to identify places where cold air is getting in to our house</em></p>

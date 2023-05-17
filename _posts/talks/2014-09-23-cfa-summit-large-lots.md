@@ -11,6 +11,6 @@ link: http://www.youtube.com/watch?v=ZR5JMxp-ejw
 tags: 
  - presentation
 medium: video
-featured: true
+featured: false
 published: true
 ---

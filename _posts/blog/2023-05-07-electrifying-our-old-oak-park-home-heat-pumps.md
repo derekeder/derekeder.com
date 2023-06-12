@@ -53,7 +53,7 @@ What’s a heat pump, you ask? A [heat pump](https://en.wikipedia.org/wiki/Heat_
 In winter, a heat pump can move heat from the cool outdoors to warm a house; in summer, the pump reverses the flow from the house to the warmer outdoors. They transfer —rather than generate — heat, and are up to four times more energy efficient than other ways of heating or cooling a home.
 
 <p><img class='img-responsive' src='/images/blog/heat-pumps/heat-pump-diagram.jpg' alt='Heat pumps move cool and warm air around depending on the season'></p>
-<p class="text-center"><em>Heat pumps move cool and warm air around depending on the season</em></p>
+<p class="text-center"><em>Heat pumps move cool and warm air around depending on the season. Source: mepskills.com</em></p>
 
 Heat pumps use the same technology as in your air conditioner or your refrigerator — just packaged up in one device.
 
@@ -82,7 +82,7 @@ For our house, we ended up doing a little bit of both.
 Thankfully, we can use science to figure out exactly what our home needs to be heated and cooled. The tool to calculate this is called a [blower door test](https://www.familyhandyman.com/list/what-is-a-blower-door-test/). The test involves a fan set up in an exterior door and is turned on to pull the air out of your house, like this:
 
 <p><img class='img-responsive' src='/images/blog/heat-pumps/blower-door-test.jpg' alt='A blower door test setup (not our house)'></p>
-<p class="text-center"><em>A blower door test setup (not our house)</em></p>
+<p class="text-center"><em>A blower door test setup (not our house). Source: naeci.com</em></p>
 
 The fan is hooked up to a monitor to calculate how leaky or tight your house is. We hired [Insight Property Services](https://www.insightpsinc.com/) to do this for our home, and this is the result: 
 
@@ -120,7 +120,7 @@ Property Insight Services also gave us a tip on a way to get more heating and co
 [Aeroseal](https://aeroseal.com/) is a patented process that finds and fills those gaps. It works similarly to finding and patching a leak in your car tire. An Aeroseal technician hooks up a fan to blow a (non-toxic) mist of Elmer’s glue-like substance into your ducts. The mist particles naturally move towards the many little holes and start sticking to each other. Eventually, as more and more particles stick to each other, the leaks are filled. Here’s a picture of someone (not my house) doing the Aeroseal process:
 
 <p><img class='img-responsive' src='/images/blog/heat-pumps/aeroseal.jpg' alt='The Aeroseal process (not our house)'></p>
-<p class="text-center"><em>The Aeroseal process (not our house)</em></p>
+<p class="text-center"><em>The Aeroseal process (not our house). Source: Aeroseal</em></p>
 
 Like the blower door test, a sensor is hooked up to the fan before, during and after the process to measure the leakage reduction. We hired [Clean Air Pro](https://cleanairpro.org/) to do our Aerosealing. The process took about 8 hours. Here’s what our report looked like:
 
@@ -168,7 +168,7 @@ Our old gas furnace is what they call a single stage. That means it's either 100
 Heat pumps are different. Instead, they are designed to be constantly on and adjusting both temperature and fan speed as needed. This results in the air being continually cycled, which makes the climate in our home noticeably more comfortable and consistent between rooms and floors. Before, we would notice a big temperature change when going up the stairs from the first floor to the second floor. The second floor, where our bedrooms are, were colder in the winter and hotter in the summer. With the added insulation and heat pump system, I’m happy to say that we do not feel that change at all now!
 
 <p class='text-center'><img src='/images/blog/heat-pumps/2stage1.jpg' alt='Difference in temperature swings between a single stage heater vs two stage'></p>
-<p class="text-center"><em>Difference in temperature swings between a single stage heater vs two stage</em></p>
+<p class="text-center"><em>Difference in temperature swings between a single stage heater vs two stage. Source: perryaireheil.com</em></p>
 
 An additional bonus is our air quality. The air exchange filter on our new system is 4 inches wide, instead of the 1-inch filter we had on our old one. This system is much better at filtering out dust and pollen than our old one, and we really noticed a difference.
 

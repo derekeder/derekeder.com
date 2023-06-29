@@ -8,11 +8,17 @@ description: "We’ve made the switch from gas heating to heat pumps in our 100 
 image: /images/blog/heat-pumps/heat-pump-combo.jpg
 ---
 
-<p><img class='img-responsive' src='/images/blog/heat-pumps/heat-pump-combo.jpg' alt='Our heat pumps and condensers'></p>
+<strong>Update:</strong> I gave a talk at [Climate Reality Chicago](https://climaterealitychicago.com/) based on this blog post on June 15, 2023. <a href='https://www.youtube.com/watch?v=fTyX5-Ch-H8#t=36m05'>Watch it here.</a>
+
+<iframe width="100%" height="415" src="https://www.youtube.com/embed/fTyX5-Ch-H8?start=2165" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <hr />
 
 _This is part 2 of my series Electrifying Our Old Oak Park Home. You can read [Part 1 on installing our rooftop Solar Panels here](https://derekeder.com/blog/electrifying-our-old-oak-park-home-going-solar)._
+
+<p><img class='img-responsive' src='/images/blog/heat-pumps/heat-pump-combo.jpg' alt='Our heat pumps and condensers'></p>
+
+<hr />
 
 We are in the process of removing all gas appliances from our Oak Park home and replacing them with electric equivalents. This is a process known as electrification, and it’s one of the most impactful things you can do to fight climate change.
 

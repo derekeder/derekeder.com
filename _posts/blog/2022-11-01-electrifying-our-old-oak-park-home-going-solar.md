@@ -8,7 +8,9 @@ description: "We are in the process of electrifying our Oak Park home and comple
 image: /images/blog/going-solar/project-sunroof-share.jpg
 ---
 
-<strong>Update:</strong> I gave a talk at Climate Reality Chicago based on this blog post on Jan 19, 2023. It includes work we have done since electrifying and insulating our home. <a href='https://www.youtube.com/watch?v=dhM0hSmeQrI#t=3m3s'>Watch it here.</a>
+<strong>Update:</strong> I gave a talk at [Climate Reality Chicago](https://climaterealitychicago.com/) based on this blog post on Jan 19, 2023. It includes work we have done since electrifying and insulating our home. <a href='https://www.youtube.com/watch?v=dhM0hSmeQrI#t=3m3s'>Watch it here.</a>
+
+<iframe width="100%" height="415" src="https://www.youtube.com/embed/dhM0hSmeQrI?start=183" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <hr />
 

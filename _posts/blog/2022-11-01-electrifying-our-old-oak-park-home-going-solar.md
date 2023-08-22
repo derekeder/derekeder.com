@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Electrifying Our Old Oak Park Home: Going Solar"
+title: "Electrifying Our Old Oak Park Home #1: Going Solar"
 categories: 
   - blog
 date: 2022-11-01
@@ -13,6 +13,8 @@ image: /images/blog/going-solar/project-sunroof-share.jpg
 <iframe width="100%" height="415" src="https://www.youtube.com/embed/dhM0hSmeQrI?start=183" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <hr />
+
+_This is Part 1 of my series Electrifying Our Old Oak Park Home. Read [Part 2 on heat pumps](/blog/electrifying-our-old-oak-park-home-heat-pumps) and [Part 3 on appliances](/blog/electrifying-our-old-oak-park-home-appliances)._
 
 As [bad news about climate change](https://www.bbc.com/news/science-environment-58130705) continues to frequent the headlines, it can feel hopeless. What could we, a single household, possibly do to make a meaningful contribution to such a huge, global problem? Should we recycle more? Stop eating meat? Stop using plastic bags?
 

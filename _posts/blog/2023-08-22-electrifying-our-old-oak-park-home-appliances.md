@@ -242,7 +242,7 @@ As I mentioned in [my Heat Pumps post](https://derekeder.com/blog/electrifying-o
 
 As I mentioned at the top of this post, our home is now fully electrified. For those of you who are interested in seeing the whole picture, here is the full cost breakdown for our entire home electrification process, excluding our car purchase.
 
-After rebates, we spent $46,892. The original cost, however, was reduced by 40% thanks to a combination of federal tax incentives, solar renewable energy credits, grants, and utility rebates, most of which applied to our rooftop solar panels.
+After rebates, and not including our car, we spent $46,892. The original cost, however, was reduced by 40% thanks to a combination of federal tax incentives, solar renewable energy credits, grants, and utility rebates, most of which applied to our rooftop solar panels.
 
 **Rooftop Solar Panels**
 
@@ -562,6 +562,44 @@ $77,949</p>
   </tr>
 </table>
 
+There are other incentives available that would have reduced this cost if we had a lower household income. Both the [Illinois Solar for All program](https://www.illinoissfa.com/) and Inflation Reduction Act provide large up-front discounts for solar and electrification projects if you make less than 80% of AMI, or the area median income ($83,000/year for a family of four in Cook County) or between 80-150% of AMI ($155,625/year).
+
+<p><img class='img-responsive' src='/images/blog/going-solar/ira-calculator.png' alt='A table showing a list of savings from the Inflation Reduction Act totaling tens of thousands of dollars'></p>
+<p class="text-center"><em><a href="https://www.rewiringamerica.org/app/ira-calculator">Rewiring America’s IRA Calculator</a></em></p>
+
+Running the numbers through [Rewiring America's IRA Calculator](https://www.rewiringamerica.org/app/ira-calculator), I calculated the additional discounts from the Inflation Reduction Act for this same work for households with lower incomes:
+
+<table class="table table-bordered table-condensed"> 
+  <tr>
+    <td><strong>Item</strong></td>
+    <td><p style="text-align: right">
+    <strong>Cost for household making >150% AMI</strong></p></td>
+    <td><p style="text-align: right">
+    <strong>Cost for household making 80-150% AMI</strong></p></td>
+    <td><p style="text-align: right">
+    <strong>Cost for household making 80 AMI</strong></p></td>
+  </tr>
+  <tr>
+   <td>Grand Total without Rebates</td>
+   <td><p style="text-align: right">$77,949</p></td>
+   <td><p style="text-align: right">$77,949</p></td>
+   <td><p style="text-align: right">$77,949</p></td>
+  </tr>
+  <tr>
+   <td>Total Rebates, Grants and Incentives</td>
+   <td class="success"><p style="text-align: right">-$31,057</p></td>
+   <td class="success"><p style="text-align: right">-$43,283</p></td>
+   <td class="success"><p style="text-align: right">-$45,553</p></td>
+  </tr>
+  <tr class="active">
+   <td><strong>Grand Total for Electrification</strong></td>
+   <td><p style="text-align: right"><strong>$46,892</strong></p></td>
+   <td><p style="text-align: right"><strong>$34,666</strong></p></td>
+   <td><p style="text-align: right"><strong>$32,396</strong></p></td>
+  </tr>
+</table>
+
+Furthermore, it is possible and even recommended to spread these costs out over several years. You don't really have to do it all at once like we did, and even so it still took us 18 months from start to finish.
 
 We also know that our energy bills are now a lot lower than they used to be. We no longer pay for gas, neither for our house nor our car, and are producing nearly 100% of our  electricity thanks to our rooftop solar panels. We plan to track these costs and savings over the next year and share back what our annual utilities savings has been. 
 
@@ -584,6 +622,8 @@ If you’re looking to electrify your appliances, I have a few lessons I learned
 * **Level 1 EV charging might be enough for you**: Before investing in a Level 2 charger at home, check how much you drive each day. If you drive less than 50 miles a day, a Level 1 charger may cover your charging needs overnight.
 
 * **The best incentives right now are for solar panels**: Rooftop solar has the most incentives and rebates by far. Even without our grant from the Village of Oak Park, the state and federal incentives covered more than half of the solar panel installation. All other incentives were pretty modest for us by comparison.
+
+* **Heat Pumps and insulation were the most difficult to figure out**: Out of all the upgrades we did to our home, we [struggled the most with installing heat pumps](/blog/electrifying-our-old-oak-park-home-heat-pumps), mostly because we heard from a lot of HVAC contractors that switching to heat pumps was not possible. Hopefully our struggles and these blog posts will help make it easier for others.
 
 
 ## Resources {#resources}

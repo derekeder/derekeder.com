@@ -44,6 +44,7 @@ Ready? Let’s dive into Part 3 of Electrifying Our Old Oak Park Home: Appliance
   <li><a href="#shutting-off-the-gas">Shutting off the gas</a></li>
   <li><a href="#bottom-line-costs-and-incentives">Bottom line costs and incentives</a></li>
   <li><a href="#the-overall-cost-for-electrification">The overall cost for electrification</a></li>
+  <li><a href="#why-did-we-do-this">Why did we do this?</a></li>
   <li><a href="#lessons-learned">Lessons learned</a></li>
   <li><a href="#resources">Resources</a></li>
 </ul>
@@ -601,7 +602,18 @@ Running the numbers through [Rewiring America's IRA Calculator](https://www.rewi
 
 Furthermore, it is possible and even recommended to spread these costs out over several years. You don't really have to do it all at once like we did, and even so it still took us 18 months from start to finish.
 
-We also know that our energy bills are now a lot lower than they used to be. We no longer pay for gas, neither for our house nor our car, and are producing nearly 100% of our  electricity thanks to our rooftop solar panels. We plan to track these costs and savings over the next year and share back what our annual utilities savings has been. 
+## Why did we do this? {#why-did-we-do-this}
+
+Our home is now fully electrified. We did it to eliminate the pollution our house was causing, and along the way we greatly improved the comfort and air quality of our home and reduced our long-term utility bills.
+
+Your situation and goals may be different, so by all means don't feel like you have to do everything we did. Your home may not have a good place for solar panels. You may not have a car and instead bike or take public transportation. In either case, or if your goal is to eliminate the pollution from your home for the lowest cost, focusing on installing **heat pumps for heating and cooling, a heat pump water heater, induction stove and electric clothes dryer** will do the trick. Properly planned, this could cost $20,000 - $30,000 for a single family home, depending on the size. 
+
+<p><img class='img-responsive' src='/images/blog/appliances/rewiring-america-guide.jpg' alt='Rewiring America Electrify Everything Checklist'></p>
+<p class="text-center"><em>Rewiring America's <a href='https://www.rewiringamerica.org/electrify-home-guide'>Electrify Everything Checklist</a></em></p>
+
+For us, installing rooftop solar and getting an electric car along with electrifying everything else was what made sense for us. 
+
+We know that our energy bills are now a lot lower than they used to be. We no longer pay for gas, neither for our house nor our car, and are producing nearly 100% of our electricity thanks to our rooftop solar panels. We plan to track these costs and savings over the next year and share back what our annual utilities savings has been. 
 
 Until then, we will enjoy our fully electrified home and all the quality of life improvements that came with it: a more comfortable home, improved air quality, and fast, efficient cooking!
 
@@ -623,8 +635,7 @@ If you’re looking to electrify your appliances, I have a few lessons I learned
 
 * **The best incentives right now are for solar panels**: Rooftop solar has the most incentives and rebates by far. Even without our grant from the Village of Oak Park, the state and federal incentives covered more than half of the solar panel installation. All other incentives were pretty modest for us by comparison.
 
-* **Heat Pumps and insulation were the most difficult to figure out**: Out of all the upgrades we did to our home, we [struggled the most with installing heat pumps](/blog/electrifying-our-old-oak-park-home-heat-pumps), mostly because we heard from a lot of HVAC contractors that switching to heat pumps was not possible. Hopefully our struggles and these blog posts will help make it easier for others.
-
+* **Heat Pumps and insulation were the most difficult to figure out, but also the most important**: Out of all the upgrades we did to our home, we [struggled the most with installing heat pumps](/blog/electrifying-our-old-oak-park-home-heat-pumps), mostly because we heard from a lot of HVAC contractors that switching to heat pumps was not possible. Hopefully our struggles and these blog posts will help make it easier for others. But the struggle was worth it - we eliminated our largest source of climate pollution and greatly improved the comfort of our home.
 
 ## Resources {#resources}
 

@@ -44,6 +44,7 @@ Ready? Let’s dive in.
   <li><a href="#whats-a-heat-pump">What’s a heat pump?</a></li>
   <li><a href="#sizing-the-problem">Sizing the problem</a></li>
   <li><a href="#just-how-leaky-is-our-house-doing-a-blower-door-test">Just how leaky is our house? Doing a blower door test</a></li>
+  <li><a href="#adding-insulation">Adding insulation</a></li>
   <li><a href="#aerosealing-our-ducts">Aerosealing our ducts</a></li>
   <li><a href="#heat-pump-installation">Heat pump installation</a></li>
   <li><a href="#an-unexpected-bonus-improved-comfort-and-air-quality">An unexpected bonus: Improved comfort and air quality</a></li>
@@ -303,7 +304,7 @@ $1,440</p>
 
 As you can see, we were able to get a $2,000 federal tax credit. For low-income households (under 80% of Area Median Income), the [Inflation Reduction Act (IRA) provides up-front electrification rebates](https://www.rewiringamerica.org/app/ira-calculator/information/heat-pump-air-conditioner-heater) covering all heat pump costs up to $8,000. For moderate-income households (between 80% and 150% of Area Median Income), the electrification rebates cover 50% of heat pump costs up to $8,000.
 
-Another thing to note is our gas furnace was at the end of its life and we were due for a new one anyway. If we had replaced it with another gas furnace, it would have cost us between $10,000–$12,000. 
+Another thing to note is our gas furnace and air conditioning were at the end of their lives and we were due for a new system anyway. If we had replaced it with another gas furnace and AC combo, it would have cost us between $14,000–$16,000. 
 
 Additionally, our gas bill has been greatly reduced (we plan to shut it off completely once we electrify the rest of our appliances) and thanks to improved efficiency and our [solar panels](https://derekeder.com/blog/electrifying-our-old-oak-park-home-going-solar), the cost of running our system is also greatly reduced. We’ll need at least a year to determine what the annual cost savings is, and I plan to update this blog post when that happens.
 

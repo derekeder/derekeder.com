@@ -123,7 +123,7 @@ Depending on how much you drive, you may need a Level 2 charger. For us, we donâ
 
 We have a detached garage which already had outlets installed, so we bought a simple charging cable capable of Level 1 or Level 2 charging (annoyingly our car did not come with one). To help [preserve our battery life](https://www.drivingelectric.com/your-questions-answered/96/electric-car-battery-life-how-preserve-your-battery), we keep our battery between 20% to 80% and only charge it every few weeks. Our car has the ability to set the max charge level, so before we go on longer road trips, we set the max charge to 100%.
 
-<p><img class='img-responsive' src='/images/blog/appliances/ev6.jpg' alt='Charging our car in our garage with a Level 1 charger'></p>
+<p><img class='img-responsive' src='/images/blog/appliances/ev-charging.jpg' alt='Charging our car in our garage with a Level 1 charger'></p>
 <p class="text-center"><em>Charging our car in our garage with a Level 1 charger</em></p>
 
 We did look into Level 2 charging and decided it wasnâ€™t worth it for us. Because of our detached garage, running the 240-volt plug would require either digging a trench with new conduit from our house, or running new electrical service directly to our garage. In either scenario, it would have cost us thousands of dollars to do. If you have an attached garage, or really need the Level 2 charging, it may be worth it for you.

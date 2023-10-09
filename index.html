@@ -25,21 +25,23 @@ layout: default
     </div>
   </div>
 
-  {% for post in site.categories['blog'] limit: 3 %}
-    <div class='row'>
-      <div class='col-sm-4'>
-        <a href='{{ post.url }}'><img src='{{ post.image }}' alt='{{ post.title }}' class='img-responsive img-thumbnail' /></a>
-      </div>
-      <div class='col-sm-8'>
-        <h4>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </h4>
-        <p>
-          <small>Published on {{ post.date |  date: "%b %-d, %Y" }}<br /></small>
-          {{ post.description }}
-        </p>
-      </div>
-    </div><br /><br />
+  {% for post in site.categories['blog'] %}
+    {% if post.featured %}
+      <div class='row'>
+        <div class='col-sm-4'>
+          <a href='{{ post.url }}'><img src='{{ post.image }}' alt='{{ post.title }}' class='img-responsive img-thumbnail' /></a>
+        </div>
+        <div class='col-sm-8'>
+          <h4>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h4>
+          <p>
+            <small>Published on {{ post.date |  date: "%b %-d, %Y" }}<br /></small>
+            {{ post.description }}
+          </p>
+        </div>
+      </div><br /><br />
+    {% endif %}
   {% endfor %}
   
   <div class='row'>

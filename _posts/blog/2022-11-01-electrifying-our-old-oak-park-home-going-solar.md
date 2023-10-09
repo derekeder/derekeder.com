@@ -6,6 +6,7 @@ categories:
 date: 2022-11-01
 description: "We are in the process of electrifying our Oak Park home and completely eliminating all our household emissions. This post is an attempt to document our process as we go, with the hopes that it will inspire our neighbors to do the same and learn from our efforts."
 image: /images/blog/going-solar/project-sunroof-share.jpg
+featured: true
 ---
 
 <strong>Update:</strong> I gave a talk at [Climate Reality Chicago](https://climaterealitychicago.com/) based on this blog post on Jan 19, 2023. It includes work we have done since electrifying and insulating our home. <a href='https://www.youtube.com/watch?v=dhM0hSmeQrI#t=3m3s'>Watch it here.</a>

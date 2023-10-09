@@ -6,6 +6,7 @@ categories:
 date: 2013-01-12
 description: On January 14, 2013, Google will deprecate the SQL API for their Fusion Tables platform. This post is here to help developers prepare for it (or more likely, fix things after they break).
 image: /images/blog/fusion-tables-logo-beta.gif
+featured: false
 ---
 
 <p><a href='https://developers.google.com/fusiontables/'><img class='img-thumbnail' src='/images/blog/fusion-tables-logo-beta.gif' title='Google Fusion Tables' alt='Google Fusion Tables'></a></p>

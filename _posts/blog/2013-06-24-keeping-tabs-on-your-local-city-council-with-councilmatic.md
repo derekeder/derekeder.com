@@ -6,6 +6,7 @@ categories:
 date: 2013-06-24
 description: "City councils shape nearly every aspect of city life, from what kind of canopy you can have on a storefront, to how much we pay in taxes, to the number of cops on the street. There's now an app for viewing all this legislative information: Councilmatic."
 image: /images/blog/councilmatic/chicago-councilmatic-1.png
+featured: false
 ---
 
 <p><a href='https://chicago.councilmatic.org'><img class='img-thumbnail' src='/images/blog/councilmatic/chicago-councilmatic-1.png' title='Chicago Councilmatic' alt='Chicago Councilmatic'></a></p>

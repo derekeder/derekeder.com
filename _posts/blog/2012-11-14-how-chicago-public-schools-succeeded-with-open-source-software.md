@@ -6,6 +6,7 @@ categories:
 date: 2012-11-14
 description: "On August 17, 2012, Chicago Public Schools (CPS) launched a new version of their School Locator - an online map that helps parents find public schools for their kids. Unlike the map that came before it, this one is intuitive, easy to use, and took half the time to build. How was CPS able to accomplish this? By doing it in-house and using open source software."
 image: /images/blog/cps-locator/cps-locator.jpg
+featured: false
 ---
 
 <p><a href='http://cps.edu/map'><img class='img-thumbnail' src='/images/blog/cps-locator/cps-locator.jpg' title='Jekyll' alt='Jekyll'></a></p>

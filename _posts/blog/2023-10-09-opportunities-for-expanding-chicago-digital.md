@@ -13,6 +13,8 @@ _As 2023 budget season gets underway in the City of Chicago, I was contacted by 
 
 ---
 
+<i class='fa fa-file-pdf'></i> [Download PDF](/docs/Opportunities for Expanding Chicago Digital.pdf)
+
 The [Mayor’s 2023 Budget Recommendations](https://www.chicago.gov/city/en/depts/obm/provdrs/budget/svcs/2023BudgetDocuments.html), based on Gartner’s IT Modernization recommendations, calls for a significant increase in authorized headcount for IT staff at the City of Chicago. Under the current budget, AIS has an IT staff of about 80. The new budget authorizes 140 positions, nearly doubling it. This increase presents a huge opportunity for the City of Chicago to build up its internal capacity to deliver resident-focused digital services that meet the needs of all Chicagoans. 
 
 **Background**

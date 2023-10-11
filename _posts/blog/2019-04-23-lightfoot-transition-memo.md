@@ -13,6 +13,8 @@ _In April 2019, I joined Mayor-Elect Lightfoot's Transition Team on Good Governa
 
 ---
 
+<i class='fa fa-file-pdf'></i> [Download PDF](/docs/Lightfoot Transition Team - Good Governance - Digital Service Delivery Team v2.pdf)
+
 **Date:** April 23, 2019
 
 **To:** Mayor-Elect Lightfoot Transition Team - Good Governance

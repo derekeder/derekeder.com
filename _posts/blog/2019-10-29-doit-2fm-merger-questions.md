@@ -4,12 +4,12 @@ title: "Policy Memo: Questions and Concerns on Chicago’s proposed merger of th
 categories: 
   - blog
 date: 2019-10-29
-description: "In 2019, Mayor Lightfoot merged the Department of Innovation and Technology (DoIT) with Fleet and Facility Management (2FM) in an attempt to save $1M from the 2019 Chicago City Budget. I, along with 9 current and former municipal CIOs, CDOs and civic technologists, raised concerns and questions about the negative potential impact of this merger. In Mayor Brandon Johnson's 2024 budget, this merger was proposed to be undone."
+description: "In 2019, Mayor Lightfoot merged the Department of Innovation and Technology (DoIT) with Fleet and Facility Management (2FM) in an attempt to save $1M in the 2019 Chicago City Budget. I, along with 9 current and former municipal CIOs, CDOs and civic technologists, raised concerns and questions about the negative potential impact of this merger. In Mayor Brandon Johnson's 2024 budget, this merger was proposed to be undone."
 image: /images/blog/ais-logo.png
 featured: false
 ---
 
-_In 2019, Mayor Lightfoot merged the Department of Innovation and Technology (DoIT) with Fleet and Facility Management (2FM) in an attempt to save $1M from the 2019 Chicago City Budget. I, along with 9 current and former municipal CIOs, CDOs and civic technologists, publicly raised concerns and questions about the negative potential impact of this merger. Many of these questions were [asked by Alders at the Budget hearing on Oct 31, 2019](https://chicago.councilmatic.org/event/committee-on-budget-and-government-3875280e05c2/). In [Mayor Brandon Johnson's 2024 budget, this merger was proposed to be undone](https://news.wttw.com/2023/10/11/mayor-brandon-johnson-proposes-166b-spending-plan-closes-budget-gap-expands-mental-health)._
+_In 2019, Mayor Lightfoot merged the Department of Innovation and Technology (DoIT) with Fleet and Facility Management (2FM) in an attempt to save $1M in the 2019 Chicago City Budget. I, along with 9 current and former municipal CIOs, CDOs and civic technologists, publicly raised concerns and questions about the negative potential impact of this merger. Many of these questions were [asked by Alders at the Budget hearing on Oct 31, 2019](https://chicago.councilmatic.org/event/committee-on-budget-and-government-3875280e05c2/). In [Mayor Brandon Johnson's 2024 budget, this merger was proposed to be undone](https://news.wttw.com/2023/10/11/mayor-brandon-johnson-proposes-166b-spending-plan-closes-budget-gap-expands-mental-health)._
 
 ---
 

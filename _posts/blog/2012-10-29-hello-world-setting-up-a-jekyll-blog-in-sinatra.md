@@ -7,6 +7,7 @@ date: 2012-10-29
 description: "I'm going meta on my first blog post: how to set up a Jekyll blog inside a Sinatra app. A few people have written on this topic, but I had some specific requirements that no one addressed. So my goal here is to write the post I wish existed when I started out. Here it goes."
 image: /images/blog/jekyll.jpg
 featured: false
+published: false
 ---
 
 <p><a href='http://jekyllrb.com'><img class='img-thumbnail' src='/images/blog/jekyll.jpg' title='Jekyll' alt='Jekyll'></a> + <a href='http://sinatrarb.com'><img class='img-thumbnail' src='/images/blog/sinatra.jpg' title='Sinatra' alt='Sinatra'></a></p>

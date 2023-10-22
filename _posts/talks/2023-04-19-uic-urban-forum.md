@@ -10,6 +10,6 @@ description: "I was invited to give the keynote presentation at the 2023 UIC Urb
 link: https://www.youtube.com/watch?v=PjiOrXlkeyw
 tags: presentation
 medium: video
-featured: true
+featured: false
 published: true
 ---

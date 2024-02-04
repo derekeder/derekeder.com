@@ -14,7 +14,7 @@ featured: false
 
 <hr />
 
-_This is Part 3 of my series Electrifying Our Old Oak Park Home. [Read them all here](/electrification/)._
+_This is Part 3 of my series Electrifying Our Old Oak Park Home. [Read all 3 parts here](/electrification/)._
 
 As of this writing, we have [installed solar panels on our roof](https://derekeder.com/blog/electrifying-our-old-oak-park-home-going-solar) (giving us a source of free renewable electricity), switched out our gas furnace with [electric heat pumps](https://derekeder.com/blog/electrifying-our-old-oak-park-home-heat-pumps), and replaced all gas appliances with electric equivalents in our 100-year-old Oak Park home. We have shut off our gas service and upgraded our car to an electric vehicle (EV), charging it basically for free at home, eliminating our reliance on polluting gasoline with its rising costs.
 

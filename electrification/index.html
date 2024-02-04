@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+  <div class='row'>
+    <div class='col-sm-12'>
+
+      <h2>
+        Electrifying Our Old Oak Park Home
+      </h2>
+
+      <p>
+        In 2022 and 2023, I documented our process of fully electrifying our 100-year-old home in Oak Park, IL. We installed solar panels on our roof (giving us a source of free renewable electricity), switched out our gas furnace with electric heat pumps, and replaced all gas appliances with electric equivalents.
+      </p>
+      <p>
+        Home electrification is one of the most impactful actions any household can do to fight climate change, and it will improve your home comfort and lower your energy bills in the process. And with all the new incentives and rebates available, it costs less than you think.
+      </p>
+      <p>
+        In 2023, the Village of Oak Park produced a video tour of our fully electrified home:
+      </p>
+      <iframe width="100%" height="480" src="https://www.youtube.com/embed/4NmpOUFS590" frameborder="0" allowfullscreen></iframe>
+      <hr />
+    </div>
+  </div>
+
+  <div class='row'>
+    <div class='col-sm-12'>
+      <h3>
+        Read the blog posts on Electrifying Our Old Oak Park Home
+      </h3>
+    </div>
+  </div>
+
+  {% for post in site.categories['electrification'] reversed %}
+    <div class='row'>
+      <div class='col-sm-4'>
+        <a href='{{ post.url }}'><img src='{{ post.image }}' alt='{{ post.title }}' class='img-responsive img-thumbnail' /></a>
+      </div>
+      <div class='col-sm-8'>
+        <h4>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </h4>
+        <p>
+          <small>Published on {{ post.date |  date: "%b %-d, %Y" }}<br /></small>
+          {{ post.description }}
+        </p>
+      </div>
+    </div><br /><br />
+  {% endfor %}
+
+  <div class='row'>
+    <div class='col-sm-12'>
+      <h3>
+        Media coverage
+      </h3>
+
+      <p><a href='https://www.chicagotribune.com/2024/01/31/concerned-about-climate-change-more-chicagoans-are-buying-all-electric-home-heating-systems/'>Concerned about climate change, more Chicagoans are buying all-electric home heating systems</a><br />Chicago Tribune | Nara Schoenberg | January 31, 2024</p>
+
+      <p><a href='https://www.dailyherald.com/business/20231112/what-you-need-to-know-about-heat-pumps-cost-rebates-energy-efficiency-and-more/'>What you need to know about heat pumps: Cost, rebates, energy efficiency and more</a><br />Daily Herald | Jenny Whidden | November 12, 2023</p>
+
+      <p><a href='https://www.youtube.com/watch?v=4NmpOUFS590'>How to Fully Electrify Your Home (video)</a><br />Village of Oak Park | October 19, 2023</p>
+
+      <p><a href='https://www.youtube.com/watch?v=fTyX5-Ch-H8#t=36m05'>Electrifying My Old Oak Park Home - Fully Electrified! (video)</a><br />Climate Reality Chicago | June 15, 2023</p>
+
+      <p><a href='https://www.youtube.com/watch?v=dhM0hSmeQrI#t=3m3s'>Electrifying My Old Oak Park Home - Solar and Heat Pumps (video)</a><br />Climate Reality Chicago | January 19, 2023</p>
+
+      <p><a href='https://www.oneearthfilmfest.org/earth-words-blog/2022/11/2/electrifying-our-old-oak-park-home-going-solar'>Electrifying Our Old Oak Park Home: Going Solar</a><br />One Earth Film Fest | November 12, 2022</p>
+
+    </div>
+  </div>

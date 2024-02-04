@@ -3,17 +3,18 @@ layout: post
 title: "Electrifying Our Old Oak Park Home #3: Appliances"
 categories: 
   - blog
+  - electrification
 date: 2023-08-22
 description: "We’ve made the switch to being fully electric in our 100-year-old home! I’ll explain the final steps we took to electrify our home by replacing our stove, hot water heater, clothes dryer and car with electric equivalents. These upgrades allowed us to fully cut our gas usage and eliminate the last ~20% of emissions from our home."
 image: /images/blog/appliances/electrify-appliances.jpg
-featured: true
+featured: false
 ---
 
 <p><img class='img-responsive' src='/images/blog/appliances/electrify-appliances.jpg' alt='Our heat pumps hot water heater, induction stove, electric dryer, and EV charger'></p>
 
 <hr />
 
-_This is Part 3 of my series Electrifying Our Old Oak Park Home. Read [Part 1 on installing rooftop solar panels](/blog/electrifying-our-old-oak-park-home-going-solar) and [Part 2 on heat pumps](/blog/electrifying-our-old-oak-park-home-heat-pumps)._
+_This is Part 3 of my series Electrifying Our Old Oak Park Home. [Read them all here](/electrification/)._
 
 As of this writing, we have [installed solar panels on our roof](https://derekeder.com/blog/electrifying-our-old-oak-park-home-going-solar) (giving us a source of free renewable electricity), switched out our gas furnace with [electric heat pumps](https://derekeder.com/blog/electrifying-our-old-oak-park-home-heat-pumps), and replaced all gas appliances with electric equivalents in our 100-year-old Oak Park home. We have shut off our gas service and upgraded our car to an electric vehicle (EV), charging it basically for free at home, eliminating our reliance on polluting gasoline with its rising costs.
 

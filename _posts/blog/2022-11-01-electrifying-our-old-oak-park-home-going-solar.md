@@ -3,19 +3,14 @@ layout: post
 title: "Electrifying Our Old Oak Park Home #1: Going Solar"
 categories: 
   - blog
+  - electrification
 date: 2022-11-01
 description: "We are in the process of electrifying our Oak Park home and completely eliminating all our household emissions. This post is an attempt to document our process as we go, with the hopes that it will inspire our neighbors to do the same and learn from our efforts."
 image: /images/blog/going-solar/project-sunroof-share.jpg
-featured: true
+featured: false
 ---
 
-<strong>Update:</strong> I gave a talk at [Climate Reality Chicago](https://climaterealitychicago.com/) based on this blog post on Jan 19, 2023. It includes work we have done since electrifying and insulating our home. <a href='https://www.youtube.com/watch?v=dhM0hSmeQrI#t=3m3s'>Watch it here.</a>
-
-<iframe width="100%" height="415" src="https://www.youtube.com/embed/dhM0hSmeQrI?start=183" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<hr />
-
-_This is Part 1 of my series Electrifying Our Old Oak Park Home. Read [Part 2 on heat pumps](/blog/electrifying-our-old-oak-park-home-heat-pumps) and [Part 3 on appliances](/blog/electrifying-our-old-oak-park-home-appliances)._
+_This is Part 1 of my series Electrifying Our Old Oak Park Home. [Read them all here](/electrification/)._
 
 As [bad news about climate change](https://www.bbc.com/news/science-environment-58130705) continues to frequent the headlines, it can feel hopeless. What could we, a single household, possibly do to make a meaningful contribution to such a huge, global problem? Should we recycle more? Stop eating meat? Stop using plastic bags?
 

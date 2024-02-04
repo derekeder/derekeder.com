@@ -3,19 +3,14 @@ layout: post
 title: "Electrifying Our Old Oak Park Home #2: Heat Pumps"
 categories: 
   - blog
+  - electrification
 date: 2023-05-06
 description: "We’ve made the switch from gas heating to heat pumps in our 100 year old home, and you can too. We’ll explain how we took a big step in fighting climate change while also lowering our utility bills and increasing the comfort of our home in the process."
 image: /images/blog/heat-pumps/heat-pump-combo.jpg
-featured: true
+featured: false
 ---
 
-<strong>Update:</strong> I gave a talk at [Climate Reality Chicago](https://climaterealitychicago.com/) based on this blog post on June 15, 2023. <a href='https://www.youtube.com/watch?v=fTyX5-Ch-H8#t=36m05'>Watch it here.</a>
-
-<iframe width="100%" height="415" src="https://www.youtube.com/embed/fTyX5-Ch-H8?start=2165" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<hr />
-
-_This is Part 2 of my series Electrifying Our Old Oak Park Home. Read [Part 1 on installing rooftop solar panels](/blog/electrifying-our-old-oak-park-home-going-solar) and [Part 3 on appliances](/blog/electrifying-our-old-oak-park-home-appliances)._
+_This is Part 2 of my series Electrifying Our Old Oak Park Home. [Read them all here](/electrification/)._
 
 <p><img class='img-responsive' src='/images/blog/heat-pumps/heat-pump-combo.jpg' alt='Our heat pumps and condensers'></p>
 

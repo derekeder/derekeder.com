@@ -245,7 +245,7 @@ As I mentioned in [my Heat Pumps post](https://derekeder.com/blog/electrifying-o
 
 As I mentioned at the top of this post, our home is now fully electrified. For those of you who are interested in seeing the whole picture, here is the full cost breakdown for our entire home electrification process, excluding our car purchase.
 
-After rebates, and not including our car, we spent $46,892. The original cost, however, was reduced by 40% thanks to a combination of federal tax incentives, solar renewable energy credits, grants, and utility rebates, most of which applied to our rooftop solar panels.
+After rebates, and not including our car, we spent $46,202. The original cost, however, was reduced by 40% thanks to a combination of federal tax incentives, solar renewable energy credits, grants, and utility rebates, most of which applied to our rooftop solar panels.
 
 **Rooftop Solar Panels**
 
@@ -382,6 +382,16 @@ $2,525</p>
    </td>
   </tr>
   <tr>
+   <td>Energy Efficient Home Improvement Credit - Insulation
+   </td>
+   <td>Tax Credit (Federal)
+   </td>
+   <td class="success"><p style="text-align: right">
+-$690</p>
+
+   </td>
+  </tr>
+  <tr>
    <td>3.0-ton Mitsubishi Single Zone Hyper­-Heating heat pump system
    </td>
    <td>Energy Matters
@@ -447,7 +457,7 @@ $1,440</p>
    <td>
    </td>
    <td><p style="text-align: right">
-<strong>$25,940</strong></p>
+<strong>$25,250</strong></p>
 
    </td>
   </tr>
@@ -551,7 +561,7 @@ $77,949</p>
    <td>Total Rebates, Grants and Incentives
    </td>
    <td class="success"><p style="text-align: right">
--$31,057</p>
+-$31,747</p>
 
    </td>
   </tr>
@@ -559,7 +569,7 @@ $77,949</p>
    <td><strong>Grand Total for Electrification</strong>
    </td>
    <td><p style="text-align: right">
-<strong>$46,892</strong></p>
+<strong>$46,202</strong></p>
 
    </td>
   </tr>
@@ -590,15 +600,15 @@ Running the numbers through [Rewiring America's IRA Calculator](https://www.rewi
   </tr>
   <tr>
    <td>Total Rebates, Grants and Incentives</td>
-   <td class="success"><p style="text-align: right">-$31,057</p></td>
-   <td class="success"><p style="text-align: right">-$43,283</p></td>
-   <td class="success"><p style="text-align: right">-$45,553</p></td>
+   <td class="success"><p style="text-align: right">-$31,747</p></td>
+   <td class="success"><p style="text-align: right">-$43,973</p></td>
+   <td class="success"><p style="text-align: right">-$46,243</p></td>
   </tr>
   <tr class="active">
    <td><strong>Grand Total for Electrification</strong></td>
-   <td><p style="text-align: right"><strong>$46,892</strong></p></td>
-   <td><p style="text-align: right"><strong>$34,666</strong></p></td>
-   <td><p style="text-align: right"><strong>$32,396</strong></p></td>
+   <td><p style="text-align: right"><strong>$46,202</strong></p></td>
+   <td><p style="text-align: right"><strong>$33,976</strong></p></td>
+   <td><p style="text-align: right"><strong>$31,706</strong></p></td>
   </tr>
 </table>
 

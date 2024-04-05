@@ -226,6 +226,16 @@ $2,525</p>
 
    </td>
   </tr>
+    <tr>
+   <td>Energy Efficient Home Improvement Credit - Insulation
+   </td>
+   <td>Tax Credit (Federal)
+   </td>
+   <td class="success"><p style="text-align: right">
+-$690</p>
+
+   </td>
+  </tr>
   <tr>
    <td>3.0-ton Mitsubishi Single Zone Hyper­-Heating heat pump system
    </td>
@@ -292,7 +302,7 @@ $1,440</p>
    <td>
    </td>
    <td><p style="text-align: right">
-<strong>$25,940</strong></p>
+<strong>$25,250</strong></p>
 
    </td>
   </tr>

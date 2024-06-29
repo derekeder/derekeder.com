@@ -10,7 +10,7 @@ image: /images/blog/heat-pumps/heat-pump-combo.jpg
 featured: false
 ---
 
-_This is Part 2 of my series Electrifying Our Old Oak Park Home. [Read all 3 parts here](/electrification/)._
+_This is Part 2 of my series Electrifying Our Old Oak Park Home. [Read all 4 parts here](/electrification/)._
 
 <p><img class='img-responsive' src='/images/blog/heat-pumps/heat-pump-combo.jpg' alt='Our heat pumps and condensers'></p>
 

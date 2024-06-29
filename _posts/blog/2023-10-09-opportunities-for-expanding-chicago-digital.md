@@ -6,7 +6,7 @@ categories:
 date: 2023-10-09
 description: "As 2023 budget season gets underway in the City of Chicago, I was contacted by the Chicago City Council Committee on Ethics and Government Oversight to provide background information on the state of and opportunities for digital services in Chicago. This is the memo I wrote for them, which I have now made public."
 image: /images/blog/designed-in-chicago-main-highres.png
-featured: true
+featured: false
 ---
 
 _As 2023 budget season gets underway in the City of Chicago, I was contacted by the Chicago City Council [Committee on Ethics and Government Oversight](https://chicago.councilmatic.org/committee/committee-on-ethics-and-government-oversight-9c6e8c87083a/) to provide background information on the state of and opportunities for digital services in Chicago. This is the memo I wrote for them, which I have now made public._

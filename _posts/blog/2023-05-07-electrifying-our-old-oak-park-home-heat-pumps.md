@@ -94,7 +94,7 @@ The fan is hooked up to a monitor to calculate how leaky or tight your house is.
 
 It’s a pretty confusing report to read, but the number that matters most is the CFM50 value. For those who are curious, [here’s a guide to reading this report](https://energyconservatory.com/wp-content/uploads/2017/08/Test-Results-and-Sample-Test-Forms-Guide-.pdf). CFM50 is “cubic feet of air moving across the fan per minute at the test pressure of 50 pascals”. 
 
-For a tight house, you want a number around or below 1,383. For a moderate home, you want 1,975. The other number to look at is ACH50, which indicates how many times your house completely changes its air every hour. Our house has an ACH50 of 8.2, meaning we have to completely re-heat our house 8 times an hour. Yikes!
+For a tight house, you want a number around or below 1,383. For a moderate home, you want 1,975. The other number to look at is ACH50, which indicates how many times your house completely changes its air every hour at a certain pressure. Our house has an ACH50 of 8.2. Under normal conditions, that translates to completely re-heating our house every 1.7 hours. Yikes!
 
 Our home airflow clocked in at 3,295 CFM50: LEAKY. Well, at least now we have a number we can work towards improving. And improve it we can!
 

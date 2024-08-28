@@ -7,7 +7,7 @@ categories:
 date: 2024-06-29
 description: "A little over a year ago in April of 2023, we completed the electrification of our house. Since then, I’ve received a lot of interest in this project, was awarded a Green Award by the Village of Oak Park, and was even featured in the Chicago Tribune! While the blog posts I’ve written have been useful to reference and point people to, there’s one outstanding question still to address: How much money are these electrification changes saving us, and how long until the upgrades pay for themselves?"
 image: /images/blog/one-year-in/derek-tribune-heat-pumps-1.jpeg
-featured: true
+featured: false
 ---
 
 <p><img class='img-responsive' src='/images/blog/one-year-in/derek-tribune-heat-pumps.jpg' alt='Photos of Derek showing off their heat pump and solar equipment.'></p>

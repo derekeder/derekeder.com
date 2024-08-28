@@ -10,7 +10,7 @@ image: /images/blog/going-solar/project-sunroof-share.jpg
 featured: false
 ---
 
-_This is Part 1 of my series Electrifying Our Old Oak Park Home. [Read all 4 parts here](/electrification/)._
+_This is Part 1 of my series Electrifying Our Old Oak Park Home. [Read the rest here](/electrification/)._
 
 As [bad news about climate change](https://www.bbc.com/news/science-environment-58130705) continues to frequent the headlines, it can feel hopeless. What could we, a single household, possibly do to make a meaningful contribution to such a huge, global problem? Should we recycle more? Stop eating meat? Stop using plastic bags?
 

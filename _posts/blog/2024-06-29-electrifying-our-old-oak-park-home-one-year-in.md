@@ -15,7 +15,7 @@ featured: true
 
 <hr />
 
-_This is Part 4 of my series Electrifying Our Old Oak Park Home. [Read all 4 parts here](/electrification/)._
+_This is Part 4 of my series Electrifying Our Old Oak Park Home. [Read the rest here](/electrification/)._
 
 A little over a year ago in April of 2023, we completed the electrification of our house. Since then, I’ve received a lot of interest in this project, was awarded a [Green Award by the Village of Oak Park](https://www.oak-park.us/news/2023-community-awards-celebrate-stewardship), and was even [featured in the Chicago Tribune](https://www.chicagotribune.com/2024/01/31/concerned-about-climate-change-more-chicagoans-are-buying-all-electric-home-heating-systems/)!
 

@@ -582,35 +582,37 @@ There are other incentives available that would have reduced this cost if we had
 
 Running the numbers through [Rewiring America's IRA Calculator](https://www.rewiringamerica.org/app/ira-calculator), I calculated the additional discounts from the Inflation Reduction Act for this same work for households with lower incomes:
 
-<table class="table table-bordered table-condensed"> 
-  <tr>
-    <td><strong>Item</strong></td>
-    <td><p style="text-align: right">
-    <strong>Cost for household making >150% AMI</strong></p></td>
-    <td><p style="text-align: right">
-    <strong>Cost for household making 80-150% AMI</strong></p></td>
-    <td><p style="text-align: right">
-    <strong>Cost for household making 80 AMI</strong></p></td>
-  </tr>
-  <tr>
-   <td>Grand Total without Rebates</td>
-   <td><p style="text-align: right">$77,949</p></td>
-   <td><p style="text-align: right">$77,949</p></td>
-   <td><p style="text-align: right">$77,949</p></td>
-  </tr>
-  <tr>
-   <td>Total Rebates, Grants and Incentives</td>
-   <td class="success"><p style="text-align: right">-$31,747</p></td>
-   <td class="success"><p style="text-align: right">-$43,973</p></td>
-   <td class="success"><p style="text-align: right">-$46,243</p></td>
-  </tr>
-  <tr class="active">
-   <td><strong>Grand Total for Electrification</strong></td>
-   <td><p style="text-align: right"><strong>$46,202</strong></p></td>
-   <td><p style="text-align: right"><strong>$33,976</strong></p></td>
-   <td><p style="text-align: right"><strong>$31,706</strong></p></td>
-  </tr>
-</table>
+<div class="table-responsive">
+  <table class="table table-bordered table-condensed"> 
+    <tr>
+      <td><strong>Item</strong></td>
+      <td><p style="text-align: right">
+      <strong>Cost for household making >150% AMI</strong></p></td>
+      <td><p style="text-align: right">
+      <strong>Cost for household making 80-150% AMI</strong></p></td>
+      <td><p style="text-align: right">
+      <strong>Cost for household making 80 AMI</strong></p></td>
+    </tr>
+    <tr>
+    <td>Grand Total without Rebates</td>
+    <td><p style="text-align: right">$77,949</p></td>
+    <td><p style="text-align: right">$77,949</p></td>
+    <td><p style="text-align: right">$77,949</p></td>
+    </tr>
+    <tr>
+    <td>Total Rebates, Grants and Incentives</td>
+    <td class="success"><p style="text-align: right">-$31,747</p></td>
+    <td class="success"><p style="text-align: right">-$43,973</p></td>
+    <td class="success"><p style="text-align: right">-$46,243</p></td>
+    </tr>
+    <tr class="active">
+    <td><strong>Grand Total for Electrification</strong></td>
+    <td><p style="text-align: right"><strong>$46,202</strong></p></td>
+    <td><p style="text-align: right"><strong>$33,976</strong></p></td>
+    <td><p style="text-align: right"><strong>$31,706</strong></p></td>
+    </tr>
+  </table>
+</div>
 
 Furthermore, it is possible and even recommended to spread these costs out over several years. You don't really have to do it all at once like we did, and even so it still took us 18 months from start to finish.
 

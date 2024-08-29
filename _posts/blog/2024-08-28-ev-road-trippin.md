@@ -383,3 +383,5 @@ While this road trip was a fun learning experience, the real reason we did it wa
 
 <p><img class='img-responsive' src='/images/blog/road-trippin/ev-6-hud.jpg' alt='Our EV6 charged up and ready to go on our next adventure!'></p>
 <p class="text-center"><em>Our EV6 charged up and ready to go on our next adventure!</em></p>
+
+Special thanks to Aya O'Connor, Viktor Köves and Vien Nguyen for their help in editing this post!

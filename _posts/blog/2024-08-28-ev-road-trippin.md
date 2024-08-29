@@ -237,7 +237,7 @@ All told, we did high speed charging at 6 spots. The total cost for this was $12
     </td>
     <td>Electrify America
     </td>
-    <td>Caddilac, MI
+    <td>Cadillac, MI
     </td>
     <td><p style="text-align: right">
   186 kW</p>

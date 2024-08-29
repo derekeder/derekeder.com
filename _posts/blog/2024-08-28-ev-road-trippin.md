@@ -149,7 +149,7 @@ All told, we did high speed charging at 6 spots. The total cost for this was $12
     </tr>
     <tr>
     <td><p style="text-align: right">
-  8/10/2024</p>
+  8/11/2024</p>
     </td>
     <td>Electrify America
     </td>
@@ -159,31 +159,10 @@ All told, we did high speed charging at 6 spots. The total cost for this was $12
   236 kW</p>
     </td>
     <td><p style="text-align: right">
-  56.3</p>
-    </td>
-    <td><p style="text-align: right">
-  19 min</p>
-    </td>
-    <td><p style="text-align: right">
-  $10.57</p>
-    </td>
-    </tr>
-    <tr>
-    <td><p style="text-align: right">
-  8/11/2024</p>
-    </td>
-    <td>Electrify America
-    </td>
-    <td>Gaylord, MI
-    </td>
-    <td><p style="text-align: right">
-  236 kW</p>
-    </td>
-    <td><p style="text-align: right">
   53.2</p>
     </td>
     <td><p style="text-align: right">
-  15 min</p>
+  19 min</p>
     </td>
     <td><p style="text-align: right">
   $31.58</p>
@@ -193,9 +172,30 @@ All told, we did high speed charging at 6 spots. The total cost for this was $12
     <td><p style="text-align: right">
   8/12/2024</p>
     </td>
+    <td>Electrify America
+    </td>
+    <td>Gaylord, MI
+    </td>
+    <td><p style="text-align: right">
+  236 kW</p>
+    </td>
+    <td><p style="text-align: right">
+  40.4</p>
+    </td>
+    <td><p style="text-align: right">
+  15 min</p>
+    </td>
+    <td><p style="text-align: right">
+  $23.91</p>
+    </td>
+    </tr>
+    <tr>
+    <td><p style="text-align: right">
+  8/12/2024</p>
+    </td>
     <td>ChargePoint
     </td>
-    <td>Mackinaw City, MI
+    <td>Mackinac City, MI
     </td>
     <td><p style="text-align: right">
   125 kW</p>
@@ -216,7 +216,7 @@ All told, we did high speed charging at 6 spots. The total cost for this was $12
     </td>
     <td>ChargePoint
     </td>
-    <td>Mackinaw City, MI
+    <td>Mackinac City, MI
     </td>
     <td><p style="text-align: right">
   125 kW</p>
@@ -284,19 +284,19 @@ All told, we did high speed charging at 6 spots. The total cost for this was $12
     <td>
     </td>
     <td><p style="text-align: right">
-  <strong>262.7</strong></p>
+  <strong>246.8</strong></p>
     </td>
     <td><p style="text-align: right">
   <strong>2h 43 min</strong></p>
     </td>
     <td><p style="text-align: right">
-  <strong>$122.68</strong></p>
+  <strong>$136.02</strong></p>
     </td>
     </tr>
   </table>
 </div>
 
-By comparison, if we had made the same trip in our old car, a 2014 Honda CR-V that gets 26 miles per gallon, at $3.25/gallon for gas, this trip would have cost us $148.13. Not a huge savings for us - the real cost savings for owning an EV is [charging at home](https://www.forbes.com/home-improvement/garage/car-accessories/ev-home-charging-cost/).
+By comparison, if we had made the same trip in our old car, a 2014 Honda CR-V that gets 26 miles per gallon, at $3.25/gallon for gas, this trip would have cost us $136.02. Not a huge savings for us - the real cost savings for owning an EV is [charging at home](https://www.forbes.com/home-improvement/garage/car-accessories/ev-home-charging-cost/).
 
 
 <h2 id="tips">Tips for our next EV road trip and yours</h2>

@@ -123,7 +123,7 @@ Thankfully this worked out for us, and we planned ahead and made sure to charge 
 
 <h2 id="charging-costs">Charging costs</h2>
 
-All told, we did high speed charging at 6 spots. The total cost for this was $122.68. We also charged at a few regular outlets, but those didn’t cost us anything.
+All told, we did high speed charging at 6 spots. The total cost for this was $136.02. We also charged at a few regular outlets, but those didn’t cost us anything.
 
 <div class="table-responsive">
   <table class='table table-bordered table-condensed'>
@@ -296,7 +296,7 @@ All told, we did high speed charging at 6 spots. The total cost for this was $12
   </table>
 </div>
 
-By comparison, if we had made the same trip in our old car, a 2014 Honda CR-V that gets 26 miles per gallon, at $3.25/gallon for gas, this trip would have cost us $136.02. Not a huge savings for us - the real cost savings for owning an EV is [charging at home](https://www.forbes.com/home-improvement/garage/car-accessories/ev-home-charging-cost/).
+By comparison, if we had made the same trip in our old car, a 2014 Honda CR-V that gets 26 miles per gallon, at $3.25/gallon for gas, this trip would have cost us $145.38. Not a huge savings for us - the real cost savings for owning an EV is [charging at home](https://www.forbes.com/home-improvement/garage/car-accessories/ev-home-charging-cost/).
 
 
 <h2 id="tips">Tips for our next EV road trip and yours</h2>

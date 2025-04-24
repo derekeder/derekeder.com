@@ -17,7 +17,7 @@ featured: false
 
 _This is Part 4 of my series Electrifying Our Old Oak Park Home. [Read the rest here](/electrification/)._
 
-**Update - April 2025:** About a year after writing this, I learned about ComEd's [all-electric heat distribution rates](https://opcan.org/updates/comed-now-offers-50-rates-if-you-have-electric-heating), which lower our electricity bills by about 50%. With this factored in, our payback period is now between 10 and 13 years, or 1-3 years sooner!
+**Update - April 2025:** About a year after writing this, I learned about ComEd's [all-electric heat distribution rates](https://opcan.org/updates/comed-now-offers-50-rates-if-you-have-electric-heating), which lower our electricity bills by about 15%. With this factored in, our payback period is now between 10 and 15 years, a full year sooner!
 
 <hr />
 
@@ -27,12 +27,12 @@ While the blog posts I’ve written have been useful to reference and point peop
 
 Now that we’ve had a full year of using these systems, I have enough information to answer that question.
 
-The short answer is: **we are saving about $2,200 / year in utilities**. Depending on where energy prices go in the next 20 years, we’ll **recoup this cost between 10 and 13 years**. Let’s dive into how I calculated that.
+The short answer is: **we are saving about $1,800 / year in utilities**. Depending on where energy prices go in the next 20 years, we’ll **recoup this cost between 10 and 15 years**. Let’s dive into how I calculated that.
 
 **Table of contents**
 
 <ul>
-   <li><a href="#1-600-in-utility-savings">$2,200 in utility savings for our first year</a></li>
+   <li><a href="#1-600-in-utility-savings">$1,600 in utility savings for our first year</a></li>
    <li><a href="#calculating-the-payback-period">Calculating the payback period</a></li>
    <li><a href="#scenario-1-assume-energy-prices-stay-stable">Scenario 1: Assume energy prices stay stable</a></li>
    <li><a href="#scenario-2-assume-natural-gas-prices-increase">Scenario 2: Assume natural gas prices increase</a></li>
@@ -42,11 +42,11 @@ The short answer is: **we are saving about $2,200 / year in utilities**. Dependi
    <li><a href="#questions-ask-a-climate-coach">Questions? Ask a Climate Coach!</a></li>
 </ul>
 
-<h2 id="2-200-in-utility-savings">$2,200 in utility savings for our first year</h2>
+<h2 id="1-600-in-utility-savings">$1,600 in utility savings for our first year</h2>
 
 I calculated the utility savings based on the costs of our electricity and natural gas usage of the year before we started this process (July 2021 – June 2022), compared to the costs we have paid since complete electrification (July 2023 – June 2024). 
 
-In 2025, we switched to ComEd's [all-electric heat distribution rates](https://opcan.org/updates/comed-now-offers-50-rates-if-you-have-electric-heating), which lower our electricity bills by about 50%.
+In 2025, we switched to ComEd's [all-electric heat distribution rates](https://opcan.org/updates/comed-now-offers-50-rates-if-you-have-electric-heating), which lower our electricity bills by about 15%.
 
 Here’s a breakdown of those costs:
 
@@ -71,7 +71,7 @@ $948.05</p>
 $820.09</p>
    </td>
    <td><p style="text-align: right">
-$395.57</p>
+$653.32</p>
    </td>
   </tr>
   <tr>
@@ -84,7 +84,7 @@ $569.19</p>
 $260.77</p>
    </td>
    <td><p style="text-align: right">
-$125.78</p>
+$260.77</p>
    </td>
   </tr>
   <tr>
@@ -110,13 +110,13 @@ $0.00</p>
 <strong>$1,080.86</strong></p>
    </td>
    <td><p style="text-align: right">
-<strong>$521.35</strong></p>
+<strong>$914.09</strong></p>
    </td>
   </tr>
 </table>
 
 
-We saved $1,615.36 in utilities between these two time periods. Not bad! With the all-electric heat rate, we are saving $2,174.87. Even better!
+We saved $1,615.36 in utilities between these two time periods. Not bad! With the all-electric heat rate, we are saving $1,782.13. Even better!
 
 What’s especially great is that our natural gas bill is now zero, which is where our main savings is. But it's also worth noting that our electricity bill is lower than it was before thanks to our solar panels, but not much lower because our electricity usage has increased — we’re using electricity now for heating, hot water, cooking, clothes drying and car charging (all previously powered by natural gas or gasoline).
 
@@ -142,7 +142,7 @@ The [US Energy Information Agency](https://en.wikipedia.org/wiki/Energy_Informat
 
 Using the change in these numbers I can calculate what we would spend on our all electric home (with the lower all-electric heating rate) vs what my bills would have been with no change (a mix of both gas and electric) and sum up the savings between the two.
 
-Based on this projection, we’ll get our money back some time in **2037 (13 years)** and continue to make money after that:
+Based on this projection, we’ll get our money back some time in **2039 (15 years)** and continue to make money after that:
 
 <p><img class='img-responsive' src='/images/blog/one-year-in/scenario-1-savings.png' alt='Cumulative savings per year assuming stable energy prices'></p>
 <p class="text-center"><em>Cumulative savings per year assuming stable energy prices</em></p>
@@ -201,7 +201,7 @@ Even with our 8.7 KW rooftop solar, our electricity needs are more than we produ
 
 * **Make sure to inspect and service your equipment annually**: This is advice that is good for anyone with a home, but it is worth noting that heat pumps are more complex than gas furnaces. Seriously, they have microchips in them. We’ve had a few service calls since installing to replace a broken temperature controller and address some fan rattling. Staying proactive is a great way to extend the life of your equipment.
 
-* **ComEd's all-electric heat rate is a huge boon**: In 2025, we switched to ComEd's [all-electric heat distribution rates](https://opcan.org/updates/comed-now-offers-50-rates-if-you-have-electric-heating), which lower our electricity bills by about 50%. As of this writing, this is not something they advertise, but anyone with all-electric heat can request it, which I highly recommend you do.
+* **ComEd's all-electric heat rate is a huge boon**: In 2025, we switched to ComEd's [all-electric heat distribution rates](https://opcan.org/updates/comed-now-offers-50-rates-if-you-have-electric-heating), which lower our electricity bills by about 15%. As of this writing, this is not something they advertise, but anyone with all-electric heat can request it, which I highly recommend you do.
 
 * **Net metering for solar is amazing, BUT it is changing in IL in 2025**: Net metering is what we use to bank extra solar credits in the summer for use in winter. In Illinois, we have a very favorable program — each unit of electricity you ‘sell’ to ComEd is ‘purchased’ back at the same price. Other states like Arizona and Florida pay you less and charge you more for your electricity. [In 2025, the terms of Net Metering will change in Illinois](https://www.citizensutilityboard.org/blog/2024/05/14/cub-qa-whats-happening-to-solar-power-in-illinois-in-2025/), though the terms will still likely be very favorable.
 

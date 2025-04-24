@@ -342,6 +342,6 @@ This skepticism is understandable. HVAC professionals are likely to stick with w
 * Decarb My State: look up where U.S. emissions come from, on a state-by-state basis: [https://decarbmystate.com](https://decarbmystate.com/) 
 * How much money will you save from the Inflation Reduction Act? [https://www.rewiringamerica.org/app/ira-calculator](https://www.rewiringamerica.org/app/ira-calculator) 
 * Electrify Everything Home Guide: [https://www.rewiringamerica.org/electrify-home-guide](https://www.rewiringamerica.org/electrify-home-guide) 
-* Identify what heat pumps and other equipment are eligible for Federal tax credits: [https://www.energystar.gov/about/federal_tax_credits/non_business_energy_property_tax_credits](https://www.energystar.gov/about/federal_tax_credits/non_business_energy_property_tax_credits) 
+* Identify what heat pumps and other equipment are eligible for Federal tax credits: [https://academized.com/blog/federal-tax-credits-for-energy-efficiency](https://academized.com/blog/federal-tax-credits-for-energy-efficiency) 
 * The Electrify Everything Course by Nate the House Whisperer: [https://www.youtube.com/playlist?list=PLLTtM5Ga_CUtT-SB20vtU2y2EwtrwC6B6](https://www.youtube.com/playlist?list=PLLTtM5Ga_CUtT-SB20vtU2y2EwtrwC6B6) 
 * Cool Calc Manual J - calculate your heating and cooling requirements for your home: [https://www.coolcalc.com/](https://www.coolcalc.com/)

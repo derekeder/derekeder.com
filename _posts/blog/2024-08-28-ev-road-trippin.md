@@ -7,7 +7,7 @@ categories:
 date: 2024-08-28
 description: "In August 2024, our family took our first multi-day road trip with our electric car: 1,200 miles from Oak Park, Illinois, to Michigan’s Upper Peninsula. We had to do some research for this trip to be a success, so I’m sharing what we learned with you!"
 image: /images/blog/road-trippin/ev-road-trip.jpg
-featured: true
+featured: false
 ---
 
 <p><img class='img-responsive' src='/images/blog/road-trippin/ev-road-trip.jpg' alt='A map of our route from Oak Park to the Upper Penninsula, Michigan and charging our Kia EV6'></p>

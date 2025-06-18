@@ -14,11 +14,11 @@ featured: true
 
 <hr />
 
-*On June 17 2025, I will be appointed to the [Oak Park Village Board](https://www.oak-park.us/Government/Leadership/Village-Board) as a Trustee. I am assuming the seat that was [recently vacated by Susan Buchanan](https://www.oakpark.com/2025/05/12/susan-buchanan-resigns-from-oak-park-village-board/) and will fulfill the remainder of her term until 2027.*
+*On June 17 2025, I was appointed to the [Oak Park Village Board](https://www.oak-park.us/Government/Leadership/Village-Board) as a Trustee. I am assuming the seat that was [recently vacated by Susan Buchanan](https://www.oakpark.com/2025/05/12/susan-buchanan-resigns-from-oak-park-village-board/) and will fulfill the remainder of her term until 2027.*
 
-*This will be a part-time, paid commitment. I will continue my important work as Partner at DataMade and Board Member at Chi Hack Night.*
+*This is be a part-time, paid commitment. I will continue my important work as Partner at DataMade and Board Member at Chi Hack Night.*
 
-*This is the speech I will give after being sworn in, introducing myself and sharing my vision for Oak Park. You can tune in at [7pm CT here on the Village website](https://oak-park.legistar.com/MeetingDetail.aspx?ID=1304262&GUID=4A593326-1B05-4B0C-826F-144402A9CDE9) to watch the appointment and my first Board meeting.*
+*This is the speech I gave after being sworn in, introducing myself and sharing my vision for Oak Park. You can  [watch it and my appointment on the Village website](https://oak-park.granicus.com/player/clip/2792?view_id=2&meta_id=266863&redirect=true9).*
 
 <hr />
 

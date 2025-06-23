@@ -74,6 +74,15 @@ Let’s get to work!
 
 <hr />
 
+### Press
+
+<p>
+  <a href='https://www.chicagotribune.com/2025/06/19/derek-eder-oak-park-village-board/'>Climate activist Derek Eder appointed to Oak Park Village Board</a><br />
+  Bob Skolnik, Chicago Tribune | June 19, 2025
+</p>
+
+### Photos from the swearing in ceremony
+
 <p><img class='img-responsive' src='/images/blog/vop-swearing-in/IMG_6086.JPG' alt='Derek Eder taking the oath of office for Village Trustee'></p>
 <p class="text-center"><em>Derek Eder taking the oath of office for Village Trustee</em></p>
 

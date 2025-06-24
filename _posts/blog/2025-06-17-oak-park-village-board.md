@@ -81,6 +81,11 @@ Let’s get to work!
   Bob Skolnik, Chicago Tribune | June 19, 2025
 </p>
 
+<p>
+  <a href='https://www.oakpark.com/2025/06/24/scaman-appoints-derek-eder-oak-park-trustee-seat/'>Scaman appoints Derek Eder to Oak Park trustee seat  </a><br />
+  Brendan Heffernan, Wednesday Journal | June 24, 2025
+</p>
+
 ### Photos from the swearing in ceremony
 
 <p><img class='img-responsive' src='/images/blog/vop-swearing-in/IMG_6086.JPG' alt='Derek Eder taking the oath of office for Village Trustee'></p>

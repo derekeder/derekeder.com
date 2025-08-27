@@ -68,6 +68,7 @@ If Batman can do it, so can we.
 
 ### Cities that have cancelled their contracts with Flock Safety
 
+* [Evanston, IL](https://evanstonroundtable.com/2025/08/26/evanston-shuts-down-license-plate-cameras-terminates-contract-with-flock-safety/) - August 26 2025 
 * [Scarsdale, NY](https://dailyvoice.com/new-york/scarsdale/scarsdale-ends-contract-with-license-plate-reader-company-amid-privacy-concerns/) - August 6 2025 
 * [Oak Park, IL](https://www.oakpark.com/2025/08/07/oak-park-terminates-flock-license-plate-reader-contract/?relatedposts_hit=1&relatedposts_origin=217244&relatedposts_position=0) - August 5 2025
 * [Gutherie, OK](https://soonersentinel.substack.com/p/eyes-that-wont-blink-guthries-persistent) - July 25, 2025

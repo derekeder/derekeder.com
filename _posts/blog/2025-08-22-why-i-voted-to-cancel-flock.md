@@ -101,3 +101,4 @@ If Batman can do it, so can we.
 * [Police chief gets caught using license plate cameras to track his ex-girlfriend 228 times](https://local12.com/news/nation-world/police-chief-gets-caught-using-license-plate-cameras-to-track-his-ex-girlfriend-228-times-arrests-charges-probation-flock-safety-follow-stalk-new-boyfriend-broke-up-out-of-town-misuse), WKRC, August 18, 2024
 * [Flock admits federal immigration agents have direct access to tracking data, despite previous claims](https://www.9news.com/article/news/local/flock-federal-immigration-agents-access-tracking-data/73-a8aee742-56d4-4a57-b5bb-0373286dfef8), KUSA-TV Denver 9NEWS, August 19, 2025 
 * [Eyes on the heartland](https://unraveledpress.com/eyes-on-the-heartland-flock-alpr-illinois-kwame-raoul/), Unraveled, August 19, 2025
+* [Breaking The Creepy AI in Police Cameras (video)](https://www.youtube.com/watch?v=Pp9MwZkHiMQ), Benn Jordan, August 26, 2025

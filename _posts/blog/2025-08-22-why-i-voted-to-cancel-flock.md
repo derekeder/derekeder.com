@@ -9,6 +9,13 @@ image: /images/blog/flock/flock-in-op.jpg
 featured: true
 ---
 
+---
+
+**Update**: On August 25, 2025, IL Secretary of State Giannoulias conducted an audit that found Flock Safety's sharing of Illinois license plate camera data with U.S. Customs and
+Border Protection to be in violation of State law. [Read more >](https://www.ilsos.gov/news/2025/august/250825d1.pdf)
+
+---
+
 On August 5th, 2025, I voted along with the 5-2 majority on the Oak Park Village Board to [cancel our contract with Flock Safety, Inc](https://www.oakpark.com/2025/08/07/oak-park-terminates-flock-license-plate-reader-contract/?relatedposts_hit=1&relatedposts_origin=217244&relatedposts_position=0) and deactivate the 8 Automatic License Plate Reader (ALPR) cameras that have been operating in our community since 2022.
 
 As a [recently appointed Trustee](https://www.chicagotribune.com/2025/06/19/derek-eder-oak-park-village-board/), this was one of the first substantial votes of my political career, and one that I was proud to make as both a technologist and a public servant.
@@ -101,4 +108,5 @@ If Batman can do it, so can we.
 * [Police chief gets caught using license plate cameras to track his ex-girlfriend 228 times](https://local12.com/news/nation-world/police-chief-gets-caught-using-license-plate-cameras-to-track-his-ex-girlfriend-228-times-arrests-charges-probation-flock-safety-follow-stalk-new-boyfriend-broke-up-out-of-town-misuse), WKRC, August 18, 2024
 * [Flock admits federal immigration agents have direct access to tracking data, despite previous claims](https://www.9news.com/article/news/local/flock-federal-immigration-agents-access-tracking-data/73-a8aee742-56d4-4a57-b5bb-0373286dfef8), KUSA-TV Denver 9NEWS, August 19, 2025 
 * [Eyes on the heartland](https://unraveledpress.com/eyes-on-the-heartland-flock-alpr-illinois-kwame-raoul/), Unraveled, August 19, 2025
+* [Giannoulias’ Audit Finds License Plate Reader Company in Violation of State Law](https://www.ilsos.gov/news/2025/august/250825d1.pdf), Illinois Secretary of State Alexi Giannoulias, August 25, 2025
 * [Breaking The Creepy AI in Police Cameras (video)](https://www.youtube.com/watch?v=Pp9MwZkHiMQ), Benn Jordan, August 26, 2025

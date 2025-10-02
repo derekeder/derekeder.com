@@ -46,7 +46,7 @@ We are living in an era of [surveillance capitalism](https://en.wikipedia.org/wi
 
 The scale of these systems, from the phones in our pockets, to social media platforms, to the ‘smart’ doorbells on our neighbor’s doors, to the network of cameras recording every person and car that goes by, can seem overwhelming.
 
-But as an elected official, you do have the power to act. You can take the small, but significant step, as we did in Oak Park, IL (and [Austin, TX](https://www.eff.org/deeplinks/2025/06/victory-austin-organizers-cancel-citys-flock-alpr-contract) and [Denver, CO](https://www.9news.com/article/news/local/local-politics/license-plate-reader-camera-data-security-concerns/73-9c570252-9d1c-4e5c-b042-c12392aa1081)), of refusing to spend tax payer dollars to surveil and oppress our communities.
+But as an elected official, you do have the power to act. You can take the small, but significant step, as we did in Oak Park, IL (and [Austin, TX](https://www.eff.org/deeplinks/2025/06/victory-austin-organizers-cancel-citys-flock-alpr-contract) and [Denver, CO]https://denverite.com/2025/05/05/denver-rejects-flock-camera-license-plate-readers/)), of refusing to spend tax payer dollars to surveil and oppress our communities.
 
 You’ll likely get pushback, as we did, from law enforcement, or [Flock themselves](https://www.youtube.com/watch?v=IiXAVNWIsOA) about how these ALPR cameras are a necessary tool for modern policing and that they have the necessary data protections in place. 
 
@@ -80,7 +80,7 @@ If Batman can do it, so can we.
 * [Oak Park, IL](https://www.oakpark.com/2025/08/07/oak-park-terminates-flock-license-plate-reader-contract/?relatedposts_hit=1&relatedposts_origin=217244&relatedposts_position=0) - August 5 2025
 * [Gutherie, OK](https://soonersentinel.substack.com/p/eyes-that-wont-blink-guthries-persistent) - July 25, 2025
 * [Austin, TX](https://www.eff.org/deeplinks/2025/06/victory-austin-organizers-cancel-citys-flock-alpr-contract) - June 6 2025
-* [Denver, CO](https://www.eff.org/deeplinks/2025/06/victory-austin-organizers-cancel-citys-flock-alpr-contract) - May 6 2025
+* [Denver, CO](https://denverite.com/2025/05/05/denver-rejects-flock-camera-license-plate-readers/) - May 6 2025
 
 
 ### Relevant coverage of Flock Safety and ALPR cameras

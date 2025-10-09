@@ -4,7 +4,7 @@ title: "The presence of ICE in Illinois destroys our peace"
 categories: 
   - blog
 date: 2025-10-08
-description: ""
+description: "On October 3rd, I attended the protest outside the Broadview ICE facility, and witnessed firsthand unprovoked violence by Federal agents. It was at this time that Oak Park Township Trustee Juan Muñoz, also in attendance, was pulled down and detained by U.S. Border Patrol Sector Chief Gregory Bovino for 7 hours without charge. In response to these events, I joined with my fellow Oak Park Trustees in solidarity with Trustee Muñoz to denounce his detention, and call for ICE to leave Illinois for good."
 image: /images/blog/ice-out/oct-3-bovino-ice.jpg
 featured: true
 ---

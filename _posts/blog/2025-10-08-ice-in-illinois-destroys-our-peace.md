@@ -4,20 +4,20 @@ title: "The presence of ICE in Illinois destroys our peace"
 categories: 
   - blog
 date: 2025-10-08
-description: "On October 3rd, I attended the protest outside the Broadview ICE facility, and witnessed firsthand unprovoked violence by Federal agents. It was at this time that Oak Park Township Trustee Juan Muñoz, also in attendance, was pulled down and detained by U.S. Border Patrol Sector Chief Gregory Bovino for 7 hours without charge. In response to these events, I joined with my fellow Oak Park Trustees in solidarity with Trustee Muñoz to denounce his detention, and call for ICE to leave Illinois for good."
+description: "On October 3rd, I attended the protest outside the Federal ICE facility in Broadview, and witnessed firsthand unprovoked violence by Federal agents. It was at this time that Oak Park Township Trustee Juan Muñoz, also in attendance, was pulled down and detained by U.S. Border Patrol Sector Chief Gregory Bovino for 7 hours without charge. In response to these events, I joined with my fellow Oak Park Trustees in solidarity with Trustee Muñoz to denounce his detention, and call for ICE to leave Illinois for good."
 image: /images/blog/ice-out/oct-3-bovino-ice.jpg
 featured: true
 ---
 
-<p><img class='img-responsive' src='/images/blog/ice-out/oct-3-bovino-ice.jpg' alt='U.S. Border Patrol Sector Chief Greg Bovino, flanked by DHS cameramen and drones, starts to march into a crowd of peacful protesters on Oct 3 2025 at the Broadview ICE facility. Photo by Kelly Hayes'></p>
-<p class="text-center"><em>U.S. Border Patrol Sector Chief Greg Bovino, flanked by DHS cameramen and drones, starts to march into a crowd of peacful protesters on Oct 3 2025 at the Broadview ICE facility. Photo by Kelly Hayes</em></p>
+<p><img class='img-responsive' src='/images/blog/ice-out/oct-3-bovino-ice.jpg' alt='U.S. Border Patrol Sector Chief Greg Bovino, flanked by DHS cameramen and drones, starts to march into a crowd of peacful protesters on Oct 3 2025 at the Federal ICE facility in Broadview. Photo by Kelly Hayes'></p>
+<p class="text-center"><em>U.S. Border Patrol Sector Chief Greg Bovino, flanked by DHS cameramen and drones, starts to march into a crowd of peacful protesters on Oct 3 2025 at the Federal ICE facility in Broadview. Photo by Kelly Hayes</em></p>
 
 ---
-On September 9, 2025, United States Immigration and Customs Enforcement (ICE) began [Operation Midway Blitz](https://en.wikipedia.org/wiki/Operation_Midway_Blitz), ramping up immigration enforcement in Chicago and the surrounding suburbs. A major staging area for this operation is located at an [Ice Detention Center in Broadview, IL](https://maps.app.goo.gl/9epSMjGNUPTR2TRR8), a suburb about 10 minutes west of Oak Park, where I live and serve as a Village Trustee.
+On September 9, 2025, United States Immigration and Customs Enforcement (ICE) began [Operation Midway Blitz](https://en.wikipedia.org/wiki/Operation_Midway_Blitz), ramping up immigration enforcement in Chicago and the surrounding suburbs. A major staging area for this operation is located at an [ICE Detention Center in Broadview, IL](https://maps.app.goo.gl/9epSMjGNUPTR2TRR8), a suburb about 10 minutes west of Oak Park, where I live and serve as a Village Trustee.
 
 In the month since this operated started, unidentified, untrained and unaccounable Federal agents have [killed an unarmed 38-year-old father](https://unraveledpress.com/what-happened-to-silverio-villegas-gonzalez/), [detained nearly every family at a 130-unit South Shore apartment in the middle of the night](https://southsideweekly.com/federal-agents-storm-south-shore-building-detaining-families-and-children/), [violated consent decrees with warrantless arrests](https://blockclubchicago.org/2025/10/07/ice-violated-consent-decree-with-warrantless-arrests-federal-judge-in-chicago-says/), [deployed tear gas in neighborhoods](https://www.nbcchicago.com/news/local/tear-gas-deployed-by-federal-agent-in-chicagos-logan-square-neighborhood/3833507/), [shot protesters in the head with rubber bullets](https://www.axios.com/local/chicago/2025/09/29/ice-escalates-force-in-broadview-and-downtown), and [detained elected officials without cause](https://news.wttw.com/2025/10/03/chicago-ald-jessie-fuentes-handcuffed-federal-agents-while-asking-about-patient-s-ice).
 
-On October 3rd, I attended the protest outside the Broadview ICE facility, and witnessed firsthand unprovoked violence by Federal agents. It was at this time that Oak Park Township Trustee Juan Muñoz, also in attendance, was [pulled down and detained by U.S. Border Patrol Sector Chief Gregory Bovino for 7 hours without charge](https://www.oakpark.com/2025/10/04/munoz-op-township-trustee-detained-and-released-by-ice/).
+On October 3rd, I attended the protest outside the Federal ICE facility in Broadview, and witnessed firsthand unprovoked violence by Federal agents. It was at this time that Oak Park Township Trustee Juan Muñoz, also in attendance, was [pulled down and detained by U.S. Border Patrol Sector Chief Gregory Bovino for 7 hours without charge](https://www.oakpark.com/2025/10/04/munoz-op-township-trustee-detained-and-released-by-ice/).
 
 In response to these events, I joined with my fellow Oak Park Trustees in solidarity with Trustee Muñoz to denounce his detention, and call for ICE to leave Illinois for good.
 
@@ -30,7 +30,7 @@ Below is my full statement from the press conference held at Oak Park Township o
 
 ---
 
-Good evening. I am Derek Eder, an Oak Park Village Trustee. I was at the Broadview ICE facility on the morning of October 3rd. I was wearing a helmet, ski goggles and an N95 mask, as I was told by others that were going to expect tear gas and violence from Federal agents. I am here to tell you they were right - that is indeed what I saw.
+Good evening. I am Derek Eder, an Oak Park Village Trustee. I was at the Federal ICE facility in Broadview on the morning of October 3rd. I was wearing a helmet, ski goggles and an N95 mask, as I was told by others that were going to expect tear gas and violence from Federal agents. I am here to tell you they were right - that is indeed what I saw.
 
 We arrived around 8:30am. Protesters were in their designated ‘free speech zone’ with state and local officers forming a barrier to keep a clear path for vehicles to exit the facility to harass and abduct our neighbors in Chicago. 
 

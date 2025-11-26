@@ -6,15 +6,23 @@ I work with open data and create open source apps and tools in Chicago to improv
 
 ## Running locally
 
-This website is built using Jekyll. You will need to [install it first](https://jekyllrb.com/docs/installation/).
+This website is built using Jekyll, a static site generator that runs on Ruby. The Local development environment is managed with with Docker and Docker Compose.
 
-```console
-git clone https://github.com/derekeder/derekeder.com.git
-cd derekeder.com
-jekyll serve -w
+To get started, clone this project and build it using Docker Compose:
+
+```
+git clone https://github.com/datamade/datamade.us.git
+cd datamade.us
+docker compose build
 ```
 
-Then open your web browser and navigate to http://localhost:5000
+To serve the site locally, run the following command:
+
+```
+docker compose up
+```
+
+Then open your web browser and navigate to http://localhost:5001
 
 ## Dependencies
 

@@ -46,7 +46,7 @@ We are living in an era of [surveillance capitalism](https://en.wikipedia.org/wi
 
 The scale of these systems, from the phones in our pockets, to social media platforms, to the ‘smart’ doorbells on our neighbor’s doors, to the network of cameras recording every person and car that goes by, can seem overwhelming.
 
-But as an elected official, you do have the power to act. You can take the small, but significant step, as we did in Oak Park, IL (and [Austin, TX](https://www.eff.org/deeplinks/2025/06/victory-austin-organizers-cancel-citys-flock-alpr-contract) and [Denver, CO]https://denverite.com/2025/05/05/denver-rejects-flock-camera-license-plate-readers/)), of refusing to spend tax payer dollars to surveil and oppress our communities.
+But as an elected official, you do have the power to act. You can take the small, but significant step, as we did in Oak Park, IL (and [Austin, TX](https://www.eff.org/deeplinks/2025/06/victory-austin-organizers-cancel-citys-flock-alpr-contract) and [Denver, CO](https://denverite.com/2025/05/05/denver-rejects-flock-camera-license-plate-readers/), of refusing to spend tax payer dollars to surveil and oppress our communities.
 
 You’ll likely get pushback, as we did, from law enforcement, or [Flock themselves](https://www.youtube.com/watch?v=IiXAVNWIsOA) about how these ALPR cameras are a necessary tool for modern policing and that they have the necessary data protections in place. 
 

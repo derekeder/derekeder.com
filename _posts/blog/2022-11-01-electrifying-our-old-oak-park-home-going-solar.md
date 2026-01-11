@@ -8,6 +8,8 @@ date: 2022-11-01
 description: "We are in the process of electrifying our Oak Park home and completely eliminating all our household emissions. This post is an attempt to document our process as we go, with the hopes that it will inspire our neighbors to do the same and learn from our efforts."
 image: /images/blog/going-solar/project-sunroof-share.jpg
 featured: false
+redirect_from: 
+  - /blog/electrifying-our-old-oak-park-home-going-solar
 ---
 
 _This is Part 1 of my series Electrifying Our Old Oak Park Home. [Read the rest here](/electrification/)._

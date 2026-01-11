@@ -8,6 +8,8 @@ date: 2023-08-22
 description: "We’ve made the switch to being fully electric in our 100-year-old home! I’ll explain the final steps we took to electrify our home by replacing our stove, hot water heater, clothes dryer and car with electric equivalents. These upgrades allowed us to fully cut our gas usage and eliminate the last ~20% of emissions from our home."
 image: /images/blog/appliances/electrify-appliances.jpg
 featured: false
+redirect_from: 
+  - /blog/electrifying-our-old-oak-park-home-appliances
 ---
 
 <p><img class='img-responsive' src='/images/blog/appliances/electrify-appliances.jpg' alt='Our heat pumps hot water heater, induction stove, electric dryer, and EV charger'></p>

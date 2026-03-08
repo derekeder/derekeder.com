@@ -6,7 +6,7 @@ categories:
 date: 2025-06-17
 description: "On June 17 2025, I will be appointed to the Oak Park Village Board as a Trustee. I am assuming the seat that was recently vacated by Susan Buchanan and will fulfill the remainder of her term until 2027. This will be a part-time, paid commitment. I will continue my important work as Partner at DataMade and Board Member at Chi Hack Night. This is the speech I will give after being sworn in, introducing myself and sharing my vision for Oak Park."
 image: /images/blog/derek-uic.jpg
-featured: true
+featured: false
 ---
 
 <p><img class='img-responsive' src='/images/blog/derek-uic.jpg' alt='Derek Eder presenting at the UIC Urban Forum in 2023'></p>

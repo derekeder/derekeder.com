@@ -6,7 +6,7 @@ categories:
 date: 2025-10-08
 description: "On October 3rd, I attended the protest outside the Federal ICE facility in Broadview, and witnessed firsthand unprovoked violence by Federal agents. It was at this time that Oak Park Township Trustee Juan Muñoz, also in attendance, was pulled down and detained by U.S. Border Patrol Sector Chief Gregory Bovino for 7 hours without charge. In response to these events, I joined with my fellow Oak Park Trustees in solidarity with Trustee Muñoz to denounce his detention, and call for ICE to leave Illinois for good."
 image: /images/blog/ice-out/oct-3-bovino-ice.jpg
-featured: true
+featured: false
 ---
 
 <p><img class='img-responsive' src='/images/blog/ice-out/oct-3-bovino-ice.jpg' alt='U.S. Border Patrol Sector Chief Greg Bovino, flanked by DHS cameramen and drones, starts to march into a crowd of peacful protesters on Oct 3 2025 at the Federal ICE facility in Broadview. Photo by Kelly Hayes'></p>

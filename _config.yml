@@ -1,4 +1,5 @@
 markdown: kramdown
+future: true
 name: Derek Eder
 title: Derek Eder
 url: https://derekeder.com

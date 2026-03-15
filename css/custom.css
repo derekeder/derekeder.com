@@ -99,3 +99,15 @@ a, a:hover {
   width: 20vh;
   flex-grow: 1;
 }
+
+.green-strong {
+  background-color: #74AF69;
+}
+
+.green-med {
+  background-color: #AAD2A1;
+}
+
+.green-light {
+  background-color: #E5F1E4;
+}

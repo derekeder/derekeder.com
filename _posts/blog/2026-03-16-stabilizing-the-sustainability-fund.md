@@ -9,9 +9,9 @@ image: /images/blog/sustainability-fund-balance.png
 featured: true
 ---
 
-_The following is a memo that I wrote on Feb 13, 2026 and shared with the Oak Park Village Board and Village Manager staff on ways we could stabilize the funding for sustainability in Oak Park. This memo was drafted in advance of the March 18, 2026 Board Study Session on the Sustainability Fund._
+_The following is a memo that I wrote on Feb 13, 2026 and shared with the Oak Park Village Board and Village Manager staff on ways we could stabilize the funding for sustainability in Oak Park. This memo was drafted in advance of the March 18, 2026 Board Study Session on the Sustainability Fund. Village staff have prepared their own memo and recommendations, [which are available here](https://oak-park.legistar.com/LegislationDetail.aspx?ID=7951838&GUID=8740EC6F-8B54-4521-ABEE-B3D364F67B0D&Options=&Search=)._
 
-__[Download the PDF version](/docs/derek-eder-stabilizing-the-vop-sustainability-fund.pdf)__
+__[Download the PDF version of this memo](/docs/derek-eder-stabilizing-the-vop-sustainability-fund.pdf)__
 
 ## Background and purpose
 

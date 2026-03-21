@@ -4,14 +4,69 @@ title: "Stabilizing the Sustainability Fund"
 categories: 
   - blog
 date: 2026-03-16
-description: "The following is a memo that I wrote on Feb 13, 2026 and shared with the Oak Park Village Board and Village Manager staff on ways we could stabilize the funding for sustainability in Oak Park. This memo was drafted in advance of the March 18, 2026 Board Study Session on the Sustainability Fund."
+description: "On Feb 13, 2026 I shared a memo with the Oak Park Village board and staff on ways we could stabilize the funding for sustainability in Oak Park. This memo was drafted in advance of the March 18, 2026 Board Study Session on the Sustainability Fund."
 image: /images/blog/sustainability-fund-balance.png
 featured: true
 ---
 
-_The following is a memo that I wrote on Feb 13, 2026 and shared with the Oak Park Village Board and Village Manager staff on ways we could stabilize the funding for sustainability in Oak Park. This memo was drafted in advance of the March 18, 2026 Board Study Session on the Sustainability Fund. Village staff have prepared their own memo and recommendations, [which are available here](https://oak-park.legistar.com/LegislationDetail.aspx?ID=7951838&GUID=8740EC6F-8B54-4521-ABEE-B3D364F67B0D&Options=&Search=)._
+_On Feb 13, 2026 I shared a memo with the Oak Park Village board and staff on ways we could stabilize the funding for sustainability in Oak Park. This memo was drafted in advance of the March 18, 2026 Board Study Session on the Sustainability Fund. Village staff prepared their own memo and recommendations, [which are available here](https://oak-park.legistar.com/LegislationDetail.aspx?ID=7951838&GUID=8740EC6F-8B54-4521-ABEE-B3D364F67B0D&Options=&Search=)._
 
-__[Download the PDF version of this memo](/docs/derek-eder-stabilizing-the-vop-sustainability-fund.pdf)__
+### March 21, 2026 Update 
+The Village Board discussed revenue sources for the Sustainability Fund on March 18. You can [watch the full discussion here](https://www.youtube.com/watch?v=CoZXzbFku7I&t=4577s).
+
+The discussion was a productive one, and the work of this memo and [staff’s own](https://oak-park.legistar.com/View.ashx?M=F&ID=15317723&GUID=0A3CCADD-2FCD-45CB-A944-837503616416) helped set the table for it. I believe the primary goals of this memo, to treat sustainability as a core service of the Village, find ways to fund the current spending level, and expand it in future years, were met.
+
+More details will be worked out in future Board and Finance Committee meetings, but initial consensus and direction from the Board was set on many of the items in this memo. Here’s my summary of that discussion:
+
+**A. Invest annually from the General Fund in Energy Efficiency Grant and Loan Programs**
+
+There was broad support for increasing funding for the Energy Loan Programs launched last month - the real question is by how much. The loans currently charge no interest, and staff will explore scenarios at different interest levels at a future board discussion.
+
+**B. Move Office of Sustainability staff salaries to the General Fund**
+
+There was unanimous consensus to move staff salaries to the General Fund. The Office of Sustainability has been in existence since 2009 and my colleagues agreed that it is time to move them to the same funding source as other core Village staff.
+
+**C. Increase the plastic bag tax**
+
+There was general consensus to increase the plastic bag tax. This is in alignment with recommendations from the Environment and Energy Commission, who have prepared their own [memo and recommendations for plastic bag taxes](https://www.oak-park.us/files/assets/oakpark/v/1/village-manager/memos-to-the-village-president/2026/io-2026-03-20-retail-bag-fee-and-plastic-bag-ban.pdf) in Oak Park through 2030.
+
+**D. Electric Charging Fees**
+
+Staff recommended that these fees stay in the Parking Fund to cover related expenses and that the annual revenue was $25,000 - not a significant amount to have an impact.
+
+**E. Increase vehicle registration fees for gas cars, reduce them for EVs**
+
+Staff noted that Vehicle License Fees have very specific uses that are restricted by State Statute, so they can not be raised to use as a revenue source for Sustainability. The discussion then turned towards reducing registration fees for electric vehicles to incentivise purchasing them, similar to what we did earlier this year with building permit fees. Staff will look into this for a future board discussion.
+
+**F. Increase gasoline tax**
+
+Staff identified that the Motor Fuel Tax is capped by State Statute and has legal restrictions on use.
+
+**G. Identify new revenues from the Water Fund**
+
+Staff recommended increasing sewer and water fees that residents pay. However, the board reached a consensus that increasing these fees would be too regressive and potentially reduce funding from the [Lead Service Line Replacement program](https://leadfreeoakpark.com/).
+
+Other revenue sources not mentioned in this memo were also discussed:
+
+**Natural Gas Use Tax**
+
+Staff identified that we could raise this tax to match that of the City of Chicago, which could raise $80,000 annually. I am interested in pursuing this and have asked staff to further look into it.
+
+**Utility taxes**
+
+Utility taxes are already at the maximum level capped by the State and can not be increased.
+
+**Parking fees**
+
+Similar to Vehicle License Fees, the use of these funds are limited by State Statute. 
+
+Thank you again to my colleagues on the Board and Village Staff in working collaboratively to ensure we have the resources we need to continue to address our contributions to climate change and fight for a future we can all be proud of! I am looking forward to irioning out the remaining details and enshrining this in our 2027 budget.
+
+---
+
+# Stabilizing the Sustainability Fund
+
+__[Download the PDF version of Stabilizing the Sustainability Fund](/docs/derek-eder-stabilizing-the-vop-sustainability-fund.pdf)__
 
 ## Background and purpose
 

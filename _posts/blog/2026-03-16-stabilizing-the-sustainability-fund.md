@@ -36,7 +36,7 @@ Staff recommended that these fees stay in the Parking Fund to cover related expe
 
 **E. Increase vehicle registration fees for gas cars, reduce them for EVs**
 
-Staff noted that Vehicle License Fees have very specific uses that are restricted by State Statute, so they can not be raised to use as a revenue source for Sustainability. The discussion then turned towards reducing registration fees for electric vehicles to incentivise purchasing them, similar to what we did earlier this year with building permit fees. Staff will look into this for a future board discussion.
+Staff noted that Vehicle License Fees have very specific uses that are restricted by State Statute, so they can not be raised to use as a revenue source for Sustainability. The discussion then turned towards reducing registration fees for electric vehicles to incentivize purchasing them, similar to what we did earlier this year with building permit fees. Staff will look into this for a future board discussion.
 
 **F. Increase gasoline tax**
 
@@ -387,7 +387,7 @@ Current staff salaries for the Sustainability and Resilience Office (3.5 FTE) ar
 
 ### C. Increase the plastic bag tax
 
-The City of Chicago [recently raised their plastic bag tax from 10 cents to 15 cents](https://www.chicago.gov/city/en/depts/fin/supp_info/revenue/tax_list/CheckoutBagTax.html) in their 2026 budget. By following suit with our own plastic bag fee increase, Oak Park can raise additional revenue and continue to incentivise shoppers to use fewer plastic bags. The Environment and Energy Commission is researching a long term plan for plastic bag fees, which we would like to see presented to the Board.
+The City of Chicago [recently raised their plastic bag tax from 10 cents to 15 cents](https://www.chicago.gov/city/en/depts/fin/supp_info/revenue/tax_list/CheckoutBagTax.html) in their 2026 budget. By following suit with our own plastic bag fee increase, Oak Park can raise additional revenue and continue to incentivize shoppers to use fewer plastic bags. The Environment and Energy Commission is researching a long term plan for plastic bag fees, which we would like to see presented to the Board.
 
 
 ### D. Electric Charging Fees

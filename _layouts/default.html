@@ -104,11 +104,11 @@
     <div class='container'>
       <div class='row'>
         <div class='col-sm-3 content-secondary'>
-          <h2>
+          <h2 class="hidden-xs">
             <a href='/'>Derek Eder</a>
           </h2>
-          <h4>Civic Tech Builder</h4>
-          <div class='hidden-xs'>
+          <h4 class="hidden-xs">Civic Tech Builder</h4>
+          <div class="hidden-xs">
             <img alt='Derek Eder' class='pull-left img-thumbnail headshot' src='/images/derek.jpg' title='Derek Eder'>
             <p>
               I use data, build tools, and organize people in Chicago to democratize power. <a href='/about'>Read more &raquo;</a>
@@ -164,6 +164,14 @@
         </div>
         <div class='col-sm-9'>
           <div class='well content-primary'>
+            <div class="row visible-xs">
+              <img alt='Derek Eder' class='pull-left img-thumbnail headshot' src='/images/derek.jpg' title='Derek Eder'>
+              <h2>
+                <a href='/'>Derek Eder</a>
+              </h2>
+              <h4>Civic Tech Builder</h4>
+              <hr />
+            </div>
             <ul class='nav nav-pills'>
               {% for link in site.navigation %}
                 <li>

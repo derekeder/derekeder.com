@@ -8,7 +8,7 @@ timezone: America/Chicago
 description: "Partner at DataMade, Co-found of Open City, and leader of the Chi Hack Night. I make stuff with open data."
 permalink: /:categories/:title
 navigation:
-- text: <i class='fa fa-fw fa-home'></i>
+- text: Home
   url: /index.html
 - text: About
   url: /about/index.html
@@ -20,7 +20,5 @@ navigation:
   url: /talks/index.html
 - text: Projects
   url: /projects/index.html
-- text: Twitter archive
-  url: /twitter/index.html
 plugins:
   - jekyll-redirect-from

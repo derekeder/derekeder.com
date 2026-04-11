@@ -12,6 +12,12 @@ featured: true
 <p><img class='img-responsive' src='/images/blog/jenna-kina-derek-maryann.jpg' alt='Jenna Leving Jacobson, Kina Collins, Derek Eder and Mary Ann Buck. Photo by Paul Goyette'></p>
 <p class="text-center"><em>Jenna Leving Jacobson, Kina Collins, Derek Eder and Mary Ann Buck. Photo by Paul Goyette</em></p>
 
+**Update April 2026**: On March 17th, [LaShawn Ford won the 7th Congressional District with 24.1% of the vote](https://blockclubchicago.org/2026/03/17/la-shawn-ford-wins-crowded-democratic-primary-for-7th-congressional-district/). Kina came in 4th place with 9.3%. What was most frustrating to me about this outcome was the fact that there were 5 progressive candidates with nearly identical platforms that, in total, won 37.9% of the vote. If progressives had consolidated around one candidate, a progressive could have easily won.
+
+One thing we can learn from this outcome is that Illinois needs [Ranked Choice Voting](https://en.wikipedia.org/wiki/Ranked-choice_voting_in_the_United_States) in our elections, which would have changed the outcome. 
+
+---
+
 On March 17th 2026, Illinois will [hold a primary](https://ballotpedia.org/Illinois%27_7th_Congressional_District_election,_2026) to decide who the candidates will be for the mid-term election in November. In [Illinois 7th Congressional District](https://en.wikipedia.org/wiki/Illinois%27s_7th_congressional_district), which includes Oak Park, Broadview, Bellwood, Maywood, River Forest, Forest Park, Westchester, Hillside, La Grange Park, Berkeley, and a large part of Chicago’s downtown, West and South Sides, longtime incumbent [Danny Davis](https://en.wikipedia.org/wiki/Danny_Davis_(Illinois_politician)) is retiring, leaving the seat open for the first time in 30 years.
 
 The IL 7th is a strong Democratic district, so the winner of this primary will very likely win against any Republican in November. And given the advantage that any incumbent will have, the winner of this race will likely hold it for many years, just like Danny Davis did.

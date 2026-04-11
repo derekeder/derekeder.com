@@ -149,6 +149,14 @@ Finally, we emailed our gas provider, Nicor Gas, and canceled our service. They 
 
 And with that, our house was no longer using gas!
 
+**Update April 2026**
+
+Almost 3 years after we shut of our Nicor gas service for our house, a crew from Nicor Gas came out (unannounced) and dug up part of our sidewalk to cap our gas line and cut off our gas meter. We're told someone will come by at some point to repair the sidewalk.
+
+<p><img class='img-responsive' src='/images/blog/appliances/2026-nicor-gas-cap.jpg' alt='Nicor crew capping our gas line and removing our meter'></p>
+<p class="text-center"><em>Nicor crew capping our gas line and removing our meter</em></p>
+
+
 
 ## Bottom line costs and incentives {#bottom-line-costs-and-incentives}
 

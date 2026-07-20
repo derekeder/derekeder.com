@@ -6,7 +6,7 @@ categories:
 date: 2026-03-08
 description: "At a time when Congress seems unwilling or unable to act to reign in the tyrannical Trump Administration, we have an opportunity to send someone to Congress who will not only represent us and fight for what we care about, but will demonstrate the leadership and grit to do what is right. Have I convinced you that this is an important election? Good! Because it is for these reasons why I am endorsing Kina Collins for IL 7th District."
 image: /images/blog/jenna-kina-derek-maryann.jpg
-featured: true
+featured: false
 ---
 
 <p><img class='img-responsive' src='/images/blog/jenna-kina-derek-maryann.jpg' alt='Jenna Leving Jacobson, Kina Collins, Derek Eder and Mary Ann Buck. Photo by Paul Goyette'></p>

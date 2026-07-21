@@ -115,6 +115,12 @@ If we pass changes in Oak Park, what will happen? If we follow Minneapolis’ ex
 
 Given the size and scale of the national affordability crisis and its root causes of wealth inequality, seeing real and meaningful progress like this within a few years of passing new local policies is a good goal to strive for. We have to try.
 
-If you are interested in learning more and joining the effort to bring more affordable housing to Oak Park, check out [AffordableOakPark.org](https://AffordableOakPark.org). 
+If you are interested in learning more and joining the effort to bring more affordable housing to Oak Park, check out [AffordableOakPark.org](https://AffordableOakPark.org).
+
+### More resources
+
+- [Shape Oak Park](https://engageoakpark.com/shape) - Village of Oak Park official zoning change recommendations
+- [Oak Park may rewrite its zoning map. What could change on your block?](https://rezoning.yesoakpark.com/) - Address lookup tool by Yes Oak Park to compare current vs proposed zoning
+
 
 *Special thanks to Aya O’Connor and Jenna Leving-Jacobson for their contributions to this post.*

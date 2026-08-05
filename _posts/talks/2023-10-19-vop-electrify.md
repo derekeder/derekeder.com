@@ -10,6 +10,6 @@ description: "I was interviewed by the Village of Oak Park on our fully electrif
 link: https://www.youtube.com/watch?v=4NmpOUFS590
 tags: presentation
 medium: video
-featured: true
+featured: false
 published: true
 ---

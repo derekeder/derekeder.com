@@ -23,6 +23,10 @@ body {
   margin-bottom: 0px;
 }
 
+h4 {
+  font-size: 1.2rem;
+}
+
 .content-grid img {
   margin-top: 10px;
 }
@@ -48,7 +52,7 @@ body {
   text-decoration: none;
 }
 
-.pull-left {
+.float-start {
   margin-right: 10px;
 }
 
@@ -58,14 +62,18 @@ body {
 }
 
 a, a:hover {
-  color: #4B58A6; 
-}
-
-.social a:hover {
+  color: #4B58A6;
   text-decoration: none;
 }
 
-.nav-pills>.active>a,.nav-pills>.active>a:hover{background-color:#4B58A6;}
+.nav-pills .nav-link {
+  color: #4B58A6;
+}
+
+.nav-pills .nav-link.active {
+  color: #fff;
+  background-color: #4B58A6;
+}
 
 .nav {
   font-size: 16px;

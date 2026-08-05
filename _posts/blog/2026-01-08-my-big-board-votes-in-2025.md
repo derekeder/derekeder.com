@@ -9,7 +9,7 @@ image: /images/blog/2025-votes/derek-eder-trustee.jpg
 featured: true
 ---
 
-<p><img class='img-responsive' src='/images/blog/2025-votes/derek-eder-trustee.jpg' alt='Derek Eder, Oak Park Village Trustee. Photo by Paul Goyette'></p>
+<p><img class='img-fluid' src='/images/blog/2025-votes/derek-eder-trustee.jpg' alt='Derek Eder, Oak Park Village Trustee. Photo by Paul Goyette'></p>
 <p class="text-center"><em>Derek Eder, Oak Park Village Trustee. Photo by Paul Goyette</em></p>
 
 ---
@@ -35,7 +35,7 @@ Here are the major votes I made as a Trustee:
 
 ### Passed and Funded the Oak Park Bike Plan - July 22, 2025
 
-<p><img class='img-responsive' src='/images/blog/2025-votes/vop-bike-plan.jpg' alt='Oak Park Bike Network - Short-Term Concepts - Passed on July 22'></p>
+<p><img class='img-fluid' src='/images/blog/2025-votes/vop-bike-plan.jpg' alt='Oak Park Bike Network - Short-Term Concepts - Passed on July 22'></p>
 <p class="text-center"><em>Oak Park Bike Network - Short-Term Concepts - Passed on July 22</em></p>
 
 My first major vote as a Trustee was on the [comprehensive Bike Plan for Oak Park](https://www.oak-park.us/News-articles/Bike-Plan-Update-calls-for-bolstering-Oak-Parks-cycling-network). This plan was many years in the making, starting in 2008, and had a goal to create a safe Village-wide bike network for all ages and abilities, meaning that older residents, kids, and less-than-confident bicyclists would feel comfortable using it. The Bike Plan involves major infrastructure improvements and was produced alongside our [Vision Zero plan](https://engageoakpark.com/visionzero), passed in February 2025, to eliminate deaths or serious injuries on our streets by 2035. Trustees Straw and Wesley, President Scaman, our Transportation Commission, [Bike Walk Oak Park](https://www.bikewalkoakpark.org/) and many staff worked hard to bring this plan forward.
@@ -44,7 +44,7 @@ This vote was an easy yes for me, and it passed 6-1. More bike trips mean fewer 
 
 ### Cancelled the Flock License Plate Reader Camera Contract - August 5, 2025
 
-<p><img class='img-responsive' src='/images/blog/2025-votes/flock-camera.jpg' alt='A Flock ALPR Camera in Oak Park, IL. Photo by Paul Goyette'></p>
+<p><img class='img-fluid' src='/images/blog/2025-votes/flock-camera.jpg' alt='A Flock ALPR Camera in Oak Park, IL. Photo by Paul Goyette'></p>
 <p class="text-center"><em>A Flock ALPR Camera in Oak Park, IL. Photo by Paul Goyette</em></p>
 
 I voted along with the 5-2 majority on the Village Board to[ cancel our contract with Flock Safety, Inc](https://www.oakpark.com/2025/08/07/oak-park-terminates-flock-license-plate-reader-contract/?relatedposts_hit=1&relatedposts_origin=217244&relatedposts_position=0) and deactivate the eight Automatic License Plate Reader (ALPR) cameras that have been operating in our community since 2022. This motion was championed by Trustees Enyia and Leving Jacobson.
@@ -55,7 +55,7 @@ I [wrote a deep dive into my vote](https://derekeder.com/blog/why-i-voted-to-can
 
 ### Created ICE-Free Zones - November 4, 2025
 
-<p><img class='img-responsive' src='/images/blog/2025-votes/village-hall-ice-free.jpg' alt='Jersey Barrier and traffic cones block an entrance to the Oak Park Village Hall parking lot. Photo from Todd Bannor, Wednesday Journal'></p>
+<p><img class='img-fluid' src='/images/blog/2025-votes/village-hall-ice-free.jpg' alt='Jersey Barrier and traffic cones block an entrance to the Oak Park Village Hall parking lot. Photo from Todd Bannor, Wednesday Journal'></p>
 <p class="text-center"><em>Jersey Barrier and traffic cones block an entrance to the Oak Park Village Hall parking lot. Photo from Todd Bannor, Wednesday Journal</em></p>
 
 On September 9, 2025, U.S. Immigration and Customs Enforcement (ICE) began[ Operation Midway Blitz](https://en.wikipedia.org/wiki/Operation_Midway_Blitz), ramping up immigration enforcement in Chicago and the surrounding suburbs. A major staging area for this operation is located at an[ ICE Detention Center in Broadview, IL](https://maps.app.goo.gl/9epSMjGNUPTR2TRR8), a suburb about 10 minutes west of where I live and serve as a Village Trustee.
@@ -72,7 +72,7 @@ Earlier in September, we also increased the fines for impersonating local, state
 
 ### Passed the 2026 budget with funding for sustainability - December 9, 2025
 
-<p><img class='img-responsive' src='/images/blog/2025-votes/vop-board-2025.jpg' alt='The Oak Park Village Board: Trustee Brian Straw, Trustee Chibuike Enyia, Trustee Derek Eder, President Vicki Scaman, Trustee Jim Taglia, Trustee Jenna Leving Jacobson, Trustee Cory Wesley, Clerk Christina Waters.'></p>
+<p><img class='img-fluid' src='/images/blog/2025-votes/vop-board-2025.jpg' alt='The Oak Park Village Board: Trustee Brian Straw, Trustee Chibuike Enyia, Trustee Derek Eder, President Vicki Scaman, Trustee Jim Taglia, Trustee Jenna Leving Jacobson, Trustee Cory Wesley, Clerk Christina Waters.'></p>
 <p class="text-center"><em>The Oak Park Village Board: Trustee Brian Straw, Trustee Chibuike Enyia, Trustee Derek Eder, President Vicki Scaman, Trustee Jim Taglia, Trustee Jenna Leving Jacobson, Trustee Cory Wesley, Clerk Christina Waters.</em></p>
 
 The final vote that we took in 2025 was to pass the [2026 Oak Park Village Budget](https://www.oak-park.us/files/assets/oakpark/v/1/finance/budgets/2026-approved-budget-v16dec2025.pdf). We did so 7-0, though it took 11 Finance Committee Meetings (which I am on, along with President Scaman and Trustees Taglia and Straw) and five full Board meetings to work through all the details. 

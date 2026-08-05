@@ -184,7 +184,7 @@ Below is a table and chart of past and projected expenditures, revenue and avail
   </tr>
 </table>
 
-<p><img class='img-responsive' src='/images/blog/sustainability-fund-balance.png' alt='Sustainability Fund expenditures, revenue and balance 2022-2027'></p>
+<p><img class='img-fluid' src='/images/blog/sustainability-fund-balance.png' alt='Sustainability Fund expenditures, revenue and balance 2022-2027'></p>
 <p class="text-center"><em>Sustainability Fund expenditures, revenue and balance 2022-2027</em></p>
 
 ## Current revenue sources
@@ -265,7 +265,7 @@ The current revenue sources for the Sustainability Fund are the Community Choice
   </tr>
 </table>
 
-<p><img class='img-responsive' src='/images/blog/sustainability-fund-sources.png' alt='Sustainability Fund revenues 2022-2026'></p>
+<p><img class='img-fluid' src='/images/blog/sustainability-fund-sources.png' alt='Sustainability Fund revenues 2022-2026'></p>
 <p class="text-center"><em>Sustainability Fund revenues 2022-2026</em></p>
 
 ## Stabilizing the Sustainability Fund

@@ -23,7 +23,7 @@ description: I've give talks on my experiences starting a civic tech company, Da
   <div class='col-sm-6'>
     <p><strong>Filter by medium</strong></p>
     <p>
-      <button class="button btn btn-sm btn-default medium-button" value="">All</button>
+      <button class="button btn btn-sm btn-secondary medium-button" value="">All</button>
       <button class="button btn btn-sm btn-success medium-button" value=".video">Video</button>
       <button class="button btn btn-sm btn-warning medium-button" value=".audio">Audio</button>
       <button class="button btn btn-sm btn-info medium-button" value=".writeup">Writeup</button>
@@ -32,10 +32,10 @@ description: I've give talks on my experiences starting a civic tech company, Da
   <div class='col-sm-6'>
     <p><strong>Filter by format</strong></p>
     <p>
-      <button class="button btn btn-sm btn-default format-button" value="">All</button>
-      <button class="button btn btn-sm btn-default format-button" value=".presentation">Presentation</button>
-      <button class="button btn btn-sm btn-default format-button" value=".interview">Interview</button>
-      <button class="button btn btn-sm btn-default format-button" value=".panel">Panel</button>
+      <button class="button btn btn-sm btn-secondary format-button" value="">All</button>
+      <button class="button btn btn-sm btn-secondary format-button" value=".presentation">Presentation</button>
+      <button class="button btn btn-sm btn-secondary format-button" value=".interview">Interview</button>
+      <button class="button btn btn-sm btn-secondary format-button" value=".panel">Panel</button>
     </p>
   </div>
 </div>
@@ -59,13 +59,13 @@ description: I've give talks on my experiences starting a civic tech company, Da
             <p>{{post.description | markdownify}}</p>
             <p>
               {% if post.medium == "video" %}
-                <span class="label label-success"><i class="fa fa-play"></i> Video</span>
+                <span class="badge text-bg-success"><i class="fa fa-play"></i> Video</span>
               {% elsif post.medium == "audio" %}
-                <span class="label label-warning"><i class="fa fa-headphones"></i> Audio</span>
+                <span class="badge text-bg-warning"><i class="fa fa-headphones"></i> Audio</span>
               {% elsif post.medium == "writeup" %}
-                <span class="label label-info"><i class="fa fa-file-text-o"></i> Writeup</span>
+                <span class="badge text-bg-info"><i class="fa fa-file-text-o"></i> Writeup</span>
               {% endif %}
-              <span class="label label-default">{{ post.tags }}</span>
+              <span class="badge text-bg-secondary">{{ post.tags }}</span>
             </p>
           </div>
           <div class='col-sm-5'>
@@ -86,9 +86,9 @@ description: I've give talks on my experiences starting a civic tech company, Da
 {% raw %}
 
 <script type="text/javascript">
-	$(() => {
+	document.addEventListener('DOMContentLoaded', () => {
 		// Sizing grid and cards with Bootstrap and Isotope
-		$('.grid').isotope({
+		const grid = new Isotope('.grid', {
 			itemSelector: '.grid-item',
 			percentPosition: true,
 			masonry: {
@@ -96,32 +96,31 @@ description: I've give talks on my experiences starting a civic tech company, Da
 			}
 		});
 		// Isotope Filters
-		const $grid = $('.grid').isotope({
-			itemSelector: '.grid-item'
-		})
 		const filters = {}
+		const emptyMessage = document.getElementById('empty-message')
 
-		$('.medium-button').click((e) => {
-			filters['medium'] = e.target.value
+		document.querySelectorAll('.medium-button').forEach((button) => {
+			button.addEventListener('click', (e) => {
+				filters['medium'] = e.target.value
 
-			const filterValue = concatValues(filters)
+				const filterValue = concatValues(filters)
 
-			$grid.isotope({filter: filterValue})
+				grid.arrange({filter: filterValue})
+			})
 		})
 
-    $('.format-button').click((e) => {
-			filters['format'] = e.target.value
+    document.querySelectorAll('.format-button').forEach((button) => {
+			button.addEventListener('click', (e) => {
+				filters['format'] = e.target.value
 
-			const filterValue = concatValues(filters)
+				const filterValue = concatValues(filters)
 
-			$grid.isotope({filter: filterValue})
+				grid.arrange({filter: filterValue})
+			})
 		})
 
-    $grid.on( 'arrangeComplete', function( event, filteredItems ) {   
-      if( filteredItems.length > 0 ) 
-        $('#empty-message').hide();
-      else
-      $('#empty-message').fadeIn();
+    grid.on('arrangeComplete', (filteredItems) => {
+      emptyMessage.style.display = filteredItems.length > 0 ? 'none' : 'block'
     });
 
     function concatValues(obj) {

@@ -14,7 +14,7 @@ redirect_from:
 
 _This is Part 2 of my series Electrifying Our Old Oak Park Home. [Read the rest here](/electrification/)._
 
-<p><img class='img-responsive' src='/images/blog/heat-pumps/heat-pump-combo.jpg' alt='Our heat pumps and condensers'></p>
+<p><img class='img-fluid' src='/images/blog/heat-pumps/heat-pump-combo.jpg' alt='Our heat pumps and condensers'></p>
 
 <hr />
 
@@ -22,12 +22,12 @@ We are in the process of removing all gas appliances from our Oak Park home and 
 
 Why? In Illinois, [15% of our total emissions come from the appliances in our homes and businesses](https://decarbmystate.com/illinois), and most of that comes from heating our homes in the winter.
 
-<p><img class='img-responsive' src='/images/blog/going-solar/decarb-il.png' alt='In Illinois, 15% of emissions come from buildings, 26% from transportation, 24% from power generation and 34% from everything else'></p>
+<p><img class='img-fluid' src='/images/blog/going-solar/decarb-il.png' alt='In Illinois, 15% of emissions come from buildings, 26% from transportation, 24% from power generation and 34% from everything else'></p>
 <p class="text-center"><em>Illinois climate pollution by source, from <a href="https://decarbmystate.com/">decarbmystate.com</a></em></p>
 
 Chicago winters are cold, and a lot of people, even many building experts, are reluctant to switch away from gas heating. The midwest, it turns out, is pretty obsessed with heating with methane gas (also known as ‘natural gas’) over all other fuel types. About [80% of homes in Oak Park](https://www.washingtonpost.com/climate-environment/interactive/2023/home-electrification-heat-pumps-gas-furnace/?pwapi_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJpZCI6IjExMTUyOTc2IiwicmVhc29uIjoiZ2lmdCIsIm5iZiI6MTY3ODA3ODgwMCwiaXNzIjoic3Vic2NyaXB0aW9ucyIsImV4cCI6MTY3OTM3MTE5OSwiaWF0IjoxNjc4MDc4ODAwLCJqdGkiOiI5OTQzOTNjMy0xMWRiLTQ2MzYtOWZlMC1jMmQ1ODVkMzFmYTUiLCJ1cmwiOiJodHRwczovL3d3dy53YXNoaW5ndG9ucG9zdC5jb20vY2xpbWF0ZS1lbnZpcm9ubWVudC9pbnRlcmFjdGl2ZS8yMDIzL2hvbWUtZWxlY3RyaWZpY2F0aW9uLWhlYXQtcHVtcHMtZ2FzLWZ1cm5hY2UvIn0.v0z_i10x7wNGTLVzCYw24XHbNgORprQhdZa3Xrb7IGc&itid=gfta) are heated with methane gas.
 
-<p><img class='img-responsive' src='/images/blog/heat-pumps/wapo-heating.jpg' alt='How Americans heat their homes'></p>
+<p><img class='img-fluid' src='/images/blog/heat-pumps/wapo-heating.jpg' alt='How Americans heat their homes'></p>
 <p class="text-center"><em><a href="https://www.washingtonpost.com/climate-environment/interactive/2023/home-electrification-heat-pumps-gas-furnace/?pwapi_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJpZCI6IjExMTUyOTc2IiwicmVhc29uIjoiZ2lmdCIsIm5iZiI6MTY3ODA3ODgwMCwiaXNzIjoic3Vic2NyaXB0aW9ucyIsImV4cCI6MTY3OTM3MTE5OSwiaWF0IjoxNjc4MDc4ODAwLCJqdGkiOiI5OTQzOTNjMy0xMWRiLTQ2MzYtOWZlMC1jMmQ1ODVkMzFmYTUiLCJ1cmwiOiJodHRwczovL3d3dy53YXNoaW5ndG9ucG9zdC5jb20vY2xpbWF0ZS1lbnZpcm9ubWVudC9pbnRlcmFjdGl2ZS8yMDIzL2hvbWUtZWxlY3RyaWZpY2F0aW9uLWhlYXQtcHVtcHMtZ2FzLWZ1cm5hY2UvIn0.v0z_i10x7wNGTLVzCYw24XHbNgORprQhdZa3Xrb7IGc&itid=gfta">How Americans heat their homes</a>, Washington Post, May 2023</em></p>
 
 But climate scientists and the UN have told us we need to get to net zero emissions by 2050 — so all those gas, propane and oil heaters will need to be replaced with electric equivalents soon.
@@ -57,7 +57,7 @@ What’s a heat pump, you ask? A [heat pump](https://en.wikipedia.org/wiki/Heat_
 
 In winter, a heat pump can move heat from the cool outdoors to warm a house; in summer, the pump reverses the flow from the house to the warmer outdoors. They transfer —rather than generate — heat, and are up to four times more energy efficient than other ways of heating or cooling a home.
 
-<p><img class='img-responsive' src='/images/blog/heat-pumps/heat-pump-diagram.jpg' alt='Heat pumps move cool and warm air around depending on the season'></p>
+<p><img class='img-fluid' src='/images/blog/heat-pumps/heat-pump-diagram.jpg' alt='Heat pumps move cool and warm air around depending on the season'></p>
 <p class="text-center"><em>Heat pumps move cool and warm air around depending on the season. Source: mepskills.com</em></p>
 
 Heat pumps use the same technology as in your air conditioner or your refrigerator — just packaged up in one device.
@@ -86,12 +86,12 @@ For our house, we ended up doing a little bit of both.
 
 Thankfully, we can use science to figure out exactly what our home needs to be heated and cooled. The tool to calculate this is called a [blower door test](https://www.familyhandyman.com/list/what-is-a-blower-door-test/). The test involves a fan set up in an exterior door and is turned on to pull the air out of your house, like this:
 
-<p><img class='img-responsive' src='/images/blog/heat-pumps/blower-door-test.jpg' alt='A blower door test setup (not our house)'></p>
+<p><img class='img-fluid' src='/images/blog/heat-pumps/blower-door-test.jpg' alt='A blower door test setup (not our house)'></p>
 <p class="text-center"><em>A blower door test setup (not our house). Source: naeci.com</em></p>
 
 The fan is hooked up to a monitor to calculate how leaky or tight your house is. We hired [Insight Property Services](https://www.insightpsinc.com/) to do this for our home, and this is the result: 
 
-<p><img class='img-responsive' src='/images/blog/heat-pumps/blower-door-results.png' alt='Results of our blower door test'></p>
+<p><img class='img-fluid' src='/images/blog/heat-pumps/blower-door-results.png' alt='Results of our blower door test'></p>
 <p class="text-center"><em>Results of our blower door test</em></p>
 
 It’s a pretty confusing report to read, but the number that matters most is the CFM50 value. For those who are curious, [here’s a guide to reading this report](https://energyconservatory.com/wp-content/uploads/2017/08/Test-Results-and-Sample-Test-Forms-Guide-.pdf). CFM50 is “cubic feet of air moving across the fan per minute at the test pressure of 50 pascals”. 
@@ -104,14 +104,14 @@ Our home airflow clocked in at 3,295 CFM50: LEAKY. Well, at least now we have a 
 
 As part of the blower door test, Insight Property Services walked around with an infrared camera and identified places where cold air was getting in. Here’s a few places throughout our home with noticeable leaks. The darker purple indicates places where more cold air was getting in.
 
-<p><img class='img-responsive' src='/images/blog/heat-pumps/ir-heat-loss.jpg' alt='Pictures of places in our home with air leakage'></p>
+<p><img class='img-fluid' src='/images/blog/heat-pumps/ir-heat-loss.jpg' alt='Pictures of places in our home with air leakage'></p>
 <p class="text-center"><em>Using an infrared camera to identify places where cold air is getting in to our house</em></p>
 
 It turns out, we had a few specific problem areas in our second floor and in parts of our upper and lower roof that were completely missing insulation.
 
 After identifying these problem spots, we hired [Intelligent Energy Solutions](https://www.iesgreen.com/) to fill these areas with insulation. Unfortunately, it meant cutting and drilling into our walls and ceilings a bit:
 
-<p><img class='img-responsive' src='/images/blog/heat-pumps/insulation.png' alt='Cutting out sections of our ceiling and wall drywall to add insulation'></p>
+<p><img class='img-fluid' src='/images/blog/heat-pumps/insulation.png' alt='Cutting out sections of our ceiling and wall drywall to add insulation'></p>
 <p class="text-center"><em>Adding insulation in our first floor ceilings, air sealing our attic, and adding wall insulation on the second floor</em></p>
 
 After adding this insulation, they did another blower door test (science!) and measured our CFM50 rating which decreased from 3,295 to 2,645. A 20% improvement. Progress! 
@@ -124,12 +124,12 @@ Property Insight Services also gave us a tip on a way to get more heating and co
 
 [Aeroseal](https://aeroseal.com/) is a patented process that finds and fills those gaps. It works similarly to finding and patching a leak in your car tire. An Aeroseal technician hooks up a fan to blow a (non-toxic) mist of Elmer’s glue-like substance into your ducts. The mist particles naturally move towards the many little holes and start sticking to each other. Eventually, as more and more particles stick to each other, the leaks are filled. Here’s a picture of someone (not my house) doing the Aeroseal process:
 
-<p><img class='img-responsive' src='/images/blog/heat-pumps/aeroseal.jpg' alt='The Aeroseal process (not our house)'></p>
+<p><img class='img-fluid' src='/images/blog/heat-pumps/aeroseal.jpg' alt='The Aeroseal process (not our house)'></p>
 <p class="text-center"><em>The Aeroseal process (not our house). Source: Aeroseal</em></p>
 
 Like the blower door test, a sensor is hooked up to the fan before, during and after the process to measure the leakage reduction. We hired [Clean Air Pro](https://cleanairpro.org/) to do our Aerosealing. The process took about 8 hours. Here’s what our report looked like:
 
-<p><img class='img-responsive' src='/images/blog/heat-pumps/aeroseal-results.jpg' alt='The results of our Aeroseal process'></p>
+<p><img class='img-fluid' src='/images/blog/heat-pumps/aeroseal-results.jpg' alt='The results of our Aeroseal process'></p>
 <p class="text-center"><em>The results of our Aeroseal process</em></p>
 
 Before the process, our ducts had an equivalent of a 98-sq. inch hole in them — about 37% of the system capacity. After the Aeroseal process, this was reduced to an equivalent of an 8.4-sq. inch hole, or 3% system capacity — a 91% reduction in air duct leakage. 
@@ -142,7 +142,7 @@ With our somewhat less leaky house and much improved ducts, we were ready to mov
 
 Our 125,000 BTU gas furnace was 80% efficient, so our house needed about 100,000 BTU of heat. After our improvements, Energy Matters determined that our home needed about 79,000 BTU of heat. Definitely doable with two heat pumps, supported by some standard electric resistive heating.
 
-<p><img class='img-responsive' src='/images/blog/heat-pumps/energy-matters-chart.png' alt='BTUs of heating provided by heat pumps and electric resistance. Chart provided by Energy Matters. The electric resistance component can turn on partially at 20 degrees F and fully at 0 degrees F.'></p>
+<p><img class='img-fluid' src='/images/blog/heat-pumps/energy-matters-chart.png' alt='BTUs of heating provided by heat pumps and electric resistance. Chart provided by Energy Matters. The electric resistance component can turn on partially at 20 degrees F and fully at 0 degrees F.'></p>
 <p class="text-center"><em>BTUs of heating provided by heat pumps and electric resistance. Chart provided by Energy Matters. The electric resistance component can turn on partially at 20 degrees F and fully at 0 degrees F.</em></p>
 
 We swapped out our gas furnace with a 3.0-ton Mitsubishi Single Zone Hyper­-Heating heat pump system supported with an electric resistive heater for temperatures below 20 degrees Fahrenheit. This gave us about 70,000 BTU, which is enough to heat our first and second floors.
@@ -156,7 +156,7 @@ In Chicago, about 85% of our heating days will be above 20 degrees F, so we will
 
 We still needed to account for the remaining 9,000 BTU. To get us there, we decided to turn our basement into a second zone and add a 1.5­-ton Mitsubishi Single­ Zone Hyper­ Heating Heat Pump system, which provides up to 19,000 BTUs. More than enough for our needs.
 
-<p><img class='img-responsive' src='/images/blog/heat-pumps/minisplit.jpg' alt='1.5­ ton Mitsubishi Single­zone Hyper­heating Heat Pump system'></p>
+<p><img class='img-fluid' src='/images/blog/heat-pumps/minisplit.jpg' alt='1.5­ ton Mitsubishi Single­zone Hyper­heating Heat Pump system'></p>
 <p class="text-center"><em>1.5­ ton Mitsubishi Single­zone Hyper­heating Heat Pump system</em></p>
 
 Both of these heat pumps were installed over the course of three days. They each came with their own  new condenser, replacing the one we had for our previous AC. As a bonus, these condensers are much quieter than our old AC condenser.

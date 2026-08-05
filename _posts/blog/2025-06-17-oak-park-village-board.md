@@ -9,7 +9,7 @@ image: /images/blog/derek-uic.jpg
 featured: false
 ---
 
-<p><img class='img-responsive' src='/images/blog/derek-uic.jpg' alt='Derek Eder presenting at the UIC Urban Forum in 2023'></p>
+<p><img class='img-fluid' src='/images/blog/derek-uic.jpg' alt='Derek Eder presenting at the UIC Urban Forum in 2023'></p>
 <p class="text-center"><em>Derek Eder presenting at the UIC Urban Forum in 2023</em></p>
 
 <hr />
@@ -88,11 +88,11 @@ Let’s get to work!
 
 ### Photos from the swearing in ceremony
 
-<p><img class='img-responsive' src='/images/blog/vop-swearing-in/IMG_6086.JPG' alt='Derek Eder taking the oath of office for Village Trustee'></p>
+<p><img class='img-fluid' src='/images/blog/vop-swearing-in/IMG_6086.JPG' alt='Derek Eder taking the oath of office for Village Trustee'></p>
 <p class="text-center"><em>Derek Eder taking the oath of office for Village Trustee</em></p>
 
-<p><img class='img-responsive' src='/images/blog/vop-swearing-in/IMG_6106.JPG' alt='Trustee Eder shaking hands with Clerk Waters'></p>
+<p><img class='img-fluid' src='/images/blog/vop-swearing-in/IMG_6106.JPG' alt='Trustee Eder shaking hands with Clerk Waters'></p>
 <p class="text-center"><em>Trustee Eder shaking hands with Clerk Waters</em></p>
 
-<p><img class='img-responsive' src='/images/blog/vop-swearing-in/IMG_6151.JPG' alt='Trustee Eder and family'></p>
+<p><img class='img-fluid' src='/images/blog/vop-swearing-in/IMG_6151.JPG' alt='Trustee Eder and family'></p>
 <p class="text-center"><em>Trustee Eder and family</em></p>

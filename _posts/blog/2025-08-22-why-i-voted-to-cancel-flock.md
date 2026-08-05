@@ -28,7 +28,7 @@ For those who haven’t heard of it, [Flock Safety, Inc](https://www.flocksafety
 
 If you’re in law enforcement, this sounds like a great tool. And so, like wildfire, it has spread quickly across the country. Since their founding 7 years ago, Flock Safety has inked contracts with over 5,000 municipalities and [installed tens of thousands of cameras along public roads and highways](https://deflock.me/). In Illinois alone, [650 of these cameras have been installed since 2023 with grants from the Illinois Attorney General](https://unraveledpress.com/eyes-on-the-heartland-flock-alpr-illinois-kwame-raoul/).
 
-<p><img class='img-responsive' src='/images/blog/flock/flock-in-op.jpg' alt='A Flock ALPR Camera in Oak Park, IL. Photo by Paul Goyette'></p>
+<p><img class='img-fluid' src='/images/blog/flock/flock-in-op.jpg' alt='A Flock ALPR Camera in Oak Park, IL. Photo by Paul Goyette'></p>
 <p class="text-center"><em>A Flock ALPR Camera in Oak Park, IL. Photo by Paul Goyette</em></p>
 
 While Flock Safety isn’t the first company to develop or sell this technology ([Motorola](https://callmc.com/motorola-solution-l5m-mobile-alpr-system/) has been in this business for at least a decade), they have successfully followed the Silicon Valley startup playbook by selling to governments with artificially low prices [backed by venture capital](https://www.flocksafety.com/blog/series-e-announcement) to capture market share and develop a much more lucrative product: a national network and archive of vehicle location data.
@@ -37,7 +37,7 @@ While Flock Safety isn’t the first company to develop or sell this technology 
 
 It is the very value of this network, and Flock’s willingness to share and sell access to it, including to the Trump Administration, [ICE](https://reason.com/2025/05/29/illinois-cops-gave-ice-access-to-more-than-5000-surveillance-cameras-nationwide/), [Customs and Border Protection](https://www.9news.com/article/news/local/flock-federal-immigration-agents-access-tracking-data/73-a8aee742-56d4-4a57-b5bb-0373286dfef8), and [Texas police enforcing anti-abortion laws](https://www.404media.co/a-texas-cop-searched-license-plate-cameras-nationwide-for-a-woman-who-got-an-abortion/), that makes this technology so dangerous to not only our immigrant community, but to the entire nation. 
 
-<p><img class='img-responsive' src='/images/blog/flock/deflock-map.jpg' alt='ALPR Cameras in the United States, mapped by DeFlock.me'></p>
+<p><img class='img-fluid' src='/images/blog/flock/deflock-map.jpg' alt='ALPR Cameras in the United States, mapped by DeFlock.me'></p>
 <p class="text-center"><em>ALPR Cameras in the United States, mapped by [DeFlock.me](DeFlock.me)</em></p>
 
 We are living in an era of [surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism) - a society dominated by unregulated and invisible technology that spies on us constantly. In 2014, NSA whistleblower [Edward Snowden warned us](https://www.youtube.com/watch?v=0hLjuVyIIrs) that the surveillance put in place by our own government would lead to “turnkey tyranny”. Now, in 2025, that tyranny has arrived with the second Trump Administration, and they’ve never had more powerful data and tools at their disposal.
@@ -60,7 +60,7 @@ Meanwhile, the harms of this system are real, and more details are coming out ev
 
 I’ll close with this: in 2008’s The Dark Night (the best Batman movie), Bruce Wayne and Lucius Fox build a system that taps into everyone’s cell phones to create a real-time surveillance network for all of Gotham in order to find the Joker. 
 
-<p><img class='img-responsive' src='/images/blog/flock/batman-sonar.jpg' alt='The Dark Knight (2008), Morgan Freeman as Lucius Fox and the SONAR system'></p>
+<p><img class='img-fluid' src='/images/blog/flock/batman-sonar.jpg' alt='The Dark Knight (2008), Morgan Freeman as Lucius Fox and the SONAR system'></p>
 <p class="text-center"><em>The Dark Knight (2008), Morgan Freeman as Lucius Fox and the SONAR system</em></p>
 
 In many ways, this is the dream that surveillance capitalists have been selling to their customers for years. And as time has moved on and technology has progressed, we’re getting awfully close to this level of real-time surveillance.

@@ -9,7 +9,7 @@ image: /images/blog/affordable-housing/middle-housing-op.jpg
 featured: true
 ---
 
-<p><img class='img-responsive' src='/images/blog/affordable-housing/middle-housing-op.jpg' alt='Middle density housing in Oak Park. Photo by Aya O’Connor'></p>
+<p><img class='img-fluid' src='/images/blog/affordable-housing/middle-housing-op.jpg' alt='Middle density housing in Oak Park. Photo by Aya O’Connor'></p>
 <p class="text-center"><em>Middle density housing in Oak Park. Photo by Aya O’Connor</em></p>
 
 America is in the middle of an affordability crisis, and Oak Park is no exception. Prices for housing, child care, energy, and groceries are rising faster than wages, and families are feeling the squeeze. [According to the Urban Institute](https://www.urban.org/data-tools/american-affordability-tracker), nearly half of people in American families cannot afford the true cost of living.
@@ -21,7 +21,7 @@ In June of 2026, the world [minted its first trillionaire](https://www.forbes.co
 
 How does Elon Musk getting richer impact you? It has to do with how much his wealth and the wealth of other billionaires is growing compared to ours, and compared to the economy as a whole. On average, the [U.S. GDP grows about 3% per year](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=US). Since the COVID-19 pandemic in 2020, the [wealth of the richest 0.1% has grown 40%](https://www.oxfam.org/en/press-releases/richest-1-bag-nearly-twice-much-wealth-rest-world-put-together-over-past-two-years). Where does all their new wealth come from? You guessed it: it comes from us.
 
-<p><img class='img-responsive' src='/images/blog/affordable-housing/us-income-share.jpg' alt='Share of U.S. income 1976–2022.'></p>
+<p><img class='img-fluid' src='/images/blog/affordable-housing/us-income-share.jpg' alt='Share of U.S. income 1976–2022.'></p>
 <p class="text-center"><em>Share of U.S. income 1976–2022. Source: <a href="https://www.realtimeinequality.org/">Realtime Inequality</a></em></p>
 
 Money works differently if you’re super rich. While most of us earn our money through the jobs we work, billionaires and trillionaires make their money through the companies and assets that they own, and they do it all without lifting a finger (this is otherwise known as passive income). When you have more money than you could ever spend in your lifetime, you wisely invest it in a diverse set of assets: stocks, natural resources, and yes, housing. 
@@ -45,22 +45,22 @@ If we want to avoid Lake Oswego's future in Oak Park, to keep our schools open, 
 
 Thankfully, there is time to act in Oak Park, but it's a steep hill to climb. Our [median home price is $525,000](https://censusreporter.org/profiles/16000US1754885-oak-park-il/#housing-value), which is high for Illinois and [above the national average](https://www.urban.org/data-tools/american-affordability-tracker). Oak Park is less affordable than all of our neighboring municipalities except for River Forest and Riverside.
 
-<p><img class='img-responsive' src='/images/blog/affordable-housing/chicagoland-affordability.jpg' alt='Affordability index for Chicago and surrounding suburbs based on home price vs median income. Green are considered affordable, yellow and orange are not.'></p>
+<p><img class='img-fluid' src='/images/blog/affordable-housing/chicagoland-affordability.jpg' alt='Affordability index for Chicago and surrounding suburbs based on home price vs median income. Green are considered affordable, yellow and orange are not.'></p>
 <p class="text-center"><em>Affordability index for Chicago and surrounding suburbs based on home price vs median income. Green are considered affordable, yellow and orange are not. Source: <a href="https://mnolangray.substack.com/p/the-united-states-doesnt-have-a-housing">M. Nolan Grey</a></em></p>
 
 As a Village, we have the power to incentivize building more market rate and affordable housing and lower prices by increasing supply. And while the most common housing type in Oak Park are single family homes, we know from the [2024 Strategic Vision for Housing](https://villageofoakparkil.prelive.opencities.com/files/assets/oakpark/v/1/neighborhood-services/housing/2024-mmc-vision_for_housing.pdf) report that there is a need for different kinds of housing to support households at various income levels and stages of life. 
 
 While 67% of Oak Park households are only 1 or 2-persons, 41% of our housing units are single family homes. Many of these homeowners are seniors (a population that has doubled to 17% in the past 20 years) who would like to age in place, but in a more manageable home. The problem is, there are very few housing options for them to downsize into.
 
-<p><img class='img-responsive' src='/images/blog/affordable-housing/op-housing-stock.png' alt='Housing Units in Oak Park by Type of Housing, 2022'></p>
+<p><img class='img-fluid' src='/images/blog/affordable-housing/op-housing-stock.png' alt='Housing Units in Oak Park by Type of Housing, 2022'></p>
 
 It is also worth noting that 40% of Oak Park’s population are renters. And those renters are facing increasing rents and a shortage of units. Based on supply and demand from the U.S. Census, Oak Park is 1,500 rental units short of meeting the current demand.
 
-<p><img class='img-responsive' src='/images/blog/affordable-housing/op-renter-supply-demand.png' alt='Supply (Rental Units) and Demand (Renter Households) in Oak Park by Income, 2022.'></p>
+<p><img class='img-fluid' src='/images/blog/affordable-housing/op-renter-supply-demand.png' alt='Supply (Rental Units) and Demand (Renter Households) in Oak Park by Income, 2022.'></p>
 
 Of those renters, 44% of them are “rent burdened,” meaning they spend more than 30% of their income on housing. The rent burdened percentage jumps to over 80% for households making less than $50,000 a year.
 
-<p><img class='img-responsive' src='/images/blog/affordable-housing/op-cost-burden.png' alt='Housing Cost Burden Among Renter Households in Oak Park, 2022.'></p>
+<p><img class='img-fluid' src='/images/blog/affordable-housing/op-cost-burden.png' alt='Housing Cost Burden Among Renter Households in Oak Park, 2022.'></p>
 
 The Strategic Vision for Housing identifies a number of other housing challenges in our Village, including a substantial racial homeownership gap, a lack of shelter for people experiencing homelessness, high emissions from heating our homes, lack of accessibility, and an aging housing stock. 
 
@@ -72,7 +72,7 @@ To allow for this increase in supply and housing diversity, the biggest policy t
 
 Some districts allow high rises to sprout around downtown, others encourage walkable, mixed-use commercial corridors, but the vast majority of land in Oak Park (86%) is restricted to one building type: the single family home.
 
-<p><img class='img-responsive' src='/images/blog/affordable-housing/op-sf-zoning.jpg' alt='Housing composition of Oak Park’s current zoning. 86% of the land only allows for single family homes (light blue). Source: Opticos Design'></p>
+<p><img class='img-fluid' src='/images/blog/affordable-housing/op-sf-zoning.jpg' alt='Housing composition of Oak Park’s current zoning. 86% of the land only allows for single family homes (light blue). Source: Opticos Design'></p>
 <p class="text-center"><em>Housing composition of Oak Park’s current zoning. 86% of the land only allows for single family homes (light blue). Source: Opticos Design</em></p>
 
 Allowing for building duplexes, 3-4 units, and accessory dwelling units (also known as ADUs or coach houses), in addition to single family homes across the Village, would allow for more low density housing (also known as Missing Middle housing) to be built slowly over time, increasing supply and reducing costs.
@@ -94,7 +94,7 @@ We don’t need a crystal ball to know how these changes will impact Oak Park. W
 
 In 2018, Minneapolis adopted their [2040 Plan](https://minneapolis2040.com/), ending single-family zoning citywide, eliminating parking minimums (which IL has already done for most of Oak Park in the [People Over Parking Act](https://en.wikipedia.org/wiki/Illinois_People_Over_Parking_Act)), expanding their inclusionary housing ordinance, and many other transportation, environment, equity, and economic policies. 
 
-<p><img class='img-responsive' src='/images/blog/affordable-housing/mn-2040.jpg' alt='The Minneapolis 2040 Plan'></p>
+<p><img class='img-fluid' src='/images/blog/affordable-housing/mn-2040.jpg' alt='The Minneapolis 2040 Plan'></p>
 <p class="text-center"><em>The Minneapolis <a href="https://minneapolis2040.com/">2040 Plan</a></em></p>
 
 Six years later, their results are encouraging. Between 2020-2024, rents in [Minneapolis fell by 4%](https://www.minneapolisfed.org/article/2025/unpacking-supply-and-demand-in-rent-trends-since-the-minneapolis-2040-plan) compared to a 22% average national increase, and 87 new duplex, triplex, and fourplex buildings (otherwise known as missing middle housing) were permitted, creating 225 new housing units that would have otherwise not been built. The affordability crisis is not fully solved there, but [meaningful progress has been made](https://www.politico.com/magazine/story/2019/07/11/housing-crisis-single-family-homes-policy-227265/).

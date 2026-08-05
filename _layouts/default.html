@@ -97,40 +97,38 @@
       <script type="text/javascript" src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <script type="text/javascript" src="/js/jquery.js"></script>
-    <script type="text/javascript" src="/js/bootstrap.js"></script>
   </head>
   <body>
     <div class='container'>
       <div class='row'>
         <div class='col-sm-3 content-secondary'>
-          <h2 class="hidden-xs">
+          <h2 class="d-none d-sm-block">
             <a href='/'>Derek Eder</a>
           </h2>
-          <h4 class="hidden-xs">Civic Tech Builder</h4>
-          <div class="hidden-xs">
-            <img alt='Derek Eder' class='pull-left img-thumbnail headshot' src='/images/derek.jpg' title='Derek Eder'>
+          <h4 class="d-none d-sm-block">Civic Tech Builder</h4>
+          <div class="d-none d-sm-block">
+            <img alt='Derek Eder' class='float-start img-thumbnail headshot' src='/images/derek.jpg' title='Derek Eder'>
             <p>
               I use data, build tools, and organize people in Chicago to democratize power. <a href='/about'>Read more &raquo;</a>
             </p>
             <hr />
             <div class='clearfix'></div>
             <p>
-              <a href='https://datamade.us'><img alt='DataMade' class='pull-left logomark img-thumbnail' src='/images/datamade_mark.png' title='DataMade'></a>
+              <a href='https://datamade.us'><img alt='DataMade' class='float-start logomark img-thumbnail' src='/images/datamade_mark.png' title='DataMade'></a>
               <strong>
                 <a href='https://datamade.us'>DataMade</a><br />
                 Founder and Partner
               </strong>
             </p><br />
             <p>
-              <a href='https://www.oak-park.us'><img alt='Chi Hack Night' class='pull-left logomark img-thumbnail' src='/images/oak_park_logo.jpg' title='Village of Oak Park'></a>
+              <a href='https://www.oak-park.us'><img alt='Chi Hack Night' class='float-start logomark img-thumbnail' src='/images/oak_park_logo.jpg' title='Village of Oak Park'></a>
               <strong>
                 <a href='https://www.oak-park.us'>Village of Oak Park</a><br />
                 Trustee
               </strong>
             </p><br />
             <p>
-              <a href='https://chihacknight.org'><img alt='Chi Hack Night' class='pull-left logomark img-thumbnail' src='/images/chihacknight_mark.jpg' title='Chi Hack Night'></a>
+              <a href='https://chihacknight.org'><img alt='Chi Hack Night' class='float-start logomark img-thumbnail' src='/images/chihacknight_mark.jpg' title='Chi Hack Night'></a>
               <strong>
                 <a href='https://chihacknight.org'>Chi Hack Night</a><br />
                 Co-Founder and President Emeritus
@@ -152,9 +150,6 @@
               <a rel="me" href='https://bsky.app/profile/derekeder.bsky.social'>
                 <i class="fa-solid fa-b fa-fw"></i>
               </a>
-              <a rel="me" href='https://mastodon.garden/@derekeder'>
-                <i class="fa-brands fa-mastodon"></i>
-              </a>
               <a href='https://www.linkedin.com/in/derekeder'>
                 <i class='fa fa-fw fa-linkedin'></i>
               </a>
@@ -163,9 +158,9 @@
           <div class='clearfix'></div>
         </div>
         <div class='col-sm-9'>
-          <div class='well content-primary'>
-            <div class="row visible-xs">
-              <img alt='Derek Eder' class='pull-left img-thumbnail headshot' src='/images/derek.jpg' title='Derek Eder'>
+          <div class='card card-body content-primary'>
+            <div class="row d-sm-none">
+              <img alt='Derek Eder' class='float-start img-thumbnail headshot' src='/images/derek.jpg' title='Derek Eder'>
               <h2>
                 <a href='/'>Derek Eder</a>
               </h2>
@@ -174,8 +169,8 @@
             </div>
             <ul class='nav nav-pills'>
               {% for link in site.navigation %}
-                <li>
-                  <a href="{{ link.url }}">{{ link.text }}</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ link.url }}">{{ link.text }}</a>
                 </li>
               {% endfor %}
             </ul>
@@ -189,7 +184,7 @@
       </div>
       <div class='row'>
         <div class='col-sm-12'>
-          <p class='pull-right'>
+          <p class='float-end'>
             <a href='http://eepurl.com/jlM39g' target="_blank">Email signup</a>
             •
             <a href='mailto:derek@derekeder.com'>derek@derekeder.com</a>

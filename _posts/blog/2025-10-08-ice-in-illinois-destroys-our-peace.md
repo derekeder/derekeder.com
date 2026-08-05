@@ -9,7 +9,7 @@ image: /images/blog/ice-out/oct-3-bovino-ice.jpg
 featured: false
 ---
 
-<p><img class='img-responsive' src='/images/blog/ice-out/oct-3-bovino-ice.jpg' alt='U.S. Border Patrol Sector Chief Greg Bovino, flanked by DHS cameramen and drones, starts to march into a crowd of peacful protesters on Oct 3 2025 at the Federal ICE facility in Broadview. Photo by Kelly Hayes'></p>
+<p><img class='img-fluid' src='/images/blog/ice-out/oct-3-bovino-ice.jpg' alt='U.S. Border Patrol Sector Chief Greg Bovino, flanked by DHS cameramen and drones, starts to march into a crowd of peacful protesters on Oct 3 2025 at the Federal ICE facility in Broadview. Photo by Kelly Hayes'></p>
 <p class="text-center"><em>U.S. Border Patrol Sector Chief Greg Bovino, flanked by DHS cameramen and drones, starts to march into a crowd of peacful protesters on Oct 3 2025 at the Federal ICE facility in Broadview. Photo by Kelly Hayes</em></p>
 
 ---
@@ -48,7 +48,7 @@ The presence of ICE in Illinois destroys our peace. It is a violent, untrained, 
 
 If you are watching this, don’t stay quiet. Join your voices to ours and demand that ICE leave our state and never come back.
 
-<p><img class='img-responsive' src='/images/blog/ice-out/oct6-ice-press-conf.jpg' alt='Press conference at Oak Park Township on Oct 6th'></p>
+<p><img class='img-fluid' src='/images/blog/ice-out/oct6-ice-press-conf.jpg' alt='Press conference at Oak Park Township on Oct 6th'></p>
 <p class="text-center"><em>Press conference at Oak Park Township on Oct 6th</em></p>
 
 ### Statement from Oak Park Elected Officials in Solidarity with Protestors at the ICE Detention Facility in Broadview

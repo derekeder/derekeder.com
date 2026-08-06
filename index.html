@@ -33,9 +33,9 @@ layout: default
           <a href='{{ post.url }}'><img src='{{ post.image }}' alt='{{ post.title }}' class='img-fluid img-thumbnail' /></a>
         </div>
         <div class='col-sm-8'>
-          <h4>
+          <h3 class="fs-5">
             <a href="{{ post.url }}">{{ post.title }}</a>
-          </h4>
+          </h3>
           <p>
             <small>Published on {{ post.date |  date: "%b %-d, %Y" }}<br /></small>
             {{ post.description }}
@@ -90,9 +90,9 @@ layout: default
           <a href='{{post.link}}'>
             <img class='img-thumbnail' src='{{post.image}}' title='{{post.title}}'>
           </a>
-          <h4>
+          <h3 class="fs-5">
             <a href='{{post.link}}'>{{post.title}}</a>
-          </h4>
+          </h3>
           <p>{{post.description | markdownify}}</p><br />
         </div>
       {% endif %}
@@ -124,12 +124,12 @@ layout: default
           </a>
         </div>
         <div class='col-sm-7'>
-          <h4>
+          <h3 class="fs-5">
             <a href="{{post.link}}">{{post.title}}</a>
             <small>
               <br /><a href="{{post.link}}" target="_blank">{{post.link}}</a>
             </small>
-          </h4>
+          </h3>
           <p>{{post.description | markdownify}}</p>
         </div>
       </div>

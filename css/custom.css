@@ -2,6 +2,7 @@ body {
   padding-top: 30px;
   background-color: #f6f6f6;
   font-size: 15px;
+  color: #444444;
 }
 
 #mapCanvas img {
@@ -49,7 +50,6 @@ h4 {
 
 .content-secondary h2 a:hover {
   color: #2D2D2D;
-  text-decoration: none;
 }
 
 .float-start {
@@ -62,7 +62,13 @@ h4 {
 }
 
 a, a:hover {
-  color: #4B58A6;
+  color: #3D4A8C;
+  text-decoration: underline;
+}
+
+.nav-pills .nav-link,
+.social-icon,
+a:has(img) {
   text-decoration: none;
 }
 

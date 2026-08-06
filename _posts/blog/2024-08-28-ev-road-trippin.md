@@ -12,7 +12,7 @@ redirect_from:
   - /blog/ev-road-trippin
 ---
 
-<p><img class='img-responsive' src='/images/blog/road-trippin/ev-road-trip.jpg' alt='A map of our route from Oak Park to the Upper Penninsula, Michigan and charging our Kia EV6'></p>
+<p><img class='img-fluid' src='/images/blog/road-trippin/ev-road-trip.jpg' alt='A map of our route from Oak Park to the Upper Penninsula, Michigan and charging our Kia EV6'></p>
 <p class="text-center"><em>A map of our route from Oak Park to the Upper Penninsula, Michigan and charging our Kia EV6</em></p>
 
 <hr />
@@ -56,7 +56,7 @@ Our car, a Kia EV6, has about 300 miles of range on a single charge. We knew we 
 
 We also knew we couldn’t really drive a full 300 miles between charges, as batteries charge slower once you get to about 80%. Why? This is because of the physics of current battery technology. For charging any battery, the charge speed will look something like this:
 
-<p><img class='img-responsive' src='/images/blog/road-trippin/dc-fast-charging-curve.jpg' alt='DC fast charging curve from power-sonic.com'></p>
+<p><img class='img-fluid' src='/images/blog/road-trippin/dc-fast-charging-curve.jpg' alt='DC fast charging curve from power-sonic.com'></p>
 <p class="text-center"><em>DC fast charging curve from <a href='https://www.power-sonic.com/blog/the-ultimate-guide-to-dc-fast-charging/'>power-sonic.com</a></em></p>
 
 One useful metaphor I’ve heard is that battery charging is like theater seating. In the beginning, as people (or electrons) enter the room, there’s lots of open seating and it goes quickly. As it begins to fill up, people get in the way and it takes longer for each one to find their spot. 
@@ -66,7 +66,7 @@ Our Kia EV6 can charge super fast, from 10% to 80% in just 18 minutes if we were
 
 <h2 id="finding-a-charging-station">Finding a charging station: Plugshare and Electrify America</h2>
 
-<p><img class='img-responsive' src='/images/blog/road-trippin/charging-map.jpg' alt='Charging stations in Michigan and Chicago. Left: Electrify America’s high speed charger network. Right: PlugShare’s charger map.'></p>
+<p><img class='img-fluid' src='/images/blog/road-trippin/charging-map.jpg' alt='Charging stations in Michigan and Chicago. Left: Electrify America’s high speed charger network. Right: PlugShare’s charger map.'></p>
 <p class="text-center"><em>Charging stations in Michigan and Chicago. Left: Electrify America’s high speed charger network. Right: PlugShare’s charger map.</em></p>
 
 America’s charging network, as you may have heard, is currently in a state of rapid change. Tesla, who has been building its Supercharger network since 2012, has a mature and well-established network. With a Kia EV6, however, we do not yet have access to that network (though [everyone will soon](https://en.wikipedia.org/wiki/Tesla_Supercharger#Connectors_and_interoperability)). 
@@ -91,7 +91,7 @@ All the Electrify America chargers we used were in the parking lot of a Meijer g
 
 We used the Electrify America app to activate the chargers (more on that below) but the process was pretty simple once we set up our account. In most cases, we were able to pull the full 233kW our EV6 tops out at, which meant we could get up to an 80% charge in 10-15 minutes.
 
-<p><img class='img-responsive' src='/images/blog/road-trippin/electrify-america.jpg' alt='Charging at the 350kW Electrify America station at Meijer in Cadillac, MI'></p>
+<p><img class='img-fluid' src='/images/blog/road-trippin/electrify-america.jpg' alt='Charging at the 350kW Electrify America station at Meijer in Cadillac, MI'></p>
 <p class="text-center"><em>Charging at the 350kW Electrify America station at Meijer in Cadillac, MI</em></p>
 
 During that wait time, being close to a Meijer was pretty convenient for us, as we could pop into the Meijer and buy some snacks and use the restroom. Kudos to them for picking that location. Most of the other chargers were in less-than-ideal locations.
@@ -108,7 +108,7 @@ Theme 1: They all have their own app and they all are annoying to set up and use
 
 Theme 2: They are located in random places like hotels and casinos, and there’s usually not much you can do while you wait to charge. Here’s us charging at the Odawa Casino in Mackinac City.
 
-<p><img class='img-responsive' src='/images/blog/road-trippin/chargepoint-station.jpg' alt='Charging at the 125kW HiON station at Odawa Casino in Mackinac City, MI using the ChargePoint app'></p>
+<p><img class='img-fluid' src='/images/blog/road-trippin/chargepoint-station.jpg' alt='Charging at the 125kW HiON station at Odawa Casino in Mackinac City, MI using the ChargePoint app'></p>
 <p class="text-center"><em>Charging at the 125kW HiON station at Odawa Casino in Mackinac City, MI using the ChargePoint app</em></p>
 
 ### Option 3: Any outlet we could find
@@ -117,7 +117,7 @@ When we got up to Paradise and Au Train in the Upper Peninsula, we found that th
 
 In Paradise, we plugged into a light pole in our hotel parking lot. In Au Train, we were able to plug into the outside outlet at our AirBnb.
 
-<p><img class='img-responsive' src='/images/blog/road-trippin/ev-charging.jpg' alt='Level 1 charging in a standard outlet with our Skysword Ⅱ Level 1-2 EV Charger'></p>
+<p><img class='img-fluid' src='/images/blog/road-trippin/ev-charging.jpg' alt='Level 1 charging in a standard outlet with our Skysword Ⅱ Level 1-2 EV Charger'></p>
 <p class="text-center"><em>Level 1 charging in a standard outlet with our <a href='https://www.amazon.com/gp/product/B075GJK2S9/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1'>Skysword Ⅱ Level 1-2 EV Charger</a></em></p>
 
 Thankfully this worked out for us, and we planned ahead and made sure to charge up to 100% in Mackinac City before heading into the UP. 
@@ -330,22 +330,22 @@ We learned quite a bit on this trip! If you’re planning an EV road trip, keep 
 
 While this road trip was a fun learning experience, the real reason we did it was to enjoy the beauty of Michigan’s Upper Peninsula. Here’s a few photos from our very worthwhile trip!
 
-<p><img class='img-responsive' src='/images/blog/road-trippin/tahquamenon-falls-mi.jpg' alt='Walking the Tahquamenon Falls, MI'></p>
+<p><img class='img-fluid' src='/images/blog/road-trippin/tahquamenon-falls-mi.jpg' alt='Walking the Tahquamenon Falls, MI'></p>
 <p class="text-center"><em>Walking the Tahquamenon Falls, MI</em></p>
 
-<p><img class='img-responsive' src='/images/blog/road-trippin/paradise-mi.jpg' alt='Swimming in Paradise, MI'></p>
+<p><img class='img-fluid' src='/images/blog/road-trippin/paradise-mi.jpg' alt='Swimming in Paradise, MI'></p>
 <p class="text-center"><em>Swimming in Paradise, MI</em></p>
 
-<p><img class='img-responsive' src='/images/blog/road-trippin/pictured-rocks.jpg' alt='Pictured Rocks, Grand Island, MI'></p>
+<p><img class='img-fluid' src='/images/blog/road-trippin/pictured-rocks.jpg' alt='Pictured Rocks, Grand Island, MI'></p>
 <p class="text-center"><em>Pictured Rocks, Grand Island, MI</em></p>
 
-<p><img class='img-responsive' src='/images/blog/road-trippin/miners-beach-mi.jpg' alt='Pictured Rocks, Grand Island, MI'></p>
+<p><img class='img-fluid' src='/images/blog/road-trippin/miners-beach-mi.jpg' alt='Pictured Rocks, Grand Island, MI'></p>
 <p class="text-center"><em>Miners Beach, MI</em></p>
 
-<p><img class='img-responsive' src='/images/blog/road-trippin/mackinack-island-biking.jpg' alt='Biking in Mackinac Island, MI'></p>
+<p><img class='img-fluid' src='/images/blog/road-trippin/mackinack-island-biking.jpg' alt='Biking in Mackinac Island, MI'></p>
 <p class="text-center"><em>Biking in Mackinac Island, MI</em></p>
 
-<p><img class='img-responsive' src='/images/blog/road-trippin/ev-6-hud.jpg' alt='Our EV6 charged up and ready to go on our next adventure!'></p>
+<p><img class='img-fluid' src='/images/blog/road-trippin/ev-6-hud.jpg' alt='Our EV6 charged up and ready to go on our next adventure!'></p>
 <p class="text-center"><em>Our EV6 charged up and ready to go on our next adventure!</em></p>
 
 Special thanks to Aya O'Connor, Viktor Köves and Vien Nguyen for their help in editing this post!

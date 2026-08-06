@@ -9,7 +9,7 @@ image: /images/blog/jenna-kina-derek-maryann.jpg
 featured: false
 ---
 
-<p><img class='img-responsive' src='/images/blog/jenna-kina-derek-maryann.jpg' alt='Jenna Leving Jacobson, Kina Collins, Derek Eder and Mary Ann Buck. Photo by Paul Goyette'></p>
+<p><img class='img-fluid' src='/images/blog/jenna-kina-derek-maryann.jpg' alt='Jenna Leving Jacobson, Kina Collins, Derek Eder and Mary Ann Buck. Photo by Paul Goyette'></p>
 <p class="text-center"><em>Jenna Leving Jacobson, Kina Collins, Derek Eder and Mary Ann Buck. Photo by Paul Goyette</em></p>
 
 **Update April 2026**: On March 17th, [LaShawn Ford won the 7th Congressional District with 24.1% of the vote](https://blockclubchicago.org/2026/03/17/la-shawn-ford-wins-crowded-democratic-primary-for-7th-congressional-district/). Kina came in 4th place with 9.3%. What was most frustrating to me about this outcome was the fact that there were 5 progressive candidates with nearly identical platforms that, in total, won 37.9% of the vote. If progressives had consolidated around one candidate, a progressive could have easily won.

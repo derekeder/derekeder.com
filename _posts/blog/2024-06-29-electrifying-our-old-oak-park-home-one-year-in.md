@@ -12,7 +12,7 @@ redirect_from:
   - /blog/electrifying-our-old-oak-park-home-one-year-in
 ---
 
-<p><img class='img-responsive' src='/images/blog/one-year-in/derek-tribune-heat-pumps.jpg' alt='Photos of Derek showing off their heat pump and solar equipment.'></p>
+<p><img class='img-fluid' src='/images/blog/one-year-in/derek-tribune-heat-pumps.jpg' alt='Photos of Derek showing off their heat pump and solar equipment.'></p>
 <p class="text-center"><em>Photos from <a href="https://www.chicagotribune.com/2024/01/31/concerned-about-climate-change-more-chicagoans-are-buying-all-electric-home-heating-systems/">Concerned about climate change, more Chicagoans are buying all-electric home heating systems</a>, Chicago Tribune, Jan 24, 2024. Photos by John J. Kim / Chicago Tribune</em></p>
 
 <hr />
@@ -139,14 +139,14 @@ How long that takes actually depends on what electricity and natural gas prices 
 
 The [US Energy Information Agency](https://en.wikipedia.org/wiki/Energy_Information_Administration) collects and analyzes data as it pertains to energy and the economy. Among the data they make available is an [Annual Energy Outlook](https://www.eia.gov/outlooks/aeo/) that projects out relatively stable energy production, consumption and prices through 2050.
 
-<p><img class='img-responsive' src='/images/blog/one-year-in/eia-energy-projection.png' alt='US EIA Annual Energy Outlook shows relatively stable energy prices thru 2050'></p>
+<p><img class='img-fluid' src='/images/blog/one-year-in/eia-energy-projection.png' alt='US EIA Annual Energy Outlook shows relatively stable energy prices thru 2050'></p>
 <p class="text-center"><em>US EIA Annual Energy Outlook for Electricity (nom cents/kWh) vs Gas price at Henry Hub (nom $/MMBtu)</em></p>
 
 Using the change in these numbers I can calculate what we would spend on our all electric home (with the lower all-electric heating rate) vs what my bills would have been with no change (a mix of both gas and electric) and sum up the savings between the two.
 
 Based on this projection, we’ll get our money back some time in **2039 (15 years)** and continue to make money after that:
 
-<p><img class='img-responsive' src='/images/blog/one-year-in/scenario-1-savings.png' alt='Cumulative savings per year assuming stable energy prices'></p>
+<p><img class='img-fluid' src='/images/blog/one-year-in/scenario-1-savings.png' alt='Cumulative savings per year assuming stable energy prices'></p>
 <p class="text-center"><em>Cumulative savings per year assuming stable energy prices</em></p>
 
 ### Scenario 2: Assume natural gas prices increase {#scenario-2-assume-natural-gas-prices-increase}
@@ -155,12 +155,12 @@ But that’s not the only way to calculate it! There are other projections out t
 
 In this report, which is bullish on a rapid clean energy transition, they predict natural gas prices will double for Nicor Gas (our utility) customers some time between 2032 and 2034.
 
-<p><img class='img-responsive' src='/images/blog/one-year-in/bdc-future-of-gas-il.png' alt='One of the many scenarios for natural gas prices from the Future of Gas in Illinois report'></p>
+<p><img class='img-fluid' src='/images/blog/one-year-in/bdc-future-of-gas-il.png' alt='One of the many scenarios for natural gas prices from the Future of Gas in Illinois report'></p>
 <p class="text-center"><em>One of the many scenarios for natural gas prices from the Future of Gas in Illinois report</em></p>
 
 Using this scenario, with EIA’s electricity price projections, our savings increases much faster and we make our money back by **2034 (10 years)** and continue to make a lot more money after that:
 
-<p><img class='img-responsive' src='/images/blog/one-year-in/scenario-2-savings.png' alt='Cumulative savings per year assuming increasing natural gas prices'></p>
+<p><img class='img-fluid' src='/images/blog/one-year-in/scenario-2-savings.png' alt='Cumulative savings per year assuming increasing natural gas prices'></p>
 <p class="text-center"><em>Cumulative savings per year assuming increasing natural gas prices</em></p>
 
 So which one is right? Obviously, we’d be better off if Scenario 2 happened. And although the Building Decarbonization Coalition is advocating for more building decarbonization and therefore may be biased, they did take into account more detailed factors in Illinois. 
@@ -174,14 +174,14 @@ In either scenario, our system will pay for itself before we need to replace our
 
 If you were curious, this is what our monthly bill looks like now:
 
-<p><img class='img-responsive' src='/images/blog/one-year-in/monthly-electric-bill.png' alt='Our monthly ComEd bill for electricity from July 2023 thru June 2024'></p>
+<p><img class='img-fluid' src='/images/blog/one-year-in/monthly-electric-bill.png' alt='Our monthly ComEd bill for electricity from July 2023 thru June 2024'></p>
 <p class="text-center"><em>Our monthly ComEd bill for electricity from July 2023 thru June 2024</em></p>
 
 For 8 months out of the year, the bill is zero. This is due to our solar panels producing more electricity than we use during those months. Our solar production starts to taper off in October when the amount of sunlight decreases, which means we use our Net Metering credits (earned from extra production in summer). For us this year, the credits lasted us through January. In February, we got a big bill for heating when the temperatures dipped into the single digits. The bill started to decrease in March and April as it got warmer and we got more sunlight. By June, we will start banking credits again.
 
 Here’s a look at it from the perspective of our solar panels:
 
-<p><img class='img-responsive' src='/images/blog/one-year-in/solar-edge-chart.png' alt='Our solar panel energy production for the past two years. Production peaks in May, June and July'></p>
+<p><img class='img-fluid' src='/images/blog/one-year-in/solar-edge-chart.png' alt='Our solar panel energy production for the past two years. Production peaks in May, June and July'></p>
 <p class="text-center"><em>Our solar panel energy production for the past two years. Production peaks in May, June and July</em></p>
 
 ## Wait, you have rooftop solar AND community solar? {#wait-you-have-rooftop-solar-and-community-solar}
@@ -218,7 +218,7 @@ I hope these blog posts have been helpful. Because I’ve received a lot of ques
 
 <p>
   <a href='https://opcan.org/climate-coaches'>
-    <img class='img-responsive' src='/images/blog/one-year-in/opcan-climate-coach.png' alt='Request a Climate Coach on the OPCAN.org website!'>
+    <img class='img-fluid' src='/images/blog/one-year-in/opcan-climate-coach.png' alt='Request a Climate Coach on the OPCAN.org website!'>
   </a>
 </p>
 <p class="text-center"><em><a href='https://opcan.org/climate-coaches'>Request a Climate Coach</a> on the OPCAN.org website!</em></p>

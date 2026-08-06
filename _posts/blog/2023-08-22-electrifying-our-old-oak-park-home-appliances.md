@@ -12,7 +12,7 @@ redirect_from:
   - /blog/electrifying-our-old-oak-park-home-appliances
 ---
 
-<p><img class='img-responsive' src='/images/blog/appliances/electrify-appliances.jpg' alt='Our heat pumps hot water heater, induction stove, electric dryer, and EV charger'></p>
+<p><img class='img-fluid' src='/images/blog/appliances/electrify-appliances.jpg' alt='Our heat pumps hot water heater, induction stove, electric dryer, and EV charger'></p>
 
 <hr />
 
@@ -33,7 +33,7 @@ While most newly constructed homes are efficient, existing homes are a different
 
 That’s why I’m writing this post. We’ve made the switch to being fully electric in our 100-year-old home, and if we can do it, so can you. In this post, I’ll explain the final steps we took to electrify our home by replacing our stove, hot water heater, clothes dryer and car with electric equivalents. These upgrades allowed us to fully cut our  gas usage and eliminate the last ~20% of emissions from our home.
 
-<p><img class='img-responsive' src='/images/blog/appliances/electrify-home-appliances.jpg' alt='Table of appliance electrification impacts from Rewiring America’s Electrify Everything home guide'></p>
+<p><img class='img-fluid' src='/images/blog/appliances/electrify-home-appliances.jpg' alt='Table of appliance electrification impacts from Rewiring America’s Electrify Everything home guide'></p>
 <p class="text-center"><em>Table of appliance electrification impacts from Rewiring America’s <a href="https://www.rewiringamerica.org/electrify-home-guide">Electrify Everything home guide</a></em></p>
 
 Ready? Let’s dive into Part 3 of Electrifying Our Old Oak Park Home: Appliances.
@@ -65,7 +65,7 @@ One thing to keep in mind is that not all your pans will work with an induction 
 
 Installing the range for us was pretty simple, though we did have to run a 240-volt outlet to our kitchen. Induction stoves require a higher voltage, so the typical 120-volt plug won’t work. Thankfully, we had upgraded our electrical panel to 200 amps in preparation of electrification, so we had plenty of space to add the high voltage outlet (it took two slots). We hired Kinetic Energy to run the conduit for the new outlet. After that, it was a matter of sliding out the old range and sliding in the new one. To prevent gas leakage, we put a copper cap over the gas line behind the stove.
 
-<p><img class='img-responsive' src='/images/blog/appliances/induction-range-ge-profile.jpg' alt='Our GE Profile 30" Induction Range'></p>
+<p><img class='img-fluid' src='/images/blog/appliances/induction-range-ge-profile.jpg' alt='Our GE Profile 30" Induction Range'></p>
 <p class="text-center"><em>Our GE Profile 30" Induction Range</em></p>
 
 In addition to the peace of mind we gained from knowing that we weren’t polluting the air in our house with gas fumes, we’ve really enjoyed the switch to induction. Things really do cook a lot faster (it can boil water a full minute faster than gas) and you have much tighter control over the heating level. 
@@ -79,7 +79,7 @@ As you might guess, a heat pump water heater uses [heat pump technology](https:/
 
 Like heat pumps, these water heaters are constantly on at a lower level, are generally sized a bit larger, and have standing temperatures set higher than their gas counterparts. To replace our 40-gallon tank, we installed a Rheem 50-Gallon Platinum Hybrid electric heater. 
 
-<p><img class='img-responsive' src='/images/blog/appliances/hot-water-heaters.jpg' alt='Left: our old gas water heater. Right: our new heat pump water heater'></p>
+<p><img class='img-fluid' src='/images/blog/appliances/hot-water-heaters.jpg' alt='Left: our old gas water heater. Right: our new heat pump water heater'></p>
 <p class="text-center"><em>Left: our old gas water heater. Right: our new heat pump water heater</em></p>
 
 The unit is a bit larger due to the heat pump element on top. This element has a fan that is constantly on and drawing heat from the room it is in. Because of this, it makes a constant low level hum and cools the room it’s in by a few degrees. This is fine for us because we have a utility room in our basement, but may be inconvenient depending on where your tank is located.
@@ -95,12 +95,12 @@ You have some options for what kind of electric dryer to get: ventless heat pump
 
 For any kind of electric dryer, though, you’ll probably need to upgrade your outlet (though there are some 120-volt plug dryers out there). For us, similar to the induction stove, we needed to install a 240-volt dryer outlet. Again, we had planned for this and were able to utilize the same conduit as our stove, as our laundry room is right below our kitchen. 
 
-<p><img class='img-responsive' src='/images/blog/appliances/electric-dryer.jpg' alt='Right: LG - 7.4 Cu. Ft. Stackable Electric Dryer'></p>
+<p><img class='img-fluid' src='/images/blog/appliances/electric-dryer.jpg' alt='Right: LG - 7.4 Cu. Ft. Stackable Electric Dryer'></p>
 <p class="text-center"><em>Right: LG - 7.4 Cu. Ft. Stackable Electric Dryer</em></p>
 
 Note: If you are installing a new 240-volt outlet, keep in mind the type of plug, as they are not all the same! We originally had a 4-prong (NEMA 14-30) plug installed, but our dryer came with a 3-prong plug (NEMA 10-30), which is apparently typical for dryers. It was easy enough for our electricians at Kinetic Energy to swap out, but it did delay our installation by a few days while we waited for the work to be scheduled.
 
-<p><img class='img-responsive img-thumbnail' src='/images/blog/appliances/240v-outlets.jpg' alt='Not all 240-volt plugs are the same! Make sure you know which one your appliance needs'></p>
+<p><img class='img-fluid img-thumbnail' src='/images/blog/appliances/240v-outlets.jpg' alt='Not all 240-volt plugs are the same! Make sure you know which one your appliance needs'></p>
 <p class="text-center"><em>Not all 240-volt plugs are the same! Make sure you know which one your appliance needs. Source: Rewiring America</em></p>
 
 
@@ -108,7 +108,7 @@ Note: If you are installing a new 240-volt outlet, keep in mind the type of plug
 
 As part of our home electrification process, we traded in our gas-powered 2011 Honda CR-V for a pre-owned 2023 Kia EV6 Wind. 
 
-<p><img class='img-responsive' src='/images/blog/appliances/ev6.jpg' alt='Our pre-owned 2023 Kia EV6 Wind'></p>
+<p><img class='img-fluid' src='/images/blog/appliances/ev6.jpg' alt='Our pre-owned 2023 Kia EV6 Wind'></p>
 <p class="text-center"><em>Our pre-owned 2023 Kia EV6 Wind</em></p>
 
 Purchasing a car is different for everyone and can vary wildly in cost, depending on your budget and what is important to you. If you are looking to switch to an electric vehicle, a great place to start researching is [Edmund’s EV buying guide](https://www.edmunds.com/electric-car/articles/ev-buying-guide/). There are already over 50 models available, with many more expected in the coming years.
@@ -127,7 +127,7 @@ Depending on how much you drive, you may need a Level 2 charger. For us, we don�
 
 We have a detached garage which already had outlets installed, so we bought a simple charging cable capable of Level 1 or Level 2 charging (annoyingly our car did not come with one). To help [preserve our battery life](https://www.drivingelectric.com/your-questions-answered/96/electric-car-battery-life-how-preserve-your-battery), we keep our battery between 20% to 80% and only charge it every few weeks. Our car has the ability to set the max charge level, so before we go on longer road trips, we set the max charge to 100%.
 
-<p><img class='img-responsive' src='/images/blog/appliances/ev-charging.jpg' alt='Charging our car in our garage with a Level 1 charger'></p>
+<p><img class='img-fluid' src='/images/blog/appliances/ev-charging.jpg' alt='Charging our car in our garage with a Level 1 charger'></p>
 <p class="text-center"><em>Charging our car in our garage with a Level 1 charger</em></p>
 
 We did look into Level 2 charging and decided it wasn’t worth it for us. Because of our detached garage, running the 240-volt plug would require either digging a trench with new conduit from our house, or running new electrical service directly to our garage. In either scenario, it would have cost us thousands of dollars to do. If you have an attached garage, or really need the Level 2 charging, it may be worth it for you.
@@ -139,12 +139,12 @@ With our appliances electrified, we were ready to finally shut off our gas servi
 
 So, after we were 100% sure we were no longer using gas, we went outside and shut off our gas valve ourselves.
 
-<p><img class='img-responsive' src='/images/blog/appliances/gas-off.jpg' alt='Shutting off our gas service'></p>
+<p><img class='img-fluid' src='/images/blog/appliances/gas-off.jpg' alt='Shutting off our gas service'></p>
 <p class="text-center"><em>Shutting off our gas service</em></p>
 
 Finally, we emailed our gas provider, Nicor Gas, and canceled our service. They do this every day, so it was a pretty automatic process. 
 
-<p><img class='img-responsive img-thumbnail' src='/images/blog/appliances/nicor-shutoff.jpg' alt='Email confirmation shutting off our gas service'></p>
+<p><img class='img-fluid img-thumbnail' src='/images/blog/appliances/nicor-shutoff.jpg' alt='Email confirmation shutting off our gas service'></p>
 <p class="text-center"><em>Email confirmation shutting off our gas service</em></p>
 
 And with that, our house was no longer using gas!
@@ -153,7 +153,7 @@ And with that, our house was no longer using gas!
 
 Almost 3 years after we shut of our Nicor gas service for our house, a crew from Nicor Gas came out (unannounced) and dug up part of our sidewalk to cap our gas line and cut off our gas meter. We're told someone will come by at some point to repair the sidewalk.
 
-<p><img class='img-responsive' src='/images/blog/appliances/2026-nicor-gas-cap.jpg' alt='Nicor crew capping our gas line and removing our meter'></p>
+<p><img class='img-fluid' src='/images/blog/appliances/2026-nicor-gas-cap.jpg' alt='Nicor crew capping our gas line and removing our meter'></p>
 <p class="text-center"><em>Nicor crew capping our gas line and removing our meter</em></p>
 
 
@@ -587,7 +587,7 @@ $77,949</p>
 
 There are other incentives available that would have reduced this cost if we had a lower household income. Both the [Illinois Solar for All program](https://www.illinoissfa.com/) and Inflation Reduction Act provide large up-front discounts for solar and electrification projects if you make less than 80% of AMI, or the area median income ($83,000/year for a family of four in Cook County) or between 80-150% of AMI ($155,625/year).
 
-<p><img class='img-responsive' src='/images/blog/going-solar/ira-calculator.png' alt='A table showing a list of savings from the Inflation Reduction Act totaling tens of thousands of dollars'></p>
+<p><img class='img-fluid' src='/images/blog/going-solar/ira-calculator.png' alt='A table showing a list of savings from the Inflation Reduction Act totaling tens of thousands of dollars'></p>
 <p class="text-center"><em><a href="https://www.rewiringamerica.org/app/ira-calculator">Rewiring America’s IRA Calculator</a></em></p>
 
 Running the numbers through [Rewiring America's IRA Calculator](https://www.rewiringamerica.org/app/ira-calculator), I calculated the additional discounts from the Inflation Reduction Act for this same work for households with lower incomes:
@@ -632,7 +632,7 @@ Our home is now fully electrified. We did it to eliminate the pollution our hous
 
 Your situation and goals may be different, so by all means don't feel like you have to do everything we did. Your home may not have a good place for solar panels. You may not have a car and instead bike or take public transportation. In either case, or if your goal is to eliminate the pollution from your home for the lowest cost, focusing on installing **heat pumps for heating and cooling, a heat pump water heater, induction stove and electric clothes dryer** will do the trick. Properly planned, this could cost $20,000 - $30,000 for a single family home, depending on the size. 
 
-<p><img class='img-responsive' src='/images/blog/appliances/rewiring-america-guide.jpg' alt='Rewiring America Electrify Everything Checklist'></p>
+<p><img class='img-fluid' src='/images/blog/appliances/rewiring-america-guide.jpg' alt='Rewiring America Electrify Everything Checklist'></p>
 <p class="text-center"><em>Rewiring America's <a href='https://www.rewiringamerica.org/electrify-home-guide'>Electrify Everything Checklist</a></em></p>
 
 For us, installing rooftop solar and getting an electric car along with electrifying everything else was what made sense for us. 

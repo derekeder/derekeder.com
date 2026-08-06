@@ -54,7 +54,7 @@ ChartHelper.create = function(element, type, seriesData, startDate, pointInterva
           borderColor: "#ccc",
           formatter: function() {
             var s = "<strong>" + ChartHelper.toolTipDateFormat(pointInterval, this.x) + "</strong>";
-            $.each(this.points, function(i, point) {
+            this.points.forEach(function(point) {
               s += "<br /><span style='color: " + point.series.color + "'>" + point.series.name + ":</span> " + point.y + "%";
               console.log("s: " + s);
             });

@@ -19,14 +19,14 @@ description: "The Census Bureau collects data on how Chicagoans get to work via 
   </p>
 </p>
 <div class='row'>
-  <div class='col-sm-12 well'>
+  <div class='col-sm-12 card card-body'>
     <h3>Chicago Commute Modes in 2011</h3>
     <p>Breakdown of Chicago's workforce commutes in 2011 by mode. Driving (alone, carpool or taxi) make up 60% of all commutes, with public transit making up 27.6%.</p>
     <div class='chart' id='pie_Commutes'></div>
   </div>
 </div>
 <div class='row'>
-  <div class='col-sm-12 well'>
+  <div class='col-sm-12 card card-body'>
     <h3>Chicago Commute Modes 2005 - 2011</h3>
     <p>
       Breakdown of Chicago's workforce commutes by mode. Driving is still the dominant mode, though public transportation (CTA and Metra) have increased since 2005. Biking commutes have doubled from 0.7% in 2005 to 1.4% in 2011.
@@ -42,8 +42,8 @@ description: "The Census Bureau collects data on how Chicagoans get to work via 
 <script type="text/javascript" src="/js/highcharts.js"></script>
 <script type="text/javascript" src="/js/chart_helper.js"></script>
 <script>
-  $(function () {
-  
+  document.addEventListener('DOMContentLoaded', function () {
+
     var nameHash = ["Car, Drive Alone", "Public Transit", "Carpool (2+ people)", "Walking", "Worked at Home", "Taxi", "Biking"];
   
     var colorHash = ["#A6761D", "#7570B3", "#D95F02", "#66A61E", "#E7298A", "#E6AB02", "#1B9E77"];

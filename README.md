@@ -6,13 +6,13 @@ I work with open data and create open source apps and tools in Chicago to improv
 
 ## Running locally
 
-This website is built using Jekyll, a static site generator that runs on Ruby. The Local development environment is managed with with Docker and Docker Compose.
+This website is built using Jekyll, a static site generator that runs on Ruby. The local development environment is managed with Docker and Docker Compose.
 
 To get started, clone this project and build it using Docker Compose:
 
 ```
-git clone https://github.com/datamade/datamade.us.git
-cd datamade.us
+git clone https://github.com/derekeder/derekeder.com.git
+cd derekeder.com
 docker compose build
 ```
 
@@ -26,10 +26,13 @@ Then open your web browser and navigate to http://localhost:5001
 
 ## Dependencies
 
-* [Jekyll](https://jekyllrb.com/) - Static site generator built in Ruby
-* [Bootstrap 3](https://getbootstrap.com) - HTML and CSS layouts
-* [DataTables](https://datatables.net) - for searching and sorting tables
-* [jQuery Address](https://github.com/asual/jquery-address) - for deep linking URLs on the projects page
+* [Jekyll](https://jekyllrb.com/) - Static site generator built in Ruby, plus the `jekyll-redirect-from` plugin for legacy URL redirects (see `Gemfile`)
+* [Bootstrap 5](https://getbootstrap.com) ([Spacelab](https://bootswatch.com/spacelab/) theme via Bootswatch) - HTML and CSS layouts, vendored at `css/bootstrap.spacelab.min.css`
+* [Isotope](https://isotope.metafizzy.co/) - masonry layout and filtering for the grid of talks on the talks page
+* [Highcharts](https://www.highcharts.com/) - charts on the Chicago commute-modes page
+* [Font Awesome](https://fontawesome.com/) - icons, loaded via a hosted kit script
+
+The site has no jQuery or other JS framework dependency - all custom scripts are vanilla JS.
 
 ## Errors / Bugs
 

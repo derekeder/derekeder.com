@@ -41,12 +41,12 @@ In November 2025 at the height of Operation Midway Blitz, I co-sponsored and pas
 
 Oak Park is a very progressive village, and it deserves leaders that are not only in tune with progressive values, but are willing to stand up and fight for them. As our country reels from the oppression and chaos from the Trump Administration, it's now more important than ever to stand up for racial equity, LGBTQ+ and reproductive rights, income equality, and of course, climate action, so everyone in Oak Park can thrive here.
 
-That is why I will continue to [support more affordable housing](https://derekeder.com/blog/affordability-in-oak-park), strengthening and acting upon our [Welcoming Village Ordinance](https://www.oak-park.us/Community/Oak-Park-Cares/Welcoming-Village), and [eliminating racist policing practices](https://www.chicagotribune.com/2026/07/22/oak-park-police-equipment-stops/?share=lcuwawpniqtsteecilin). 
+That is why I will continue to [support more affordable housing](https://derekeder.com/blog/affordability-in-oak-park), strengthening and acting upon our [Welcoming Village Ordinance](https://www.oak-park.us/Community/Oak-Park-Cares/Welcoming-Village), [aligning our investments with our values](https://www.oakpark.com/2026/08/11/finance-draft-policies/), and [eliminating racist policing practices](https://www.chicagotribune.com/2026/07/22/oak-park-police-equipment-stops/?share=lcuwawpniqtsteecilin). 
 
 I can’t do this alone, and that’s why I’m asking for your support:
 
-* [Donate to the campaign](https://secure.actblue.com/donate/derek-eder-1)
-* [Request a yard sign or sign up to volunteer](https://forms.gle/syZXq68fqDbtWcb1A)
-* [Follow the campaign on Facebook](https://www.facebook.com/derekforoakpark/)
+* **[Donate to the campaign](https://secure.actblue.com/donate/derek-eder-1)**
+* **[Request a yard sign or sign up to volunteer](https://forms.gle/syZXq68fqDbtWcb1A)**
+* **[Follow the campaign on Facebook](https://www.facebook.com/derekforoakpark/)**
 
 Onward to April 6, 2027!

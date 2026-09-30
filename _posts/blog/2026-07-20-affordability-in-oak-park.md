@@ -4,7 +4,7 @@ title: "What can we do about the affordability crisis in Oak Park?"
 categories: 
   - blog
 date: 2026-07-20
-description: "As we discuss what the Village of Oak Park can do to address affordability, it is important to look at the big picture and understand what is ultimately driving this national crisis: rising inequality and wealth concentration.There is no one policy change that will fix an issue as big as this. But as a Board, we do have tools we can use that will help. We need to change the zoning code to allow for more middle density housing, expand the inclusionary housing ordinance, and ensure that they work in tandem together to encourage the right mix of affordable and market-rate housing."
+description: "As we discuss what the Village of Oak Park can do to address affordability, it is important to look at the big picture and understand what is ultimately driving this national crisis: rising inequality and wealth concentration. There is no one policy change that will fix an issue as big as this. But as a Board, we do have tools we can use that will help. We need to change the zoning code to allow for more middle density housing, expand the inclusionary housing ordinance, and ensure that they work in tandem together to encourage the right mix of affordable and market-rate housing."
 image: /images/blog/affordable-housing/middle-housing-op.jpg
 featured: true
 ---

@@ -6,7 +6,7 @@ categories:
 date: 2026-03-16
 description: "On Feb 13, 2026 I shared a memo with the Oak Park Village board and staff on ways we could stabilize the funding for sustainability in Oak Park. This memo was drafted in advance of the March 18, 2026 Board Study Session on the Sustainability Fund."
 image: /images/blog/sustainability-fund-balance.png
-featured: true
+featured: false
 ---
 
 _On Feb 13, 2026 I shared a memo with the Oak Park Village board and staff on ways we could stabilize the funding for sustainability in Oak Park. This memo was drafted in advance of the March 18, 2026 Board Study Session on the Sustainability Fund. Village staff prepared their own memo and recommendations, [which are available here](https://oak-park.legistar.com/LegislationDetail.aspx?ID=7951838&GUID=8740EC6F-8B54-4521-ABEE-B3D364F67B0D&Options=&Search=)._

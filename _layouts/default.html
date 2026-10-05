@@ -101,7 +101,7 @@
   <body>
     <div class='container'>
       <div class='row'>
-        <div class='col-sm-3 content-secondary'>
+        <div class='col-sm-3 content-secondary d-print-none'>
           <h2 class="d-none d-sm-block">
             <a href='/'>Derek Eder</a>
           </h2>
@@ -157,9 +157,9 @@
           </div>
           <div class='clearfix'></div>
         </div>
-        <div class='col-sm-9'>
+        <div class='col-sm-9 content-main'>
           <main class='card card-body content-primary'>
-            <div class="d-sm-none">
+            <div class="d-sm-none d-print-none">
               <div class="d-flex align-items-center">
                 <img alt='Derek Eder' class='img-thumbnail headshot me-3' src='/images/derek.jpg' title='Derek Eder'>
                 <div>
@@ -171,7 +171,7 @@
               </div>
               <hr />
             </div>
-            <ul class='nav nav-pills'>
+            <ul class='nav nav-pills d-print-none'>
               {% for link in site.navigation %}
                 <li class="nav-item">
                   <a class="nav-link" href="{{ link.url }}">{{ link.text }}</a>
@@ -179,7 +179,7 @@
               {% endfor %}
             </ul>
 
-            <hr />
+            <hr class="d-print-none" />
 
             {{content}}
 
@@ -187,7 +187,7 @@
         </div>
       </div>
       <div class='row'>
-        <div class='col-sm-12'>
+        <div class='col-sm-12 d-print-none'>
           <p class='float-end'>
             <a href='http://eepurl.com/jlM39g' target="_blank">Email signup</a>
             •

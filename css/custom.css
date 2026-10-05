@@ -125,3 +125,14 @@ a:has(img) {
 .green-light {
   background-color: #E5F1E4;
 }
+
+@media print {
+  .content-main {
+    width: 100%;
+  }
+
+  .content-primary {
+    border: none;
+    padding: 0;
+  }
+}

@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Electrifying Our Old Oak Park Home #2: Heat Pumps"
-categories: 
+categories:
   - blog
   - electrification
 date: 2023-05-06
 description: "We’ve made the switch from gas heating to heat pumps in our 100 year old home, and you can too. We’ll explain how we took a big step in fighting climate change while also lowering our utility bills and increasing the comfort of our home in the process."
 image: /images/blog/heat-pumps/heat-pump-combo.jpg
 featured: false
-redirect_from: 
+redirect_from:
   - /blog/electrifying-our-old-oak-park-home-heat-pumps
 ---
 
@@ -32,7 +32,7 @@ Chicago winters are cold, and a lot of people, even many building experts, are r
 
 But climate scientists and the UN have told us we need to get to net zero emissions by 2050 — so all those gas, propane and oil heaters will need to be replaced with electric equivalents soon.
 
-That’s why I’m writing this post. We’ve made the switch from gas heating to heat pumps in our 100 year old home, and you can too. We’ll explain how we took a big step in fighting climate change while also lowering our utility bills and increasing the comfort of our home in the process. 
+That’s why I’m writing this post. We’ve made the switch from gas heating to heat pumps in our 100 year old home, and you can too. We’ll explain how we took a big step in fighting climate change while also lowering our utility bills and increasing the comfort of our home in the process.
 
 Ready? Let’s dive in.
 
@@ -64,23 +64,21 @@ Heat pumps use the same technology as in your air conditioner or your refrigerat
 
 Sounds cool, right? Let’s walk through the steps we took to install heat pumps in our house.
 
-
 ## Sizing the problem {#sizing-the-problem}
 
 Say hello to our massive 125,000 BTU/hr (BTUs are British thermal units — cheerio!), 80% efficient, methane-powered, oversized furnace:
 
 <p class='text-center'><img style="width:70%;" src='/images/blog/heat-pumps/gas-furnace.jpg'></p>
 
-This gas furnace, installed in 2007 in our 2,800 sq. ft. house, is near the end of its 15-year life. I’ve learned that furnaces like these are pretty common, especially in older homes like ours. Our house doesn’t have great insulation, so to compensate for it, HVAC (heating, ventilation, air conditioning) contractors install more BTUs than you need to get through our cold Chicago winters, just to be safe. 
+This gas furnace, installed in 2007 in our 2,800 sq. ft. house, is near the end of its 15-year life. I’ve learned that furnaces like these are pretty common, especially in older homes like ours. Our house doesn’t have great insulation, so to compensate for it, HVAC (heating, ventilation, air conditioning) contractors install more BTUs than you need to get through our cold Chicago winters, just to be safe.
 
-The problem, from a climate perspective, is that this thing is responsible for about 50% of our household emissions. From a comfort perspective, it’s not great either. It pushes really hot air to our rooms and things get very dry in the winter. Switching to a heat pump will eliminate these gas emissions, save us money, and (as we learned later) greatly improve the comfort of our home year-round. 
+The problem, from a climate perspective, is that this thing is responsible for about 50% of our household emissions. From a comfort perspective, it’s not great either. It pushes really hot air to our rooms and things get very dry in the winter. Switching to a heat pump will eliminate these gas emissions, save us money, and (as we learned later) greatly improve the comfort of our home year-round.
 
-There’s just one problem: they don’t make 125,000 BTU/hr heat pumps, at least not affordable ones for residential homes. A typical heat pump is more likely to produce 30,000–40,000 BTU/hr. 
+There’s just one problem: they don’t make 125,000 BTU/hr heat pumps, at least not affordable ones for residential homes. A typical heat pump is more likely to produce 30,000–40,000 BTU/hr.
 
-This leaves us with two options: install more than one heat pump, or make our home more efficient to reduce the amount of heating our home needs to keep warm enough in the winter. 
+This leaves us with two options: install more than one heat pump, or make our home more efficient to reduce the amount of heating our home needs to keep warm enough in the winter.
 
 For our house, we ended up doing a little bit of both.
-
 
 ## Just how leaky is our house? Doing a blower door test {#just-how-leaky-is-our-house-doing-a-blower-door-test}
 
@@ -89,12 +87,12 @@ Thankfully, we can use science to figure out exactly what our home needs to be h
 <p><img class='img-fluid' src='/images/blog/heat-pumps/blower-door-test.jpg' alt='A blower door test setup (not our house)'></p>
 <p class="text-center"><em>A blower door test setup (not our house). Source: naeci.com</em></p>
 
-The fan is hooked up to a monitor to calculate how leaky or tight your house is. We hired [Insight Property Services](https://www.insightpsinc.com/) to do this for our home, and this is the result: 
+The fan is hooked up to a monitor to calculate how leaky or tight your house is. We hired [Insight Property Services](https://www.insightpsinc.com/) to do this for our home, and this is the result:
 
 <p><img class='img-fluid' src='/images/blog/heat-pumps/blower-door-results.png' alt='Results of our blower door test'></p>
 <p class="text-center"><em>Results of our blower door test</em></p>
 
-It’s a pretty confusing report to read, but the number that matters most is the CFM50 value. For those who are curious, [here’s a guide to reading this report](https://energyconservatory.com/wp-content/uploads/2017/08/Test-Results-and-Sample-Test-Forms-Guide-.pdf). CFM50 is “cubic feet of air moving across the fan per minute at the test pressure of 50 pascals”. 
+It’s a pretty confusing report to read, but the number that matters most is the CFM50 value. For those who are curious, [here’s a guide to reading this report](https://energyconservatory.com/wp-content/uploads/2017/08/Test-Results-and-Sample-Test-Forms-Guide-.pdf). CFM50 is “cubic feet of air moving across the fan per minute at the test pressure of 50 pascals”.
 
 For a tight house, you want a number around or below 1,383. For a moderate home, you want 1,975. The other number to look at is ACH50, which indicates how many times your house completely changes its air every hour at a certain pressure. Our house has an ACH50 of 8.2. Under normal conditions, that translates to completely re-heating our house every 1.7 hours. Yikes!
 
@@ -114,7 +112,7 @@ After identifying these problem spots, we hired [Intelligent Energy Solutions](h
 <p><img class='img-fluid' src='/images/blog/heat-pumps/insulation.png' alt='Cutting out sections of our ceiling and wall drywall to add insulation'></p>
 <p class="text-center"><em>Adding insulation in our first floor ceilings, air sealing our attic, and adding wall insulation on the second floor</em></p>
 
-After adding this insulation, they did another blower door test (science!) and measured our CFM50 rating which decreased from 3,295 to 2,645. A 20% improvement. Progress! 
+After adding this insulation, they did another blower door test (science!) and measured our CFM50 rating which decreased from 3,295 to 2,645. A 20% improvement. Progress!
 
 It’s also worth noting that adding this insulation will save us money in the long run and improve our comfort even if we weren’t switching to heat pumps. And it really wasn’t very expensive (more on that in lessons learned).
 
@@ -132,13 +130,13 @@ Like the blower door test, a sensor is hooked up to the fan before, during and a
 <p><img class='img-fluid' src='/images/blog/heat-pumps/aeroseal-results.jpg' alt='The results of our Aeroseal process'></p>
 <p class="text-center"><em>The results of our Aeroseal process</em></p>
 
-Before the process, our ducts had an equivalent of a 98-sq. inch hole in them — about 37% of the system capacity. After the Aeroseal process, this was reduced to an equivalent of an 8.4-sq. inch hole, or 3% system capacity — a 91% reduction in air duct leakage. 
+Before the process, our ducts had an equivalent of a 98-sq. inch hole in them — about 37% of the system capacity. After the Aeroseal process, this was reduced to an equivalent of an 8.4-sq. inch hole, or 3% system capacity — a 91% reduction in air duct leakage.
 
 This process didn’t make our house less leaky, but it did make our ducts much more efficient at moving warm and cold air to its intended areas around the house .
 
 ## Heat pump installation {#heat-pump-installation}
 
-With our somewhat less leaky house and much improved ducts, we were ready to move on to installing heat pumps. It took us a while to find an HVAC installer that worked with heat pumps. Matt Nickels from [Energy Matters](http://energymatters.solutions/) (an Oak Park company) ran a [Manual J load calculation](https://www.indeed.com/career-advice/career-development/manual-j-calculation) and came up with a system that was all-electric and met the required permit specifications from the Village. 
+With our somewhat less leaky house and much improved ducts, we were ready to move on to installing heat pumps. It took us a while to find an HVAC installer that worked with heat pumps. Matt Nickels from [Energy Matters](http://energymatters.solutions/) (an Oak Park company) ran a [Manual J load calculation](https://www.indeed.com/career-advice/career-development/manual-j-calculation) and came up with a system that was all-electric and met the required permit specifications from the Village.
 
 Our 125,000 BTU gas furnace was 80% efficient, so our house needed about 100,000 BTU of heat. After our improvements, Energy Matters determined that our home needed about 79,000 BTU of heat. Definitely doable with two heat pumps, supported by some standard electric resistive heating.
 
@@ -149,7 +147,7 @@ We swapped out our gas furnace with a 3.0-ton Mitsubishi Single Zone Hyper­-Hea
 
 It is worth noting that while the electric resistive heater component gives us a lot of cold weather heating, it is not very efficient and should only be used when we need it. This is why the 20F degree threshold is so important. If we ran the resistive heater at say, 40 degrees F and below, it would be on for many more days of the year and significantly increase our energy usage. When HVAC experts warn about how switching to electric could potentially cost you more than gas, this is what they’re talking about. This is why insulation and air duct efficiency are critical — it lowers our energy needs to make the heat pump system viable.
 
-In Chicago, about 85% of our heating days will be above 20 degrees F, so we will not need to use this expensive electric resistance very much. 
+In Chicago, about 85% of our heating days will be above 20 degrees F, so we will not need to use this expensive electric resistance very much.
 
 <p class='text-center'><img style="width:70%;" src='/images/blog/heat-pumps/heat-pump.jpg' alt='3.0-­ton Mitsubishi Single­ Zone Hyper­-Heating heat pump system'></p>
 <p class="text-center"><em>3.0-­ton Mitsubishi Single­ Zone Hyper­-Heating heat pump system</em></p>
@@ -159,14 +157,14 @@ We still needed to account for the remaining 9,000 BTU. To get us there, we deci
 <p><img class='img-fluid' src='/images/blog/heat-pumps/minisplit.jpg' alt='1.5­ ton Mitsubishi Single­zone Hyper­heating Heat Pump system'></p>
 <p class="text-center"><em>1.5­ ton Mitsubishi Single­zone Hyper­heating Heat Pump system</em></p>
 
-Both of these heat pumps were installed over the course of three days. They each came with their own  new condenser, replacing the one we had for our previous AC. As a bonus, these condensers are much quieter than our old AC condenser.
+Both of these heat pumps were installed over the course of three days. They each came with their own new condenser, replacing the one we had for our previous AC. As a bonus, these condensers are much quieter than our old AC condenser.
 
 <p class='text-center'><img style='width:70%;' src='/images/blog/heat-pumps/condensers.jpg' alt='Our new outside heat pump condensers'></p>
 <p class="text-center"><em>Our new outside heat pump condensers</em></p>
 
 ## An unexpected bonus: Improved comfort and air quality {#an-unexpected-bonus-improved-comfort-and-air-quality}
 
-After the first day of using our new system, we noticed an immediate improvement in the air quality and comfort within our home. 
+After the first day of using our new system, we noticed an immediate improvement in the air quality and comfort within our home.
 
 Our old gas furnace is what they call a single stage. That means it's either 100% on or off with no variable fan speed in between. This meant that, especially during the milder fall and spring months, it turns on for just a few minutes at full blast and then shuts off. This leads to short bursts of heating and cooling that don’t do a good job reaching all of the rooms in our house.
 
@@ -176,7 +174,6 @@ Heat pumps are different. Instead, they are designed to be constantly on and adj
 <p class="text-center"><em>Difference in temperature swings between a single stage heater vs two stage. Source: perryaireheil.com</em></p>
 
 An additional bonus is our air quality. The air exchange filter on our new system is 4 inches wide, instead of the 1-inch filter we had on our old one. This system is much better at filtering out dust and pollen than our old one, and we really noticed a difference.
-
 
 ## Bottom line costs and incentives {#bottom-line-costs-and-incentives}
 
@@ -312,38 +309,36 @@ $1,440</p>
 
 As you can see, we were able to get a $2,000 federal tax credit. For low-income households (under 80% of Area Median Income), the [Inflation Reduction Act (IRA) provides up-front electrification rebates](https://www.rewiringamerica.org/app/ira-calculator/information/heat-pump-air-conditioner-heater) covering all heat pump costs up to $8,000. For moderate-income households (between 80% and 150% of Area Median Income), the electrification rebates cover 50% of heat pump costs up to $8,000.
 
-Another thing to note is our gas furnace and air conditioning were at the end of their lives and we were due for a new system anyway. If we had replaced it with another gas furnace and AC combo, it would have cost us between $14,000–$16,000. 
+Another thing to note is our gas furnace and air conditioning were at the end of their lives and we were due for a new system anyway. If we had replaced it with another gas furnace and AC combo, it would have cost us between $14,000–$16,000.
 
 Additionally, our gas bill has been greatly reduced (we plan to shut it off completely once we electrify the rest of our appliances) and thanks to improved efficiency and our [solar panels](https://derekeder.com/blog/electrifying-our-old-oak-park-home-going-solar), the cost of running our system is also greatly reduced. We’ll need at least a year to determine what the annual cost savings is, and I plan to update this blog post when that happens.
 
-Until then, for us, the investment has been worth it. We have improved the comfort of our home and we are no longer contributing nearly as much climate pollution from burning methane gas. We have taken a significant step to reduce our contribution to climate change and helped give our children and future generations a better chance at a bright future, which to us, is priceless. 
+Until then, for us, the investment has been worth it. We have improved the comfort of our home and we are no longer contributing nearly as much climate pollution from burning methane gas. We have taken a significant step to reduce our contribution to climate change and helped give our children and future generations a better chance at a bright future, which to us, is priceless.
 
 Stay tuned for the next post in this series — electrifying everything else: our hot water heater, stove, clothes dryer and car!
 
-
 ## Lessons learned {#lessons-learned}
 
-Throughout this process, we learned some important lessons that will hopefully be helpful for you. The biggest one is that while going 100% electric is possible in cold-weather climates like Chicago, there is still a lot of skepticism of its feasibility, especially by some HVAC industry professionals. We met with several who either thought we needed to stick with gas, or that switching to electric would lead to dramatically increased utility bills. 
+Throughout this process, we learned some important lessons that will hopefully be helpful for you. The biggest one is that while going 100% electric is possible in cold-weather climates like Chicago, there is still a lot of skepticism of its feasibility, especially by some HVAC industry professionals. We met with several who either thought we needed to stick with gas, or that switching to electric would lead to dramatically increased utility bills.
 
 This skepticism is understandable. HVAC professionals are likely to stick with what they know has worked before, and heat pump technology has only recently gotten efficient and large enough to work on large drafty homes (like ours) in low temperature climates. Many of the models, like the Mitsubishi heat pumps that we installed, [are relatively new](https://www.mitsubishicomfort.com/blog/history-variable-capacity-heat-pumps). So if you are met with similar skepticism, stay persistent and find an installer who is familiar with the latest technology.
 
-* **HVAC installers have a wide range of conflicting opinions**: This was the biggest hurdle for us to overcome. Over the course of 6 months, we reached out to and got quotes from many HVAC installers. Most said they just don’t install heat pumps. Some said they do, but can’t recommend going 100% electric. One even proposed we install 5 mini-splits for $70k, one for each floor and bedroom, and completely ignore our existing ducts — a ridiculously wasteful and expensive proposal. Eventually we got quotes from Energy Matters and On the Mark HVAC and they had similar 100% electric and reasonable proposals. Until this point, though, I was very discouraged by what I was being told from industry professionals. My advice to you: stay persistent and use the knowledge from this blog post to empower your decision making.
+- **HVAC installers have a wide range of conflicting opinions**: This was the biggest hurdle for us to overcome. Over the course of 6 months, we reached out to and got quotes from many HVAC installers. Most said they just don’t install heat pumps. Some said they do, but can’t recommend going 100% electric. One even proposed we install 5 mini-splits for $70k, one for each floor and bedroom, and completely ignore our existing ducts — a ridiculously wasteful and expensive proposal. Eventually we got quotes from Energy Matters and On the Mark HVAC and they had similar 100% electric and reasonable proposals. Until this point, though, I was very discouraged by what I was being told from industry professionals. My advice to you: stay persistent and use the knowledge from this blog post to empower your decision making.
 
-* **If your HVAC installer won't do a Manual-J Calculation, move on**: A [Manual J load calculation](https://www.indeed.com/career-advice/career-development/manual-j-calculation) is the only way to really measure what your home heating and cooling needs are. If your HVAC installer doesn't do this, they're just guessing as to what you need. The contractors I talked to that didn't do the Manual-J also said heat pumps weren't feasible in Chicago, and they were wrong.
+- **If your HVAC installer won't do a Manual-J Calculation, move on**: A [Manual J load calculation](https://www.indeed.com/career-advice/career-development/manual-j-calculation) is the only way to really measure what your home heating and cooling needs are. If your HVAC installer doesn't do this, they're just guessing as to what you need. The contractors I talked to that didn't do the Manual-J also said heat pumps weren't feasible in Chicago, and they were wrong.
 
-* **Insulation really does matter:** We could have skipped insulating, but it would have meant installing at least one more heat pump and spending more energy to heat our home year over year. For $2,300 of insulation, we reduced our home’s energy needs by 20%, which will pay for itself many, many times over. If you want to save money, don’t skip this step!
+- **Insulation really does matter:** We could have skipped insulating, but it would have meant installing at least one more heat pump and spending more energy to heat our home year over year. For $2,300 of insulation, we reduced our home’s energy needs by 20%, which will pay for itself many, many times over. If you want to save money, don’t skip this step!
 
-* **Going solar first helped incentivize us to electrify**: If you read my previous blog post, you’ll see that we installed solar panels on our roof first. For us, this helped incentivize these other improvements because our electricity costs are low / free. Going solar first may make sense if you can afford it. Otherwise, you may want to do it later or not at all.
+- **Going solar first helped incentivize us to electrify**: If you read my previous blog post, you’ll see that we installed solar panels on our roof first. For us, this helped incentivize these other improvements because our electricity costs are low / free. Going solar first may make sense if you can afford it. Otherwise, you may want to do it later or not at all.
 
-* **You can save money by spreading these improvements over several years**: The Inflation Reduction Act allows for a 30% rebate, up to $2,000, each year for making improvements to your home appliances. To maximize savings, it may make the most sense to spread these improvements over several years.
-
+- **You can save money by spreading these improvements over several years**: The Inflation Reduction Act allows for a 30% rebate, up to $2,000, each year for making improvements to your home appliances. To maximize savings, it may make the most sense to spread these improvements over several years.
 
 ## Resources {#resources}
 
-* Solar and heat pump installers in Oak Park: [https://bit.ly/electrify-your-oak-park-home](https://bit.ly/electrify-your-oak-park-home) 
-* Decarb My State: look up where U.S. emissions come from, on a state-by-state basis: [https://decarbmystate.com](https://decarbmystate.com/) 
-* How much money will you save from the Inflation Reduction Act? [https://www.rewiringamerica.org/app/ira-calculator](https://www.rewiringamerica.org/app/ira-calculator) 
-* Electrify Everything Home Guide: [https://www.rewiringamerica.org/electrify-home-guide](https://www.rewiringamerica.org/electrify-home-guide) 
-* Identify what heat pumps and other equipment are eligible for Federal tax credits: [https://academized.com/blog/federal-tax-credits-for-energy-efficiency](https://academized.com/blog/federal-tax-credits-for-energy-efficiency) 
-* The Electrify Everything Course by Nate the House Whisperer: [https://www.youtube.com/playlist?list=PLLTtM5Ga_CUtT-SB20vtU2y2EwtrwC6B6](https://www.youtube.com/playlist?list=PLLTtM5Ga_CUtT-SB20vtU2y2EwtrwC6B6) 
-* Cool Calc Manual J - calculate your heating and cooling requirements for your home: [https://www.coolcalc.com/](https://www.coolcalc.com/)
+- Solar and heat pump installers in Oak Park: [https://opcan.org/contractors](https://opcan.org/contractors)
+- Decarb My State: look up where U.S. emissions come from, on a state-by-state basis: [https://decarbmystate.com](https://decarbmystate.com/)
+- How much money will you save from the Inflation Reduction Act? [https://www.rewiringamerica.org/app/ira-calculator](https://www.rewiringamerica.org/app/ira-calculator)
+- Electrify Everything Home Guide: [https://www.rewiringamerica.org/electrify-home-guide](https://www.rewiringamerica.org/electrify-home-guide)
+- Identify what heat pumps and other equipment are eligible for Federal tax credits: [https://academized.com/blog/federal-tax-credits-for-energy-efficiency](https://academized.com/blog/federal-tax-credits-for-energy-efficiency)
+- The Electrify Everything Course by Nate the House Whisperer: [https://www.youtube.com/playlist?list=PLLTtM5Ga_CUtT-SB20vtU2y2EwtrwC6B6](https://www.youtube.com/playlist?list=PLLTtM5Ga_CUtT-SB20vtU2y2EwtrwC6B6)
+- Cool Calc Manual J - calculate your heating and cooling requirements for your home: [https://www.coolcalc.com/](https://www.coolcalc.com/)
